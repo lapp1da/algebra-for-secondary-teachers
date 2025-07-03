@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch2-number-quantity" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Concepts of Number and Quantity</title>
+
+  <introduction>
+    <p> Text before the first section. </p>
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="sec21-elementary-concepts-number.ptx" />
+  <xi:include href="sec22-complex-numbers.ptx" />
+  <xi:include href="sec23-intro-vectors-matrices.ptx" />
+
+</chapter>

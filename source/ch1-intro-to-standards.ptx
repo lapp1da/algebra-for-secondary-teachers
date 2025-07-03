@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch1-intro-to-standards" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Introduction to Mathematical Standards</title>
+
+  <introduction>
+    <p> Text before the first section. </p>
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="sec11-brief-history-standards.ptx" />
+  <xi:include href="sec12-ccss-content-overview.ptx" />
+  <xi:include href="sec13-ccss-mathematical-practice.ptx" />
+
+</chapter>
