@@ -4,7 +4,56 @@
   <title>Introduction to Mathematical Standards</title>
 
   <introduction>
-    <p> Text before the first section. </p>
+    <p> 
+      As with all fields of study, most professions are governed by a set of standards.  In health professions, 
+      each profession such as the <em>American Medical Association</em> or the <em>American Society of Hospital 
+      Pharmacists</em> create standards for acceptable practice in their profession.  It should come as no 
+      surprise that mathematics teachers do the same.  In fact, those who teach mathematics at all levels are 
+      members of organizations that create standards for the teaching and learning of mathematics.  At the 
+      college and univeristy level, organizations such as the <em>Mathematical Association of America</em> (MAA) 
+      and the <em>American Mathematical Society</em> (AMS) take on this task.  At the PK-12 level, this task of 
+      developing standards falls both on professional organizations, <em>National Council of Teachers of 
+      Mathematics</em> (NCTM), and each state since the oversight of education in the US is left to the 
+      individual States.
+    </p>
+
+    <p>
+      Since the individual states have the ability to develop their own standards, you can imagine how different 
+      these standards could look.  With such potentially different standards from state-to-state, eventually, 
+      it began to cause challenges as families (and their students) needed to move to different states.  A child 
+      could end up moving from a state where they were well on track with that state's curriculum only to find 
+      themselves woefully behind the expectations in another state.  For mathematics, it wasn't until 1989 that 
+      NCTM created the first set of guidelines (or Standards) to help all states deal with this problem.
+    </p>
+
+    <p>
+      In 1989, the National Council of Teachers of Mathematics published its <em>Curriculum and Evaluation 
+      Standards for School Mathematics</em> (NCTM, 1989) followed in 1991 by the <em>Professional Teaching 
+      Standards</em> and the <em>Assessment Standards</em> in 1995.  While these standards were research-based, 
+      the text of the standards did not adequately show the connections to the research that some critics 
+      would like and so in 2000, a new and more comprehensive version was developed called the <em>Principles 
+      and Standards for School Mathematics (PSSM)</em> (NCTM, 2000).  
+    </p>
+
+    <p>
+      While the PSSM developed by NCTM gave guidance to states for what content and pedagogical techniques 
+      should be used at various grade levels, it still is technically the pervue of the individual states to 
+      decide the content and methods for teaching various subject areas.  NCTM did not have any power to 
+      enforce the teaching of mathematics in accordance with the PSSM.  Therefore, there needed to be some 
+      agreement among states in order to deal with consistency across the nation with respect to what 
+      mathematics is taught and how it is to be taught.
+    </p>
+
+    <p>
+      In order to give some method of enforcement to the vision of the NCTM's PSSM, The National Governors 
+      Association Center for Best Practices and the Council of Chief State School Officers developed the 
+      <em>Common Core State Standards (2010)</em> <url href="https://www.thecorestandards.org" 
+      visual="thecorestandards.org">CCSS Website</url>.  This project developed standards for both Mathematics and English.  
+      The given website gives current state acceptance of these standards.  The CCSS specific for Mathematics 
+      can be found in pdf form at 
+      <url href="https://corestandards.org/wp-content/uploads/2023/09/Math_Standards1.pdf/">
+      Common Core State Standards for Mathematics</url>.  
+    </p>
   </introduction>
 
   <!-- include sections -->
