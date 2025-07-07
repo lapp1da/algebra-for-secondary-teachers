@@ -168,9 +168,18 @@
     learner may actually represent an outermost layer of understanding for a previously developed concept that is 
     utilized in the development of the new concept.  Pirie and Kieren use the example of fractions and decimals 
     where a fairly sophisticated understanding of fractions is used as a starting point for the development of 
-    decimal concepts.  In a sense, this could be thought of as an onion within an onion (see XXX) to use our 
-    “garden” variety analogy.
+    decimal concepts.  In a sense, this could be thought of as an onion within an onion 
+    (see <xref ref="fig-pirie-kieren-nest"/>) to use our “garden” variety analogy.
   </p>
+
+  <p>
+  <figure xml:id="fig-pirie-kieren-nest">
+    <caption>Nested Layers of Understanding (Pirie & Kieren, 1994, p. 172)</caption>
+    <image source="images/fig-pirie-kieren-nest.png" width="70%"/>
+  </figure>
+  </p>
+
+
   
 </subsection>
   
