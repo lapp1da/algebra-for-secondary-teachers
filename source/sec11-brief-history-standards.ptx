@@ -22,31 +22,37 @@
       Much of why we see slow advancement of educational practice is that humans are often change-averse.  
       For example, consider the "traditional" secondary curriculum consisting of the sequence of courses: 
       Algebra 1, Geometry, Algebra 2, and PreCalculus.  Why are these courses in the sequence that they are?  
-      Doesn't seem odd that Geometry is sandwiched between Algebra 1 and 2?  Why are the subareas of mathematics 
+      Doesn't it seem odd that Geometry is sandwiched between Algebra 1 and 2?  Why are the subareas of mathematics 
       separate at all?  As it turns out, tradition is the real reason we see approaches like integrated curricula 
       (which have much support from research) mounting so much resistance.  The current sequence of Algebra 1, 
       Geometry, Algebra 2, and PreCalculus actually dates back to 1894.  Let me say that again, <em>1894</em>!  
       In 1894, the National Education Association (NEA) was dealing with the fact that very few students completed 
       high school.  There was a desire to make sure as many students as possible had some exposure to both algebra 
-      and geometry before leaving school.  The solution <m>-</m> teach Algebra 1 followed immediately by Geometry.  
+      and geometry before leaving school.  The solution — teach Algebra 1 followed immediately by Geometry.  
       This means that the typical student would see both by the end of the sophomore year when they might leave 
-      formal education.  So to sum things up, the current system typically used for secondary mathematics 
+      formal education (Reys and Reys, 2009; NEA, 1894).  So to sum things up, the current system typically used for secondary mathematics 
       curricula dates back to a time over 125 years ago where the motivation was the fact that very few students 
       finished high school.  For this reason, as educators, we should always be asking ourselves why we do what we 
-      do?  We need to look at the research and ask if the assumptions we make are still valid assumptions.
+      do?  We need to look at the research and ask if the assumptions we make are still valid assumptions.  The 
+      reasons, "Because that's the way we've always done it" or "Because that's the way I learned it" are not 
+      sufficient for rational decision making.
     </p>
   
     <p>
-      Suppose you were to ask the person on the street to describe algebra.  What sort of response would you get?  
-      What about mathematics in general?  This question was asked of a student from a Minnesota high school during 
-      ABC's <em>Primetime Live</em> following the release of the results from the Third International Mathematics 
-      and Science Study (ABC News, 1998).  In response to this question she replied, “It's kind of a set in stone.  
-      It's procedure.  It's a formula.  You learn the formula and you know how to do math.”
+      Given that our current curricular structure exists for reasons that are no longer relevant, we are faced with 
+      the reality that old choices also shape current perception of the mathematics we teach.  For algebra, we 
+      need to ask the questions of what is algebra and why do we view it as we do, before we can address how best 
+      to teach it.  Suppose you were to ask the person on the street to describe algebra.  What sort of response 
+      would you get?  What about mathematics in general?  This question was asked of a student from a Minnesota 
+      high school during ABC's <em>Primetime Live</em> following the release of the results from the Third 
+      International Mathematics and Science Study (ABC News, 1998).  In response to this question she replied, 
+      “It's kind of a set in stone.  It's procedure.  It's a formula.  You learn the formula and you know how 
+      to do math.”
     </p>
 
     <p>
       Her perceptions of mathematics and, in particular, algebra, are not unique.  In fact, the argument could 
-      be made that this is the perception of the majority of people—even those who are well educated.  So, we 
+      be made that this is the perception of the majority of people — even those who are well educated.  So, we 
       must ask the question of why do so many people view mathematics as a set of procedures to be memorized?  
       This question is of particular interest as we explore the teaching and learning of algebra since so many 
       algebra texts are structured in such a way as to perpetuate this view.
@@ -75,14 +81,61 @@
       of a dichotomous preparation program for teachers.  Research suggests that this approach to the preparation 
       of teachers is inadequate.  How can we separate mathematics and the teaching and learning of mathematics?  
       Is it possible to learn how to teach devoid of specific content knowledge?  If so, then this would suggest 
-      that students learn language, social studies, art, science, and mathematics all the same way.  The 
-      literature suggests otherwise.  So, if students learn different subjects differently, why do we tend to 
-      separate the mathematical content for preservice teachers from the pedagogical content?  It is our opinion 
+      that students learn language, social studies, art, science, and mathematics all the same way.  While there 
+      are many common aspects of teaching and learning that resonate across many subject disciplines, the 
+      literature suggests that some disciplines have nuanced processes for learning that differ from other 
+      disciplines.  So, if students learn different subjects differently, why do we tend to separate the 
+      mathematical content for preservice teachers from the pedagogical content?  It is our opinion 
       that both mathematical content knowledge and pedagogical content knowledge need to develop simultaneously.  
       For this reason, we will take a unified approach to integrate mathematical learning with the theories and 
       practice for teaching.
     </p>
 
+    <p>
+      We have now stated our position as it relates to the integration of mathematical and pedagogical content 
+      knowledge, but how should this integration be accomplished?  In order to develop both mathematical and 
+      pedagogical content knowledge simultaneously, we first must ask ourselves how we come to know either of 
+      these.  To this end, we now discuss the theoretical model that guides our approach and this text.
+    </p>
+
+<subsection xml:id="subsec-pirie-kieren-model">
+  <title>Pirie and Kieren Model for Mathematical Understanding</title>
+
+  <p>
+    In order to understand the significance of both the explorations and the reflective practice combined in 
+    this text, we first will give an overview of the theoretical framework guiding our approach to the 
+    integration of mathematical and pedagogical content knowledge.  We have adopted the theory of growth of 
+    mathematical understanding put forth by Pirie and Kieren (1994) as our model for these materials and this 
+    will guide both the mathematical learning experiences and the pedagogical reflection in which the reader 
+    will engage throughout this course.  In addition, we will later utilize Kaput, Blanton, and Moreno's (2008) 
+    model that elaborates on the mechanisms at play as a learner moves through the levels found in the Pirie 
+    and Kieren model from a symbolic (or semiotic) point of view.
+  </p>
+
+  <p>
+    In the Pirie and Kieren model, the growth of mathematical understanding occurs throughout eight levels.  
+    We are careful here to use the word “throughout” since we do not want to give the impression that these 
+    levels are linear.  In fact, their theory characterizes mathematical growth as a whole, dynamic, leveled 
+    but nonlinear, transcendently recursive process (Kieren and Pirie, 1991).  The Pirie and Kieren model is 
+    an elaboration of the constructivist view of understanding as a continuing organization of knowledge 
+    structures as described by von Glasersfeld (1987), but we must also consider that we have the ability to 
+    influence and shape each others understanding because learning is a social process (Vygotsky, 1978).  
+    Freeman et al. (2014) suggest that active learning where students are engaged in experiences rather than 
+    passively listening to an instructor promotes greater depth of understanding and so we will take this 
+    approach in this text.  In addition, communication also plays a role in our thinking as Sfard (2008) suggests 
+    and so we need to be mindful of these dynamically linked components of learning if we are to create an 
+    environment where exploration and student autonomy are key parts of concept development.
+  </p>
+
+  <p>
+    In order to visualize this model for growth of mathematical understanding consider the diagram below.
+  </p>
+
+  <p>
+    
+  </p>
+  
+</subsection>
   
 
 </section>
