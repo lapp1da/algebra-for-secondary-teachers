@@ -179,6 +179,120 @@
   </figure>
   </p>
 
+  <p>
+    Now that we have an overview of how the levels of Pirie and Kieren's model fit together, let us discuss 
+    each level in more detail.  The eight levels beginning with <em>Primitive Knowing</em> and ending with 
+    <em>Inventizing</em> can be characterized in the following way.
+  </p>
+
+  <p>
+    <p>
+  <ol>
+    <li><em>Primitive Knowing</em> : The basic knowledge, skills, and understanding the learner has relative 
+      to the development of new understanding.
+    </li>
+
+    <li>
+      <p>
+        <em>Image Making</em> :  The learner uses previous understanding in a new way to make distinctions and 
+        advance understanding through a process of concept development.
+      </p>
+    </li>
+
+    <li>
+      <p>
+        <em>Image Having</em> :  The learner no longer must do the specific activities that brought about a 
+        mental construct, but can now use that construct directly.
+      </p>
+    </li>
+
+    <li>
+      <p>
+        <em>Property Noticing</em> :  The learner can manipulate and use combinations of various parts of the 
+        newly developed mental images to construct pertinent features or properties within a specific context.
+      </p>
+    </li>
+
+    <li>
+      <p>
+        <em>Formalizing</em> :  The learner can abstract characteristics from the prior image-dependent knowledge 
+        that exemplified the properties noticed in the earlier level.
+      </p>
+    </li>
+
+    <li>
+      <p>
+        <em>Observing</em> :  The learner has the ability to reflect on formalizations and express these reflections 
+        as theorems.
+      </p>
+    </li>
+
+    <li>
+      <p>
+        <em>Structuring</em> :  The learner begins to think about formal observations as an interconnected and 
+        interrelated set of theorems coming together to form a theory.  The learner also now sees the need for 
+        verification and justification of mathematical propositions through proof or arguments.
+      </p>
+    </li>
+
+    <li>
+      <p>
+        <em>Inventizing</em> :  The learner has a deeply developed and structured understanding of the topic and can move away from the basic concepts that gave rise to the understanding and ask new questions that might lead to the development of new concepts.
+      </p>
+    </li>
+
+  </ol>
+</p>
+  </p>
+
+  <p>
+    One feature of the Pirie and Kieren theory that relates to the teaching and learning of algebra specifically 
+    is the description of progression of abstraction from a symbolic sense.  You may have noticed some bold 
+    rings in the diagram above (<xref ref="fig-pirie-kieren-diagram"/>) describing the layers involved in this 
+    model.  These bold rings are referred to as the “don't need” boundaries.  The bold rings are used to convey 
+    the idea that once students get past a “don't need” boundary, they can now work in a more abstract sense 
+    without accessing specific inner understanding or images that were found within the bold boundary that gave 
+    rise to the understanding that is found in the outer region.  This is a significant part of the theory as it 
+    relates to algebra since one of the most important goals of the teaching and learning of algebra is bringing 
+    the student to higher and higher levels of abstraction.  We will address the role of abstraction in greater 
+    detail later, but here it is important to point out this aspect of the general theory guiding the text.
+  </p>
+
+  <p>
+    To this point we have simply described the nature of each level of the Pirie and Kieren model and how they 
+    fit together, but there is a more powerful aspect of the theory that makes it particularly useful in 
+    grappling with how mathematical understanding comes to be.  In order to explain mathematical understanding, 
+    we need to include a mechanism for explaining the growth.  In the Pirie and Kieren model, this mechanism is 
+    called <em>folding back</em>.
+  </p>
+
+  <p>
+    It is important to acknowledge that as we learn, there are varying depths of our understanding as related to 
+    any particular topic or concept.  We have all experienced this when we first learn about a new idea and can 
+    even use that mathematical idea to solve problems only to later encounter the same idea within a different 
+    context and be surprised by the new application of such an old idea.  This element of surprise is the 
+    evidence that our understanding of that idea has just deepened.  Pirie and Kieren account for this growth in 
+    the depth of understanding through the construct of <em>folding back</em>.  Basically, folding back is the 
+    learner's ability to revert back to an inner layer of the understanding process in order to make sense of a 
+    situation or problem that is not readily solvable or understandable at the learner’s current level.  It is 
+    important to note that this return to prior levels is not similar to the experience the learner had 
+    previously in that earlier level, but rather is also influenced by the deeper understanding that has been 
+    obtained in the outer level as well.  The re-visitation to the inner level results in what Pirie and Kieren 
+    refer to as a <em>thickening</em> of the inner layer.  There is no unique pathway in which this thickening 
+    occurs since the number and manner of the folds backward are unique to the individual learner.  This process 
+    emphasizes that the levels or layers of this model of mathematical understanding do not occur in a single 
+    direction, but occur in a series of steps that involve the interactions of both older and newer levels of 
+    understanding.
+  </p>
+
+  <p>
+    The third and final feature of Pirie and Kieren's model we wish to highlight is the structure that takes 
+    place within each layer or level.  Here, for each level beyond Primitive Knowing the levels are partitioned 
+    into two complementary modes: acting and expressing.  Both of these components of understanding are essential 
+    before moving on from the inner to the outer levels.  This elaboration of the model is given a graphic 
+    interpretation below with dotted lines representing the boundaries between modes.
+  </p>
+
 
   
 </subsection>
