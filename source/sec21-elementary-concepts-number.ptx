@@ -110,7 +110,21 @@
   </p>
 
   <p>
-    <image source="babylonian-example-noplaceholder.png" width="50%" />
+    <image source="images/babylonian-example-noplaceholder.png" width="30%" />
+  </p>
+
+  <p>
+    The problem was in how this numeral could be interpreted.  Did this collection of symbols mean 
+    <m>11\cdot 60+5=655</m> or <m>11\cdot 60^2+0\cdot 60+5=39,605</m>?
+  </p>
+
+  <p>
+    To make this expression less ambiguous, the placeholder was used to express the meaning more clearly.  Thus 
+    the later Babylonian system would write the intended number as
+  </p>
+
+  <p>
+    
   </p>
 
 
