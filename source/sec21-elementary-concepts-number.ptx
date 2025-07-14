@@ -26,6 +26,14 @@
   </p>
 
   <p>
+    With each different symbol, the Egyptians could now write larger numbers using a more condensed collection 
+    of symbols than in a tally system.  For example, suppose we wish to express the number 31,254.  In our 
+    Hindu-Arabic system, we allow each space to represent a different power of the base (ten in this case).  
+    Thus, <m>31,254=3\cdot 10^4+1\cdot 10^3+2\cdot 10^2+5\cdot 10^1 +4</m> expressed in expanded base-ten 
+    notation.  The Egyptians, on the other hand, did not use the spatial location of the symbols to convey the 
+    specific power of the base, but rather they created a different symbol for each power (size bundle).  
+    Therefore, the number 31,254 would be written as
+  </p>
 
 
 </section>
