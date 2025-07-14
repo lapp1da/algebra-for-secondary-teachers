@@ -80,13 +80,20 @@
           </p>
         </statement>
       </task>
-      
+
     </activity>
   </p>
 
   <p>
-    
+    So how do we improve on the problem of needing to create new symbols for each power of ten (or any base for 
+    that matter)?  The ancient Babylonians developed a <em>place-value</em> system for representing any positive 
+    integer using a finite number of symbols.  The Babylonians used the position of the symbol or collection of 
+    symbols to represent the power of the base (in this case a base sixty system which meant that in any single 
+    position, the symbols could total at most fifty-nine).  Although they bundled in groups of sixty, they had 
+    only two symbols:
   </p>
+
+  
 
 
 </section>
