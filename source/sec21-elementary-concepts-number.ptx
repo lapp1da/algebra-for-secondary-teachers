@@ -110,7 +110,7 @@
   </p>
 
   <p>
-    <image source="images/babylonian-example-noplaceholder.png" width="30%" />
+    <image source="images/babylonian-example-noplaceholder.png" width="25%" />
   </p>
 
   <p>
@@ -124,7 +124,62 @@
   </p>
 
   <p>
-    
+    <image source="images/babylonian-example-placeholder.png" width="30%" />
+  </p>
+
+  <p>
+    As we shared before, although the use of the placeholder serves the same role as our zero in the Hindu-Arabic 
+    system, the Babylonians did not recognize the concept of zero as being a number representing nothing.
+  </p>
+
+  <p>
+    <activity xml:id="act-babylonian-numerals">
+      <introduction>
+        <p>
+          Consider the following numerals written in our standard Hindu-Arabic system.
+        </p>
+        
+      </introduction>
+      <task>
+        <statement>
+          <p>
+            Write 1,422 in the Babylonian system.
+          </p>
+        </statement>
+        <hint>
+          <p>
+            How many bundles are there of size <m>60</m>, <m>60^2</m>, <m>60^3</m>, etc.?
+          </p>
+        </hint>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Write 1,123,426 in the Babylonian system. 
+          </p>
+        </statement>
+        <hint>
+          <p>
+            How many bundles are there of size <m>60</m>, <m>60^2</m>, <m>60^3</m>, etc.?
+          </p>
+        </hint>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Write 147,637 in the Babylonian system.
+          </p>
+        </statement>
+        <hint>
+          <p>
+            How many bundles are there of size <m>60</m>, <m>60^2</m>, <m>60^3</m>, etc.?
+          </p>
+        </hint>
+      </task>
+
+    </activity>
   </p>
 
 
