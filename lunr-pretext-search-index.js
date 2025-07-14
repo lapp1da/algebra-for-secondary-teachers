@@ -88,7 +88,52 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.1",
   "title": "Elementary Concepts of Number",
-  "body": " Elementary Concepts of Number  Text of section.  "
+  "body": " Elementary Concepts of Number  Throughout mathematics, humankind has found the need to expand its numeration systems. One of the earliest numeration systems was the tally system or what we like to call the WYSIWYG (what-you-see-is-what-you-get) system. In this system, simple tally marks represented a number. For example, suppose you had seven bags of grain. In the tally system, the person would represent their possessions as |||||||. As you can imagine, this would be fine if you had little, but if you had many possessions, it would quickly become cumbersome. The Egyptians developed a way of eliminating the need for tally marks by inventing new symbols to represent groups of objects. In this case, the Egyptians grouped by ten (probably due to the fact that people had ten fingers and when counting on fingers, to keep track, they would need to begin again on the first hand after counting to ten). Once they collected ten of something, the created a new symbol to represent a bundle of ten. Once ten of those bundles were gathered, they created another symbol to represent ten bundles of ten and so on (see ). This way, to write a numeral, they would never need to have any more than nine of any symbol. They used the following symbols to represent various powers of ten.    Egyptian Numeral System     With each different symbol, the Egyptians could now write larger numbers using a more condensed collection of symbols than in a tally system. For example, suppose we wish to express the number 31,254. In our Hindu-Arabic system, we allow each space to represent a different power of the base (ten in this case). Thus, expressed in expanded base-ten notation. The Egyptians, on the other hand, did not use the spatial location of the symbols to convey the specific power of the base, but rather they created a different symbol for each power (size bundle). Therefore, the number 31,254 would be written as    Egyptian Numeral for 31,254     Although this system was a great improvement over the tally system of numeration, it doesn't take long to see a major drawback. Since each new power of the base requires a new symbol, expressing larger and larger numbers becomes cumbersome. In order to express any given positive integer, the Egyptian system requires an infinite number of symbols.     Consider the following numerals written in our standard Hindu-Arabic system.    Write 7,521 in the Egyptian system.    Write 582,346 in the Egyptian system.    Write 2,141,425 in the Egyptian system.     So how do we improve on the problem of needing to create new symbols for each power of ten (or any base for that matter)? The ancient Babylonians developed a place-value system for representing any positive integer using a finite number of symbols. The Babylonians used the position of the symbol or collection of symbols to represent the power of the base (in this case a base sixty system which meant that in any single position, the symbols could total at most fifty-nine). Although they bundled in groups of sixty, they had only two symbols along with a place holder to be used for when there were no bundles of a certain power of the base (see ). The early Babylonians did not use the place holder, but the confusion caused by not being able to indicated easily when there were no bundles of a certain size necessitated the creation of a symbol to \"hold an open space\". The Babylonians did not have a fully functioning zero, but the place holder provided a way to indicate no bundles of a specific size by its location in the string of symbols.    Babylonian Numeration Symbols     To illustrate, consider the expanded base sixty notation as written using our familiar Hindu-Arabic numerals. Here we have . And so the early Babylonians would write this number as     The problem was in how this numeral could be interpreted. Did this collection of symbols mean or ?  To make this expression less ambiguous, the placeholder was used to express the meaning more clearly. Thus the later Babylonian system would write the intended number as     As we shared before, although the use of the placeholder serves the same role as our zero in the Hindu-Arabic system, the Babylonians did not recognize the concept of zero as being a number representing nothing.     Consider the following numerals written in our standard Hindu-Arabic system.    Write 1,422 in the Babylonian system.   How many bundles are there of size , , , etc.?    Write 1,123,426 in the Babylonian system.   How many bundles are there of size , , , etc.?    Write 147,637 in the Babylonian system.   How many bundles are there of size , , , etc.?     "
+},
+{
+  "id": "fig-egyptian-numerals",
+  "level": "2",
+  "url": "sec21-elementary-concepts-number.html#fig-egyptian-numerals",
+  "type": "Figure",
+  "number": "2.1.1",
+  "title": "",
+  "body": " Egyptian Numeral System   "
+},
+{
+  "id": "egyptian-numeral-example",
+  "level": "2",
+  "url": "sec21-elementary-concepts-number.html#egyptian-numeral-example",
+  "type": "Figure",
+  "number": "2.1.2",
+  "title": "",
+  "body": " Egyptian Numeral for 31,254   "
+},
+{
+  "id": "act-egyptian-numerals",
+  "level": "2",
+  "url": "sec21-elementary-concepts-number.html#act-egyptian-numerals",
+  "type": "Activity",
+  "number": "2.1.1",
+  "title": "",
+  "body": "  Consider the following numerals written in our standard Hindu-Arabic system.    Write 7,521 in the Egyptian system.    Write 582,346 in the Egyptian system.    Write 2,141,425 in the Egyptian system.   "
+},
+{
+  "id": "fig-babylonian-symbols",
+  "level": "2",
+  "url": "sec21-elementary-concepts-number.html#fig-babylonian-symbols",
+  "type": "Figure",
+  "number": "2.1.3",
+  "title": "",
+  "body": " Babylonian Numeration Symbols   "
+},
+{
+  "id": "act-babylonian-numerals",
+  "level": "2",
+  "url": "sec21-elementary-concepts-number.html#act-babylonian-numerals",
+  "type": "Activity",
+  "number": "2.1.2",
+  "title": "",
+  "body": "  Consider the following numerals written in our standard Hindu-Arabic system.    Write 1,422 in the Babylonian system.   How many bundles are there of size , , , etc.?    Write 1,123,426 in the Babylonian system.   How many bundles are there of size , , , etc.?    Write 147,637 in the Babylonian system.   How many bundles are there of size , , , etc.?   "
 },
 {
   "id": "sec22-complex-numbers",
