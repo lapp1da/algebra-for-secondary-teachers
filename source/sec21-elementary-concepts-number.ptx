@@ -19,7 +19,7 @@
   </p>
 
   <p>
-  <figure xml:id="egyptian-numerals">
+  <figure xml:id="fig-egyptian-numerals">
     <caption>Egyptian Numeral System</caption>
     <image source="images/egyptian-numerals.png" width="80%"/>
   </figure>
@@ -90,10 +90,17 @@
     integer using a finite number of symbols.  The Babylonians used the position of the symbol or collection of 
     symbols to represent the power of the base (in this case a base sixty system which meant that in any single 
     position, the symbols could total at most fifty-nine).  Although they bundled in groups of sixty, they had 
-    only two symbols:
+    only two symbols: 
   </p>
 
-  
+  <p>
+  <figure xml:id="fig-babylonian-symbols">
+    <caption>Babylonian Numeral Symbols</caption>
+    <image source="images/babylonian-symbols.png" width="80%"/>
+  </figure>
+  </p>
+
+
 
 
 </section>
