@@ -42,5 +42,51 @@
   </figure>
   </p>
 
+  <p>
+    Although this system was a great improvement over the tally system of numeration, it doesn't take long to 
+    see a major drawback.  Since each new power of the base requires a new symbol, expressing larger and larger 
+    numbers becomes cumbersome.  In order to express any given positive integer, the Egyptian system requires 
+    an infinite number of symbols.
+  </p>
+
+  <p>
+    <activity xml:id="act-egyptian-numerals">
+      <introduction>
+        <p>
+          Consider the following numerals written in our standard Hindu-Arabic system.
+        </p>
+        
+      </introduction>
+      <task>
+        <statement>
+          <p>
+            Write 7,521 in the Egyptian system.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Write 582,346 in the Egyptian system. 
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Write 2,141,425 in the Egyptian system.
+          </p>
+        </statement>
+      </task>
+      
+    </activity>
+  </p>
+
+  <p>
+    
+  </p>
+
 
 </section>
