@@ -14,14 +14,14 @@
     ten fingers and when counting on fingers, to keep track, they would need to begin again on the first hand 
     after counting to ten).  Once they collected ten of something, the created a new symbol to represent a bundle 
     of ten.  Once ten of those bundles were gathered, they created another symbol to represent ten bundles of 
-    ten and so on.  This way, to write a numeral, they would never need to have any more than nine of any symbol.  
+    ten and so on (see <xref ref="fig-egyptian-numerals"/>).  This way, to write a numeral, they would never need to have any more than nine of any symbol.  
     They used the following symbols to represent various powers of ten.
   </p>
 
   <p>
   <figure xml:id="fig-egyptian-numerals">
     <caption>Egyptian Numeral System</caption>
-    <image source="images/egyptian-numerals.png" width="80%"/>
+    <image source="images/egyptian-numerals.png" width="90%"/>
   </figure>
   </p>
 
@@ -90,14 +90,27 @@
     integer using a finite number of symbols.  The Babylonians used the position of the symbol or collection of 
     symbols to represent the power of the base (in this case a base sixty system which meant that in any single 
     position, the symbols could total at most fifty-nine).  Although they bundled in groups of sixty, they had 
-    only two symbols: 
+    only two symbols along with a place holder to be used for when there were no bundles of a certain power of 
+    the base (see <xref ref="fig-babylonian-symbols" />).  The early Babylonians did not use the place holder, but the confusion caused by not being able 
+    to indicated easily when there were no bundles of a certain size necessitated the creation of a symbol to 
+    "hold an open space".  The Babylonians did not have a fully functioning zero, but the place holder provided 
+    a way to indicate no bundles of a specific size by its location in the string of symbols.
   </p>
 
   <p>
   <figure xml:id="fig-babylonian-symbols">
-    <caption>Babylonian Numeral Symbols</caption>
-    <image source="images/babylonian-symbols.png" width="80%"/>
+    <caption>Babylonian Numeration Symbols</caption>
+    <image source="images/babylonian-symbols.png" width="70%"/>
   </figure>
+  </p>
+
+  <p>
+    To illustrate, consider the expanded base sixty notation as written using our familiar Hindu-Arabic numerals.  
+    Here we have <m>39,605=11\cdot 60^2+0\cdot 60 +5</m>.  And so the early Babylonians would write this number as
+  </p>
+
+  <p>
+    <image source=""
   </p>
 
 
