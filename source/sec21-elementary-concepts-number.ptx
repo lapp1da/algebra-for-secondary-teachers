@@ -3,6 +3,29 @@
 <section xml:id="sec21-elementary-concepts-number" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Elementary Concepts of Number</title>
 
-  <p> Text of section. </p>
+  <p>
+    Throughout mathematics, humankind has found the need to expand its numeration systems.  One of the earliest 
+    numeration systems was the tally system or what we like to call the WYSIWYG (what-you-see-is-what-you-get) 
+    system.  In this system, simple tally marks represented a number.  For example, suppose you had seven bags 
+    of grain.  In the tally system, the person would represent their possessions as |||||||.  As you can imagine, 
+    this would be fine if you had little, but if you had many possessions, it would quickly become cumbersome.  
+    The Egyptians developed a way of eliminating the need for tally marks by inventing new symbols to represent 
+    groups of objects.  In this case, the Egyptians grouped by ten (probably due to the fact that people had 
+    ten fingers and when counting on fingers, to keep track, they would need to begin again on the first hand 
+    after counting to ten).  Once they collected ten of something, the created a new symbol to represent a bundle 
+    of ten.  Once ten of those bundles were gathered, they created another symbol to represent ten bundles of 
+    ten and so on.  This way, to write a numeral, they would never need to have any more than nine of any symbol.  
+    They used the following symbols to represent various powers of ten.
+  </p>
+
+  <p>
+  <figure xml:id="egyptian-numerals">
+    <caption>Egyptian Numeral System</caption>
+    <image source="images/egyptian-numerals.png" width="70%"/>
+  </figure>
+  </p>
+
+  <p>
+
 
 </section>
