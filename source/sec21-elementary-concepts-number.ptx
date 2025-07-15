@@ -199,7 +199,53 @@
 
     </activity>
   </p>
-  
+
+  <p>
+    The ancient Mayan civilization were probably the first to fully recognize the concept of zero.  The Mayans 
+    also used a place-value numeration system.  In this case, their grouping number was twenty.  They actually 
+    had a pseudo base twenty system since their place values progressed as: 
+    <m>1, 20, 18\cdot 20, 18\cdot 20^2, 18\cdot 20^3, \ldots</m>.  The reason for the deviation from <m>20^2</m> 
+    was due to their calendar that had 18 months with 20 days per month (<m>18\cdot 20=360</m>).  Like the 
+    Babylonians, the Mayans had very few symbols.  The difference is that the Mayans had a symbol for zero 
+    (or nothing) represented by an empty oyster shell.  This was different from the Babylonians in that the 
+    Mayan's symbol was not just a placeholder, but rather was a symbol representing nothingness.  The symbols 
+    are given below.
+  </p>
+
+  <p>
+  <figure xml:id="fig-mayan-numerals">
+    <caption>Mayan Numeration Symbols</caption>
+    <image source="images/mayan-numerals.png" width="70%"/>
+  </figure>
+  </p>
+
+  <p>
+    Like the Babylonians, the position of the collection of symbols determined the power of the base.  However, 
+    unlike the Babylonians, the Mayan base is not exactly uniform.  Instead of a base twenty system, they used 
+    a <em>pseudo-base twenty system</em>.  The reason for this is that the base was tied to their calendar year.  
+    The Mayan calendar contained 18 months each containing 20 days.  The result was a 360-day year.  This can 
+    be seen below by the replacement of the normal place value, <m>20^2</m>, with the place value of 
+    <m>18\cdot 20</m>.  After this, the place values simply increase the power of 20 by one for each successive 
+    place.  The Mayans wrote the numerals vertically with the higher powers of the base above the lower powers 
+    and the symbol for zero was used as a placeholder.  For example, the number 
+    <m>21,717=3\cdot 18\cdot 20^2+0\cdot 18\cdot 20+5\cdot 20+17</m>, in Hindu-Arabic would be written as
+  </p>
+
+  <p>
+    <image source="images/mayan-example.png" width="30%" />
+  </p>
+
+  <p>
+    To this point, civilizations had focused mainly on representing the natural or counting numbers,  
+    <m>\mathbb{N}=\left\{1,2,3,4,\ldots\right\}</m>.  The Mayans extended this system to include zero 
+    <m>\left\{0,1,2,3,4,\ldots\right\}</m>, often referred to as the <em>whole numbers</em>.  Some texts 
+    include 0 in the set of natural numbers and refer to the counting numbers as the positive integers, denoted 
+    <m>\mathbb{Z}^+</m>.  Thus, the use of <m>\mathbb{Z}^+</m> seems to be less ambiguous since zero is neither 
+    positive nor negative and so we will use <m>\mathbb{Z}^+=\left\{1,2,3,4,\ldots\right\}</m>.
+  </p>
+
+
+
 </subsubsection>
 
 
