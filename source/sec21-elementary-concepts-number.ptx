@@ -244,6 +244,28 @@
     positive nor negative and so we will use <m>\mathbb{Z}^+=\left\{1,2,3,4,\ldots\right\}</m>.
   </p>
 
+  <p>
+    As time went on, the need arose to represent the concept of debt.  Since people had created the whole 
+    numbers, people again chose to extend the current number system to accommodate the need to represent 
+    quantities that were the "opposite" of the positive integers.  Thus, the accepted set of numbers became 
+    the <em>integers</em>, denoted <m>\mathbb{Z}=\left\{\ldots,-3,-2,-1,0,1,2,3,\ldots\right\}</m>.
+  </p>
+
+  <p>
+    Eventually, there was a need to represent quantities that were smaller than a whole unit 
+    (for a fun cartoon see <xref ref="weird-number" /> below) and so the rational numbers again extended the known set of numbers.  
+    To the Greeks, all quantities could be expressed as the quotient of two integers and so the rational numbers, 
+    denoted <m>\mathbb{Q}=\left\{\frac{a}{b} \mid a,b\in \mathbb{Z} \right\}</m>, came to be the accepted system 
+    of numbers.
+  </p>
+
+  <p>
+    <figure xml:id="weird-number">
+      <video youtube="Bc9ZamX3mRY?si=IflkYmpviawzN5ew"/>
+      <caption>The Weird Number</caption>
+    </figure>
+  </p>
+
 
 
 </subsubsection>
