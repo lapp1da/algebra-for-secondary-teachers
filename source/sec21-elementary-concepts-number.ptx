@@ -251,6 +251,13 @@
     the <em>integers</em>, denoted <m>\mathbb{Z}=\left\{\ldots,-3,-2,-1,0,1,2,3,\ldots\right\}</m>.
   </p>
 
+  
+
+</subsubsection>
+
+<subsection xml:id="subsec-rational-irrational-numbers">
+  <title>Rational and Irrational Numbers</title>
+
   <p>
     Eventually, there was a need to represent quantities that were smaller than a whole unit 
     (for a fun cartoon see <xref ref="weird-number" /> below) and so the rational numbers again extended the known set of numbers.  
@@ -266,9 +273,7 @@
     </figure>
   </p>
 
-
-
-</subsubsection>
+</subsection>
 
 
 
