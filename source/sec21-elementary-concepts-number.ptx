@@ -251,14 +251,15 @@
     used base system, (base ten), we have ten symbols since once we get ten of anything, we bundle them and we 
     create another bundle of the next place value space.  Therefore, in base ten, we have the symbols 
     0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.  The symbols used here are the <em>Hindu-Arabic</em> numerals (not to be 
-    confused with Arabic numerals) used on many Middle Eastern countries (see ).  
+    confused with Arabic numerals) used on many Middle Eastern countries 
+    (see <xref ref="fig-arabic-v-hindu-arabic-numerals" />).  
     Both use a base-ten place-value system.
   </p>
 
   <p>
   <figure xml:id="fig-arabic-v-hindu-arabic-numerals">
-    <caption>Mayan Numeration Symbols</caption>
-    <image source="images/mayan-numerals.png" width="70%"/>
+    <caption>Arabic vs Hindu-Arabic Numerals</caption>
+    <image source="images/arabic-v-hindu-arabic.png" width="70%"/>
   </figure>
   </p>
 
