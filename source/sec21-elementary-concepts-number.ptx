@@ -249,7 +249,8 @@
     <em>face value</em> (i.e. the symbols used to represent the number of any particular sized bundle).  These 
     symbols were dependent on the base (or bundle size) that was used.  For example, in our current commonly 
     used base system, (base ten), we have ten symbols since once we get ten of anything, we bundle them and we 
-    create another bundle of the next place value space.  Therefore, in base ten, we have the symbols 
+    create another bundle of the next place value space.  For base six, there would be six symbols.  For base, 
+    there would be three symbols, and so on.  Therefore, in base ten, we have the symbols 
     0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.  The symbols used here are the <em>Hindu-Arabic</em> numerals (not to be 
     confused with Arabic numerals) used on many Middle Eastern countries 
     (see <xref ref="fig-arabic-v-hindu-arabic-numerals" />).  
@@ -269,14 +270,14 @@
     left-to-right.  This means that while reading text, you would read right-to-left until reaching a numeral 
     and then switch to left-to-right for the number and then switch back to right-to-left as you continue to 
     read the text.  Again, this shows how mathematics and language are both culturally connected.  Below 
-    (<xref ref="fig-arabic-license-plate" />)is 
-    a picture of a license plate from Iraq from 2025; however, Iraq is in the process to switching to the use 
-    of the Western Hindu-Arabic numerals.  This is an older plate that has not yet been replaced.
+    (<xref ref="fig-arabic-license-plate" />) is a picture of a license plate from Iraq from 2025. This would 
+    be read as 656874 in our Hindu-Arabic symbols.  Iraq was in the process to switching to the use of the 
+    Western Hindu-Arabic numerals at the time and this is an older plate that had not yet been replaced.
   </p>
 
   <p>
   <figure xml:id="fig-arabic-license-plate">
-    <caption>Arabic License Plate</caption>
+    <caption>Arabic License Plate (photo credit Noah Lapp)</caption>
     <image source="images/arabic-license-plate.png" width="70%"/>
   </figure>
   </p>
