@@ -281,6 +281,377 @@
     <image source="images/arabic-license-plate.png" width="70%"/>
   </figure>
   </p>
+  
+
+  <p>
+    <activity xml:id="act-bundling-sticks-numeration">
+      <introduction>
+        <p>
+          In this activity, we will explore how different bundling sizes impact the way numerals are used to 
+          represent a whole number.  In figure XXX you see a video that shows how place value is used to express 
+          the number "twenty-three".  Notice that we use the English term "twenty-three" here since the number 
+          "twenty-three" will look different as a collection of numerals or digits depending on how we decide 
+          to bundle.
+        </p>
+        
+      </introduction>
+      <task>
+        <statement>
+          <p>
+            Begin by counting out forty-three bundling sticks.  Form as many bundles of ten as you can and record 
+            the number of bundles of size ten along with any remaining sticks left unbundled using the digits 
+            0, 1, 2, 3, 4, 5, 6, 7, 8, or 9.
+          </p>
+
+          <p>
+          <table xml:id="bundling-ten">
+            <title>Bundling By Ten</title>
+          <tabular halign="center">
+          <row header="yes" bottom="minor">
+            <cell right="minor">Bundles of Ten</cell>
+            <cell>Leftover Units</cell>
+          </row>
+          <row>
+            <cell right="minor">                    </cell>
+            <cell>                    </cell>
+          </row>
+          <row>
+            <cell right="minor">                    </cell>
+            <cell>                    </cell>
+          </row>
+          <row>
+            <cell right="minor">                    </cell>
+            <cell>                    </cell>
+          </row>
+          <row>
+            <cell right="minor">                    </cell>
+            <cell>                    </cell>
+          </row>
+          <row>
+            <cell right="minor">                    </cell>
+            <cell>                    </cell>
+          </row>
+          <row>
+            <cell right="minor">                    </cell>
+            <cell>                    </cell>
+          </row>
+          <row>
+            <cell right="minor">                    </cell>
+            <cell>                    </cell>
+          </row>
+          <row>
+            <cell right="minor">                    </cell>
+            <cell>                    </cell>
+          </row>
+          <row>
+            <cell right="minor">                    </cell>
+            <cell>                    </cell>
+          </row>
+          <row>
+            <cell right="minor">                    </cell>
+            <cell>                    </cell>
+          </row>
+          <row>
+            <cell right="minor">                    </cell>
+            <cell>                    </cell>
+          </row>
+          <row>
+            <cell right="minor">                    </cell>
+            <cell>                    </cell>
+          </row>
+          </tabular>
+          </table>
+          </p>
+          <p>
+        
+          </p>
+
+          <p>
+            Write a base ten numeral for this amount: _________________________
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Starting over with the same forty-three bundling sticks.  Form as many bundles of eight as you can and 
+            record the number of bundles of size eight along with any remaining sticks left unbundled using the 
+            digits 0, 1, 2, 3, 4, 5, 6, or 7. 
+          </p>
+
+          <p>
+          <table xml:id="bundling-eight">
+            <title>Bundling By Eight</title>
+          <tabular halign="center">
+          <row header="yes" bottom="minor">
+            <cell right="minor">Bundles of Eight</cell>
+            <cell>Leftover Units</cell>
+          </row>
+          <row>
+            <cell right="minor">                    </cell>
+            <cell>                    </cell>
+          </row>
+          <row>
+            <cell right="minor">                    </cell>
+            <cell>                    </cell>
+          </row>
+          <row>
+            <cell right="minor">                    </cell>
+            <cell>                    </cell>
+          </row>
+          <row>
+            <cell right="minor">                    </cell>
+            <cell>                    </cell>
+          </row>
+          <row>
+            <cell right="minor">                    </cell>
+            <cell>                    </cell>
+          </row>
+          <row>
+            <cell right="minor">                    </cell>
+            <cell>                    </cell>
+          </row>
+          <row>
+            <cell right="minor">                    </cell>
+            <cell>                    </cell>
+          </row>
+          <row>
+            <cell right="minor">                    </cell>
+            <cell>                    </cell>
+          </row>
+          <row>
+            <cell right="minor">                    </cell>
+            <cell>                    </cell>
+          </row>
+          <row>
+            <cell right="minor">                    </cell>
+            <cell>                    </cell>
+          </row>
+          <row>
+            <cell right="minor">                    </cell>
+            <cell>                    </cell>
+          </row>
+          <row>
+            <cell right="minor">                    </cell>
+            <cell>                    </cell>
+          </row>
+          </tabular>
+          </table>
+       </p>
+       <p>
+        
+       </p>
+
+          <p>
+            Write a base eight numeral for this amount: _________________________
+          </p>
+
+        </statement>
+        
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Starting over with the same forty-three bundling sticks.  Form as many bundles of six as you can and 
+            record the number of bundles of size six along with any remaining sticks left unbundled using the 
+            digits 0, 1, 2, 3, 4, or 5. If you get six bundles of six, form a "super bundle".
+          </p>
+
+          <p>
+          <table xml:id="bundling-six">
+            <title>Bundling By Six</title>
+          <tabular halign="center">
+          <row header="yes" bottom="minor">
+            <cell right="minor">Six Bundles of Six</cell>
+            <cell right="minor">Bundles of Six</cell>
+            <cell>Leftover Units</cell>
+          </row>
+          <row>
+            <cell right="minor">                    </cell>
+            <cell right="minor">                    </cell>
+            <cell>                    </cell>
+          </row>
+          <row>
+            <cell right="minor">                    </cell>
+            <cell right="minor">                    </cell>
+            <cell>                    </cell>
+          </row>
+          <row>
+            <cell right="minor">                    </cell>
+            <cell right="minor">                    </cell>
+            <cell>                    </cell>
+          </row>
+          <row>
+            <cell right="minor">                    </cell>
+            <cell right="minor">                    </cell>
+            <cell>                    </cell>
+          </row>
+          <row>
+            <cell right="minor">                    </cell>
+            <cell right="minor">                    </cell>
+            <cell>                    </cell>
+          </row>
+          <row>
+            <cell right="minor">                    </cell>
+            <cell right="minor">                    </cell>
+            <cell>                    </cell>
+          </row>
+          <row>
+            <cell right="minor">                    </cell>
+            <cell right="minor">                    </cell>
+            <cell>                    </cell>
+          </row>
+          <row>
+            <cell right="minor">                    </cell>
+            <cell right="minor">                    </cell>
+            <cell>                    </cell>
+          </row>
+          <row>
+            <cell right="minor">                    </cell>
+            <cell right="minor">                    </cell>
+            <cell>                    </cell>
+          </row>
+          <row>
+            <cell right="minor">                    </cell>
+            <cell right="minor">                    </cell>
+            <cell>                    </cell>
+          </row>
+          <row>
+            <cell right="minor">                    </cell>
+            <cell right="minor">                    </cell>
+            <cell>                    </cell>
+          </row>
+          <row>
+            <cell right="minor">                    </cell>
+            <cell right="minor">                    </cell>
+            <cell>                    </cell>
+          </row>
+          </tabular>
+          </table>
+       </p>
+       <p>
+        
+       </p>
+
+          <p>
+            Write a base six numeral for this amount: _________________________
+          </p>
+
+        </statement>
+        
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Starting over with the same forty-three bundling sticks.  Form as many bundles of five as you can and 
+            record the number of bundles of size five along with any remaining sticks left unbundled using the 
+            digits 0, 1, 2, 3, or 4. If you get five bundles of five, form a "super bundle".
+          </p>
+
+          <p>
+          <table xml:id="bundling-five">
+            <title>Bundling By Five</title>
+          <tabular halign="center">
+          <row header="yes" bottom="minor">
+            <cell right="minor">Five Bundles of Five</cell>
+            <cell right="minor">Bundles of Five</cell>
+            <cell>Leftover Units</cell>
+          </row>
+          <row>
+            <cell right="minor">                    </cell>
+            <cell right="minor">                    </cell>
+            <cell>                    </cell>
+          </row>
+          <row>
+            <cell right="minor">                    </cell>
+            <cell right="minor">                    </cell>
+            <cell>                    </cell>
+          </row>
+          <row>
+            <cell right="minor">                    </cell>
+            <cell right="minor">                    </cell>
+            <cell>                    </cell>
+          </row>
+          <row>
+            <cell right="minor">                    </cell>
+            <cell right="minor">                    </cell>
+            <cell>                    </cell>
+          </row>
+          <row>
+            <cell right="minor">                    </cell>
+            <cell right="minor">                    </cell>
+            <cell>                    </cell>
+          </row>
+          <row>
+            <cell right="minor">                    </cell>
+            <cell right="minor">                    </cell>
+            <cell>                    </cell>
+          </row>
+          <row>
+            <cell right="minor">                    </cell>
+            <cell right="minor">                    </cell>
+            <cell>                    </cell>
+          </row>
+          <row>
+            <cell right="minor">                    </cell>
+            <cell right="minor">                    </cell>
+            <cell>                    </cell>
+          </row>
+          <row>
+            <cell right="minor">                    </cell>
+            <cell right="minor">                    </cell>
+            <cell>                    </cell>
+          </row>
+          <row>
+            <cell right="minor">                    </cell>
+            <cell right="minor">                    </cell>
+            <cell>                    </cell>
+          </row>
+          <row>
+            <cell right="minor">                    </cell>
+            <cell right="minor">                    </cell>
+            <cell>                    </cell>
+          </row>
+          <row>
+            <cell right="minor">                    </cell>
+            <cell right="minor">                    </cell>
+            <cell>                    </cell>
+          </row>
+          </tabular>
+          </table>
+       </p>
+       <p>
+        
+       </p>
+
+          <p>
+            Write a base five numeral for this amount: _________________________
+          </p>
+
+        </statement>
+        
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Based on your responses from the earlier part of this activity, we can say that the same forty-three 
+            sticks can be expressed as:
+          </p>
+          <p>
+            
+          </p>
+          <p>
+            <m>43_{ten}=</m> ___________<m>_{eight}=</m> ___________<m>_{six}=</m> ___________<m>_{five}</m>
+          </p>
+        </statement>
+      </task>
+
+    </activity>
+  </p>
 
 
 
