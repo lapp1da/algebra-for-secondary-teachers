@@ -245,6 +245,26 @@
   </p>
 
   <p>
+    With the advancement of a place-value system, cultures evolved to use different symbols for each 
+    <em>face value</em> (i.e. the symbols used to represent the number of any particular sized bundle).  These 
+    symbols were dependent on the base (or bundle size) that was used.  For example, in our current commonly 
+    used base system, (base ten), we have ten symbols since once we get ten of anything, we bundle them and we 
+    create another bundle of the next place value space.  Therefore, in base ten, we have the symbols 
+    0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.  The symbols used here are the <em>Hindu-Arabic</em> numerals (not to be 
+    confused with Arabic numerals) used on many Middle Eastern countries (see ).  
+    Both use a base-ten place-value system.
+  </p>
+
+  <p>
+  <figure xml:id="fig-arabic-v-hindu-arabic-numerals">
+    <caption>Mayan Numeration Symbols</caption>
+    <image source="images/mayan-numerals.png" width="70%"/>
+  </figure>
+  </p>
+
+
+
+  <p>
     As time went on, the need arose to represent the concept of debt.  Since people had created the whole 
     numbers, people again chose to extend the current number system to accommodate the need to represent 
     quantities that were the "opposite" of the positive integers.  Thus, the accepted set of numbers became 
