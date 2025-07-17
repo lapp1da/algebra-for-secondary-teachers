@@ -263,6 +263,26 @@
   </figure>
   </p>
 
+  <p>
+    An interesting fact is that even though Arabic is written right-to-left, the numerals are still written 
+    left-to-right.  This is due to the fact that the symbols were adopted from India where language is written 
+    left-to-right.  This means that while reading text, you would read right-to-left until reaching a numeral 
+    and then switch to left-to-right for the number and then switch back to right-to-left as you continue to 
+    read the text.  Again, this shows how mathematics and language are both culturally connected.  Below 
+    (<xref ref="fig-arabic-license-plate" />)is 
+    a picture of a license plate from Iraq from 2025; however, Iraq is in the process to switching to the use 
+    of the Western Hindu-Arabic numerals.  This is an older plate that has not yet been replaced.
+  </p>
+
+  <p>
+  <figure xml:id="fig-arabic-license-plate">
+    <caption>Arabic License Plate</caption>
+    <image source="images/arabic-license-plate.png" width="70%"/>
+  </figure>
+  </p>
+
+
+
 
 
   <p>
