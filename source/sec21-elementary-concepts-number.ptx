@@ -675,6 +675,12 @@
           Consider the following set of blocks (often referred to as Dienes Blocks after the Math Educator, 
           Zoltan Dienes).
         </p>
+        <p>
+         <figure xml:id="fig-base-ten-blocks">
+         <caption>Base Ten Blocks (aka Dienes Blocks)</caption>
+         <image source="images/base-ten-blocks.png" width="70%"/>
+         </figure>
+        </p>
         
       </introduction>
       <task>
