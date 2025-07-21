@@ -288,7 +288,8 @@
       <introduction>
         <p>
           In this activity, we will explore how different bundling sizes impact the way numerals are used to 
-          represent a whole number.  In figure XXX you see a video that shows how place value is used to express 
+          represent a whole number.  In <xref ref="bundling-sticks-base-ten-base-five" /> and 
+          <xref ref="blocks-base-ten-base-three" /> you see videos that show how place value is used to express 
           the number "twenty-three".  Notice that we use the English term "twenty-three" here since the number 
           "twenty-three" will look different as a collection of numerals or digits depending on how we decide 
           to bundle.
@@ -651,6 +652,20 @@
       </task>
 
     </activity>
+  </p>
+
+  <p>
+    <figure xml:id="bundling-sticks-base-ten-base-five">
+      <video youtube="Qy73s7gfuPQ"/>
+      <caption>Using Bundling Sticks to Represent Twenty-Three</caption>
+    </figure>
+  </p>
+
+  <p>
+    <figure xml:id="blocks-base-ten-base-three">
+      <video youtube="CxjwYQ1J08s"/>
+      <caption>Using Base Blocks to Represent Twenty-Three</caption>
+    </figure>
   </p>
 
 
