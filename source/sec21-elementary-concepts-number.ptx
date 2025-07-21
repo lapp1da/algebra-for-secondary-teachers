@@ -703,7 +703,52 @@
 
   <p>
     When Pythagoras' work suggested that the hypotenuse of a right isosceles triangle with legs of length 1 could 
-    not be represented as the quotient of two integers, his work was considered heresy.
+    not be represented as the quotient of two integers (see <xref ref="fig-pythagorean-theorem-sqrt2" />).  
+    Therefore, his work was considered heresy.  According to Pythagoras, if <m>a</m> and <m>b</m> are the lengths 
+    of the legs of a right triangle, then their relationship to the length, <m>c</m>, of the hypotenuse was, 
+    <m>a^2+b^2=c^2</m>.  So if <m>a=b=1</m>, then this would say that 
+    <m>c^2=1^2+1^2=1+1=2 \Rightarrow c=\sqrt{2}</m>.  However, <m>\sqrt{2}</m> would then need to be a rational 
+    number if all numbers must be rational.  The problem is that if we make this assumption, we get a 
+    contradiction.  Consider the following theorem <xref ref="thm-sqrt2-irrational"/>.
+  </p>
+
+  <p>
+    <figure xml:id="fig-pythagorean-theorem-sqrt2">
+    <caption>Isoceles Right Triangle with Legs of Length 1</caption>
+    <image source="images/pythagorean-theorem-sqrt2.png" width="70%"/>
+    </figure>
+  </p>
+
+  <p>
+    <theorem xml:id="thm-sqrt2-irrational">
+      <title>
+        Irrationality of <m>\sqrt{2}</m>
+      </title>
+      <statement>
+        <p>
+          The <m>\sqrt{2}</m> is not rational.
+        </p>
+      </statement>
+      <proof>
+        <p>
+          (By contradiction)  Suppose <m>\sqrt{2}</m> is rational.  Then there exist <m>a,b \in \mathbb{Z}</m> 
+          such that <m>\sqrt{2}=\frac{a}{b}</m> where <m>a</m> and <m>b</m> have no common divisors except 1 
+          (i.e. <m>\frac{a}{b}</m> is in lowest terms).  Then <m>2=\frac{a^2}{b^2}</m> and thus <m>a^2=2b^2</m>.  
+          Since <m>2 \vert a^2</m>, this implies <m>a^2</m> is even.  If <m>a^2</m> is even, then <m>a</m> must 
+          also be even because if <m>a</m> were odd then <m>a^2</m> would be odd as well.
+        </p>
+        <p>
+          Therefore, let <m>a=2k</m> for some <m>k \in \mathbb{Z}</m>.  By substitution, 
+          <m>\left(2k\right)^2=2b^2</m> and so <m>4k^2=2b^2</m>.  Dividing by 2 we get <m>2k^2=b^2</m> and thus 
+          <m>b^2</m> is even (has 2 as a factor) and therefore <m>b</m> is also even.  But <m>a</m> and <m>b</m> 
+          were assumed to have no common divisors except 1.  Since <m>2 \vert a</m> and <m>2 \vert b</m> we have 
+          a contradiction and so <m>\sqrt{2}</m> must be irrational.
+        </p>
+        <p>
+          Note that this proof can be replicated for <m>\sqrt{p}</m> for any prime, <m>p</m>.
+        </p>
+      </proof>
+      </theorem>
   </p>
 
 </subsection>
