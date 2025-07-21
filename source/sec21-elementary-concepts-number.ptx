@@ -683,45 +683,95 @@
         </p>
         
       </introduction>
+
       <task>
         <statement>
           <p>
-            Write 1,422 in the Babylonian system.
+            If a unit represents 1, what does a flat represent?  What does a long represent?  What does a 
+            block represent?
           </p>
         </statement>
-        <hint>
-          <p>
-            How many bundles are there of size <m>60</m>, <m>60^2</m>, <m>60^3</m>, etc.?
-          </p>
-        </hint>
+
       </task>
 
       <task>
         <statement>
           <p>
-            Write 1,123,426 in the Babylonian system. 
+             If a long represents 1, what does a flat represent?  What does a block represent?
           </p>
         </statement>
-        <hint>
-          <p>
-            How many bundles are there of size <m>60</m>, <m>60^2</m>, <m>60^3</m>, etc.?
-          </p>
-        </hint>
+        
       </task>
 
       <task>
         <statement>
           <p>
-            Write 147,637 in the Babylonian system.
+            Let a unit represent 1.  Using combinations of blocks, flats, longs, and units, how would you 
+            represent:
+          </p>
+          <p>
+            237 ____________________________________________
+          </p>
+          <p>
+            400 ____________________________________________
+          </p>
+          <p>
+            2,314 ____________________________________________
+          </p>
+          <p>
+            502 ____________________________________________
+          </p>
+          <p>
+            Give two ways of representing 31.
           </p>
         </statement>
-        <hint>
-          <p>
-            How many bundles are there of size <m>60</m>, <m>60^2</m>, <m>60^3</m>, etc.?
-          </p>
-        </hint>
+        
       </task>
 
+      <task>
+        <statement>
+          <p>
+            Let a unit represent 1.  Take 12 units.  If you consider each unit, long, flat, and block as one 
+            object, how could you represent the same number with the fewest number of objects?  (e.g. one long, 
+            two flats, and one unit make up 4 objects).
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Let a unit represent 1.  Take 13 units, and 14 longs.  If you consider each unit, long, flat, and 
+            block as one object, how could you represent the same number with the fewest number of objects?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Represent 274 with Dienes blocks.  You need ____________ blocks, ____________ flats, 
+            ___________ longs, and _____________ units.
+          </p>
+          <p>
+            Represent 1741 with Dienes blocks.  You need ____________ blocks, _____________ flats, 
+            ___________ longs, and _____________ units.
+          </p>
+          <p>
+            Place these sets of objects together.  This represents the sum <m>274+1741</m>.  Before regrouping, 
+            you now have___________ blocks, ____________ flats, ___________ longs, and _____________ units.
+          </p>
+          <p>
+            Does this immediately give the base-10 representation of the sum?  Explain.
+          </p>
+          <p>
+            Make appropriate trades to get the base-ten representation of the sum.  What is <m>274+1741</m>?
+          </p>
+          <p>
+            Did you have to know any "addition facts" to solve this problem with Dienes blocks?  Explain.
+          </p>
+        </statement>
+      </task>
     </activity>
   </p>
 
