@@ -656,14 +656,14 @@
 
   <p>
     <figure xml:id="bundling-sticks-base-ten-base-five">
-      <video youtube="Qy73s7gfuPQ"/>
+      <video youtube="1CGdXVXcubc"/>
       <caption>Using Bundling Sticks to Represent Twenty-Three</caption>
     </figure>
   </p>
 
   <p>
     <figure xml:id="blocks-base-ten-base-three">
-      <video youtube="CxjwYQ1J08s"/>
+      <video youtube="_k0s9-cy05E"/>
       <caption>Using Base Blocks to Represent Twenty-Three</caption>
     </figure>
   </p>
@@ -818,18 +818,25 @@
     model would mean that some of the positive value would be cancelled by the negative values.  Multiplying a 
     negative by a positive value also had some meaning since if we owe three people $10, then it makes sense 
     that <m>3 \cdot -10=-30</m>.  But what about multiplying two negative numbers?  Consider the video in 
-    (see figure XXX).
+    <xref ref="vid-integer-multiplication" />.
+  </p>
+
+  <p>
+    <figure xml:id="vid-integer-multiplication">
+      <video youtube="oT0G_ajD_CU"/>
+      <caption>Using a Pile-and-Hole Model for Integer Multiplication</caption>
+    </figure>
   </p>
 
   <p>
     <activity>
       <introduction>
         <p>
-          In the video in (see figure XXX), we looked at a pile and hole model where piles of sand represented 
-          positive values and holes represented negative values.  When a pile comes in contact with a hole, 
-          we get level ground (i.e. zero).  In this activity, we will explore this idea using two different 
-          colored chips (one color for positive and one color for negative).  Using these chips, with 
-          blue as positive and red as negative, respond to the following questions.
+          In the video in <xref ref="vid-integer-multiplication" />, we looked at a pile-and-hole model where 
+          piles of sand represented positive values and holes represented negative values.  When a pile comes in 
+          contact with a hole, we get level ground (i.e. zero).  In this activity, we will explore this idea 
+          using two different colored chips (one color for positive and one color for negative).  Using these 
+          chips, with blue as positive and red as negative, respond to the following questions.
         </p>
       </introduction>
       <task>
