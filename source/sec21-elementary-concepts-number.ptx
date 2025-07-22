@@ -800,10 +800,67 @@
   </p>
 
   <p>
-    As time went on, the need arose to represent the concept of debt.  Since people had created the whole 
-    numbers, people again chose to extend the current number system to accommodate the need to represent 
-    quantities that were the "opposite" of the positive integers.  Thus, the accepted set of numbers became 
-    the <em>integers</em>, denoted <m>\mathbb{Z}=\left\{\ldots,-3,-2,-1,0,1,2,3,\ldots\right\}</m>.
+    As time went on, the need arose to represent the concept of debt.  Since cultures had created the whole 
+    numbers and a way to represent them, they again chose to extend the current number system to accommodate 
+    the need to represent quantities that were the "opposite" of the positive integers.  Thus, the accepted 
+    set of numbers became the <em>integers</em>, denoted 
+    <m>\mathbb{Z}=\left\{\ldots,-3,-2,-1,0,1,2,3,\ldots\right\}</m>.
+  </p>
+
+  <p>
+    However, operations on these negative numbers were still looked at with skepticism.  For example, what does 
+    it mean to multiply two negative numbers?  Adding a negative to a positive had some meaning since the debt 
+    model would mean that some of the positive value would be cancelled by the negative values.  Multiplying a 
+    negative by a positive value also had some meaning since if we owe three people $10, then it makes sense 
+    that <m>3 \cdot -10=-30</m>.  But what about multiplying two negative numbers?  Consider the video in 
+    (see figure XXX).
+  </p>
+
+  <p>
+    <activity>
+      <introduction>
+        <p>
+          In the video in (see figure XXX), we looked at a pile and hole model where piles of sand represented 
+          positive values and holes represented negative values.  When a pile comes in contact with a hole, 
+          we get level ground (i.e. zero).  In this activity, we will explore this idea using two different 
+          colored chips (one color for positive and one color for negative).  Using these chips, with 
+          blue as positive and red as negative, respond to the following questions.
+        </p>
+      </introduction>
+      <task>
+        <statement>
+          <p>
+            With the chips, form the numbers <m>12</m> and <m>-7</m>.  If you place a blue chip on top of a red 
+            chip, this is equivalent to placing a pile into a hole.  Combine a blue chip with a red chip for as 
+            many chip that you can.  If the red and blue combinations represent a filled hole (aka zero), what 
+            is the numerical result of the remaining chips?  What addition problem does this represent?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            With the chips, form the numbers <m>-10</m> and <m>6</m>.  Again, combine a blue chip with a red chip 
+            for as many chip that you can.  If the red and blue combinations represent a filled hole (aka zero), 
+            what is the numerical result of the remaining chips?  What addition problem does this represent?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            When we begin to examine multiplication, let's begin with "level" ground (i.e. zero).  With the sand 
+            example, if we wanted to represent <m>3 \cdot -2</m>, we began with flot sand and "created" three 
+            sets of two holes (the first number represents creating or placing and the second number represents 
+            the object that we are creating or placing).  The result was that we had six holes meaning that the 
+            result was <m>-6</m>.  For this question, with your chips, act out the multiplication 
+            <m>5 \cdot -3</m>.  Explain the meaning of your result.
+          </p>
+        </statement>
+      </task>
+    </activity>
   </p>
 
   
