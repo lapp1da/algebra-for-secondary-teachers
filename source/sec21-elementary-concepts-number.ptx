@@ -974,9 +974,9 @@
 
   <p>
     Eventually, these irrational numbers such as <m>\sqrt{2}</m> became accepted by the mathematical community 
-    and thus the current number system was again extended to include both rational and irrational numbers.  
-    This set of numbers combining both of these sets is called the <em>real numbers</em>, denoted 
-    <m>\mathbb{R}</m>.
+    and thus the current number system of the time was again extended to include both rational and irrational 
+    numbers.  This set of numbers formed by the union both of these sets is called the <em>real numbers</em>, 
+    denoted <m>\mathbb{R}</m>.
   </p>
 
 </subsection>
