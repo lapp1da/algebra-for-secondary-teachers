@@ -3,6 +3,29 @@
 <section xml:id="sec22-complex-numbers" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Extending the Number System: Complex Numbers</title>
 
-  <p> Text of section. </p>
+  <introduction>
+    <p>
+      Throughout history, our number system has evolved primarily driven by necessity.  It should come as no 
+      surprise that our current system (the complex numbers) was also driven by an issue with the real number 
+      system.  On of the motivators was the search for real solutions to equations, in particular, polynomial 
+      equations.  The solution to the general quadratic equation, <m>ax^2+bx+c=0</m>, had beeen established as 
+      <me>
+        x=\frac{-b \pm \sqrt{b^2-4ac}}{2a}
+      </me>
+      but there was still some concern with the situation for when there ended up to be a negative under the 
+      radical.
+    </p>
+
+    <p>
+      However, there was still a search for a solution to the general cubic, <m>ax^3+bx^2+cx+d=0</m>.  At the 
+      time, the solution to some forms of the cubic had been found.  For example, if a cubic was in the form, 
+      <m>x^3+mx=n</m>, where the squared term was not present, Ferro had found a way to solve it, but general 
+      cubic was still out of reach.
+    </p>
+
+  </introduction>
+  <p> 
+
+  </p>
 
 </section>
