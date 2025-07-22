@@ -860,6 +860,38 @@
           </p>
         </statement>
       </task>
+
+      <task>
+        <statement>
+          <p>
+            With your chips, act out the multiplication <m>-2 \cdot 4</m>.  Remember that the first number 
+            represents the act of creating or placing objects and so a negative value would need to represent 
+            the act of removing objects.  Also, you need to begin with zero.  Explain the meaning of your result.
+          </p>
+        </statement>
+        <hint>
+          <p>
+            To begin with zero and still have piles to "remove", what must you also have so that you begin with 
+            a "flat" surface (i.e. zero)?
+          </p>
+        </hint>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            With your chips, act out the multiplication <m>-3 \cdot -5</m>.  Remember that the first number 
+            represents the act of creating or placing objects and so a negative value would need to represent 
+            the act of removing objects.  Also, you need to begin with zero.  Explain the meaning of your result.
+          </p>
+        </statement>
+        <hint>
+          <p>
+            To begin with zero and still have holes to "remove", what must you also have so that you begin with 
+            a "flat" surface (i.e. zero)?
+          </p>
+        </hint>
+      </task>
     </activity>
   </p>
 
