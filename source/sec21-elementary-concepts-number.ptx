@@ -17,7 +17,7 @@
   </p>
 </introduction>
 
-<subsubsection xml:id="subsubsec-elementary-whole-numbers">
+<subsection xml:id="subsec-elementary-whole-numbers">
   <title>Elementary Whole Number Systems</title>
   
 
@@ -801,7 +801,7 @@
 
 </subsection>
 
-<subsubsection xml:id="subsubsec-extension-to-integers">
+<subsection xml:id="subsec-extension-to-integers">
   <title>Extension of the Number System to Integers</title>
 
   <p>
@@ -902,7 +902,7 @@
 
   
 
-</subsubsection>
+</subsection>
 
 <subsection xml:id="subsec-rational-irrational-numbers">
   <title>Rational and Irrational Numbers</title>
