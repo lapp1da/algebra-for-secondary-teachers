@@ -908,9 +908,15 @@
   </p>
 
   <p>
-    While it would seem like negative numbers should have been widely accepted for many years, mathematicians 
-    were still very skeptical of them even in the 1700s.  In fact, in 1770 Euler used basic properties of the 
-    number system to show the product of two negatives is positive.
+    As convincing as our pile-and-hole model may seem from a physical manipulative perspective, it should not 
+    seem too surprising that negative numbers had not been widely accepted for many years since reasoning by 
+    analogy can give us insight, but it hardly constitutes abstract proof.  Mathematicians were still very 
+    skeptical of negative numbers even in the 1700s (this is around the time of the founding of the USA).  
+    This is really not that long ago.  In fact, in 1770 Euler used basic properties of the number system to 
+    show the product of two negatives is positive.  His proof is really not that involved and can be followed 
+    by most middle school students familiar with the properties of additive and multiplicative identities, 
+    additive inverses (i.e. "opposites"), the distributive property of multiplication over addition, and the 
+    zero product property (see <xref ref="thm-product-two-negatives" />).
   </p>
 
   <p>
