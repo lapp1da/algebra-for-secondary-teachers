@@ -776,6 +776,30 @@
   </p>
 
   <p>
+    Again, one of the reasons we do not want children to simply recognize a collection of symbols as representing 
+    a single number is that it masks the meaning behind how our numeration system is expressed.  We must first 
+    expect children from an early age to form bundles of varying sizes and count how many of each there are 
+    before then translating this into symbols used to represent the number.  Jerome Bruner, the noted learning 
+    theorist, suggested that children must go through three main phases in order to understand representations: 
+    <em>Enactive</em>, <em>Iconic</em>, and finally <em>Symbolic</em>.  In the enactive stage, the students "do" 
+    something to act out a process or concept.  The iconic stage consists of students producing images that are 
+    raw representations of process or concept.  These representations usually lead to limitations requiring a 
+    refinement into more abstract symbolic representations.  By experiencing these stages in order, meaning is 
+    attached to the symbols so that students can understand what they are symbolizing as opposed to just 
+    memorizing without meaning.  Kaput, Blanton, and Moreno's (2008) model is an extension of this theory and we 
+    will discuss their mechanisms for transition among these phases later when we look at algebraic concepts.  
+    For now, we can see an example of an elementary teacher engaging Kindergartners in Bruner's theory in the 
+    video in <xref ref="fig-video-kindergartners-place-value" />.
+  </p>
+
+  <p>
+    <figure xml:id="fig-video-kindergartners-place-value">
+      <video youtube="udMTpLdX94w"/>
+      <caption>Kindergartners Learning Base-Ten Place Value</caption>
+    </figure>
+  </p>
+
+  <p>
     As time went on, the need arose to represent the concept of debt.  Since people had created the whole 
     numbers, people again chose to extend the current number system to accommodate the need to represent 
     quantities that were the "opposite" of the positive integers.  Thus, the accepted set of numbers became 
@@ -806,13 +830,13 @@
 
   <p>
     When Pythagoras' work suggested that the hypotenuse of a right isosceles triangle with legs of length 1 could 
-    not be represented as the quotient of two integers (see <xref ref="fig-pythagorean-theorem-sqrt2" />).  
-    Therefore, his work was considered heresy.  According to Pythagoras, if <m>a</m> and <m>b</m> are the lengths 
+    not be represented as the quotient of two integers (see <xref ref="fig-pythagorean-theorem-sqrt2" />) and 
+    therefore, his work was considered heresy.  According to Pythagoras, if <m>a</m> and <m>b</m> are the lengths 
     of the legs of a right triangle, then their relationship to the length, <m>c</m>, of the hypotenuse was, 
     <m>a^2+b^2=c^2</m>.  So if <m>a=b=1</m>, then this would say that 
     <m>c^2=1^2+1^2=1+1=2 \Rightarrow c=\sqrt{2}</m>.  However, <m>\sqrt{2}</m> would then need to be a rational 
-    number if all numbers must be rational.  The problem is that if we make this assumption, we get a 
-    contradiction.  Consider the following theorem <xref ref="thm-sqrt2-irrational"/>.
+    number if all numbers must be rational (according to the Greeks at the time).  The problem is that if we 
+    make this assumption, we get a contradiction (see <xref ref="thm-sqrt2-irrational"/>).
   </p>
 
   <p>
