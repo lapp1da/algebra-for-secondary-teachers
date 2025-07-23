@@ -3,6 +3,136 @@
 <section xml:id="sec21-elementary-concepts-number" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Elementary Concepts of Number</title>
 <introduction>
+  
+  <p>
+  <figure xml:id="fig-ccss-scientific-notation">
+    <caption>Scientific Notation from CCSS for 8th Grade</caption>
+    <image source="images/ccss-scientific-notation.png" width="90%"/>
+  </figure>
+  </p>
+  
+  <p>
+    <activity xml:id="vig-scientific-notation">
+      <title>Abby's Lesson on Scientific Notation</title>
+      <introduction>
+        <p>
+          Abby is teaching scientific notation as part of her 8th grade curriculum.  You can see the details 
+          from the Common Core State Standards <em>8.EE #4</em> as given in 
+          <xref ref="fig-ccss-scientific-notation" />.  She begins by discussing the process for converting back and 
+          forth between numbers written in standard Hindu-Arabic form and those written in scientific notation.
+        </p>
+
+        <p>
+          <em>Abby</em> : Today we are going to look at another way to write numbers when they become so long that 
+          we really don't need to use all of their digits.  When a number gets so big, the digits closest to the 
+          units really don't matter so much.  Suppose you are Elon Musk and you decide to buy a new jet.  The 
+          jet costs $200,000,000.  Further suppose Mr. Musk is currently worth roughly $412 billion.  After 
+          the purchase of the jet, how much is Elon Musk worth?  Yes, Kate.
+        </p>
+
+        <p>
+          <em>Kate</em> : $411.8 billion?
+        </p>
+        <p>
+          <em>Abby</em> : Good, but let's just keep it in whole billions.
+        </p>
+        <p>
+          <em>Kate</em> : OK, $412 billion?
+        </p>
+        <p>
+          <em>Abby</em> : Nice!  So did his purchase really matter much when it come to his wealth?  Toby?
+        </p>
+        <p>
+          <em>Toby</em> : Not at all.  That's like me worrying about fifty cents.
+        </p>
+        <p>
+          <em>Abby</em> : So what we are going to talk about today is called scientific notation and it's used 
+          when numbers are so big that we don't really need to worry about all the digits.  Suppose we are 
+          looking at the number 372400.  Instead of writing all of the digits, we can instead write it as a 
+          power of 10.  If move the decimal point to the left until it is between the 3 and the 7 and count 
+          how many places we move it, we can use the number of places we move it as the power of 10.  This 
+          means that <m>372400=3.724 \times 10^5</m>.  So you just need to count the moves.
+        </p>
+        <p>
+          <em>Mia</em> : Why are the moves the same as the power of 10?
+        </p>
+        <p>
+          <em>Abby</em> : That's just how we write the new notation to shorten it.  Let's try another example 
+          for a really big number.  That might help.  How would you write 5,681,000,000,000 in scientific 
+          notation?  Yeah, Ja'miya.
+        </p>
+        <p>
+          <em>Ja'miya</em> : Well, I guess we'd just count to get it between the 5 and 6, so let's see, one, 
+          two, three, four, five, six, seven, eight, nine, ten, eleven, twelve.  So twelve.  So would it be 
+          <m>5.681 \times 10^12</m>?
+        </p>
+        <p>
+          <em>Abby</em> : Great.  Does that help, Mia?
+        </p>
+        <p>
+          <em>Mia</em> : Not really.  I'm still not sure why the power of ten is the same as counting the moves.
+        </p>
+        <p>
+          <em>Abby</em> : Well, let's just practice a few more and see if that helps.
+        </p>
+        <p>
+          <em>Mia rolls her eyes and starts talking to her group mates.</em>
+        </p>
+      </introduction>
+      <task>
+        <statement>
+          <p>
+            Individually, describe what you think are the central issues involved in the classroom exchange. 
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            In your groups, share your thoughts about the classroom dialogue and come up with a list of things 
+            you think went well and not-so-well.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            In light of our class discussions, how would you handle the same situation in your classroom?  
+            Give specific examples to illustrate what you would do.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            In the vignette, Mia seemed to be frustrated that her question was being ignored.  What do you think 
+            are the main mathematical concepts involved in the classroom discussion?  How are place value and 
+            scientific notation connected?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Discuss how the connection between place value notation and scientific notation are related to 
+            Pirie and Kieren's construct of “folding back”.
+          </p>
+        </statement>
+      </task>
+    </activity>
+  </p>
+  
+  <p>
+    As you may have noticed in the vignette, Mia became frustrated because her question about why the process 
+    Abby was describing worked was being ignored.  In order to teach mathematics, we much have a deeper 
+    understanding of mathematical concepts so that we do not resort to procedural approaches to teaching out of 
+    our own lack of understanding.  To this end, let's dive a little deeper into numeration and number systems 
+    and explore why we write numerals as we do.
+  </p>
   <p>
     Throughout mathematics, humankind has found the need to expand its numeration systems.  While some cultures 
     developed symbol systems to represent the concept of number, others relied (and still rely on) linguistic 
@@ -17,14 +147,21 @@
   </p>
 
   <p>
-    <activity xml:id="vig-scientific-notation">
-      <introduction>
-        <p>
-          Abby is teaching scientific notation as part of her 
-        </p>
-      </introduction>
-    </activity>
+    Another distinction we need to make is the difference between a <em>number</em> and a <em>numeral</em>.  In 
+    society, these words are often used interchangeably, but they have quite different meanings.  A number is a 
+    concept or property.  For example, the fingers on my hand have a property of "fiveness".  If I count them, I 
+    can place them in a one-to-one correspondence with the words {one, two, three, four, five}.  Both of these 
+    sets share a property of "fiveness".  Any other set that can be placed into a one-to-one correspondence 
+    with these sets (fingers or words) can be said to have the property of "fiveness" and thus we say that 
+    there are "five" things in the set.  Here five is a number concept.  In contrast, "5" is a symbol that we 
+    use to represent the concept of five.  I guess, the word "five" is also a symbol (or collection of symbols) 
+    that we use to represent the concept of five.  This is the distinction between number and numeral.  A number 
+    is a concept while a numeral is a symbol that is used to denote the concept.  This will become a more 
+    important distinction later when we look at how we develop symbolic meaning in an algebraic sense.
+
   </p>
+
+  
 </introduction>
 
 <subsection xml:id="subsec-elementary-whole-numbers">
