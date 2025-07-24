@@ -946,6 +946,36 @@
     </figure>
   </p>
 
+  <p>
+    <activity xml:id="act-kindergarten-reflection">
+      <introduction>
+        <p>
+          Now that you have watched the video excerpt from the Kindergarten class, let's analyze the 
+          classroom exchange in greater detail with respect to Bruner's theory on concept development with 
+          respect to the stages of: <em>Enactive</em>, <em>Iconic</em>, and <em>Symbolic</em>.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            In your groups, discuss which stage the students are in during the exchange at time stamp XXX.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            In your groups, use your whiteboards to list times that the students were in the Enactive stage 
+            of Bruner's model.  Give a brief description of what was happening at those moments so others can 
+            relate to your observations.
+          </p>
+        </statement>
+      </task>
+    </activity>
+  </p>
+
 </subsection>
 
 <subsection xml:id="subsec-extension-to-integers">
