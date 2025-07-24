@@ -21,7 +21,7 @@
       However, there was still a search for a solution to the general cubic, <m>ax^3+bx^2+cx+d=0</m>.  At the 
       time, the solution to some forms of the cubic had been found.  For example, if a cubic was in the form, 
       <m>x^3+mx=n</m>, where the squared term was not present, Ferro had found a way to solve it by "depressing" 
-      the general cubic was still out of reach.
+      the quadratic, but the general cubic was still out of reach.
     </p>
 
     <p>
@@ -36,7 +36,7 @@
 
     <p>
       <figure xml:id="fig-ccss-complex-numbers">
-        <caption>Scientific Notation from CCSS for 8th Grade</caption>
+        <caption>Complex Numbers Standard from CCSS</caption>
         <image source="images/ccss-complex-numbers.png" width="90%"/>
       </figure>
     </p>
