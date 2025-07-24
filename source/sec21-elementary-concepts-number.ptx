@@ -64,7 +64,7 @@
         <p>
           <em>Ja'miya</em> : Well, I guess we'd just count to get it between the 5 and 6, so let's see, one, 
           two, three, four, five, six, seven, eight, nine, ten, eleven, twelve.  So twelve.  So would it be 
-          <m>5.681 \times 10^12</m>?
+          <m>5.681 \times 10^{12}</m>?
         </p>
         <p>
           <em>Abby</em> : Great.  Does that help, Mia?
@@ -1057,6 +1057,70 @@
           </p>
         </statement>
       </task>
+    </activity>
+  </p>
+
+  <p>
+    You may have noticed the children in the previous video excerpt "folding back" on their prior expereinces 
+    as they began to make connections between the "Ten Friends" and "One Friends" in physical sense and the 
+    numerals they have already experienced in their daily lives.  So what does this mean for the students in 
+    Abby's class from the earlier vignette <xref ref="vig-scientific-notation" /> at the beginning of this 
+    section?  To wrap up this subsection, consider the following revisit to Abby's class.
+  </p>
+
+  <p>
+    <activity xml:id="vig-scientific-notation-revisit">
+      <title>Abby's Lesson on Scientific Notation-Revisited</title>
+      <introduction>
+        <p>
+          Recall that in Abby's class, Mia becomes frustrated because her question about why the process Abby 
+          is teaching works.  Mia is desparately trying to make sense of the algorithm, but is not able to 
+          connect it to her previous experiences in a satisifying way.  Now that we can express numbers in 
+          <em>expanded base-ten notation</em>, let's think about how the mathematics might help Abby address 
+          Mia's concern.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Let's look at the same number from the vignette, <m>372,400</m> or <m>3.724 \times 10^5</m>.  
+            In your groups, use your whiteboards to write the number <m>3.724</m> as a sum of four whole numbers 
+            or fractions where each digit is represented by one of the four terms in your sum.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Using your sum from part (a), use the distributive property and multiply your sum by <m>10^5</m>, 
+            expressing your result still as a sum of four terms.  Explain how your new representation is 
+            connected to the expanded base-ten notation that you used in 
+            <xref ref="act-bundling-sticks-numeration"/>.  How might Abby have used this idea to help Mia 
+            grasp the connection between what she already knew (folding back to place value) and the algorithm 
+            Abby was teaching?
+          </p>
+        </statement>
+      </task>
+
+        <task>
+          <statement>
+            <p>
+              Abby wants students to be able to move back and forth between scientific notation and standard 
+              notation for numerals.  What questions might Abby ask to reverse your distributive property 
+              from part (b) to go from a numeral in standard base ten notation to scientific notation?  If the 
+              number in scientific notation is expected to be given in a certain number of significant digits, 
+              how would Abby deal with the undesired digits once they have expressed the number as a sum with 
+              fractions?  Discuss how "significance" might be an appropriate word here when thinking about the 
+              fractions and Toby's comment from the vignette.  How is a fractional representation helpful 
+              when it comes to a digit's insignificance?
+            </p>
+          </statement>
+        </task>
+      
+      
+      
     </activity>
   </p>
 
