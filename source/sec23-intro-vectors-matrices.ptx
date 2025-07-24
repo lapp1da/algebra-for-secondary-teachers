@@ -1112,7 +1112,7 @@ we get the total revenue for each company organized as an ordered triple (since 
 
 <introduction>
   <p>
-    In this section we will explore processes surrounding solving systems of linear equations.  In the last 
+    In this subsection we will explore processes surrounding solving systems of linear equations.  In the last 
     section, we ended by experimenting with various scalars to determine if a set of vectors were linearly 
     independent.  Mostly we used trial and error or tried to reduce the linear combinations by chosing 
     a value for one of the scalars and then working backwards to find the remaining scalars.  This was a 
@@ -1497,7 +1497,7 @@ we get the total revenue for each company organized as an ordered triple (since 
   </definition>
   
   <p>
-    Recall from <xref ref="sec11-model-moving-worlds"/>, we began by looking at systems of equations from 
+    Recall from <xref ref="subsec-model-moving-worlds"/>, we began by looking at systems of equations from 
     the standpoint of transformations.
   </p>
   <me>
@@ -1812,12 +1812,12 @@ we get the total revenue for each company organized as an ordered triple (since 
     Now that we have converted a system of equations to augmented matrix form and then used the process of 
     Gaussian elimination to reduce the system and find solutions, we might ask the question, will we always be 
     able to reduce the matrix to a nice upper triangular form where back-solving to obtain a unique solution 
-    is possible?  As you will recall from <xref ref="proj-linear-comb-project" />, not all linear combinations of 
-    vectors (and thus systems) end with a unique solution.  This means that it will not always be able to find 
-    a unique solution to a given system of equations and thus get a nice upper triangular matrix.  In the next 
-    section, we will examine how we can use the form of a matrix for linear systems to determine whether or not 
-    the solution(s) is (are) unique, infinite, or non-existent by simplying looking at a reduced version of 
-    the matrix.
+    is possible?  As you will recall, not all linear combinations of vectors (and thus systems) end with a 
+    unique solution.  This means that it will not always be able to find a unique solution to a given system of 
+    equations and thus get a nice upper triangular matrix.  If you have taken a formal linear algebra course, 
+    you may recall that we can use the form of a matrix for linear systems to determine whether or not the 
+    solution(s) is (are) unique, infinite, or non-existent by simplying looking at a reduced version of the 
+    matrix.
   </p>
   
 
