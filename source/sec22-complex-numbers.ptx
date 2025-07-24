@@ -24,6 +24,23 @@
       the general cubic was still out of reach.
     </p>
 
+    <p>
+      The secondary school curriculum includes the teaching of complex numbers even though some aspects of this 
+      are not required for all students graduating from high school.  Note that the Common Core State 
+      Standards denote this with a (+) symbol next to those topics not expected for all students.  However, 
+      all secondary teachers must be expected to teach these concepts and certainly any student planning to 
+      enter scientific fields should be expected to leave high school having exerpience with complex numbers.  
+      Below in <xref ref="fig-ccss-complex-numbers"/> are the standards from the CCSS with regard to complex 
+      numbers.
+    </p>
+
+    <p>
+      <figure xml:id="fig-ccss-complex-numbers">
+        <caption>Scientific Notation from CCSS for 8th Grade</caption>
+        <image source="images/ccss-complex-numbers.png" width="90%"/>
+      </figure>
+    </p>
+
   </introduction>
   <p> 
 
