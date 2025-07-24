@@ -304,7 +304,16 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.2",
   "title": "Extending the Number System: Complex Numbers",
-  "body": " Extending the Number System: Complex Numbers   Throughout history, our number system has evolved primarily driven by necessity. It should come as no surprise that our current system (the complex numbers) was also driven by an issue with the real number system. On of the motivators was the search for real solutions to equations, in particular, polynomial equations. The solution to the general quadratic equation, , had beeen established as but there was still some concern for the situation when a negative appeared under the radical. Putting these negative square roots aside, the usefulness of the real solutions found with the quadratic formula was considered a leap forward.  However, there was still a search for a solution to the general cubic, . At the time, the solution to some forms of the cubic had been found. For example, if a cubic was in the form, , where the squared term was not present, Ferro had found a way to solve it by \"depressing\" the general cubic was still out of reach.     "
+  "body": " Extending the Number System: Complex Numbers   Throughout history, our number system has evolved primarily driven by necessity. It should come as no surprise that our current system (the complex numbers) was also driven by an issue with the real number system. On of the motivators was the search for real solutions to equations, in particular, polynomial equations. The solution to the general quadratic equation, , had beeen established as but there was still some concern for the situation when a negative appeared under the radical. Putting these negative square roots aside, the usefulness of the real solutions found with the quadratic formula was considered a leap forward.  However, there was still a search for a solution to the general cubic, . At the time, the solution to some forms of the cubic had been found. For example, if a cubic was in the form, , where the squared term was not present, Ferro had found a way to solve it by \"depressing\" the quadratic, but the general cubic was still out of reach.  The secondary school curriculum includes the teaching of complex numbers even though some aspects of this are not required for all students graduating from high school. Note that the Common Core State Standards denote this with a (+) symbol next to those topics not expected for all students. However, all secondary teachers must be expected to teach these concepts and certainly any student planning to enter scientific fields should be expected to leave high school having exerpience with complex numbers. Below in are the standards from the CCSS with regard to complex numbers.    Complex Numbers Standard from CCSS        "
+},
+{
+  "id": "fig-ccss-complex-numbers",
+  "level": "2",
+  "url": "sec22-complex-numbers.html#fig-ccss-complex-numbers",
+  "type": "Figure",
+  "number": "2.2.1",
+  "title": "",
+  "body": " Complex Numbers Standard from CCSS   "
 },
 {
   "id": "sec23-intro-vectors-matrices",
