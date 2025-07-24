@@ -1107,6 +1107,725 @@ we get the total revenue for each company organized as an ordered triple (since 
 
 </subsection>
 
+<subsection xml:id="subsec-solving-systems">
+  <title>Solving Systems of Equations</title>
 
+<introduction>
+  <p>
+    In this section we will explore processes surrounding solving systems of linear equations.  In the last 
+    section, we ended by experimenting with various scalars to determine if a set of vectors were linearly 
+    independent.  Mostly we used trial and error or tried to reduce the linear combinations by chosing 
+    a value for one of the scalars and then working backwards to find the remaining scalars.  This was a 
+    time-consuming process and can often be challenging if there is a unique solution.  In this section, we 
+    will try a more systematic approach that will help us find the desired scalars more efficiently.  
+  </p>
+</introduction>
+  
+  <subsubsection xml:id="finding-scalars">
+    <title>Finding Scalars: Gaussian Elimination</title>
+    
+  <p>
+    As we ended section 2.1, we wanted to establish whether or not a set of vectors was linealry independent.  
+    To do this, we needed to determine whether or not we could find a set of scalar values that would give 
+    us a linear combination for other vectors in the set.  In addition, we sought to determine the if a 
+    vector was in the <term>Span</term> of a set of vectors.  For both of these questions, we ultimately 
+    want to solve for specific scalars that would meet our desired requirements.
+  </p>
+  <p>
+    While this process of finding scalars may seem new, it is actually not a new idea.  Recall that in high 
+    school we solved systems of equations using a variety of techniques including substitution, elimination, and 
+    graphing.  As the number of variables and equations increased, the techniques of substitution and 
+    graphing became very challenging.  The process of elimination was generally easier as the number of 
+    variables increased and so this process is the one we will refine here.
+  </p>
+  <p>
+    You may recall that there were certain operations we could perform on equations so that their solution 
+    sets did not change.  These included multiplying an equation by a nonzero constant, adding equals to equals, 
+    and rearranging the equations.  For example, since, say, <m>5=5</m>, we can also say that 
+    <m>2\cdot5=2\cdot5</m>.  Similarly for an equation like <m>x+2y=5</m> (for which a solution is clearly 
+    <m>x=1</m> and <m>y=2</m>), then if we multiply both sides by, say 3, we get 
+    <m>3\left(x+2y=5\right) \Rightarrow 3x+6y=3\cdot5\Rightarrow 3x+6y=15</m>.  Just as <m>x=1</m> and <m>y=2</m> 
+    is a solution to the original equation, due to the fact that multiplying both sides of an equation by the same 
+    value gives a new equation that is also true, <m>x=1</m> and <m>y=2</m> is also a solution to 
+    <m>3x+6y=15</m> (i.e. <m>3\cdot1+6\cdot2=3+12=15</m>).
+  </p>
+  <p>
+    In a similar fashion, if we start with <m>x+2y=5</m> and add the same amount to both sides, we get 
+    <m>x+2y+7=5+7 \Rightarrow x+2y+7=12</m>.  If we plug in <m>x=1</m> and <m>y=2</m> we get 
+    <m>1+2\cdot2+7=1+4+7=12</m>.  In both cases, if we start with an equation with a certain solution, adding 
+    the same constant to both sides or multiplying both sides by the same constant will give a new 
+    equation for which the solution to the original equation will be a solution to the new equation.
+  </p>
+  <p>
+    What if we want to add expressions to both sides of an equation?  Consider another equation, 
+    <m>4x+y=6</m>, that also has a common solution, <m>x=1</m> and <m>y=2</m>.  If we add this equation to 
+    or earlier equation, <m>x+2y=5</m>, we get 
+    <me>
+      \begin{array} 3 x+2y=5\\4x+y=6\\\overline{5x+3y=11}\end{array}
+    </me>
+    where <m>x=1</m> and <m>y=2</m> is still a solution to the result, <m>5x+3y=11</m> (see 
+    <xref ref="three-lines"/>).  What this tells us is that if we seek solutions to a system of equations, 
+    we can add any of the equations in the system to each other and get a new equation that also shares 
+    the same solution(s) as the previous equations.
+  </p>
+  <p>
+    <figure xml:id="three-lines">
+      <caption>Three Lines</caption>
+      <image source="images/three-lines.png" width="60%">
+        <shortdescription>(for accessibility)</shortdescription>
+      </image>
+    </figure>
+  </p>
+  <p>
+    So now suppose we did not know that the solution to our earlier set of equations, <m>x+2y=5</m> and 
+    <m>4x+y=6</m>, was <m>x=1</m> and <m>y=2</m>.  How do these manipulations that yield new equations with 
+    the same solution help us?  As you may recall from your earlier mathematics experiences, we can take the 
+    approach of trying to "eliminate" a variable from the system so that we can more easily solve for one of 
+    the variables.  In this case, consider what would happen if we multipled the top equation by -4.  This 
+    would give us a new equation, <m>-4x-8y=-20</m>, and we can use it in place of the original one.  Why multiply 
+    it by -4?  As we saw, if two equations share the same solution(s), we can add them and the resulting 
+    equation will also have the same solution(s).  The -4 was selected since it will give a coefficient of 
+    <m>x</m> that is the opposite of the coefficient of <m>x</m> in the second equation so that when added 
+    they will cancel each other to leave us only the variable <m>y</m>.
+  </p>
+  <p>
+    <me>
+      \begin{array} 2 -4(x+2y=5)\\\quad 4x+\; y=6\end{array}
+      \Rightarrow
+      \begin{array} 3 \quad -4x-8y=-20\\ \quad\;\; 4x+\;\, y=\quad\; 6\\ \quad \overline{\quad 0x-7y=-14}\end{array}
+      \Rightarrow
+      -7y=-14 \Rightarrow y=2
+    </me>
+    Now we can simply plug <m>y=2</m> into either of our original equations to get a value for <m>x</m>.  
+    Let's use the first equation as it is easier to solve for <m>x</m>.  This gives <m>x+2\cdot2=5</m> which 
+    yields <m>x+4=5 \Rightarrow x=1</m>.
+  </p>
+  <p>
+    <em>Now consider the following example where we use this process to find scalars for a linear 
+      combination of vectors.
+    </em>
+  </p>
+  <p>
+    <example xml:id="find-scalars">
+    <title>Finding Scalars</title>
+    <p>
+      Consider a more simplified version of our scenario from Chapter 1 involving prices, <m>p</m> and revenue 
+      <m>r</m> for products we are selling to various companies.  In this case, we consider fewer companies 
+      and products to make this example easier to disect.  Suppose we have the following data for the number 
+      of items for two different products for two different companies.
+    </p>
+    <p>
+      <table xml:id="product-orders-small">
+      <title>Product Orders</title>
+      <tabular halign="center">
+      <row header="yes" bottom="minor">
+        <cell>Clients</cell>
+        <cell>Product 1</cell>
+        <cell>Product 2</cell>
+      </row>
+      <row>
+        <cell>Company 1</cell>
+        <cell>2</cell>
+        <cell>3</cell>
+      </row>
+      <row>
+        <cell>Company 2</cell>
+        <cell>1</cell>
+        <cell>5</cell>
+      </row>
+  </tabular>
+</table>
+    </p>
+    <p>
+      In this case we are looking for scalars for prices, <m>p_1</m> and <m>p_2</m>, that provide desired revenues, 
+    <m>r_1</m> and <m>r_2</m>.  This gives the following vector equation.
+    </p>
+    <p>
+      <me>
+            p_1 \begin{bmatrix}
+            2\\1\end{bmatrix} + p_2 \begin{bmatrix}
+            3\\5\end{bmatrix} = \begin{bmatrix}
+            r_1\\r_2\end{bmatrix}
+      </me>
+    </p>
+    <p>
+      A question we might ask is what prices do we need to set so that we have revenue of $43 from 
+      Company 1 and $46 from Company 2?  It may be that there are no such price combinations that will 
+      yield what we want (i.e. does this combination exist?).  There may be a case where there are 
+      infinitely many such price combinations (i.e. there is not uniqueness).  These two fundamental 
+      questions of <term>existence</term> and <term>uniqueness</term> will be ones we revisit as we seek 
+      solutions to equations.
+    </p>
+    <p>
+      So now we ask if we can find solutions to the vector equation, 
+      <m>p_1 \begin{bmatrix}
+            2\\1\end{bmatrix} + p_2 \begin{bmatrix}
+            3\\5\end{bmatrix} = \begin{bmatrix}
+            43\\46\end{bmatrix}
+      </m>?
+    </p>
+    <p>
+      However, this is not such an unusual task.  Recall from high algebra we solved these equations before, 
+      but they were simply written in a different form.  This vector equation could also be written as 
+      <me>
+        2p_1+3p_2=43
+      </me>
+      <me>
+        p_1+5p_2=46
+      </me>
+    </p>
+    <p>
+      Now we can use the process of Gaussian elimination to reduce these equations to only one variable.  Suppose 
+      we multiply the second equation by <m>-2</m> and add the resulting equations to obtain the following.
+    </p>
+    <p>
+      <me>
+        \begin{array} 2 \quad 2p_1+3p_2=43\\ -2(p_1+ 5p_2=46)\end{array}
+        \Rightarrow
+        \begin{array} 3 \quad 2p_1+3p_2=\quad 43\\ -2p_1-10p_2= -92\\
+        \overline{\quad 0p_1- \; 7p_2=-49}\end{array}
+        \Rightarrow
+        -7p_2=-49 \Rightarrow p_2=7
+      </me>
+    </p>
+    <p>
+      Now we can use our value for <m>p_2=7</m> in one of our original equations (let's use the second one 
+      since it is easier) to get <m>p_1+5\cdot7=46</m> which gives <m>p_1=46-35=11</m>.
+    </p>
+    <p>
+      Checking this result we get 
+      <m>11\cdot \begin{bmatrix}
+        2\\1\end{bmatrix} + 7\cdot \begin{bmatrix}
+        3\\5\end{bmatrix} = \begin{bmatrix}
+        43\\46\end{bmatrix}
+      </m>.
+    </p>
+    
+    </example>
+  </p>
+  <p>
+    <activity xml:id="solve-3by3-system">
+      <introduction>
+        <p>
+          Consider the following system of equations.
+        </p>
+        <p>
+          <me>
+              \begin{array} 3
+              x + 2y + z =-1 \\
+              2x - y + 3z =6 \\
+              -x + 4y - z =-5
+              \end{array}
+          </me>
+        </p>
+      </introduction>
+      <task>
+        <statement>
+          <p>
+            Use the process of Gaussian elimination to reduce the system of 3 equations and 3 unknowns to 
+            a system of 2 equations and 2 unknowns by scaling and/or adding pairs of these equations.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Now eliminate another of your two remaining variables from part (a) in similar manner 
+            (scaling and/or adding pairs of these equations) to find a solution value for one of the three 
+            variables. 
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Use your value from part (b) and one of your equations found in part (a) to solve for a second 
+            unknown.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Use the two values you have found so far along with one of your original equations to solve for 
+            the last unknown.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Use the GeoGebra applet in <xref ref="3d-system-graphical" /> to verify your solution to the system.  
+            Feel free to rotate the planes so that the intersection point of all three is visible.
+          </p>
+          
+          <p>
+            <figure xml:id="3d-system-graphical">
+              <caption>3D System of Equations</caption>
+              <interactive xml:id="geogebra-3d-example" platform="geogebra" width="100%" reset-icon="yes">
+                <slate xml:id="ggb-3d-example" surface="geogebra" material="ytewv5yw" />
+              </interactive>
+            </figure>
+          </p>
+          
+        </statement>
+      </task>
+    </activity>
+  </p>
+
+  <p>
+    Now that we have worked through a process to reduce a system of equations to fewer and fewer variables, 
+    we can summarize the operations that changed the look of the equations without changing the solutions.  
+    We essentially have three types of "moves" we can do that will create equivalent systems of equations that 
+    maintain the same solutions as the original system.
+  </p>
+
+  <p>
+    <description>
+      <item>
+        <term>Scaling</term>
+        <details>
+          <p>In this situation, we can multiply an entire equation by a constant and not change the solutions.  
+            For example, <m>\frac{1}{2} \left(2x+4y=8\right) \Rightarrow x+2y=4</m> will have the same solutions 
+            as the original, <m>2x+4y=8</m>.
+          </p>
+          <p>
+            
+          </p>
+        </details>
+      </item>
+      <item>
+        <term>Swapping</term>
+        <details>
+          <p>
+            Here we are allowing the position of the listed equations within the system to be simply swapped.  
+            This principle is kind of obvious since the two systems of equations
+            <me>
+              \begin{aligned}
+              3x+2y=1 \\
+              -x+5y=11
+              \end{aligned}
+              \quad \text{and} \quad
+              \begin{aligned}
+              -x+5y=11\\
+              3x+2y=1
+              \end{aligned}
+            </me>
+            clearly have the same solution!
+            
+          </p>
+          <p>
+            
+          </p>
+        </details>
+      </item>
+      <item>
+        <term>Replacing</term>
+        <details>
+          <p>In this situation, we found that if we multiply one equation by a scalar (even if it is just 1)  
+            and add it to another equation and use this result in place of the equation we added the 
+            scalar multiple to, the solutions to the system remain the same.  For example, we can take a system 
+            like
+            <me>
+              \begin{aligned}
+              3x+2y=1 \\
+              -x+5y=11
+              \end{aligned}
+            </me>
+            and take, say 3, times the bottom equation and add it to the top equation replacing the top equation 
+            with this result to get 
+            <me>
+              \begin{aligned}
+              0x+17y=34 \\
+              -x+5y=11
+              \end{aligned}
+            </me>
+            and we will still have the same solution, <m>x=-1</m> and <m>y=2</m>, be the solution to both systems.
+            
+          </p>
+          <p>
+            
+          </p>
+        </details>
+      </item>
+      </description>
+  </p>
+
+  <p>
+    As you may have noticed in both of these examples for solving a system with Gaussian elimination, to make 
+    it easier to manipulate and perform operations on the equations, we made it a practice to keep the 
+    variables aligned with each other and then performed the multiplication by scalars and addition of 
+    equations using the three "moves" described above.  This helped us make sure we were not accidently 
+    adding the coefficients of different variables together.  For the most part, this practice just makes 
+    "bookkeeping" easier.  This should sound kind of familiar.  We did the same thing in Chapter 1 when we 
+    introduced vectors and matrices.  We viewed these arrays of elements as an easier way to keep track of 
+    corresponding components that represented values for the same type of quantities (e.g. orders of the same 
+    product, price of the same product, revenue from the same company) without needing to label them.  So the 
+    natural question is, do we need to write the variable name if we already know which variable is associated 
+    with which column in our "stacked" representation of the equations?  The answer is a resounding, no!  So 
+    let's consider what would happen if we were to forego the writing of the variable names.
+  </p>
+  
+  
+</subsubsection>
+
+<subsubsection xml:id="stripping-variables">
+  <title>Augmented Matrices and Stripping Away Variable Names</title>
+  <p>
+    When we look at the general structure we have been using for our equations in the Guassian elimination 
+    process, we wanted our equations to be of the form, <m>5x_1+3x_2+2x_3=-7</m>, where the variables are 
+    all on the left side of the equation and the right side contains only a numerical value.  If we assume this 
+    structure for our equations, we can define them in the following way.
+  </p>
+
+  <definition xml:id="def-linear-equations">
+    <statement>
+      <p>
+        A <term>linear equation</term> in the variables, <m>x_1, x_2, x_3, \ldots, x_n</m> may be written in 
+        the form <m>a_1x_1+a_2x_2+a_3x_3+\cdots+a_nx_n=b</m> where the real numbers represented by 
+        <m>a_1,a_2,\ldots,a_n</m> are called <term>coefficients</term> and <m>b</m> is a constant real number.
+      </p>
+      <p>
+        When we have several such equations that share common variables, we say that it is a 
+        <term>system of linear equations</term> or, more simply, a <term>linear system</term>.
+      </p>
+    </statement>
+  </definition>
+  
+  <p>
+    Recall from <xref ref="sec11-model-moving-worlds"/>, we began by looking at systems of equations from 
+    the standpoint of transformations.
+  </p>
+  <me>
+    \begin{bmatrix}
+    14\amp 9\amp 34\amp 41\\
+    32\amp 7\amp 12\amp 52\\
+    21\amp 8\amp 5\amp 23
+    \end{bmatrix}
+
+    \begin{bmatrix}
+    p_1\\p_2\\p_3\\p_4
+    \end{bmatrix} = 
+    \begin{bmatrix}
+    r_1\\r_2\\r_3
+    \end{bmatrix}
+    \Rightarrow
+    \begin{array} 3
+      14\cdot p_1 + 9\cdot p_2 + 34\cdot p_3 + 41\cdot p_4 =r_1 \\
+      32\cdot p_1 + 7\cdot p_2 + 12\cdot p_3 + 52\cdot p_4 =r_2 \\
+      21\cdot p_1 + 8\cdot p_2 + 5\cdot p_3 + 23\cdot p_4 =r_3
+    \end{array}
+  </me>
+  <p>
+    Here we are separating out the variable names into a single vector and the <em>coefficients</em> are 
+    isolated into a matrix.  If you wanted to give a name to this matrix, you might call it...you guessed it, 
+    a <term>coefficient matrix</term>.
+  </p>
+  <p>
+    <activity xml:id="convert-equations-matrix-trans">
+      <title>From Equations to Matrix Transformation</title>
+      <introduction>
+        <p>
+          Consider the following system of equations.
+        </p>
+        <p>
+          <me>
+            \begin{array} 3
+            x_1-2x_2+x_3=5 \\
+            2x_1+3x_2-2x_3=-17 \\
+            3x_1+4x_2+x_3=-5
+            \end{array}
+          </me>
+        </p>
+      </introduction>
+      <task>
+        <statement>
+          <p>
+            Express this system of equations as a <em>coefficient matrix</em> multiplied by a <m>3\times1</m> 
+            vector that is equal to another <m>3\times1</m> vector.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Use your <term>System of Equations</term> command on your CAS to solve this system for 
+            <m>x_1</m>, <m>x_2</m>, and <m>x_3</m>.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Use the solutions you found in part (b) to show that the matrix-vector equation you created in 
+            part (a) is true by multiplying your coefficient matrix by the vector made up of the components 
+            from your solutions.
+          </p>
+        </statement>
+      </task>
+      
+      
+    </activity>
+  </p>
+
+  <p>
+    In the last activity, you took a system of equations and converted it into a coefficient matrix, a 
+    vector whose components represented the variables, and another vector whose components represented the 
+    values from the right-hand side of the equations.  From Chapter 1, we viewed these equations as transformations 
+    and in this section we used Gaussian elimination to find solutions for the variables in the equations (see 
+    <xref ref="find-scalars" /> and <xref ref="solve-3by3-system"/>).  
+    So how are these connected?  Think back to our use of Gaussian elimination.  What did we really 
+    manipulate?  We kept the variables aligned for convenience and multiplied entire equations by scalar values 
+    and from time to time added equations together.  However, the only things we really changed in the process 
+    were the <em>values</em> of the coefficients (the very things that become isloated in the coefficient 
+    matrix in our transformation version of the equations).  So the natural question is, why do we waste our 
+    time writing down the variable names if we are just going to keep them aligned anyway.  Instead, why 
+    don't we simply work with the numerical values of the coefficients?
+  </p>
+  <p>
+    To enable us to more easily work with the solution process, we can tweak our <em>coefficient matrix</em> 
+    just a bit, so that the numerical values from the right-hand side of our equations (which do change as we 
+    manipilate) are also included.  We can simply <em>augment</em> our coefficient matrix with these values.  
+    Consider the system of equations given below.  We can use the processes of scaling equations and adding them 
+    together like in <xref ref="convert-equations-matrix-trans" /> to try and simplify the system to find 
+    solutions.
+  </p>
+  <p>
+    <me>
+      \begin{array} 3
+      x_1 + 2x_2 + 4x_3 =5 \\
+      4x_1 + 5x_2 + 4x_3 =2 \\
+      2x_1 + 4x_2 + 5x_3 =4
+      \end{array}
+    </me>
+  </p>
+  <p>
+    In this case we can create the coefficient matrix and then <term>augment</term> it with an additional 
+    column containing the values from the right-hand side of the equations.  In this case we get 
+  </p>
+  <p>
+    <me>
+      \left[
+      \begin{array}{ccc|c}
+      1 \amp 2 \amp 4 \amp 5 \\
+      4 \amp 5 \amp 4 \amp 2 \\
+      2 \amp 4 \amp 5 \amp 4
+      \end{array}
+      \right]
+    </me>
+  </p>
+  <p>
+    Once we have reduced the equations to an <term>augmented matrix</term> with the coefficients on the left 
+    side of the bar and the numerical values from the right side of the equations on the right side of the bar, 
+    we can use the process we used earlier to operate on the matrix and reduce it to a simplified form.  
+    Recall that before, we wanted to eliminate variables so that we could get an equation with just one variable 
+    in it.  Here we will do the same, but instead, we wish to manipulate the matrix so that we have entries that 
+    are zero in locations (this is like eliminating the variable from that particular equation).  Note that the 
+    rows represent equations and the columns represent the variables, <m>x_1</m>, <m>x_2</m>, and <m>x_3</m>, 
+    respectively.
+  </p>
+  <p>
+    Suppose we want to eliminate the variable, <m>x_1</m>, from the second row (equation).  As we did 
+    earlier, we can multiply the first row (equation) by <m>-4</m> and add it to the second row and use the 
+    new resulting row (equation) to replace the old version of the second row.  This would give us the 
+    following.
+  </p>
+  <p>
+    <me>
+      \left[
+      \begin{array}{ccc|c}
+      1 \amp 2 \amp 4 \amp 5 \\
+      4 \amp 5 \amp 4 \amp 2 \\
+      2 \amp 4 \amp 5 \amp 4
+      \end{array}
+      \right]
+      \overset{-4R_1+R_2 \rightarrow R_2}{\longrightarrow}
+      \left[
+      \begin{array}{ccc|c}
+      1 \amp 2 \amp 4 \amp 5 \\
+      0 \amp -3 \amp -12 \amp -18 \\
+      2 \amp 4 \amp 5 \amp 4
+      \end{array}
+      \right]
+    </me>
+  </p>
+  <p>
+    This can also be done step-by-step on most basic graphing calculators.  In this case, the first entry in the 
+    <m>\mathbf{mRowAdd}</m> command is the scalar (-4), followed by the matrix, then the row that is being 
+    scaled (row 1), and finally the row that is being added to and thus <m>\mathbf{replaced}</m> (row 3).
+  </p>
+  <p>
+    <image source="images/nspire-system-stage1.png" width="50%">
+      <shortdescription>Using CAS Stage 1</shortdescription>
+    </image>
+  </p>
+  <p>
+    Now we can do the same thing for the third row multiplying Row 1 by <m>-2</m> and adding it to Row 3 and 
+    replacing Row 3 with the result.
+  </p>
+  <p>
+    <me>
+      \left[
+      \begin{array}{ccc|c}
+      1 \amp 2 \amp 4 \amp 5 \\
+      0 \amp -3 \amp -12 \amp -18 \\
+      2 \amp 4 \amp 5 \amp 4
+      \end{array}
+      \right]
+      \overset{-2R_1+R_3 \rightarrow R_3}{\longrightarrow}
+      \left[
+      \begin{array}{ccc|c}
+      1 \amp 2 \amp 4 \amp 5 \\
+      0 \amp -3 \amp -12 \amp -18 \\
+      0 \amp 0 \amp -3 \amp -6
+      \end{array}
+      \right]
+    </me>
+  </p>
+  <p>
+    <image source="images/nspire-system-stage2.png" width="50%">
+      <shortdescription>Using CAS Stage 1</shortdescription>
+    </image>
+  </p>
+  <p>
+    At this point, we can begin to back-solve since the last row represents an equation that contains only 
+    the variable <m>x_3</m>.  Once we have this value, we can use it in <m>R_2</m> since it now has entries 
+    representing <m>x_2</m> and <m>x_3</m> and inserting our value for <m>x_3</m> leaves just <m>x_2</m>.  
+    Finally, we then use the values we have obtained for <m>x_2</m> and <m>x_3</m> in the first row to get 
+    our value for <m>x_1</m>.
+  </p>
+    
+  <p>
+    From this version of the augmented matrix, we can see that <m>-3x_3=-6</m> and so <m>x_3=2</m>.  As a result, 
+    we can see that <m>-3x_2-12\cdot2=-18</m> and so <m>x_2+4\cdot2=6 \Rightarrow x_2=6-8=-2</m>.  Using the 
+    first row with these values gives us  <m>x_1+2\cdot-2+4\cdot2=5 \Rightarrow x_1-4+8=5</m>.  This results 
+    in <m>x_1=5+4-8=1</m>.
+  </p>
+
+  <p>
+    The fact that our matrix has zeros in the lower left that enable us to easily 
+    back-solve means that this kind of matrix is special and thus deserves a special name.  We refer to this 
+    structure of a matrix as <term>upper triangular</term> since the nonzero values of the coefficient matrix 
+    portion of the augmented matrix form a triangle.
+  </p>
+
+  <p>
+    If we want, we could make our back-solving easier by scaling the last two rows.  If we multiply both 
+    the second and third rows by <m>-\frac{1}{3}</m>, we get 
+  </p>
+  <p>
+    <me>
+    \left[
+      \begin{array}{ccc|c}
+      1 \amp 2 \amp 4 \amp 5 \\
+      0 \amp 1 \amp 4 \amp 6 \\
+      0 \amp 0 \amp 1 \amp 2
+      \end{array}
+      \right]
+    </me>
+  </p>
+  <p>
+    Here the <m>\mathbf{mRow}</m> command first takes the scalar, followed by the matrix and then the row that 
+    is being scaled.
+  </p>
+  <p>
+    <sidebyside width="45%">
+      <image source="images/nspire-system-stage3.png">
+      </image>
+      <image source="images/nspire-system-stage4.png">
+      </image>
+    </sidebyside>
+  </p>
+  <p>
+    From this version of the augmented matrix, we can more easily see that <m>x_3=2</m>.  As a result, we can see 
+    that <m>x_2+4\cdot2=6</m> and so <m>x_2=6-8=-2</m>.  Using the first row with these values gives us 
+    <m>x_1+2\cdot-2+4\cdot2=5 \Rightarrow x_1-4+8=5</m>.  This results in <m>x_1=1</m>.  
+  </p>
+  <p>
+    You may notice that we can continue to use these manipulation processes to further reduce this matrix so 
+    that the "back-solve" process will be even easier.  For example, wouldn't it be great if we could get the 
+    matrix into the form
+    <me>
+      \left[
+        \begin{array}{ccc|c}
+        1 \amp 0 \amp 0 \amp 1 \\
+        0 \amp 1 \amp 0 \amp -2 \\
+        0 \amp 0 \amp 1 \amp 2
+        \end{array}
+        \right]
+      </me>
+      where we can easily read off the solutions since each row has a 1 in the position of a different variable 
+      and zeros everywhere else (i.e. no other substitutions to make)?  We will address this later in this section.
+  </p>
+
+  <p>
+    <activity xml:id="system-solve-upper-triangular">
+      <introduction>
+        <p>
+          Consider the following system of equations.
+          <me>
+            \begin{array} 3
+            x_1 + x_2 + 2x_3 =7 \\
+            2x_1 - x_2 + x_3 =5 \\
+            4x_1 - 2x_2 + 3x_3 =12
+            \end{array}
+          </me>
+        </p>
+      </introduction>
+      <task>
+        <statement>
+          <p>
+            Convert the system of equations into an augmented matrix.
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Use Gaussian Elimination to reduce your augmented matrix to one that is in upper triangular form.  
+            Be sure to indicate your process at each stage by using notation such as 
+            <m>\overset{5R_1+R_3 \rightarrow R_3}{\longrightarrow}</m> or 
+            <m>\overset{R_1 \leftrightarrow R_3}{\longrightarrow}</m>.  Feel free to use technology 
+            (e.g. <m>\mathbf{mRowAdd}</m> command) to perform the arithmetic, but make sure to show your 
+            stages in the reduction process.
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            After you have solved for one of the values of the unknowns, back-solve to find the remaining unknown 
+            values.
+          </p>
+        </statement>
+      </task>
+    </activity>
+  </p>
+
+  <p>
+    Now that we have converted a system of equations to augmented matrix form and then used the process of 
+    Gaussian elimination to reduce the system and find solutions, we might ask the question, will we always be 
+    able to reduce the matrix to a nice upper triangular form where back-solving to obtain a unique solution 
+    is possible?  As you will recall from <xref ref="proj-linear-comb-project" />, not all linear combinations of 
+    vectors (and thus systems) end with a unique solution.  This means that it will not always be able to find 
+    a unique solution to a given system of equations and thus get a nice upper triangular matrix.  In the next 
+    section, we will examine how we can use the form of a matrix for linear systems to determine whether or not 
+    the solution(s) is (are) unique, infinite, or non-existent by simplying looking at a reduced version of 
+    the matrix.
+  </p>
+  
+
+  
+</subsubsection>
+
+
+  
+</subsection>
 
 </section>
