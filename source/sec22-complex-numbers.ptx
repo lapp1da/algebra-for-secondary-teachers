@@ -18,10 +18,32 @@
     </p>
 
     <p>
-      However, there was still a search for a solution to the general cubic, <m>ax^3+bx^2+cx+d=0</m>.  At the 
-      time, the solution to some forms of the cubic had been found.  For example, if a cubic was in the form, 
-      <m>x^3+mx=n</m>, where the squared term was not present, Ferro had found a way to solve it by "depressing" 
-      the quadratic, but the general cubic was still out of reach.
+      In 1494, Luca Picioli published is volume, <em>Summa de Arithmetica</em>, where he examined linear and 
+      quadratic equations.  However, there was still a search for a solution to the general cubic, 
+      <m>ax^3+bx^2+cx+d=0</m>.  At the time, the solution to some forms of the cubic had been found.  For 
+      example, Scipione del Ferro had found a way to solve the "depressed" cubic (meaning one without the squared 
+      term) of the form, <m>x^3+mx=n</m>, but the general cubic was still out of reach and Picioli did not have 
+      high hopes that a solution to the general cubic could be found.  In his work, Picioli began to 
+      experiment with more symbolic notation using the symbol, <em>co</em>, to denote a variable (here <em>co</em>
+      was short for <em>cosa</em>, Italian for "thing" or "thing to be found"), and was a leap forward in 
+      compressing notation so that ideas could be expressed in a smaller visual space reducing the number of 
+      words used in formalizing mathematical arguments.  We will address the importance of compressed expressions 
+      with respect to Kaput, Blanton, and Moreno's (2008) model for the development of symbolic meaning later, 
+      but for now, it suffices to say, mathematics was on the verge of significant advancement.  
+    </p>
+
+    <p>
+      Scipione del Ferro had kept his discovery for finding a solution to <m>x^3+mx=n</m> a secret as was often the 
+      practice of the time, since academic appointments were not very secure and mathematicians could be 
+      "dethroned" from their positions by being challenged.  Upon his death, he passed his solution to his student, 
+      Antonio Fior.  Now Fior was not nearly as good of a mathematician as del Ferro, but was a bit more brash.  
+    </p>
+
+    <p>
+      As with many mathematical advancements, we often begin by taking something we do not know how to solve and 
+      turning it into something we do know how to solve.  So, how to we take the general cubic, 
+      <m>ax^3+bx^2+cx+d=0</m>, and turn it into <m>x^3+mx=n</m> that del Ferro had already solved?  In other 
+      words, how do we "depress" the cubic?
     </p>
 
     <p>
