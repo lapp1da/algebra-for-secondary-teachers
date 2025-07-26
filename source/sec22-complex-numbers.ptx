@@ -124,8 +124,121 @@
     </p>
 
     <p>
-      <activity xml:id="coreplus-">
+      <activity xml:id="coreplus-impersonate-intro">
+        <introduction>
+          <p>
+            To start, examine the <em>On Your Own</em> problem at the end of <em>Investigation 1</em>, from the 
+            fourth year text of <em>Contemporary Mathematics in Context: A Unified Approach</em> found on page 
+            385 of book 4B.  It is restated below for your convenience in 
+            <xref ref="fig-core-plus-on-your-own-1"/>.
+          </p>
+
+          <p>
+            <figure xml:id="fig-core-plus-on-your-own-1">
+            <caption>Core Plus <em>On Your Own</em> Item, Book 4B, p. 385</caption>
+            <image source="images/core-plus-on-your-own-1.png" width="90%"/>
+            </figure>
+          </p>
+
+          <p>
+            In addition, there is a companion question at the end of Lesson 2 on <em>Polynomials and Factoring</em> 
+            found on page 402 (see <xref ref="fig-core-plus-on-your-own-2"/> ).  This question states:
+          </p>
+
+          <p>
+            <figure xml:id="fig-core-plus-on-your-own-2">
+            <caption>Core Plus <em>On Your Own</em> Item, Book 4B, p. 402</caption>
+            <image source="images/core-plus-on-your-own-2.png" width="90%"/>
+            </figure>
+          </p>
+
+          
+        </introduction>
+
+        <task>
+          <statement>
+            <p>
+              Give responses to the following questions before discussing them within your group.  After you 
+              have provided individual responses to the questions, spend approximately 15 minutes discussing your 
+              answers within your group and record any changes or modifications to your original responses 
+              on your whiteboards along with brief elaborations on why you may or may not have modified your 
+              responses.
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              What do you consider to be the relevant mathematical concepts involved in the exploration?
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              Describe how you think content from each of the undergraduate courses (Calculus, Linear Algebra, 
+              and Discrete Mathematics) might be relevant to this investigation.
+            </p>
+          </statement>
+        </task>
         
+      </activity>
+    </p>
+
+    <p>
+      <activity xml:id="coreplus-impersonate-jan-class">
+        <introduction>
+         
+        <p>
+          Now that you have started to reflect on the mathematics and pedagogy present in these explorations, 
+          consider the following classroom situation where a teacher (Jan) is questioned by her students.
+        </p>
+
+        <p>
+          Jan has been teaching polynomials and factoring out of Lesson 2 of the <em>Contemporary Mathematics in 
+            Context: A Unified Approach (Core-Plus)</em> curriculum.  She assigned students to work on the 
+            “On Your Own” question found on page 385 of book 4B as well as the “Extending” questions found on 
+            pages 402-403 (see <xref ref="fig-core-plus-on-your-own-1"/> and 
+            <xref ref="fig-core-plus-on-your-own-2"/>).  During the next class period, she facilitated a 
+            discussion of the homework assignment.  Within the discussion, Jeff asked, “I was able to do the 
+            error function graphs and I understand that the longer the polynomial, the closer we get to matching 
+            the sine function, but how did they come up with those polynomial functions?  They all have weird 
+            coefficients and stuff.”
+        </p>
+
+        </introduction>
+
+        <task>
+          <statement>
+            <p>
+              Explain how you would respond to Jeff's question.  Keep in mind that Jeff is in his fourth year 
+              of high school mathematics and has been exposed to the concept of derivative earlier in book 4A.
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              When we describe the shape and behavior of various functions, we often pay attention to features 
+              such as zeros, y-intercepts, slope, intervals of increasing/decreasing, concavity, etc.  Of these 
+              features, which do you consider to be the most relevant to Jeff's question?
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              Describe what type of investigation you might give your students to help them discover the 
+              strategy for constructing appropriate polynomials that imitate the sine function.  Be very specific 
+              and include actual questions you would give the students for investigation.
+            </p>
+          </statement>
+        </task>
+
       </activity>
     </p>
 
