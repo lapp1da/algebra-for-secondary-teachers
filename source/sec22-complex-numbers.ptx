@@ -37,15 +37,56 @@
       practice of the time, since academic appointments were not very secure and mathematicians could be 
       "dethroned" from their positions by being challenged.  Upon his death, he passed his solution to his student, 
       Antonio Fior.  Now Fior was not nearly as good of a mathematician as del Ferro, but was a bit more brash.  
+      Fior began challenging mathematicians since he knew all he had to do was give them depressed cubics that 
+      only he alone knew how to solve and he would be the victor.  As fate would have it, Fior chose to 
+      challenge the Brescian scholar, Niccolo Fontana.  Now Fontana was a brilliant mathematician, but was 
+      disfigured by the sword of a French soldier as a child and his deformity caused him to speak with a 
+      stammer.  He was therefore more commonly known by the cruel epithet, Tartaglia (The Stammerer).  Well, 
+      Tartaglia began to attack Fior's challenge of 30 depressed cubics, but had not made much progress.  As the 
+      time to submit his final solutions approached, on February 13, 1535, he had a breakthrough and discovered 
+      the solution to the depressed cubic, <m>x^3+mx=n</m>, defeating his challenger.
     </p>
 
     <p>
-      As with many mathematical advancements, we often begin by taking something we do not know how to solve and 
-      turning it into something we do know how to solve.  So, how to we take the general cubic, 
-      <m>ax^3+bx^2+cx+d=0</m>, and turn it into <m>x^3+mx=n</m> that del Ferro had already solved?  In other 
-      words, how do we "depress" the cubic?
+      Now that Tartaglia had mastered the depressed cubic, another brilliant mathematician, Gerolamo Cardano, 
+      sought an audience with Tartaglia in hopes of learning the solution to the depressed cubic.  Tartaglia 
+      refused to reveal his secret, but after many other attempts at persuasion, Tartaglia finally relented with 
+      the caveat that Cardano would not reveal or publish the solution.  Cardano gladly accepted the terms.
     </p>
 
+    <p>
+      Enter the young 20-year-old mathematician, Ludovico Ferrari.  Ferrari approached Cardano asking for work and 
+      they soon forged a partnership.  With their collaboration, Cardano found a way to depress the general 
+      cubic, <m>ax^3+bx^2+cx+d=0</m>, into one of the form, <m>x^3+mx=n</m>.  However, Cardano's dilemma was 
+      that in order to publish his solution to the general cubic, he would then need to use Tartaglia's solution 
+      for the depressed cubic and he had vowed not to reveal it.
+    </p>
+
+    <p>
+      Stymied by his moral dilemma, in 1543, Cardano and Ferrari went to Bologna to explore the works of 
+      del Ferro.  To their surprise, they found that del Ferro had actually written down his original solution 
+      to the depressed cubic, prior to Tartaglia discovering it.  Since they could now state that they got the 
+      solution to the depressed cubic from del Ferro and not Tartaglia, they were now free to publish the 
+      solution to the general cubic.  When his work, <em>Ars Magna</em> was published, it was earth shattering 
+      news to the mathematical community.
+    </p>
+
+    <p>
+      So now you are wondering how is this historical trip relevant to complex numbers?  As it turns out, using 
+      Cardano's process for finding solutions to the general cubic, at stages of the process, the pesky number, 
+      <m>\sqrt{-1}</m>, shows up.  However, when continuing the process, it we can have the <m>\sqrt{-1}</m> 
+      be resolved by squaring and thus obtain <em>real</em> solutions in the end.  So in order to obtain 
+      real solutions to the general cubic, mathematicians had to "tip-toe" through the imaginary, 
+      <m>i=\sqrt{-1}</m>, and this was uncomfortable.  With the quadratic formula, we could just ignore the 
+      messy <m>\sqrt{-1}</m> since those solutions weren't real anyway, but here, we have to put up with 
+      <m>\sqrt{-1}</m> to arrive at real solutions.  Mathematicians could no longer simply turn a blind eye, 
+      but had to face that such numbers must exist.
+    </p>
+
+  </introduction>
+
+  <subsection xml:id="subsec-complex-ccss">
+    <title>Complex Numbers and the Common Core State Standards</title>
     <p>
       The secondary school curriculum includes the teaching of complex numbers even though some aspects of this 
       are not required for all students graduating from high school.  Note that the Common Core State 
@@ -63,9 +104,27 @@
       </figure>
     </p>
 
-  </introduction>
-  <p> 
+    <p>
+      One of the important skills as a teacher is the ability to take specific curriculum and modify or add to 
+      it to make connections for your students.  In this section, we will spend some time examining the 
+      structure of a specific set of curriculum materials and reflect on how you might make classroom decisions 
+      to take advantage of connected mathematics content in light of your own understanding of the mathematics 
+      you learned as an undergraduate.  In this case we will use the secondary curriculum <em>Contemporary 
+        Mathematics in Context: A Unified Approach (Core-Plus)</em> as a springboard for discussion.
+    </p>
 
-  </p>
+    <p>
+      “When will I ever teach this?”  You most likely have uttered this statement while taking undergraduate 
+      mathematics courses as part of your teacher preparation program.  The purpose of this section is to 
+      highlight examples of where the secondary mathematics curriculum and the undergraduate mathematics 
+      curriculum are inextricably connected.  To begin this discussion, we may want to brush up on some 
+      mathematical ideas on which a teacher tasked with teaching complex numbers may rely.  The Core-Plus 
+      curriculum is counting on connections and is designed to take advantage of a variety of mathematical 
+      concepts as the complex number system is explored.
+    </p>
+
+
+  </subsection>
+   
 
 </section>
