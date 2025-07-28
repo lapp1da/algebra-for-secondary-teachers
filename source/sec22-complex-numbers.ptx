@@ -287,6 +287,64 @@
             </p>
           </statement>
         </task>
+
+        <task>
+          <statement>
+            <p>
+              Now that you have created a line that looks similar to <m>y=e^x</m> near <m>x=0</m>, graph it 
+              along with <m>y=e^x</m> on the same window.  Zoom out and give an approximation of the interval 
+              about <m>x=0</m> where your line is a “fairly close” imitation of <m>y=e^x</m>.
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              Suppose you want to imitate <m>y=e^x</m> within a larger interval.  Since <m>y=e^x</m> is not 
+              linear, we need a function that curves so that it will “hug” the graph of <m>y=e^x</m> through a 
+              larger interval.  Since quadratics are curved, experiment with your linear function from part (a) 
+              by adding on a term of the form <m>ax^2</m>.  Record your choices for <m>a</m> along with sketches 
+              of your new quadratic function and <m>y=e^x</m> on the same axes.  Give your final choice of 
+              quadratic function of the form <m>ax^2+bx+c</m> that best imitates <m>y=e^x</m> near <m>x=0</m>.
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              You have now been able to extend the size of the interval where <m>y=e^x</m> can be imitated by a 
+              polynomial by adding on a higher degree polynomial term.  Can this continue?  Take the quadratic 
+              function you have developed in part (c) and try to extend the interval of imitation further by 
+              adding on a third-degree term and experimenting with its coefficient. Give your final choice of 
+              cubic function of the form <m>ax^3+bx^2+cx+d</m> that best imitates <m>y=e^x</m> near <m>x=0</m> 
+              and sketch your graph of <m>y=e^x</m> along with your cubic.
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              The polynomials you have created to imitate the function <m>y=e^x</m> are called Taylor polynomials 
+              named for the mathematician, Brook Taylor.  To understand why these particular coefficients work 
+              for imitating this function (as Jeff in vignette was asking), let's look at one other function 
+              (<m>f\left(x\right)=\sin\left(x\right)</m>) and imitate it using a built-in command on your CAS.  
+              On most CAS, the <m>\mathbf{Taylor}</m> command has similar syntax.  On Maple, we use 
+              <m>\mathbf{taylorpoly(sin(x), x=0, 7)}</m>; to get a seventh degree polynomial that mimics
+              <m>f\left(x\right)=\sin\left(x\right)</m> near zero.  On a TI-Nspire CX CAS, the syntax is 
+              <m>\mathbf{taylor(sin(x), x, 7, 0)}</m> where the 0 at the end is the point near where you want to 
+              imitate the function and the <m>x</m> is the variable you would like used in the polynomial (if 
+              you omit the value about which you want to imitate the function, it assumes a value of 0).  On the 
+              TI-Nspire CX CAS you can find the <m>\mathbf{Taylor}</m> command under the <m>\mathbf{Series}</m> 
+              submenu of the <m>\mathbf{Calculus}</m> menu.
+            </p>
+            <p>
+              
+            </p>
+          </statement>
+        </task>
       </activity>
     </p>
 
