@@ -341,7 +341,112 @@
               submenu of the <m>\mathbf{Calculus}</m> menu.
             </p>
             <p>
-              
+              Use your CAS's Taylor command to generate 1st, 3rd, 5th, 7th, and 9th degree Taylor polynomials for 
+              <m>f\left(x\right)=\sin\left(x\right)</m> and record them in a table like the one in 
+              <xref ref="fig-taylor-poly-table"/>.  
+              Graph all of these along with <m>y=\sin\left(x\right)</m> on the same axes.
+            </p>
+
+            <p>
+              <figure xml:id="fig-taylor-poly-table">
+              <caption>Odd Degree Polynomials for <m>f\left(x\right)=\sin\left(x\right)</m></caption>
+              <image source="images/taylor-poly-table.png" width="90%"/>
+              </figure>
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              Now in order to understand why these particular polynomials work, let's examine the 
+              9th degree polynomial that you have found.  As you learned in Calculus 1, we can infer information 
+              about the “shape” of a graph by looking at the derivative.  More specific, the first derivative 
+              tells us the slope of the function at a given point, the second derivative tells us the rate at 
+              which the slope is changing, the third derivative tells us the rate at which the rate of the slope 
+              is changing and so on.  With each higher order derivative, we gain more information about the 
+              “shape” of the graph and its behavior.  This is the idea behind Taylor polynomials.
+            </p>
+            <p>
+              To explore this relationship, complete the following table where you evaluate the <m>n^{th}</m> 
+              derivatives of both your polynomial and <m>f\left(x\right)=\sin\left(x\right)</m> at <m>x=0</m>.  
+              Record them in a table like the one in <xref ref="fig-taylor-poly-derivatives-sin-table"/> and 
+              state your observations related to your results.
+            </p>
+            <p>
+              <figure xml:id="fig-taylor-poly-derivatives-sin-table">
+              <caption>Odd Degree Polynomials for <m>f\left(x\right)=\sin\left(x\right)</m></caption>
+              <image source="images/taylor-poly-derivatives-sin-table.png" width="90%"/>
+              </figure>
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              Now find the 8th degree Taylor polynomial for <m>f\left(x\right)=\cos\left(x\right)</m> using your 
+              CAS's Taylor command.  Repeat what you did in part (f).  Record your results in a table like the 
+              one in <xref ref="fig-taylor-poly-derivatives-cos-table"/> and state your observations related to 
+              your results.
+            </p>
+
+            <p>
+              <figure xml:id="fig-taylor-poly-derivatives-cos-table">
+              <caption>Odd Degree Polynomials for <m>f\left(x\right)=\sin\left(x\right)</m></caption>
+              <image source="images/taylor-poly-derivatives-cos-table.png" width="90%"/>
+              </figure>
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              Using your observations from parts (f) and (g), state a conjecture about the <m>n^{th}</m> 
+              derivative of a Taylor polynomial and the <m>n^{th}</m> derivative of the function it is imitating.  
+              Then test your conjecture with the 3rd degree Taylor polynomial for <m>e^x</m> you found earlier.
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              In the special case of <m>e^x</m> near zero, use your Taylor command to generate polynomials of 
+              degree 5, 6, 7, and 8 for <m>f\left(x\right)=e^x</m>.  Describe the pattern you see for the general 
+              <m>n^{th}</m> degree Taylor polynomial for <m>f\left(x\right)=e^x</m>.
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              Recall from Calculus 1, <m>\frac{d^n}{dx^n}\left(e^x\right)=e^x</m> for <m>n \in \mathbb{Z}^{+}</m>.  
+              Explain how this fact is related to your results from the <m>n^{th}</m> derivative of your general 
+              Taylor polynomial for <m>e^x</m>.
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              The fact that we can create polynomials to imitate the functions <m>e^x</m>, 
+              <m>\sin\left(x\right)</m>, and <m>\cos\left(x\right)</m> is extremely important from a practical 
+              sense.  Have you ever wondered how your calculator knows the value of something like 
+              <m>\sin\left(0.7\right)</m>?  The operations of addition, subtraction, multiplication, and division 
+              are basic algorithms that exist as routines in any computer or calculator (note that exponents can 
+              be accomplished using repeated multiplication).  If we wish to know <m>\sin\left(0.7\right)</m>, 
+              the machine can simply create a finite polynomial that imitates the sine function to the desired 
+              decimal accuracy and then compute it using these basic binary operations that make up the polynomial.
+            </p>
+            <p>
+              Now suppose you have only a non-scientific calculator (without sine, cosine, and tangent keys) and 
+              need to evaluate <m>\sin\left(1.78\right)</m> where the argument for sine is in radians.  Explain 
+              how you could accomplish it?  What about <m>\cos\left(1.78\right)</m>?  What about 
+              <m>\tan\left(1.78\right)</m>?
             </p>
           </statement>
         </task>
