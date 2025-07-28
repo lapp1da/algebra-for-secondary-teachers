@@ -124,7 +124,7 @@
     </p>
 
     <p>
-      <activity xml:id="coreplus-impersonate-intro">
+      <activity xml:id="act-coreplus-impersonate-intro">
         <introduction>
           <p>
             To start, examine the <em>On Your Own</em> problem at the end of <em>Investigation 1</em>, from the 
@@ -183,7 +183,8 @@
     </p>
 
     <p>
-      <activity xml:id="coreplus-impersonate-jan-class">
+      <activity xml:id="act-coreplus-impersonate-jan-class">
+        <title>Jan's Class and Jeff's Question</title>
         <introduction>
          
         <p>
@@ -450,6 +451,67 @@
             </p>
           </statement>
         </task>
+      </activity>
+    </p>
+
+    <p>
+      Many who begin a teacher preparation program often have a misconception that since they have experienced 
+      mathematical content as a learner, teaching it simply consists of telling students what you have already 
+      learned yourself.  As I was preparing to be a teacher, this was also my naïve position.  When I first 
+      started to prepare lessons and act them out with my peers, I soon realized that I had not really 
+      internalized the mathematics deeply enough to respond to interesting questions posed by my fellow 
+      pre-service teachers.  But I would just dismiss it at first by justifying it as, "these are my peers, so 
+      that's not such a big deal.  I am going to teach high school students, not my peers who were already in 
+      undergraduate courses with me".  However, observing both in field placements and videos of actual classrooms, 
+      I saw high school students asking really interesting questions for which I had no reasonable response.  
+      In my field placements, typically the teacher would skirt the issue and tell the student to just follow 
+      the steps they had been shown leaving the students frustrated.
+    </p>
+    <p>
+      As time went on, I began to realize that the reason the teacher avoided these questions was because, 
+      like me, they did not fully grasp the mathematics that they were teaching.  This expereince motivated me 
+      to try to do more than memorize the procedures I was being taught, but rather to connect ideas.  This 
+      actually helped me to reduce what I needed to commit to memory since I could retrieve information better 
+      once it was connected to other concepts.  For this reason, we should now reflect on our mathematical 
+      experience and connect it to your earlier responses to Jeff's question in the classroom scenario.
+    </p>
+
+    <p>
+      <activity xml:id="act-coreplus-impersonate-jan-class-revisit">
+        <title>Jan's Class and Jeff's Question-Revisited</title>
+        <introduction>
+          <p>
+            Now that we have explored the concepts in <em>Impersonating Functions</em> 
+            (<xref ref="act-impersonating-functions"/>), we should revisit the classroom situation from Jan's 
+            class <xref ref="act-coreplus-impersonate-jan-class"/>.  This time, try to view the classroom 
+            exchange through the lens of undergraduate mathematics.  In particular, try to relate your 
+            experiences from <em>Impersonating Functions</em> to how you would respond as a teacher to Jeff's 
+            question.
+          </p>
+        </introduction>
+
+        <task>
+          <statement>
+            <p>
+              In light of your experience in our activity, <em>Impersonating Functions</em>, describe the central 
+              mathematical concepts involved in addressing Jeff's question.
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              Describe how your facilitation of the rest of the classroom discussion would change from how you 
+              responded earlier in <xref ref="act-coreplus-impersonate-jan-class"/> based on your experiences in 
+              <em>Impersonating Functions</em>. Give specific examples to illustrate what you would do in guiding 
+              the students and how these pedagogical choices have changed from your earlier responses.
+            </p>
+          </statement>
+        </task>
+        
+        
+        
       </activity>
     </p>
 
