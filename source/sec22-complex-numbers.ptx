@@ -245,6 +245,51 @@
       others and humor me by playing along and not squash the potential discoveries of your peers.
     </p>
 
+    <p>
+      <activity xml:id="act-impersonating-functions">
+        <title>Impersonating Functions</title>
+        
+        <introduction>
+          <p>
+            This activity explores basic concepts of algebra and calculus involved in using power series to 
+            imitate transcendental functions.  In particular, the series for <m>\sin\left(x\right)</m>,
+            <m>\cos\left(x\right)</m>, and <m>e^x</m> are investigated and connections are made with practical 
+            uses of such functions for creating computing algorithms used by calculators and computers to 
+            evaluate numerical approximations.
+          </p>
+          <p>
+            Have you ever wondered how your calculator knows what the <m>\ln\left(5\right)</m> or the 
+            <m>\sin\left(0.7\right)</m> is or how it can find decimals for numbers like <m>\sqrt{3}</m>?  Did 
+            someone program every possible square root, trig value, or logarithm into the machine?  Wouldn't 
+            that take up a tremendous amount of memory?  Well, the answer is that your calculator knows how to 
+            use basic operations like addition, subtraction, multiplication, and division to approximate these 
+            types of values to the desired decimal accuracy.  In this exploration you will first investigate how 
+            we can approximate more complicated transcendental functions using simple polynomials.  Once we 
+            establish this method for approximating functions with polynomials, we will then use it to explore 
+            a surprising connection between trigonometry and the complex number systems.
+          </p>
+
+          <p>
+            To this point we have seen that if we zoom in far enough, a function looks a great deal like a 
+            straight line.  But how does this help us impersonate more complicated functions like <m>e^x</m>?
+          </p>
+        </introduction>
+
+        <task>
+          <statement>
+            <p>
+              Graph <m>y=e^x</m> along with several possible linear functions that would look like the 
+              “linear-looking” graph of <m>y=e^x</m> when you zoom in near <m>x=0</m>.  Remember, you need the 
+              linear function to have the same slope as <m>y=e^x</m> and also have the same point in common 
+              with <m>y=e^x</m> at zero.  Record the lines you tried along with brief explanations for why you 
+              tried those particular lines.  Give your final line that you feel best imitates <m>y=e^x</m> at 
+              <m>x=0</m>.
+            </p>
+          </statement>
+        </task>
+      </activity>
+    </p>
+
     
 
 
