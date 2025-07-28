@@ -65,14 +65,14 @@
     <p>
       Stymied by his moral dilemma, in 1543, Cardano and Ferrari went to Bologna to explore the works of 
       del Ferro.  To their surprise, they found that del Ferro had actually written down his original solution 
-      to the depressed cubic, prior to Tartaglia discovering it.  Since they could now state that they got the 
-      solution to the depressed cubic from del Ferro and not Tartaglia, they were now free to publish the 
+      to the depressed cubic, prior to Tartaglia discovering it.  Since he could now state that he got the 
+      solution to the depressed cubic from del Ferro and not Tartaglia, Cardano was now free to publish the 
       solution to the general cubic.  When his work, <em>Ars Magna</em> was published, it was earth shattering 
       news to the mathematical community.
     </p>
 
     <p>
-      So now you are wondering how is this historical trip relevant to complex numbers?  As it turns out, using 
+      So now you are wondering, how is this historical trip relevant to complex numbers?  As it turns out, using 
       Cardano's process for finding solutions to the general cubic, at stages of the process, the pesky number, 
       <m>\sqrt{-1}</m>, shows up.  However, when continuing the process, it we can have the <m>\sqrt{-1}</m> 
       be resolved by squaring and thus obtain <em>real</em> solutions in the end.  So in order to obtain 
