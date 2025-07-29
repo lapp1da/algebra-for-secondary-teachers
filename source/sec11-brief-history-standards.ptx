@@ -300,6 +300,24 @@
   </figure>
   </p>
 
+  <p>
+    To illustrate the difference between these components of each level, let us consider the example given by 
+    Pirie and Kieren (1994, pp. 176-178).  Students were given the following tasks.
+  </p>
+
+  <p>
+    Consider the function <m>y=3x^2+1</m>.  Make a table of values for <m>x</m> and <m>y</m>, <m>x</m> taking 
+    values from -3 to +3.  Now draw the graph of the function.  Repeat this for the following functions: 
+    <m>y=x^2</m>, <m>y=x^2-2x</m>, <m>y=2x^2-2x</m>, <m>y=2x^2-2x-1</m>.  (Pirie and Kieren, 1994, p. 176)
+  </p>
+
+  <p>
+    If we examine the first function, we can see how the students' responses are related to their location 
+    within the model.  After the students had been given the opportunity to sketch several of the graphs, 
+    the teacher then gave a new point, <m>(-2,20)</m> to include in the graph of the first function, 
+    <m>y=3x^2+1</m>.  The students' responses help illustrate the components of the various levels.  For 
+    example, if a student simply connects the new point to the end of the existing graph as in graph (b), this student is still image doing.  Here the student is still simply following directions and not reflecting on the different graphs.  Now suppose the student eliminates the segment between  and  and then proceeds to connect the new point into the graph as shown in (c).  This student is image reviewing since they have reviewed their previous graphs and inserted the new point into a pattern that they think the graph should follow.  These two examples describe students who are in the Image Making level of the Pirie and Kieren model.
+  </p>
 
   
 </subsection>
