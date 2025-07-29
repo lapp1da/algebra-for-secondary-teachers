@@ -7,7 +7,7 @@
     <p>
       Throughout history, our number system has evolved primarily driven by necessity.  It should come as no 
       surprise that our current system (the complex numbers) was also driven by an issue with the real number 
-      system.  On of the motivators was the search for real solutions to equations, in particular, polynomial 
+      system.  One of the motivators was the search for real solutions to equations, in particular, polynomial 
       equations.  The solution to the general quadratic equation, <m>ax^2+bx+c=0</m>, had beeen established as 
       <me>
         x=\frac{-b \pm \sqrt{b^2-4ac}}{2a}
@@ -18,7 +18,7 @@
     </p>
 
     <p>
-      In 1494, Luca Picioli published is volume, <em>Summa de Arithmetica</em>, where he examined linear and 
+      In 1494, Luca Picioli published his volume, <em>Summa de Arithmetica</em>, where he examined linear and 
       quadratic equations.  However, there was still a search for a solution to the general cubic, 
       <m>ax^3+bx^2+cx+d=0</m>.  At the time, the solution to some forms of the cubic had been found.  For 
       example, Scipione del Ferro had found a way to solve the "depressed" cubic (meaning one without the squared 
