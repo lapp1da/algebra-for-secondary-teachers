@@ -316,7 +316,53 @@
     within the model.  After the students had been given the opportunity to sketch several of the graphs, 
     the teacher then gave a new point, <m>(-2,20)</m> to include in the graph of the first function, 
     <m>y=3x^2+1</m>.  The students' responses help illustrate the components of the various levels.  For 
-    example, if a student simply connects the new point to the end of the existing graph as in graph (b), this student is still image doing.  Here the student is still simply following directions and not reflecting on the different graphs.  Now suppose the student eliminates the segment between  and  and then proceeds to connect the new point into the graph as shown in (c).  This student is image reviewing since they have reviewed their previous graphs and inserted the new point into a pattern that they think the graph should follow.  These two examples describe students who are in the Image Making level of the Pirie and Kieren model.
+    example, if a student simply connects the new point to the end of the existing graph as in graph (b) in 
+    <xref ref="fig-pirie-kieren-parabola-example"/>, this student is still image doing.  Here the student is 
+    still simply following directions and not reflecting on the different graphs.  Now suppose the student 
+    eliminates the segment between <m>(-3,28)</m> and <m>(-2,13)</m> and then proceeds to connect the new point 
+    into the graph as shown in (c).  This student is image reviewing since they have reviewed their previous 
+    graphs and inserted the new point into a pattern that they think the graph should follow.  These two examples 
+    describe students who are in the <em>Image Making</em> level of the Pirie and Kieren model.
+  </p>
+
+  <p>
+  <figure xml:id="fig-pirie-kieren-parabola-example">
+    <caption>Image Making Examples (Pirie and Kieren, 1994, p. 178)</caption>
+    <image source="images/fig-pirie-kieren-parabola-example.png" width="90%"/>
+  </figure>
+  </p>
+
+  <p>
+    The <em>Image Having</em> level of the model consists of the two complementary components titled 
+    <em>Image Saying</em> and <em>Image Seeing</em>.  In relation to the previous example, a student in the 
+    <em>image seeing</em> part of the level might make statements such as, “ 'that can't be right', 'it can't 
+    go there', or who, when having joined up the new point, [say] 'that doesn't look right' ” (Pirie and Kieren, 
+    1994, p.178).  In contrast, a student in the <em>image saying</em> level might make statements like, 
+    “ 'I thought they should all be U-shaped' or 'we've already got a point for <m>x=-2</m>' ” (Pirie and Kieren, 
+    1994, p.178).  These comments help illustrate the “acting” and “expressing” components of each level.  In the 
+    <em>image seeing</em> part, the student has begun to advance their understanding through the review of the 
+    previously sketched graphs and subsequent construction of mental images for the graphs of a specific family 
+    of functions.  In the <em>image saying</em> part, the student can go beyond simply acknowledging a pattern 
+    and can also articulate why the point does not fit the image.
+  </p>
+
+  <p>
+    We have discussed the differences of the components within each of these two levels of understanding, but 
+    how are the levels themselves different?  Using the same example, consider what the learner engaged in the 
+    <em>Image Making</em> level is capable of accomplishing.  Here the student is primarily involved in 
+    activities that result in observable consequences that they must then make sense of in order to fit the 
+    observations into an existing schema.  In contrast, in the <em>Image Having</em> level, the learner can now 
+    work with the images (in this case, noting that quadratics have certain features or characteristics) without 
+    the need to conduct the same types of activities that were required in the <em>Image Making</em> level.
+  </p>
+
+  <p>
+    While Pirie and Kieren use the construct of <em>folding back</em> to explain how a student progresses 
+    through the deepening levels of understanding, this model still fails to explain the details of <em>how</em> 
+    the student connects concepts within this process so that folding back can occur.  Kaput, Blanton, and 
+    Moreno (2008) provide a model that fills this gap.  Later, we will explore how the interaction between symbol 
+    systems and the ideas they represent fuel the development of understanding and allow the folding back 
+    process to take place.
   </p>
 
   
