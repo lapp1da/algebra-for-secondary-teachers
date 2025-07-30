@@ -105,15 +105,6 @@
     </p>
 
     <p>
-      One of the important skills as a teacher is the ability to take specific curriculum and modify or add to 
-      it to make connections for your students.  In this section, we will spend some time examining the 
-      structure of a specific set of curriculum materials and reflect on how you might make classroom decisions 
-      to take advantage of connected mathematics content in light of your own understanding of the mathematics 
-      you learned as an undergraduate.  In this case we will use the secondary curriculum <em>Contemporary 
-        Mathematics in Context: A Unified Approach (Core-Plus)</em> as a springboard for discussion.
-    </p>
-
-    <p>
       “When will I ever teach this?”  You most likely have uttered this statement while taking undergraduate 
       mathematics courses as part of your teacher preparation program.  The purpose of this section is to 
       highlight examples of where the secondary mathematics curriculum and the undergraduate mathematics 
@@ -122,7 +113,10 @@
       curriculum is counting on connections and is designed to take advantage of a variety of mathematical 
       concepts as the complex number system is explored.
     </p>
+  </subsection>
 
+  <subsection xml:id="subsec-prelim-complex-connections">
+    <title>Preliminary Connections to Complex Numbers</title> 
     <p>
       <activity xml:id="act-coreplus-impersonate-intro">
         <introduction>
@@ -515,9 +509,31 @@
       </activity>
     </p>
 
-    
+  </subsection> 
 
+<subsection xml:id="subsec-complex-connections-core-plus">
+  <title>Complex Connections: Applications to the Classroom</title>
 
+  <p>
+      One of the important skills as a teacher is the ability to take specific curriculum and modify or add to 
+      it to make connections for your students.  In this section, we will spend some time examining the 
+      structure of a specific set of curriculum materials and reflect on how you might make classroom decisions 
+      to take advantage of connected mathematics content in light of your own understanding of the mathematics 
+      you learned as an undergraduate.  In this case we will use the secondary curriculum <em>Contemporary 
+        Mathematics in Context: A Unified Approach (Core-Plus)</em> as a springboard for discussion.
+  </p>
+
+  <p>
+    Recall the classroom situation presented in <xref ref="subsec-prelim-complex-connections"/>.  There, Jan 
+    had been teaching polynomials and factoring out of Lesson 2 of the <em>Contemporary Mathematics in Context: 
+    A Unified Approach (Core-Plus)</em> curriculum and she assigned homework related to the use of polynomials 
+    for imitating functions such as <m>f\left(x\right)=\sin\left(x\right)</m>.  Your task here is to explore 
+    Lesson 2 from Unit 6, Polynomials and Factoring, as well as Lesson 4 from Unit 7, and explain how making 
+    appropriate pedagogical decisions could help connect the topics involved.
+  </p>
+
+  
+  
 
   </subsection>
    
