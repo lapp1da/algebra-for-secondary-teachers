@@ -532,6 +532,165 @@
     appropriate pedagogical decisions could help connect the topics involved.
   </p>
 
+  <p>
+    <activity>
+      <introduction>
+        <p>
+          Read through the Lesson 2 from Unit 6 of the <em>Contemporary Mathematics in Context: A Unified 
+            Approach (Core-Plus)</em> curriculum, book 4B (pp. 382-405).  You will notice that the lesson is 
+            broken up into three investigations (<em>Need for Speed</em>, <em>Strategic Factors</em>, and 
+            <em>A Complex Solution)</em>.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            The overall purpose of the lesson seems to center around the idea of using polynomials in various 
+            forms to model situations and even imitate more complicated functions such as 
+            <m>f\left(x\right)=\sin\left(x\right)</m>.  Discuss in your groups why you think the investigation, 
+            <em>A Complex Solution</em>, was included in this lesson.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            As you will recall from the discussion in <xref ref="act-coreplus-impersonate-jan-class"/>, Jeff 
+            had asked a question regarding the origin of the polynomials that were being used to imitate the 
+            function <m>f\left(x\right)=\sin\left(x\right)</m>.  Also note that this occurred within Lesson 2 
+            of Unit 6.  In addition, this particular lesson also sees the first time complex numbers are 
+            introduced within the <em>Core Plus</em> curriculum.  Now that you have examined the entire lesson 
+            from this unit, explain any connections that you see between complex numbers and the use of 
+            polynomials to imitate the sine function.
+          </p>
+        </statement>
+      </task>
+      
+    </activity>
+  </p>
+
+  <p>
+    Many teachers (and the general population for that matter) often think that the text book they use "is" the 
+    curriculum.  It is important to realize that this is not the case.  For example, we have already explored 
+    the <em>Common Core State Standards</em> which is the document for many states (like Michigan) that define 
+    the curriculum.  Local school districts can expand on these standards as well giving teachers more detail 
+    for what is to be covered.  However, the text itself, is not the curriculum, but rather a tool for delivering 
+    the curriculum much like other tools such as graphing calculators or computer software are tools.  One of the 
+    tasks of a teacher is to take a curriculum that is being used and help their students connect ideas 
+    even if the curriculum does not explicitly do it.
+  </p>
+
+  <p>
+    <activity>
+      <introduction>
+        <p>
+          Read through Lesson 4 from Unit 7 of the <em>Contemporary Mathematics in Context: A Unified Approach 
+          (Core-Plus)</em> curriculum, book 4B (pp. 494-507).  In this lesson, the concepts surrounding 
+          complex numbers are expanded from their earlier introduction in Lesson 2 of Unit 6.  In particular, 
+          the trigonometric form of complex numbers, <m>r\left(\cos\theta +i\sin\theta\right)</m>, is discussed.  
+          In question 3 of the “Reflecting” section (p. 504), Euler's formula, 
+          <m>e^{i\theta}=\cos\theta +i\sin\theta</m>, is stated and the students are expected to evaluate 
+          expressions using it; however, there is no treatment of the origin of Euler's formula.  As a teacher, 
+          your job is to help students make connections between their earlier experiences in Unit 6 and their 
+          current experiences in Unit 7.
+        </p>
+
+        <p>
+          In addition, consider the following dialogue from Jan's earlier classroom situation where she is 
+          has taught (Lesson 2, Unit 6) is now teaching the content from Lesson 4 of Unit 7.  She had assigned 
+          the questions from the “Reflecting” section of Lesson 4 (pp. 504-505) as homework.  During the next 
+          class session, the following discussion occurred.
+        </p>
+
+        <p>
+          <em>Jan</em>:	How did the homework go?  Does anyone have questions?
+        </p>
+        
+        <p>
+          <em>Dan</em>:	When I got to question 3, I wasn’t sure where that <m>e</m> to the <m>i</m> theta thing 
+          came from?
+        </p>
+        
+        <p>
+          <em>Jan</em>:	Oh, that's just Euler's formula.  The mathematician Euler came up with that a long time 
+          ago.
+        </p>
+
+        <p>
+          <em>Dan</em>:	But I don't get where he got it.
+        </p>
+
+        <p>
+          <em>Liz</em>:	I had the same sort of question.  Isn't <m>e</m> a real number?
+        </p>
+
+        <p>
+          <em>Jan</em>:	Yes, it is.
+        </p>
+
+        <p>
+          <em>Liz</em>:	Then how can you raise a real number to a power and get a number that's not real?  That 
+          doesn't make sense.  Didn't we say that if you multiply any two real numbers together, we get another 
+          real number?  Like isn't <m>e^2</m> real?
+        </p>
+
+        <p>
+          <em>Jan</em>:	Yes, <m>e^2</m> is real.
+        </p>
+
+        <p>
+          <em>Liz</em>:	But if powers are just repeated multiplication, then why wouldn't <m>e</m> to any power 
+          be real?
+        </p>
+
+        <p>
+          <em>Dan</em>:	Yeah, I couldn't figure that out either.
+        </p>
+
+        <p>
+          <em>Jan</em>:	But the power in <m>e^{i\theta}</m> is not real.  So it can end up having an imaginary 
+          part.
+        </p>
+
+        <p>
+          <em>Ken</em>:	But where did Euler get this thing?  How did he figure out that 
+          <m>e^{i\theta}=\cos\theta +i\sin\theta</m>?
+        </p>
+
+        <p>
+          <em>Jan</em>:	Well you'll just have to take my word for it right now.  Euler used mathematics that you 
+          can't understand yet.  You'll need to wait until you take more math before you can start to understand 
+          that.
+        </p>
+        <p>
+          With these situations in mind, in your groups, discuss and respond to the following questions.
+        </p>
+        
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Describe any connections you see between the content of Lesson 2 of Unit 6 and Lesson 4 of Unit 7.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Discuss your reaction to Jan's response to her students.  In particular, how would you have handled 
+            the situation?  Keep in mind that just as in <xref ref="act-coreplus-impersonate-jan-class"/>, these 
+            students are in their fourth year of high school mathematics and have been exposed to the concept of 
+            derivative earlier in book 4A.
+          </p>
+        </statement>
+      </task>
+    </activity>
+  </p>
+
   
   
 
