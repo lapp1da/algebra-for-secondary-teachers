@@ -727,7 +727,7 @@
             <figure xml:id="fig-complex-situation-plane">
             <caption>Complex Plane with <m>z_1</m>, <m>z_2</m>, and <m>z_3=z_1 \cdot z_2</m></caption>
             <interactive xml:id="complex-situation-plane" platform="geogebra" width="100%" reset-icon="yes">
-            <slate xml:id="ggb-complex-situation-plane" surface="geogebra" material="ygsrpj2m" />
+            <slate xml:id="ggb-complex-situation-plane" surface="geogebra" material="ptptgrxp" />
             </interactive>
             </figure>
           </p>
