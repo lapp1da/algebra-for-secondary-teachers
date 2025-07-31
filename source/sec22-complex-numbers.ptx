@@ -718,13 +718,38 @@
             <m>e^{i\theta}=\cos\theta +i\sin\theta</m>?".  However, Jan's response of, "Well you'll just have to 
             take my word for it right now.  Euler used mathematics that you can't understand yet." may not be 
             entirely accurate.  In this activity we explore how the use of Taylor polynomials can help Ken 
-            explore a surprising connection between trigonometry and the complex number systems.
+            explore a surprising connection between trigonometry and the complex number systems.  During the next
+            activity, we will want to use the interactive sketch found in <xref ref="fig-complex-situation-plane"/> 
+            below.
+          </p>
+
+          <p>
+            <figure xml:id="fig-complex-situation-plane">
+            <caption>Complex Plane with <m>z_1</m>, <m>z_2</m>, and <m>z_3=z_1 \cdot z_2</m></caption>
+            <interactive xml:id="complex-situation-plane" platform="geogebra" width="100%" reset-icon="yes">
+            <slate xml:id="ggb-complex-situation-plane" surface="geogebra" material="xugyvskz" />
+            </interactive>
+            </figure>
           </p>
         </introduction>
 
         <task>
           <statement>
             <p>
+              Recall from <xref ref="act-impersonating-functions"/>, we noticed that we can mimick the three 
+              transcendental functions, <m>e^x</m>, <m>\sin\left(x\right)</m>, and <m>\cos\left(x\right)</m> by 
+              using the polynomials:
+              <me>
+                e^x=1+x+\frac{x^2}{2!}+\frac{x^3}{3!}+\frac{x^4}{4!}+\frac{x^5}{5!}+\frac{x^6}{6!}+\cdots
+              </me>
+              <me>
+                \sin\left(x\right)=x-\frac{x^3}{3!}+\frac{x^5}{5!}-\frac{x^7}{7!}+\cdots
+              </me>
+              <me>
+                \cos\left(x\right)=1-\frac{x^2}{2!}+\frac{x^4}{4!}-\frac{x^6}{6!}+\cdots
+              </me>
+              
+              
               
             </p>
           </statement>
