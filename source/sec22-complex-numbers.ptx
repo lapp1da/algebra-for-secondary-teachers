@@ -691,9 +691,27 @@
     </activity>
   </p>
 
-  
-  
+  </subsection>
 
+  <subsection xml:id="subsec-complex-situation">
+    <title>A Complex Situation</title>
+    <introduction>
+      <p>
+        Now that we have established how Taylor series can be used to impersonate other more complicated 
+        functions, we can look at connections to complex numbers.  The authors of the Core-Plus curriculum are 
+        counting on these connections and their materials reflect this thoughtful design.  One of the goals of 
+        an integrated curricula like Core-Plus or IMP is to impart to the students that mathematics is not 
+        simply a collection of procedures to be memorized and performed, but rather a linked web of ideas and 
+        concepts that make sense when we look at them from a holistic perspective.  To this end, we now examine 
+        how ideas from calculus, algebra, and geometry come together to give a more solid picture of complex 
+        numbers.
+      </p>
+    </introduction>
+
+    <p>
+      
+    </p>
+    
   </subsection>
    
 
