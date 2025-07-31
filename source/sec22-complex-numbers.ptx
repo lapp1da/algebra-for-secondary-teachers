@@ -817,10 +817,44 @@
               drag them around.  You are not able to drag <m>z_3</m> since it is defined as the product of 
               <m>z_1</m> and <m>z_2</m> and thus is dependent on them.  The measure of the three angles are given 
               on the left along with the magnitude for each of these complex numbers.  Consider the two complex 
-              numbers, <m>z_1=1+\sqrt{3}i</m> and <m>z_2=\frac{3\sqrt{3}}{2}+\frac{3}{2}i</m>.     Explore the relationships 
-              by manipulating <m>z_1</m> and <m>z_2</m>.  Describe any patterns that you notice.
+              numbers, <m>z_1=1+\sqrt{3}i</m> and <m>z_2=\frac{3\sqrt{3}}{2}+\frac{3}{2}i</m> as given in the 
+              figure.  Explore the relationships among <m>z_1</m>, <m>z_2</m>, and <m>z_3</m> by manipulating 
+              <m>z_1</m> and <m>z_2</m>.  Describe any patterns that you notice.
             </p>
             
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              Now express each of the numbers, <m>z_1</m>, <m>z_2</m>, and <m>z_3</m> in polar form, 
+              <m>r\left(\cos\left(\theta\right)+i\cdot\sin\left(\theta\right)\right)</m>.  Do the results of the 
+              polar form agree with your observations from your sketch of the numbers plotted in the complex 
+              plane part (d)?
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              Noting the magnitude and angle of the three complex numbers, move <m>z_1</m> by dragging it on the 
+              complex plane.  What do you notice about the change in the angle and magnitude of <m>z_3</m> as 
+              compared with the change you observed with <m>z_1</m>?  Try the same process with <m>z_2</m> and 
+              note the relationships between the angle and magnitude changes of <m>z_3</m>.  State your 
+              observations in the form of a conjecture.
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              Given your result from part (c), provide a simple explanation for the pattern you have just 
+              noticed in parts (d), (e), and (f) by expressing each complex number, <m>z_1</m>, <m>z_2</m>, 
+              and <m>z_3</m> as a single exponential term of the form <m>re^{i\theta}</m>.
+            </p>
           </statement>
         </task>
         
