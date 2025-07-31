@@ -748,9 +748,36 @@
               <me>
                 \cos\left(x\right)=1-\frac{x^2}{2!}+\frac{x^4}{4!}-\frac{x^6}{6!}+\cdots
               </me>
-              
-              
-              
+            </p>
+            <p>
+              At this point, you may have noticed similarities among the three polynomial expansions that imitate 
+              the three transcendental functions: <m>e^x</m>, <m>\sin\left(x\right)</m>, and 
+              <m>\cos\left(x\right)</m>.  Describe any connections you see among the terms for these polynomial 
+              expansions.
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              Using the first six terms for each of the polynomial expansions of <m>\cos\left(\theta\right)</m> 
+              and <m>\sin\left(\theta\right)</m>, write out an expression for the approximation to 
+              <m>\cos\left(\theta\right)+i\cdot\sin\left(\theta\right)</m>.
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              Now using the substitution of <m>x=i\cdot\theta</m> in the polynomial expansion 
+              <m>e^x=1+x+\frac{x^2}{2!}+\frac{x^3}{3!}+\frac{x^4}{4!}+\frac{x^5}{5!}+\frac{x^6}{6!}+\cdots</m>, 
+              write out the first twelve terms.  On the TI-Nspire CAS you can do this by simply using the "such that" key entering 
+              <m>|x=i\cdot\theta</m> after the expression for the Taylor polynomial you found for <m>e^x</m>.  
+              Describe any patterns you see among the three polynomial expansions for <m>e^x</m>, 
+              <m>\sin\left(x\right)</m>, and <m>\cos\left(x\right)</m>.  Did this substitution help remedy any 
+              differences you noticed in part (a)?  Explain.
             </p>
           </statement>
         </task>
