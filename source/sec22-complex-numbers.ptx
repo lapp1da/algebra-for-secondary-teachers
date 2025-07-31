@@ -727,7 +727,7 @@
             <figure xml:id="fig-complex-situation-plane">
             <caption>Complex Plane with <m>z_1</m>, <m>z_2</m>, and <m>z_3=z_1 \cdot z_2</m></caption>
             <interactive xml:id="complex-situation-plane" platform="geogebra" width="100%" reset-icon="yes">
-            <slate xml:id="ggb-complex-situation-plane" surface="geogebra" material="ptptgrxp" />
+            <slate xml:id="ggb-complex-situation-plane" surface="geogebra" material="abbkquae" />
             </interactive>
             </figure>
           </p>
@@ -779,6 +779,48 @@
               <m>\sin\left(x\right)</m>, and <m>\cos\left(x\right)</m>.  Did this substitution help remedy any 
               differences you noticed in part (a)?  Explain.
             </p>
+
+            <p>
+              Notice that the result you found in part (c) is a number that has both a real and an imaginary 
+              part.  The terms that are similar to the polynomial for sine have the imaginary number <m>i</m> 
+              attached by multiplication.
+            </p>
+
+            <p>
+              In this case we think of a complex number of the form <m>a+bi</m> as a point in the complex plane 
+              where the real part is plotted along the horizontal axis and the imaginary part is plotted along 
+              the vertical axis.  As in the case of the relationship between rectangular and polar coordinates, 
+              we can also think of the same point defined by the rectangular form <m>a+bi</m> as also defined by 
+              an angle and a radius.  For example, we can take the complex number 
+              <m>\frac{1}{2}+\frac{\sqrt{3}}{2}i</m> and express it as the point in the complex plane located at 
+              a distance of 1 from the origin and at an angle of <m>\frac{\pi}{3}</m> since 
+              <m>\frac{1}{2}+\frac{\sqrt{3}}{2}i=\cos\left(\frac{\pi}{3}\right)+i\sin\left(\frac{\pi}{3}\right)</m>.  
+              Although these are both helpful ways to represent complex numbers, is there another way that is 
+              even simpler?
+            </p>
+
+            <p>
+              Now considering the fact that we can express any complex number <m>a+bi</m> in the polar form, 
+              <m>r\left(\cos\left(\theta\right)+i\cdot\sin\left(\theta\right)\right)</m> as 
+              you observed in part (c), what is the practical significance of your discovery?  We will now 
+              investigate the relevance of this observation to basic operations on complex numbers.
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              As seen in <xref ref="fig-complex-situation-plane"/>, the complex numbers, <m>z_1</m>, <m>z_2</m>, 
+              and <m>z_3=z_1 \cdot z_2</m> are sketched in the complex plane.  Note that you can simply edit the 
+              real and imaginary components of <m>z_1</m> and <m>z_2</m> for each complex numbers on the left or 
+              drag them around.  You are not able to drag <m>z_3</m> since it is defined as the product of 
+              <m>z_1</m> and <m>z_2</m> and thus is dependent on them.  The measure of the three angles are given 
+              on the left along with the magnitude for each of these complex numbers.  Consider the two complex 
+              numbers, <m>z_1=1+\sqrt{3}i</m> and <m>z_2=\frac{3\sqrt{3}}{2}+\frac{3}{2}i</m>.     Explore the relationships 
+              by manipulating <m>z_1</m> and <m>z_2</m>.  Describe any patterns that you notice.
+            </p>
+            
           </statement>
         </task>
         
