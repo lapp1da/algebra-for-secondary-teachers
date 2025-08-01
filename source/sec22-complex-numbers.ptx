@@ -1107,6 +1107,49 @@
       </me>
     </p>
 
+    <p>
+      This tells us that the product in some way involves the product of the two moduli, <m>r_1</m> and 
+      <m>r_2</m>.  But how are the angles of the original complex numbers and the resulting angle of the product 
+      related?  Consider the two components of the product,
+      <m>\cos\left(\theta_1\right)\cos\left(\theta_2\right)-
+      \sin\left(\theta_1\right)\sin\left(\theta_2\right)</m> and 
+      <m>\cos\left(\theta_1\right)\sin\left(\theta_2\right)+
+        \cos\left(\theta_2\right)\sin\left(\theta_1\right)</m>.  Do these look familiar?  If not, open your old 
+        Calculus or Trigonometry text and investigate.  From our basic trigonometric identities, we see that
+    </p>
+
+    <p>
+      <me>
+      \cos\left(\theta_1+\theta_2\right)=\cos\left(\theta_1\right)\cos\left(\theta_2\right)-
+      \sin\left(\theta_1\right)\sin\left(\theta_2\right)
+      </me>
+    </p>
+
+    <p>
+      and
+    </p>
+
+    <p>
+      <me>
+        \sin\left(\theta_1+\theta_2\right)=\cos\left(\theta_1\right)\sin\left(\theta_2\right)+
+        \cos\left(\theta_2\right)\sin\left(\theta_1\right)
+      </me>
+    </p>
+
+    <p>
+      Using these identities, we get
+    </p>
+
+    <p>
+      <me>
+        z_1 \cdot z_2=r_1r_2\left[\left(\underbrace{\left(\cos\left(\theta_1\right)\cos\left(\theta_2\right)-
+        \sin\left(\theta_1\right)\sin\left(\theta_2\right)\right)}_{\cos\left(\theta_1+\theta_2\right)}\right)+
+        \left(\underbrace{\cos\left(\theta_1\right)\sin\left(\theta_2\right)+
+        \cos\left(\theta_2\right)\sin\left(\theta_1\right)}_{\sin\left(\theta_1+\theta_2\right)}\right)i\right]
+      </me>
+      
+    </p>
+
 
 
 
