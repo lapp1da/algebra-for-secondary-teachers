@@ -952,6 +952,14 @@
       thus the vector space, <m>\mathbb{R}^2</m>, can be thought of as isomorphic to <m>\mathbb{C}</m> and 
       <m>\mathbb{R}</m> as a <em>subspace</em> of <m>\mathbb{C}</m>.
     </p>
+
+    <p>
+      If we can think of the complex numbers as a plane, can we have different representations of these numbers 
+      from an algebraic standpoint?  As you may recall from high school, we can graph points with real 
+      coordinates in either a Cartesian or polar form.  Just as we can define a point by two numbers representing 
+      a position along the <m>x-</m> and <m>y-</m>axes, we can also define the same point by an angle and a 
+      radius.  To illustrate this, consider the unit circle below.
+    </p>
     
   </subsection>
    
