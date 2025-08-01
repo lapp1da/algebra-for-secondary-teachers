@@ -864,8 +864,8 @@
     
   </subsection>
 
-  <subsection xml:id="subsec-pulling-together">
-    <title>Pulling Things Together</title>
+  <subsection xml:id="subsec-pulling-together-geometry">
+    <title>Pulling Things Together: Basic Geometry</title>
     <introduction>
       <p>
         Just as the Greeks were wary of numbers such as  <m>\sqrt{2}</m>, mathematicians were also cautious 
@@ -1174,10 +1174,43 @@
       Or in other words, if <m>\theta_3</m> is the angle of the product, <m>z_3</m>, then 
       <m>\theta_3=\theta_1+\theta_2</m>.
     </p>
+    
+  </subsection>
 
+  <subsection xml:id="subsec-seeing-connections-taylor">
+    <title>Seeing Connections: Taylor Series</title>
+    <introduction>
+      <p>
+        As we have seen through the use of trigonometric identities, finding the product of two complex numbers 
+        expressed in polar form is simply a matter of multiplying the moduli and adding the arguments and then 
+        using the cosine and sine of the new arguments.  But is there an easier way to represent complex numbers 
+        so that the need to find trigonometric values of the arguments is not necessary?  At this point, we will 
+        examine what you discovered in the activity, <em>A Complex Situation</em> 
+        (<xref ref="act-complex-situation"/>), and apply it to work with complex numbers.
+      </p>
+    </introduction>
 
+    <p>
+      You may recall from Calculus that when we wish to model exponential growth mathematicians and scientists 
+      often use functions of the form, <m>Ae^{kt}</m> even though our first experiences with such phenomena 
+      usually involve the concept of doubling.  For example, as teachers, we often introduce exponential growth 
+      through examples like:
+    </p>
 
+    <p>
+      <em>A population of ducks doubles every 13 years.  If the population of ducks currently numbers 45, 
+      how many ducks would you expect in the population in 26 years?</em>
+    </p>
 
+    <p>
+      Using this type of example to introduce exponential growth, one might expect to model the growth using a 
+      function of the form <m>A2^{kt}</m> rather than <m>Ae^{kt}</m>.  It is not until we begin the study of 
+      Calculus that we can grasp the reason for using <m>Ae^{kt}</m>.  Recall that 
+      <m>\frac{d}{dx}\left(a^x\right)=a^x \ln \left(a\right)</m> and so for the special case where <m>a=e</m>, 
+      this derivative simplifies to <m>\frac{d}{dx}\left(e^x\right)=e^x</m>.  Therefore it is advantageous to 
+      use the natural base, <m>e</m>, instead of a base like 2.  In a similar manner, we find <m>e</m> creeping 
+      back into the representation of complex numbers as well.
+    </p>
     
   </subsection>
    
