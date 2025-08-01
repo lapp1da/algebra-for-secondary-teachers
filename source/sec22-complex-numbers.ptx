@@ -1147,7 +1147,32 @@
         \left(\underbrace{\cos\left(\theta_1\right)\sin\left(\theta_2\right)+
         \cos\left(\theta_2\right)\sin\left(\theta_1\right)}_{\sin\left(\theta_1+\theta_2\right)}\right)i\right]
       </me>
-      
+    </p>
+
+    <p>
+      Thus, the modulus of the product of two complex numbers is the product of the moduli for the original two 
+      numbers and the argument of the product is the sum of the arguments.  In other words,
+    </p>
+
+    <p>
+      <me>
+        \left|z_1 \cdot z_2\right|=\left|z_1\right| \cdot \left|z_2\right|
+      </me>
+    </p>
+
+    <p>
+      and
+    </p>
+
+    <p>
+      <me>
+        \text{Arg}\left(z_1 \cdot z_2\right)=\text{Arg}\left(z_1\right) \cdot \text{Arg}\left(z_2\right)
+      </me>
+    </p>
+
+    <p>
+      Or in other words, if <m>\theta_3</m> is the angle of the product, <m>z_3</m>, then 
+      <m>\theta_3=\theta_1+\theta_2</m>.
     </p>
 
 
