@@ -990,6 +990,29 @@
       point in the complex plane as in <xref ref="fig-complex-plane-angle"/>.
     </p>
 
+    <p>
+      When we extend our number system representing them as points in a plane, concepts like absolute value 
+      become more interesting.  How do we interpret the concept of absolute value for complex numbers?  One of 
+      the beautiful things about mathematics is its logical consistency.  When it comes to absolute value, 
+      we should expect nothing less.  Recall that our concept of absolute value for real numbers is linked to a 
+      relationship of distance on the real number line.  For the real numbers, <m>\left|x\right|</m> is just 
+      the distance of <m>x</m> from 0 on the number line.  Why not adopt a similar concept for the absolute 
+      value of a complex number.  In this case, instead of the position of 0 on a line, we invoke the analogous 
+      point for a plane.  Therefore we define the absolute value or <em>modulus</em> of a complex number, 
+      <m>z</m>, as the distance of <m>z</m> from the origin of the complex plane, denoted by <m>\left|z\right|</m>.  
+    </p>
+
+    <p>
+      If we think of <m>z=a+bi</m>, then 
+      <m>\left|z\right|=\sqrt{a^2+b^2}=\sqrt{\left(\text{Re}\left(z\right)\right)^2+\left(\text{Im}\left(z\right)\right)^2}</m> 
+      by the Pythagorean theorem where <m>\text{Re}\left(z\right)</m> and <m>\text{Im}\left(z\right)</m> 
+      represent the real and imaginary parts of the complex number.  We often refer to the complex numbers that 
+      lie on the unit circle in the complex plane as the set, <m>U</m>.  Therefore  
+      <m>U=\left\{z \in \mathbb{C} \mid \left|z\right|=1\right\}</m>.  The angle, <m>\theta</m>, of the vector for 
+      <m>z</m> is called the <em>principal angle</em> or sometimes the <em>principal argument</em> of <m>z</m> 
+      and expressed as <m>\text{Arg}\left(z\right)</m>.
+    </p>
+
 
     
   </subsection>
