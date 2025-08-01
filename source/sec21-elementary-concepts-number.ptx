@@ -1246,6 +1246,9 @@
 
   <p>
     <theorem xml:id="thm-product-two-negatives">
+      <title>Euler's Proof that the Product of Two Negatives Is Positive</title>
+      
+      
       <statement>
         <p>
           The product <m>-1 \cdot -1=1</m>.

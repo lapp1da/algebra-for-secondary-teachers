@@ -864,7 +864,47 @@
     
   </subsection>
 
-  
+  <subsection xml:id="subsec-pulling-together">
+    <title>Pulling Things Together</title>
+    <introduction>
+      <p>
+        Just as the Greeks were wary of numbers such as  <m>\sqrt{2}</m>, mathematicians were also cautious 
+        when it came to the solutions of equations like  <m>x^2=-1</m>.  It did not seem conceivable to have a 
+        number that when multiplied by itself could yield a negative number.  In fact, negative numbers 
+        themselves were still suspect and even though Euler had shown that the product of two negatives was a 
+        positive (see <xref ref="thm-product-two-negatives"/>), mathematicians were not quite ready to deal with 
+        the interpretation of a negative number.  Nonetheless, as we noted before, when Cardano was able to come 
+        up with <em>real</em> solutions to the general cubic equation, <m>ax^3+bx^2+cx+d=0</m>, by tiptoeing 
+        through solutions to intermediate equations where <m>\sqrt{-1}</m> existed, interest grew in regard to this 
+        weird number, <m>\sqrt{-1}</m>.
+      </p>
+    </introduction>
+
+    <p>
+      Although the imaginary number <m>i=\sqrt{-1}</m> has become accepted and used to extend the real numbers, 
+      <m>\mathbb{R}</m>, to the complex numbers, <m>\mathbb{C}</m>, how do we as mathematicians come to 
+      understand this set?  Before we delve deeper into the ways in which the complex numbers help us connect 
+      various branches of mathematics, let us first have a brief review of how complex numbers can be viewed and 
+      the representations associated with their understanding.
+    </p>
+
+    <p>
+      Summarizing what we have discussed thus far, you will recall that our numeration system has evolved from 
+      the basic counting numbers, <m>\mathbb{Z}^+</m> to the whole numbers, 
+      <m>\mathbb{Z}^+ \cup \left\{0\right\}</m>, to the integers, <m>\mathbb{Z}</m>, to the rational numbers,
+      <m>\mathbb{Q}</m>, and finally the real numbers, <m>\mathbb{R}</m>.  As we have seen, 
+      <m>\mathbb{Z}^+ \subset \mathbb{Z}^+ \cup \left\{0\right\} \subset \mathbb{Z} \subset \mathbb{Q} \subset 
+       \mathbb{R} </m>.  So how do the complex numbers fit into this scheme?  We would like to have an extension 
+       of our real numbers so that  
+       <m>\mathbb{Z}^+ \subset \mathbb{Z}^+ \cup \left\{0\right\} \subset \mathbb{Z} \subset \mathbb{Q} \subset 
+       \mathbb{R} \subset \mathbb{C}</m>.  In order to extend the real numbers, if we allow the imaginary numbers 
+       to simply augment the real numbers by adding on an imaginary part to a real number such as <m>a+bi</m> 
+       where <m>a</m> and <m>b</m> are real numbers, then we can reduce the complex numbers to real numbers by 
+       simply using the special case where <m>b=0</m> to generate the real numbers.  Therefore we obtain the 
+       following definition.
+    </p>
+    
+  </subsection>
    
 
 </section>
