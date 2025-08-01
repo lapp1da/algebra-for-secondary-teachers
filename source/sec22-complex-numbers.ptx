@@ -958,7 +958,14 @@
       from an algebraic standpoint?  As you may recall from high school, we can graph points with real 
       coordinates in either a Cartesian or polar form.  Just as we can define a point by two numbers representing 
       a position along the <m>x-</m> and <m>y-</m>axes, we can also define the same point by an angle and a 
-      radius.  To illustrate this, consider the unit circle below.
+      radius.  To illustrate this, consider the unit circle in <xref ref="fig-complex-plane-angle"/>.
+    </p>
+
+    <p>
+      <figure xml:id="fig-complex-plane-angle">
+        <caption>Complex Plane with <m>a+bi</m> Defined by Angle and Distance</caption>
+        <image source="images/complex-plane-angle.png" width="60%"/>
+      </figure>
     </p>
     
   </subsection>
