@@ -938,7 +938,19 @@
     </p>
 
     <p>
-      
+      <figure xml:id="fig-complex-plane-intro">
+        <caption>Perpendicular "Number Lines" for Describing <m>a+bi</m></caption>
+        <image source="images/complex-plane-intro.png" width="60%"/>
+      </figure>
+    </p>
+
+    <p>
+      One advantage to this representation is that when we consider the real numbers as a subset of 
+      <m>\mathbb{C}</m> by setting <m>b=0</m>, from a graphical perspective, the plane is reduced to the real 
+      line and thus we have a consistent representation for the real numbers using a measurement model.  In 
+      addition, from a linear algebra perspective, we can also view complex numbers as <em>vectors</em> and 
+      thus the vector space, <m>\mathbb{R}^2</m>, can be thought of as isomorphic to <m>\mathbb{C}</m> and 
+      <m>\mathbb{R}</m> as a <em>subspace</em> of <m>\mathbb{C}</m>.
     </p>
     
   </subsection>
