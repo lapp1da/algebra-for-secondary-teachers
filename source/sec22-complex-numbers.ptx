@@ -903,6 +903,43 @@
        simply using the special case where <m>b=0</m> to generate the real numbers.  Therefore we obtain the 
        following definition.
     </p>
+
+    <p>
+      <definition xml:id="def-complex-numbers">
+        <statement>
+          <p>
+            The <em>complex numbers</em> are the set of all numbers of the form <m>a+bi</m> where <m>a</m> and 
+            <m>b</m> are real numbers and <m>i=\sqrt{-1}</m>.  Note that if <m>b=0</m>, we have the set of 
+            <em>real</em> numbers and so <m>\mathbb{R} \subset \mathbb{C}</m>.
+          </p>
+        </statement>
+      </definition>
+    </p>
+
+    <p>
+      Now that we have a definition, how do we make sense of these numbers?  Until the complex numbers came 
+      along, all was fine.  We could think of the whole numbers as the cardinality of sets of objects.  When 
+      negative numbers came on the scene, we could understand them through a process of “taking away” from sets 
+      of objects.  As we progressed to rational and irrational numbers, we invoked a measurement model (the 
+      number line) to describe all of the previous types of numbers.  But how then do we interpret complex 
+      numbers?
+    </p>
+
+    <p>
+      If we take a closer look at the various parts of a complex number, we can gain some insight into how to 
+      represent them.  Since a complex number, <m>a+bi</m>, is made up of “coefficients” <m>a</m> and <m>b</m> 
+      that are real numbers, why not use the model that has worked for real numbers, the number line?  The only 
+      problem is that we now have two real numbers associated with a given complex number.  So which one do we 
+      use?  The solution is to use both.  Why not think of a complex number as an ordered pair of real numbers.  
+      This would imply that we can plot a complex number in a coordinate plane using <m>\mathbf{1}</m> as the 
+      <m>\mathbf{real}</m> <m>\mathbf{unit}</m> along one axis and <m>\mathbf{i}</m> as the 
+      <m>\mathbf{imaginary}</m> <m>\mathbf{unit}</m> along the other axis since <m>a+bi=a\cdot 1+b\cdot i</m>.  
+      As a result, we can think of a complex number, <m>a+bi</m>, as a point in the plane.
+    </p>
+
+    <p>
+      
+    </p>
     
   </subsection>
    
