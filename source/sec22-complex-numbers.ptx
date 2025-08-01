@@ -973,8 +973,24 @@
       The position of the point in the complex plane along the unit circle can be described by the angle and 
       radius (in this case <m>r=1</m>).  If we wish to see the relationship between the Cartesian and polar 
       representations, we simply use the trigonometric relations to see that <m>a=\cos \theta</m> and 
-      <m>b=\sin\theta</m>.
+      <m>b=\sin\theta</m> (see <xref ref="fig-complex-plane-unit"/>).
     </p>
+
+    <p>
+      <figure xml:id="fig-complex-plane-unit">
+        <caption>Complex Number on the Unit Circle</caption>
+        <image source="images/complex-plane-unit.png" width="60%"/>
+      </figure>
+    </p>
+
+    <p>
+      If the complex number is not confined to the unit circle, we can represent it by multiplying 
+      <m>\cos\left(\theta\right)+i\sin\left(\theta\right)</m> by the radius, <m>r</m>, yielding 
+      <m>r \left(\cos\left(\theta\right)+i\sin\left(\theta\right)\right)</m>.  In this way we can describe any 
+      point in the complex plane as in <xref ref="fig-complex-plane-angle"/>.
+    </p>
+
+
     
   </subsection>
    
