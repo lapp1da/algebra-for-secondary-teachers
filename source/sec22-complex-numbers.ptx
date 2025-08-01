@@ -1010,7 +1010,16 @@
       lie on the unit circle in the complex plane as the set, <m>U</m>.  Therefore  
       <m>U=\left\{z \in \mathbb{C} \mid \left|z\right|=1\right\}</m>.  The angle, <m>\theta</m>, of the vector for 
       <m>z</m> is called the <em>principal angle</em> or sometimes the <em>principal argument</em> of <m>z</m> 
-      and expressed as <m>\text{Arg}\left(z\right)</m>.
+      and expressed as <m>\text{Arg}\left(z\right)</m>.  We will explore this set of complex numbers later when we 
+      look at orbits of complex numbers.
+    </p>
+
+    <p>
+      Our next question is how do we compute with complex numbers?  Is our definition of these numbers 
+      consistent with or geometric view of complex numbers as being represented by points in a plane?  For 
+      addition, <m>\left(a_1+b_1i\right)+\left(a_2+b_2i\right)=\left(a_1+a_2\right)+\left(b_1+b_2\right)i</m> 
+      due to commutativity and the distributive property.  How does this play out geometrically?  Consider the 
+      addition of two vectors in the complex plane.
     </p>
 
 
