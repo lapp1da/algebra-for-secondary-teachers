@@ -96,14 +96,14 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.9.4';
+eBookConfig.runestone_version = '7.9.6';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.879b99e54406967d.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.28cc3c4821792be5.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<script src="_static/prefix-runtime.b215b0da62d655bd.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.28cc3c4821792be5.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
 <link rel="stylesheet" type="text/css" href="_static/prefix-runestone.8141ae22fd347e48.css">
 <style>
 #subsec-pirie-kieren-model-11-1-1 { counter-set: subsec-pirie-kieren-model-11-1-1 0; }
@@ -516,7 +516,25 @@ z_1 \cdot z_2=r_1r_2\left[\left(\underbrace{\left(\cos\left(\theta_1\right)\cos\
 </h3>
 <section class="introduction" id="subsec-seeing-connections-taylor-2"><div class="para" id="subsec-seeing-connections-taylor-2-1">As we have seen through the use of trigonometric identities, finding the product of two complex numbers expressed in polar form is simply a matter of multiplying the moduli and adding the arguments and then using the cosine and sine of the new arguments.  But is there an easier way to represent complex numbers so that the need to find trigonometric values of the arguments is not necessary?  At this point, we will examine what you discovered in the activity, <em class="emphasis">A Complex Situation</em> (<a href="sec22-complex-numbers.html#act-complex-situation" class="xref" data-knowl="./knowl/xref/act-complex-situation.html" data-reveal-label="Reveal" data-close-label="Close" title="Activity 2.2.7: A Complex Situation: Addressing Ken’s Question">Activity 2.2.7</a>), and apply it to work with complex numbers.</div></section><div class="para" id="subsec-seeing-connections-taylor-3">You may recall from Calculus that when we wish to model exponential growth mathematicians and scientists often use functions of the form, <span class="process-math">\(Ae^{kt}\)</span> even though our first experiences with such phenomena usually involve the concept of doubling.  For example, as teachers, we often introduce exponential growth through examples like:</div>
 <div class="para" id="subsec-seeing-connections-taylor-4"><em class="emphasis">A population of ducks doubles every 13 years.  If the population of ducks currently numbers 45, how many ducks would you expect in the population in 26 years?</em></div>
-<div class="para" id="subsec-seeing-connections-taylor-5">Using this type of example to introduce exponential growth, one might expect to model the growth using a function of the form <span class="process-math">\(A2^{kt}\)</span> rather than <span class="process-math">\(Ae^{kt}\text{.}\)</span>  It is not until we begin the study of Calculus that we can grasp the reason for using <span class="process-math">\(Ae^{kt}\text{.}\)</span>  Recall that <span class="process-math">\(\frac{d}{dx}\left(a^x\right)=a^x \ln \left(a\right)\)</span> and so for the special case where <span class="process-math">\(a=e\text{,}\)</span> this derivative simplifies to <span class="process-math">\(\frac{d}{dx}\left(e^x\right)=e^x\text{.}\)</span>  Therefore it is advantageous to use the natural base, <span class="process-math">\(e\text{,}\)</span> instead of a base like 2.  In a similar manner, we find <span class="process-math">\(e\)</span> creeping back into the representation of complex numbers as well.</div></section></section></div>
+<div class="para" id="subsec-seeing-connections-taylor-5">Using this type of example to introduce exponential growth, one might expect to model the growth using a function of the form <span class="process-math">\(A2^{kt}\)</span> rather than <span class="process-math">\(Ae^{kt}\text{.}\)</span>  It is not until we begin the study of Calculus that we can grasp the reason for using <span class="process-math">\(Ae^{kt}\text{.}\)</span>  Recall that <span class="process-math">\(\frac{d}{dx}\left(a^x\right)=a^x \ln \left(a\right)\)</span> and so for the special case where <span class="process-math">\(a=e\text{,}\)</span> this derivative simplifies to <span class="process-math">\(\frac{d}{dx}\left(e^x\right)=e^x\text{.}\)</span>  Therefore it is advantageous to use the natural base, <span class="process-math">\(e\text{,}\)</span> instead of a base like 2.  In a similar manner, we find <span class="process-math">\(e\)</span> creeping back into the representation of complex numbers as well.</div>
+<div class="para" id="subsec-seeing-connections-taylor-6">Consider the result you found in <a href="sec22-complex-numbers.html#act-complex-situation" class="xref" data-knowl="./knowl/xref/act-complex-situation.html" data-reveal-label="Reveal" data-close-label="Close" title="Activity 2.2.7: A Complex Situation: Addressing Ken’s Question">Activity 2.2.7</a>, <em class="emphasis">A Complex Situation</em>. In particular, consider the relationship</div>
+<div class="para logical" id="subsec-seeing-connections-taylor-7"><div class="displaymath process-math">
+\begin{equation*}
+r \underbrace{\sum^{\infty}_{k=0} \frac{\left(i \theta \right)^k}{k!}}_{e^{i \theta}}=r
+\left(\underbrace{\sum^{\infty}_{k=0} \left(-1\right)^k \frac{\left(\theta \right)^{2k}}
+{\left(2k\right)!}}_{\cos \left(\theta\right)}+i \cdot \underbrace{\sum^{\infty}_{k=0} 
+\left(-1\right)^k \frac{\left(\theta \right)^{2k+1}}{\left(2k+1\right)!}}_
+{\sin \left(\theta\right)}\right)
+\end{equation*}
+</div></div>
+<div class="para" id="subsec-seeing-connections-taylor-8">This suggests that any complex number can be expressed in the form <span class="process-math">\(re^{i \theta}\text{.}\)</span>  We should take a moment to mention that a treatment of the convergence of complex series is necessary here, but for the time being we will assume these series converge.  Thus if we consider any two complex numbers <span class="process-math">\(z_1=r_1e^{i \theta_1}\)</span> and <span class="process-math">\(z_2=r_2e^{i \theta_2}\text{,}\)</span> then the product is given by</div>
+<div class="para logical" id="subsec-seeing-connections-taylor-9"><div class="displaymath process-math">
+\begin{equation*}
+z_1 \cdot z_2=\left(r_1e^{i \theta_1}\right) \cdot \left(r_2e^{i \theta_2}\right)
+=r_1r_2e^{i \theta_1+ i \theta_2}=r_1r_2e^{i\left(\theta_1+ \theta_2\right)}
+\end{equation*}
+</div></div>
+<div class="para" id="subsec-seeing-connections-taylor-10">yielding the same conclusion found using trigonometry.  In this case, results from Calculus find an interesting way of influencing the representations we might choose to use for complex numbers.  If you have ever asked yourself why a high school teacher needs to take so much mathematics beyond what is taught in the high school, this is one example of how understanding the relationships among various areas of mathematics might influence pedagogical choices made in the classroom.</div></section></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="sec21-elementary-concepts-number.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec23-intro-vectors-matrices.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
