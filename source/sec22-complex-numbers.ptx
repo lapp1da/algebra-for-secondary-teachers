@@ -1211,6 +1211,42 @@
       use the natural base, <m>e</m>, instead of a base like 2.  In a similar manner, we find <m>e</m> creeping 
       back into the representation of complex numbers as well.
     </p>
+
+    <p>
+      Consider the result you found in <xref ref="act-complex-situation"/>, <em>A Complex Situation</em>.  
+      In particular, consider the relationship
+    </p>
+
+    <p>
+      <me>
+        r \underbrace{\sum^{\infty}_{k=0} \frac{\left(i \theta \right)^k}{k!}}_{e^{i \theta}}=r
+        \left(\underbrace{\sum^{\infty}_{k=0} \left(-1\right)^k \frac{\left(\theta \right)^{2k}}
+        {\left(2k\right)!}}_{\cos \left(\theta\right)}+i \cdot \underbrace{\sum^{\infty}_{k=0} 
+        \left(-1\right)^k \frac{\left(\theta \right)^{2k+1}}{\left(2k+1\right)!}}_
+        {\sin \left(\theta\right)}\right)
+      </me>
+    </p>
+
+    <p>
+      This suggests that any complex number can be expressed in the form <m>re^{i \theta}</m>.  We should 
+      take a moment to mention that a treatment of the convergence of complex series is necessary here, but 
+      for the time being we will assume these series converge.  Thus if we consider any two complex numbers 
+      <m>z_1=r_1e^{i \theta_1}</m> and <m>z_2=r_2e^{i \theta_2}</m>, then the product is given by
+    </p>
+
+    <p>
+      <me>
+        z_1 \cdot z_2=\left(r_1e^{i \theta_1}\right) \cdot \left(r_2e^{i \theta_2}\right)
+        =r_1r_2e^{i \theta_1+ i \theta_2}=r_1r_2e^{i\left(\theta_1+ \theta_2\right)}
+      </me>
+    </p>
+    <p>
+      yielding the same conclusion found using trigonometry.  In this case, results from Calculus find an 
+      interesting way of influencing the representations we might choose to use for complex numbers.  If you 
+      have ever asked yourself why a high school teacher needs to take so much mathematics beyond what is 
+      taught in the high school, this is one example of how understanding the relationships among various areas 
+      of mathematics might influence pedagogical choices made in the classroom.
+    </p>
     
   </subsection>
    
