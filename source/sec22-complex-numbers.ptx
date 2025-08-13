@@ -1334,10 +1334,78 @@
             </p>
 
             <p>
-              <figure xml:id="fig-complex-plane-two-vectors">
-              <caption>Two Vectors in the Complex Plane</caption>
-              <image source="images/complex-plane-two-vectors.png" width="60%"/>
+              <figure xml:id="fig-orbits-complex-spreadsheet-powers">
+              <caption>Using a Spreadsheet to Generate Powers</caption>
+              <image source="images/orbits-complex-spreadsheet-powers.png" width="90%"/>
               </figure>
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              Now using the element, <m>a</m>, what elements of <m>Q</m> can you express as a power of <m>a</m>?  
+              List each of these elements and their corresponding power of <m>a</m>.
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              Using your observations from part (c), explain the relationship that exists between the powers of 
+              <m>a</m> for each element of <m>Q</m> and the corresponding power of <m>a</m> for each element's 
+              inverse.
+            </p>
+
+            <p>
+              Consider the elements of the set <m>Q</m> defined above.  Recall that using Taylor series we 
+              derived Euler's equation, <m>e^{i \theta}=\cos \theta +i \sin \theta</m>, and saw that from a 
+              geometric standpoint all complex numbers of the form <m>a+bi</m> can be expressed in polar form 
+              as <m>re^{i \theta}</m> where <m>r</m> is the length of the vector representation of the complex 
+              number and <m>\theta</m> is the angle of the vector with respect to the positive x-axis.
+            </p>
+
+            <p>
+              <image source="images/complex-plane-angle.png" width="60%">
+                <shortdescription>Complex Plane</shortdescription>
+              </image>
+            </p>
+
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              For the element <m>a \in Q</m>, find the corresponding values of <m>r</m> and <m>\theta</m> and 
+              represent <m>a</m> in the <m>re^{i \theta}</m> form where <m>0 \leq \theta \leq 2\pi</m>.
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              Discuss the relationship between the product of any two complex numbers and the original two 
+              complex numbers themselves.  In particular, what relationships exist between the length and angle 
+              of the product when compared to the lengths and angles of the two original complex numbers?  
+            </p>
+            <hint>
+              <p>
+                Note what happens when you multiply <m>r_1e^{i \theta _1}</m> and <m>r_2e^{i \theta _2}</m>.
+              </p>
+            </hint>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              Using the polar representation for <m>a</m> that you found in part (e), give the polar form for 
+              all elements in <m>Q</m> by using the relationships you discussed in part (f) and sketch each of 
+              these elements as vectors on the complex plane below (be sure to label each).
             </p>
           </statement>
         </task>
