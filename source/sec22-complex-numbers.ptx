@@ -1430,7 +1430,17 @@
               <em>Calculator</em> page 2.1 of the document and store the complex number <m>a</m> from the 
               earlier questions above in the variable, <m>z</m>.  On page 2.2, the powers of any complex number 
               stored as <m>z</m> on the <em>Calculator</em> page are graphed in the complex plane.  Here you 
-              should see the “orbit” of the 8th roots as you sketched them in question (g).
+              should see the “orbit” of the 8th roots as you sketched them in question (g).  See 
+              <xref ref="fig-orbit-stored-number"/>.
+            </p>
+
+            <p>
+              <figure xml:id="fig-orbit-stored-number">
+                <image source="images/orbit-stored-number.png" width="80%">
+                  <shortdescription>Orbit of a Stored Complex Number</shortdescription>
+                </image>
+                <caption>Orbit of a Stored Complex Number</caption>
+              </figure>
             </p>
           </statement>
         </task>
@@ -1438,7 +1448,18 @@
         <task>
           <statement>
             <p>
-              
+              Explain why these resulting complex numbers all fall on the unit circle.
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              Now choose another complex number with length less than 1 and store it in <m>z</m>.  An easy way 
+              to enter such a number is to use the polar form <m>r\left(\cos \theta +i \sin \theta\right)</m> 
+              where <m>0 \leq r \leq 1</m>.  Sketch the resulting orbit of your complex number.  Explain the 
+              behavior you see by relating it to what you know about products of complex numbers.
             </p>
           </statement>
         </task>
