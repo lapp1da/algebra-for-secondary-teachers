@@ -1252,6 +1252,53 @@
 
   <subsection xml:id="subsec-orbits-complex-numbers">
     <title>Orbits of Complex Numbers</title>
+
+    <introduction>
+      <p>
+        Just like the real numbers, the complex numbers have a structure that allows for the solution of 
+        equations by using basic properties.  We will expand on these later when we address the concept of 
+        a <em>group</em> within the context of abstract algebra, but for now it suffices to say that just like 
+        the real numbers under multiplication, there exists an <em>identity element</em> that when 
+        multiplied by any number leaves it alone.  For example, consider <m>5 \cdot 1=1 \cdot 5=5</m>.  Here the 
+        number 1 is acting as the identity element.  When it comes to solving equations, this is an important 
+        idea since if we can get the coefficient of a variable to be 1, we can basically ignore it.  Consider 
+        the equation, <m>5x=15</m>.  If we can only find a way to make the coefficient of <m>x</m> a 1, it 
+        for all practical purposes can be ignored the variable is then alone on one side of the equation leaving 
+        us able to simply read off the solution.  But how can we "make" the coefficient a 1?  We can't just 
+        change it.  Well, the key is to exploit a relationship between an <em>identity element</em> and an 
+        <em>inverse element</em>.  Basically, an <em>inverse</em> is an element (or number in this case) that when 
+        combined with a number using the operation (multiplication in this case) yields the <em>identity</em>.  
+        In the case of our equation, <m>5x=15</m>, we need a number that when multiplied by 5 gives 1.  The 
+        number, <m>\frac{1}{5}</m>, works here as <m>\frac{1}{5}</m> is the <em>multiplicative inverse</em> of 
+        <m>5</m>.  
+      </p>
+
+      <p>
+        The use of this relationship between identities and inverses is the key to solving many problems 
+        including puzzles like Rubik's Cube and thus permeates all of mathematics.  For our <m>5x=15</m> 
+        example, we simply multiply by <m>\frac{1}{5}</m> on the left on both sides of the equation and we get 
+        <me>
+          \frac{1}{5} \cdot 5x=\frac{1}{5} \cdot 15 \Rightarrow 1 \cdot x=3 \Rightarrow x=3
+        </me>
+      </p>
+
+      <p>
+        The next natural question is if complex numbers have the same relationships?  In the following activity, 
+        we will explore these properties with complex numbers by looking at <em>orbits</em> of complex numbers.
+      </p>
+
+    </introduction>
+
+    <p>
+      <activity xml:id="act-orbits-complex-numbers">
+        <title>Orbits of Complex Numbers</title>
+        
+        
+        
+      </activity>
+    </p>
+
+
     
   </subsection>
    
