@@ -1292,7 +1292,55 @@
     <p>
       <activity xml:id="act-orbits-complex-numbers">
         <title>Orbits of Complex Numbers</title>
-        
+        <introduction>
+          <p>
+            For this activity you will need the file <em>Orbits.tns</em> for the 
+            <em>TI-Nspire CX II CAS</em>.  Consider the following set of complex numbers, 
+            <m>Q=\left\{a,b,c,d,e,f,g,h\right\}</m>, with the operation of multiplication shown below and defined 
+            on page 1.1 of the document.  Be certain that your Document settings allow appropriate viewing of 
+            complex numbers.
+          </p>
+
+          <p>
+            <me>
+              \begin{array} 2
+               a=\frac{\sqrt{2}}{2}+\frac{\sqrt{2}}{2}i \amp b=i \amp 
+               c=-\frac{\sqrt{2}}{2}+\frac{\sqrt{2}}{2}i \amp d=-1\\
+              e=-\frac{\sqrt{2}}{2}-\frac{\sqrt{2}}{2}i \amp f=-i \amp g=\frac{\sqrt{2}}{2}-\frac{\sqrt{2}}{2}i 
+              \amp h=1
+              \end{array}
+            </me>
+          </p>
+        </introduction>
+
+        <task>
+          <statement>
+            <p>
+              Does every element have an inverse?  Recall that two elements are inverses if when combined 
+              they give the identity as a result (in this case for multiplication, 1).  Make a list of all 
+              elements and their inverses provided they have one.
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              For each element in the set <m>Q</m>, find the first power you must use to give a result of 1.  
+              Here you may want to use the algebraic capabilities of the spreadsheet to quickly check.  For 
+              example, below we see the use of the <em>Lists and Spreadsheet</em> page to quickly produce the 
+              powers of the element, <m>b</m>.  Here the first time <m>b</m> to a power gives the result of 1 
+              is for the exponent 4.
+            </p>
+
+            <p>
+              <figure xml:id="fig-complex-plane-two-vectors">
+              <caption>Two Vectors in the Complex Plane</caption>
+              <image source="images/complex-plane-two-vectors.png" width="60%"/>
+              </figure>
+            </p>
+          </statement>
+        </task>
         
         
       </activity>
