@@ -1407,6 +1407,39 @@
               all elements in <m>Q</m> by using the relationships you discussed in part (f) and sketch each of 
               these elements as vectors on the complex plane below (be sure to label each).
             </p>
+
+            <p>
+              <image source="images/complex-plane-unit-blank.png" width="70%">
+                <shortdescription>Complex Plane</shortdescription>
+              </image>
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              How many solutions are there to the equation <m>x^8=1</m> and how do the elements in <m>Q</m> 
+              relate to this?
+            </p>
+
+            <p>
+              In the earlier questions we were dealing with complex numbers whose vector had length 1 and all 
+              were on the unit circle in the complex plane.  But what would happen if the length of the vector 
+              representing a complex number was something other than 1?  To explore this, start with the 
+              <em>Calculator</em> page 2.1 of the document and store the complex number <m>a</m> from the 
+              earlier questions above in the variable, <m>z</m>.  On page 2.2, the powers of any complex number 
+              stored as <m>z</m> on the <em>Calculator</em> page are graphed in the complex plane.  Here you 
+              should see the “orbit” of the 8th roots as you sketched them in question (g).
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              
+            </p>
           </statement>
         </task>
         
