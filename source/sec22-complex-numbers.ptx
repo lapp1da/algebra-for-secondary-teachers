@@ -1641,15 +1641,94 @@
       <xref ref="thm-powers-complex-numbers"/> works in the determination of <m>n^{\text{th}}</m> roots.
     </p>
 
-
-
-
-
-
-
-
-    
   </subsection>
-   
+
+  <exercises xml:id="exercises-complex-numbers">
+    
+    <exercise>
+      <statement>
+        <p>
+          Show that if a quadratic with real coefficients has a complex root with an imaginary part, then it 
+          must have two complex roots with imaginary parts.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Suppose <m>z_1, z_2 \in U</m>, the unit circle in the complex plane.  Show that the product, 
+          <m>z_1 \cdot z_2 \in U</m>.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Suppose, <m>z_1 \in U</m> and <m>z_2 \notin U</m>, what can you say about the modulus, 
+          <m>\left| z_1 \cdot z_2 \right|</m>?  Explain why the term, “units”, is used to describe the set 
+          <m>U</m>.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Use proof by induction to prove <xref ref="thm-powers-complex-numbers"/>.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Let <m>x \in \mathbb{R}</m>.  Using <xref ref="thm-powers-complex-numbers"/>, explain the behavior 
+          of the familiar sequence <m>\left \{x^n \right \}</m> for <m>n \in \mathbb{N}</m>.  In other words, 
+          explain why we get the alternating signs when <m>x &lt; 0</m> and only positive numbers when 
+          <m>x &gt; 0</m>.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Given a complex number, <m>z</m>, explain how you would find its additive inverse.  You should use 
+          both algebraic and geometric representations to justify your strategy.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Given a complex number, <m>z</m>, explain how you would find its multiplicative inverse.  You should 
+          use both algebraic and geometric representations to justify your strategy.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Using the polar graphing capabilities of your CAS, graph the orbit of 
+          <m>z=1.2\left(\cos \left(\frac{\pi}{6} \right) +i\sin \left(\frac{\pi}{6} \right) \right)</m> showing 
+          at least 10 points in the orbit.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Explain why there can be no more than <m>n</m> distinct, <m>n^\text{th}</m> roots for complex numbers.
+        </p>
+      </statement>
+    </exercise>
+
+  </exercises>
+
 
 </section>
