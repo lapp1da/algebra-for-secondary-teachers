@@ -1456,10 +1456,31 @@
         <task>
           <statement>
             <p>
-              Now choose another complex number with length less than 1 and store it in <m>z</m>.  An easy way 
-              to enter such a number is to use the polar form <m>r\left(\cos \theta +i \sin \theta\right)</m> 
-              where <m>0 \leq r \leq 1</m>.  Sketch the resulting orbit of your complex number.  Explain the 
-              behavior you see by relating it to what you know about products of complex numbers.
+              Now choose another complex number with length (modulus) less than 1 and store it in <m>z</m>.  An 
+              easy way to enter such a number is to use the polar form 
+              <m>r\left(\cos \theta +i \sin \theta\right)</m> where <m>0 \leq r \leq 1</m>.  Sketch the 
+              resulting orbit of your complex number.  Explain the behavior you see by relating it to what you 
+              know about products of complex numbers.
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              Now choose another complex number with length (modulus) greater than 1 and store it in <m>z</m>.  
+              An easy way to enter such a number is to use the polar form 
+              <m>r\left(\cos \theta +i \sin \theta\right)</m> where <m>0 \leq r \leq 1</m>.  Sketch the 
+              resulting orbit of your complex number.  Explain the behavior you see by relating it to what you 
+              know about products of complex numbers.
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              Explain when the orbit of a complex number will spiral outward and when it will spiral inward.
             </p>
           </statement>
         </task>
