@@ -1503,8 +1503,17 @@
           </p>
         </statement>
       </theorem>
-      
     </p>
+
+    <p>
+      What does this theorem say about the sequence <m>\left \{z,z^2,z^3,\ldots \right \}</m> in the complex 
+      plane?  To begin, let us look at an example such as 
+      <m>z=\sqrt{2}\left(\cos \left(\frac{\pi}{3} \right) +i\sin \left(\frac{\pi}{3} \right) \right)=
+        \sqrt{2}e^{i \frac{\pi}{3}}</m>.  Graphing the successive powers of <m>z</m> in the complex plane we 
+        get the following spiral.
+    </p>
+
+    
 
 
     
