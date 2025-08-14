@@ -1566,6 +1566,52 @@
       </definition>
     </p>
 
+    <p>
+      One of the applications of orbits of complex numbers is in determining roots.  For example, suppose we 
+      want to find all of the 7th roots for the complex number, <m>z=-2+2i</m>.  We can also express this as 
+      <m>z=\sqrt{8}\left(\cos \left(\frac{3\pi}{4} \right) +i\sin \left(\frac{3\pi}{4} \right) \right)</m> 
+      since <m>r=\sqrt{\left(-2\right)^2+2^2}=\sqrt{8}</m>.  If we consider a 7th root of <m>z</m>, call it 
+      <m>z_r</m>, to have the property that 
+      <m>\left(z_r\right)^7=\sqrt{8}\left(\cos \left(\frac{3\pi}{4} \right) +i\sin \left(\frac{3\pi}{4} \right) \right)</m>, 
+      then we know that its modulus must end up being <m>\sqrt{8}</m>.  By 
+      <xref ref="thm-powers-complex-numbers"/>, this means that the modulus of <m>z_r</m> must be 
+      <m>\left(\sqrt{8}\right)^{\frac{1}{7}}</m> and <m>z_r</m> must have rotated six times to arrive at the 
+      <m>\mathbf{Arg}\left(z\right)</m>.  In other words, we need
+    </p>
+
+    <p>
+      <me>
+        7 \theta_r=\frac{3\pi}{4} \text{ and thus } \theta_r=\frac{3\pi}{28}
+      </me>
+    </p>
+
+    <p>
+      However, this is not the only equation that will do what we wish.  Since we are dealing with periodic 
+      functions, we could equally solve the equation
+    </p>
+
+    <p>
+      <me>
+        7 \theta_r=\frac{3\pi}{4}+2\pi k \text{ yielding } \theta_r=\frac{3\pi}{28}+\frac{2 \pi k}{7}
+      </me>
+    </p>
+
+    <p>
+      The geometric relationship here can be seen by examining the orbits for these solutions.  Consider the 
+      following orbits for <m>k=\left \{0,1,2,3\right \}</m> shown below.  These graphs utilize a polar 
+      graphing mode defining 
+      <m>z\left(k\right)=8^{\frac{1}{14}}\left(\cos \left(\frac{3\pi}{28}+\frac{2 \pi k}{7} \right) 
+        +i\sin \left(\frac{3\pi}{28}+\frac{2 \pi k}{7} \right) \right)</m> and graphing the x-coordinate as 
+        <m>real\left(z\left(k\right)^t\right)</m> and y-coordinate as <m>imag \left(z\left(k\right)^t\right)</m> 
+        for <m>k=\left \{0,1,2,3\right \}</m> and <m>t=\left \{0,1,2,\ldots, 7\right \}</m>.  They also use a 
+        connected line to show the progression from one power to the next.  The geometric representation for 
+        each value of <m>k</m> shows the rotation about the origin by the same angle for successive powers and 
+        an elongation of the modulus finally ending at the complex number, <m>-2+2i</m> when raised to the 7th 
+        power.  Since the angle that is being used for the rotation is of the form 
+        <m>\theta_r=\frac{3\pi}{28}+\frac{2 \pi k}{7}</m>, you will notice that as <m>k</m> increases, the 
+        size of the angle rotation between successive powers also increases.
+    </p>
+
 
 
 
