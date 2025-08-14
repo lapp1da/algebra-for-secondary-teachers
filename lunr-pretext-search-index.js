@@ -79,7 +79,25 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.2",
   "title": "Common Core State Standards for Mathematics: Content Standards",
-  "body": " Common Core State Standards for Mathematics: Content Standards  Text of section.  "
+  "body": " Common Core State Standards for Mathematics: Content Standards   The Common Core State Standards for Mathematics (NGACBP and CCSSO, 2010) are broken into two areas. When most people think of mathematics standards, the first things that come to mind are usually standards related to what mathematics will be taught. We refer to these as the Standards for Mathematical Content or more simply, the Content Standards . Since this is the most common expectation, in this section, we will discuss it first. However, the other equally-important part of the CCSS are the Standards for Mathematical Practice that lay out the expectations for \"habits of mind\" that we need students to have in order to do mathematics. We will adress these Math Practices in the next section.   The Content Standards are broken down by grade level for the K-8 grades, but then are arranged by content areas once we get to high school. The standards are organized into domains that progress over several grades so that it is easier to see learning trajectories and expectations as students move through the curriculum. For each grade in the K-8 band, the grade begins with generally 2 to 4 focal points to show the broader goals for that particular grade. Since at the high school level, students in various grades may be taking different mathematics classes than their counterparts, standards are presented by conceptual theme ( Number and Quantity , Algebra , Functions , Modeling , Geometry , Statistics and Probability ).  The Content Standards are more specific and define what students should understand and be able to do and thus are the most refined categorization. Since many of these standards are linked, the standards are then organized into Clusters which are groups of related standards. Domains are then larger groups that progress across grades (see ).    Organization of CCSS   CCSS Organization     Within the K-8 band, the standards for that grade begin with an overview of what is expected. This gives the teacher a broad view of the goals for that grade level (see ).    Grade Level Overview   Grade Level Overview     "
+},
+{
+  "id": "fig-ccss-organization",
+  "level": "2",
+  "url": "sec12-ccss-content-overview.html#fig-ccss-organization",
+  "type": "Figure",
+  "number": "1.2.1",
+  "title": "",
+  "body": " Organization of CCSS   CCSS Organization   "
+},
+{
+  "id": "fig-ccss-grade6-overview",
+  "level": "2",
+  "url": "sec12-ccss-content-overview.html#fig-ccss-grade6-overview",
+  "type": "Figure",
+  "number": "1.2.2",
+  "title": "",
+  "body": " Grade Level Overview   Grade Level Overview   "
 },
 {
   "id": "sec13-ccss-mathematical-practice",
