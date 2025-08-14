@@ -1513,7 +1513,20 @@
         get the following spiral.
     </p>
 
+    <p>
+      <figure xml:id="fig-orbits-spiral-out">
+        <image source="images/orbits-spiral-out.png" width="80%">
+          <shortdescription>Orbit of Spiral Out</shortdescription>
+        </image>
+        <caption>Orbit of 
+          <m>z=\sqrt{2}\left(\cos \left(\frac{\pi}{3} \right) +i\sin \left(\frac{\pi}{3} \right) \right)</m>
+        </caption>
+      </figure>
+    </p>
+
     
+
+
 
 
     
