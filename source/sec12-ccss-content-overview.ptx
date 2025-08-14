@@ -30,14 +30,30 @@
     The Content Standards are more specific and define what students should understand and be able to do and 
     thus are the most refined categorization.  Since many of these standards are linked, the standards are then 
     organized into <em>Clusters</em> which are groups of related standards.  <em>Domains</em> are then larger 
-    groups that progress across grades.
+    groups that progress across grades (see <xref ref="fig-ccss-organization"/>).
   </p>
 
-  <figure xml:id="fig-ccss-organization">
+  <p>
+    <figure xml:id="fig-ccss-organization">
     <caption>Organization of CCSS</caption>
-    <image source="images/ccss-organization.png">
+    <image source="images/ccss-organization.png" width="90%">
       <shortdescription>CCSS Organization</shortdescription>
     </image>
   </figure>
+  </p>
+
+  <p>
+    Within the K-8 band, the standards for that grade begin with an overview of what is expected.  This gives the 
+    teacher a broad view of the goals for that grade level (see ).
+  </p>
+
+  <p>
+    <figure xml:id="fig-ccss-grade6-overview">
+    <caption>Grade Level Overview</caption>
+    <image source="images/ccss-grade6-overview.png" width="90%">
+      <shortdescription>Grade Level Overview</shortdescription>
+    </image>
+  </figure>
+  </p>
 
 </section>
