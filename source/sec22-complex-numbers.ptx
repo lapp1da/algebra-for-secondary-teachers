@@ -1524,7 +1524,51 @@
       </figure>
     </p>
 
-    
+    <p>
+      Now consider the complex number, 
+      <m>z=\frac{1}{2}\left(\cos \left(\frac{\pi}{3} \right) +i\sin \left(\frac{\pi}{3} \right) \right)=
+        \frac{1}{2}e^{i \frac{\pi}{3}}</m>.  Here the successive powers yield a different kind of spiral.
+    </p>
+
+    <p>
+      <figure xml:id="fig-orbits-spiral-in">
+        <image source="images/orbits-spiral-in.png" width="80%">
+          <shortdescription>Orbit of Spiral Out</shortdescription>
+        </image>
+        <caption>Orbit of 
+          <m>z=\frac{1}{2}\left(\cos \left(\frac{\pi}{3} \right) +i\sin \left(\frac{\pi}{3} \right) \right)</m>
+        </caption>
+      </figure>
+    </p>
+
+    <p>
+      Why does one of these produce an outwardly spiraling pattern while the other produces an inward spiral?  
+      Consider the consequences of <xref ref="thm-powers-complex-numbers"/>.  As we go from one power to the 
+      next, the point in the complex plane rotates by the initial angle (in this case, 
+      <m>\theta =\frac{\pi}{3}</m>).  In addition, the modulus becomes successive powers of the original 
+      modulus.  In the case of  <m>r=\sqrt{2}</m> which is greater than 1, the sequence of the successive modulus 
+      will increase without bound.  In the case of <m>r=\frac{1}{2}</m> which is less than 1, the sequence of 
+      successive modulus decreases and converges to 0.  What would happen if the original complex number 
+      appeared on the unit circle?  You explored this question in <xref ref="act-orbits-complex-numbers"/>.  
+      Because of this spiraling pattern, this sequence of powers of a complex number is called the orbit of the 
+      complex number.
+    </p>
+
+    <p>
+      <definition xml:id="def-orbit-complex-number">
+        <statement>
+          <p>
+            Let <m>z \in \mathbb{C}</m>.  The set 
+            <m>\mathbf{Orb}\left(z\right)=\left \{z^n \mid z \in \mathbb{Z}^+ \right \}</m> is called the 
+            <m>\mathbf{orbit}</m> of <m>z</m>.
+          </p>
+        </statement>
+      </definition>
+    </p>
+
+
+
+
 
 
 
