@@ -1612,6 +1612,35 @@
         size of the angle rotation between successive powers also increases.
     </p>
 
+    <p>
+      <image source="images/orbit-zk-k0.png" width="80%">
+        <shortdescription>Orbit zk k0</shortdescription>
+      </image>
+    </p>
+
+    <p>
+      <image source="images/orbit-zk-k1.png" width="80%">
+        <shortdescription>Orbit zk k1</shortdescription>
+      </image>
+    </p>
+
+    <p>
+      <image source="images/orbit-zk-k2.png" width="80%">
+        <shortdescription>Orbit zk k2</shortdescription>
+      </image>
+    </p>
+
+    <p>
+      <image source="images/orbit-zk-k3.png" width="80%">
+        <shortdescription>Orbit zk k3</shortdescription>
+      </image>
+    </p>
+
+    <p>
+      By examining the geometric representation, we now have a visual perspective for how 
+      <xref ref="thm-powers-complex-numbers"/> works in the determination of <m>n^{\text{th}}</m> roots.
+    </p>
+
 
 
 
