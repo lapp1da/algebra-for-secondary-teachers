@@ -1484,9 +1484,26 @@
             </p>
           </statement>
         </task>
-        
-        
       </activity>
+    </p>
+
+    <p>
+      As a special case of the multiplication of complex numbers, consider the powers of a complex number.  
+      Based on the results we have seen in <xref ref="act-orbits-complex-numbers"/> thus far, we can state the 
+      following.
+    </p>
+
+    <p>
+      <theorem xml:id="thm-powers-complex-numbers">
+        <statement>
+          <p>
+            Let <m>z=r\left(\cos \theta +i\sin \theta \right)</m> be any complex number and let 
+            <m>n \in \mathbb{Z}^{+}</m>.  Then 
+            <m>z^n=r^n\left(\cos \left(n\theta \right) +i\sin \left(n\theta \right) \right)=r^ne^{in \theta}</m>.
+          </p>
+        </statement>
+      </theorem>
+      
     </p>
 
 
