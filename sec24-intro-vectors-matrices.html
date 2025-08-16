@@ -1,0 +1,1126 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Introduction to Vectors and Matrices</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Algebra for Secondary Teachers">
+<meta property="book:author" content="Douglas A. Lapp, PhD">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.9.6';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.b215b0da62d655bd.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.28cc3c4821792be5.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.8141ae22fd347e48.css">
+<style>
+#subsec-pirie-kieren-model-11-1-1 { counter-set: subsec-pirie-kieren-model-11-1-1 0; }
+#subsec-pirie-kieren-model-11-1-1 > li::marker { content: ""counter(subsec-pirie-kieren-model-11-1-1,decimal)"."; }
+#subsec-pirie-kieren-model-11-1-1 > li { counter-increment: subsec-pirie-kieren-model-11-1-1; }
+#def-vector-space-2-1-8 { counter-set: def-vector-space-2-1-8 0; }
+#def-vector-space-2-1-8 > li::marker { content: ""counter(def-vector-space-2-1-8,decimal)"."; }
+#def-vector-space-2-1-8 > li { counter-increment: def-vector-space-2-1-8; }
+</style>
+</head>
+<body id="changeme" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" target="_blank" href=""></a><div class="title-container">
+<h1 class="heading"><a href="algebra-for-secondary-teachers.html"><span class="title">Algebra for Secondary Teachers:</span> <span class="subtitle">Engaging Students to Develop Symbolic Meaning</span></a></h1>
+<p class="byline">Douglas A. Lapp, PhD</p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="sec23-intro-sequences.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch2-number-quantity.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="backmatter.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter">
+<div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="front-colophon.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li class="toc-item toc-dedication"><div class="toc-title-box"><a href="frontmatter-4.html" class="internal"><span class="title">Dedication</span></a></div></li>
+<li class="toc-item toc-acknowledgement"><div class="toc-title-box"><a href="frontmatter-5.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch1-intro-to-standards.html" class="internal"><span class="codenumber">1</span> <span class="title">Introduction to Mathematical Standards</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec11-brief-history-standards.html" class="internal"><span class="codenumber">1.1</span> <span class="title">A Brief History of Standards for Mathematics Education: Algebraic Perspectives</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec11-brief-history-standards.html#subsec-brief-history-math-standards" class="internal"><span class="codenumber">1.1.1</span> <span class="title">A Brief History of Mathematics Standards</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec11-brief-history-standards.html#subsec-pirie-kieren-model" class="internal"><span class="codenumber">1.1.2</span> <span class="title">Pirie and Kieren Model for Mathematical Understanding</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec12-ccss-content-overview.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Common Core State Standards for Mathematics: Content Standards</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec13-ccss-mathematical-practice.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Common Core State Standards for Mathematics: Standards for Mathematical Practice</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch2-number-quantity.html" class="internal"><span class="codenumber">2</span> <span class="title">Concepts of Number and Quantity</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec21-elementary-concepts-number.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Elementary Concepts of Number</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec21-elementary-concepts-number.html#subsec-elementary-whole-numbers" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Elementary Whole Number Systems</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec21-elementary-concepts-number.html#subsec-extension-to-integers" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Extension of the Number System to Integers</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec21-elementary-concepts-number.html#subsec-rational-irrational-numbers" class="internal"><span class="codenumber">2.1.3</span> <span class="title">Rational and Irrational Numbers</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec22-complex-numbers.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Extending the Number System: Complex Numbers</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec22-complex-numbers.html#subsec-complex-ccss" class="internal"><span class="codenumber">2.2.1</span> <span class="title">Complex Numbers and the Common Core State Standards</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec22-complex-numbers.html#subsec-prelim-complex-connections" class="internal"><span class="codenumber">2.2.2</span> <span class="title">Preliminary Connections to Complex Numbers</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec22-complex-numbers.html#subsec-complex-connections-core-plus" class="internal"><span class="codenumber">2.2.3</span> <span class="title">Complex Connections: Applications to the Classroom</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec22-complex-numbers.html#subsec-complex-situation" class="internal"><span class="codenumber">2.2.4</span> <span class="title">A Complex Situation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec22-complex-numbers.html#subsec-pulling-together-geometry" class="internal"><span class="codenumber">2.2.5</span> <span class="title">Pulling Things Together: Basic Geometry</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec22-complex-numbers.html#subsec-seeing-connections-taylor" class="internal"><span class="codenumber">2.2.6</span> <span class="title">Seeing Connections: Taylor Series</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec22-complex-numbers.html#subsec-orbits-complex-numbers" class="internal"><span class="codenumber">2.2.7</span> <span class="title">Orbits of Complex Numbers</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec22-complex-numbers.html#exercises-complex-numbers" class="internal"><span class="codenumber">2.2.8</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec23-intro-sequences.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Introduction to Sequences</span></a></div></li>
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="sec24-intro-vectors-matrices.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Introduction to Vectors and Matrices</span></a></div>
+<ul class="structural toc-item-list active">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec24-intro-vectors-matrices.html#subsec-model-moving-worlds" class="internal"><span class="codenumber">2.4.1</span> <span class="title">Modeling Data and Moving Between Worlds</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec24-intro-vectors-matrices.html#sec-Linear-Comb-Data" class="internal"><span class="codenumber">2.4.1.1</span> <span class="title">Linear Combinations and Dealing with Data</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec24-intro-vectors-matrices.html#sec-Transform-Data-Matrix-Mult" class="internal"><span class="codenumber">2.4.1.2</span> <span class="title">Transforming Data and Matrix Multiplication</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec24-intro-vectors-matrices.html#sec-Transformations-Vectors" class="internal"><span class="codenumber">2.4.1.3</span> <span class="title">Transformations of Vectors</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec24-intro-vectors-matrices.html#subsec-solving-systems" class="internal"><span class="codenumber">2.4.2</span> <span class="title">Solving Systems of Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec24-intro-vectors-matrices.html#finding-scalars" class="internal"><span class="codenumber">2.4.2.1</span> <span class="title">Finding Scalars: Gaussian Elimination</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec24-intro-vectors-matrices.html#stripping-variables" class="internal"><span class="codenumber">2.4.2.2</span> <span class="title">Augmented Matrices and Stripping Away Variable Names</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec24-intro-vectors-matrices"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">2.4</span><span class="space"> </span><span class="title">Introduction to Vectors and Matrices</span>
+</h2>
+<section class="introduction" id="sec24-intro-vectors-matrices-2"><div class="para" id="sec24-intro-vectors-matrices-2-1">Imagine you are standing in an unfamiliar forest and seeking a way out. You can see the sun and know the approximate time of day and know that your parked car is on the northmost edge of the forest.  How do you navigate your way toward your car? Do you need to know your exact location or do you simply need to identify a direction you need to go from your current location?</div></section><section class="subsection" id="subsec-model-moving-worlds"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">2.4.1</span><span class="space"> </span><span class="title">Modeling Data and Moving Between Worlds</span>
+</h3>
+<section class="introduction" id="subsec-model-moving-worlds-2"><div class="para" id="subsec-model-moving-worlds-2-1">In this section we will look at linear algebra as a way to encode information and operate on it allowing us to move between different sets of information.  To this end, we will define how <em class="emphasis">matrices</em> and <em class="emphasis">vectors</em> are operated on with binary operations like addition and multiplication.  While multiplication of matrices may seem weird at first, you will see that it is defined as it is for convenience in manipulating data and transforming different types of values into other computed values based on them.  We begin by considering a case where we want to move between a pricing scheme and the revenue it generates for three different companies with three different sets of orders of our products.</div>
+<div class="para logical" id="subsec-model-moving-worlds-2-2">
+<div class="para">To accomplish this, we will use constructs created to deal with objects that contain multiple entries. In the scenario we are using where companies place orders for products, we want to encode the numerical values for the orders organizing them according to the product and company placing the order.  Here just want to reduce the information to an array of values and so we define a <em class="emphasis">matrix</em> as an array of values (or objects) consisting of rows and columns.  We typically contain these values with brackets or parentheses like:</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/product-orders.html">
+\begin{equation*}
+\begin{bmatrix}
+14\amp 9\amp 34\amp 41\\
+32\amp 7\amp 12\amp 52\\
+21\amp 8\amp 5\amp 23
+\end{bmatrix} 
+\text{or}
+\begin{pmatrix}
+14\amp 9\amp 34\amp 41\\
+32\amp 7\amp 12\amp 52\\
+21\amp 8\amp 5\amp 23
+\end{pmatrix}
+\end{equation*}
+</div>
+<div class="para">In the matrices above, the columns could represent the numbers of each of four products being ordered and the rows could represent the three different companies placing the orders (see the table of orders for this situation given in <a href="sec24-intro-vectors-matrices.html#product-orders" class="xref" data-knowl="./knowl/xref/product-orders.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 2.4.5: Product Orders">Table 2.4.5</a>).</div>
+</div>
+<div class="para" id="subsec-model-moving-worlds-2-3">We also define a <em class="emphasis">vector</em> as matrix with a single column such as <span class="process-math">\(\mathbf{v}=\begin{bmatrix}
+2\\0\\-3
+\end{bmatrix}\)</span> or <span class="process-math">\(\mathbf{w}=\begin{bmatrix}
+1\\7\\-1\\4
+\end{bmatrix}
+\text{.}\)</span> Note that we are using boldface to denote the names of the vectors for convenience to distinguish them from numerical objects that we call <em class="emphasis">scalars</em>.  In a text like this, using boldface makes sense in print, but typically, in written work, we use a harpoon over the name since boldface is not practical with a pen.  In this case, we would write the names as <span class="process-math">\(\overset{\rightharpoonup}{v}\)</span> or <span class="process-math">\(\overset{\rightharpoonup}{w}\)</span> respectively.</div>
+<div class="para" id="subsec-model-moving-worlds-2-4">You may have encountered vectors before in geometry or physics.  We will go into greater detail later with respect to the geometric interpretation, but for now, the behavior remains the same in that operations still work as they do in geometry and physics.  Essentially, vectors consist of <em class="emphasis">components</em> so that when the vectors are added, we simply add the components.</div>
+<div class="para" id="subsec-model-moving-worlds-2-5"><article class="definition definition-like" id="def-vector-add"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.4.1</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="def-vector-add-1-1">
+<div class="para">If <span class="process-math">\(\mathbf{v}\)</span> and <span class="process-math">\(\mathbf{u}\)</span> are vectors, we define vector addition as adding the vectors component by component.  Note that the vectors must be of the same dimension.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\mathbf{v}+\mathbf{u} = 
+\begin{bmatrix}
+v_1\\
+v_2\\
+\vdots\\
+v_n
+\end{bmatrix} +
+\begin{bmatrix}
+u_1\\
+u_2\\
+\vdots\\
+u_n
+\end{bmatrix} =
+\begin{bmatrix}
+v_1+u_1\\
+v_2+u_2\\
+\vdots\\
+v_n+u_n
+\end{bmatrix}
+\end{equation*}
+</div>
+</div></article></div>
+<div class="para" id="subsec-model-moving-worlds-2-6">For example, suppose we have the two vectors in <span class="process-math">\(\mathbb{R}^3\text{,}\)</span> <span class="process-math">\(\begin{bmatrix}
+1\\-5\\2
+\end{bmatrix}
+\text{and}
+\begin{bmatrix}
+2\\1\\7
+\end{bmatrix}
+\text{.}\)</span>  Adding these would result in <span class="process-math">\(\begin{bmatrix}
+1\\-5\\2
+\end{bmatrix} +
+\begin{bmatrix}
+2\\1\\7
+\end{bmatrix} =
+\begin{bmatrix}
+3\\-4\\9
+\end{bmatrix}
+\text{.}\)</span>
+</div>
+<div class="para logical" id="subsec-model-moving-worlds-2-7">
+<div class="para">The other basic operation we can do with vectors is to <em class="emphasis">scale</em> them (geometrically make them longer or shorter or in the case of negative values, make them go in the opposite direction).  For this reason, when we multiply the vector by a numerical value, we call that value a <em class="emphasis">scalar</em>.  For example,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+2\cdot \begin{bmatrix}
+-1\\3\\5
+\end{bmatrix} =
+\begin{bmatrix}
+-2\\6\\10
+\end{bmatrix}
+\end{equation*}
+</div>
+<div class="para">In essence, we scaled the vector by a factor of 2.</div>
+</div>
+<div class="para" id="subsec-model-moving-worlds-2-8"><article class="definition definition-like" id="def-scalar-mult"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.4.2</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="def-scalar-mult-1-1">
+<div class="para">In general, we can define scalar multiplication of a vector as</div>
+<div class="displaymath process-math" id="def-scalar-mult-1-1-1">
+\begin{equation}
+c \cdot \mathbf{v} =  c\cdot \begin{bmatrix}
+v_1\\
+v_2\\
+\vdots\\
+v_n
+\end{bmatrix} =
+\begin{bmatrix}
+cv_1\\
+cv_2\\
+\vdots\\
+cv_n
+\end{bmatrix}\tag{2.4.1}
+\end{equation}
+</div>
+<div class="para">where <span class="process-math">\(c\in \mathbb{R}\text{.}\)</span>
+</div>
+</div></article></div>
+<div class="para logical" id="subsec-model-moving-worlds-2-9">
+<div class="para">Combining scalar multiplication with vector addition, we get</div>
+<div class="displaymath process-math" id="subsec-model-moving-worlds-2-9-1">
+\begin{equation}
+c_1\cdot \mathbf{v}+c_2\cdot \mathbf{u} = 
+c_1\cdot \begin{bmatrix}
+v_1\\
+v_2\\
+\vdots\\
+v_n
+\end{bmatrix} +
+c_2\cdot \begin{bmatrix}
+u_1\\
+u_2\\
+\vdots\\
+u_n
+\end{bmatrix} =
+\begin{bmatrix}
+c_1 v_1+c_2 u_1\\
+c_1 v_2+c_2 u_2\\
+\vdots\\
+c_1 v_n+c_2 u_n
+\end{bmatrix}\tag{2.4.2}
+\end{equation}
+</div>
+<div class="para">We can use these <em class="emphasis">linear combinations</em> applying them to our previous scenario for moving between price of materials and the revenue they generate.</div>
+</div>
+<div class="para" id="subsec-model-moving-worlds-2-10"><article class="activity project-like" id="act-basic-vector-operations"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">2.4.1</span><span class="period">.</span><span class="space"> </span><span class="title">Working with Vectors.</span>
+</h4>
+<div class="introduction" id="act-basic-vector-operations-2"><div class="para" id="act-basic-vector-operations-2-1">As we begin to work with vectors, we should examine how basic operations with them work both numberically and geometrically.  Here we will first look at vector addition and then scalar multiplication.</div></div>
+<article class="task exercise-like" id="act-basic-vector-operations-3"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="act-basic-vector-operations-3-1-1">In <a href="sec24-intro-vectors-matrices.html#def-vector-add" class="xref" data-knowl="./knowl/xref/def-vector-add.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 2.4.1">Definition 2.4.1</a>, we defined an addition for vectors based on component-wise addition. Consider the vectors in <span class="process-math">\(\mathbb{R}^2\text{,}\)</span> <span class="process-math">\(\mathbf{v}=\begin{bmatrix} 2\\1 \end{bmatrix}\)</span> and <span class="process-math">\(\mathbf{w}=\begin{bmatrix} 1\\3 \end{bmatrix}\text{.}\)</span>  Numerically add these two vectors in two ways, first <span class="process-math">\(\mathbf{v}+\mathbf{w}\)</span> and then <span class="process-math">\(\mathbf{w}+\mathbf{v}\text{.}\)</span>  Give your result in each case and describe what you notice.</div></article><article class="task exercise-like" id="act-basic-vector-operations-4"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="act-basic-vector-operations-4-1-1">On the grid in <a href="sec24-intro-vectors-matrices.html#fig-grid-vector-add" class="xref" data-knowl="./knowl/xref/fig-grid-vector-add.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 2.4.3">Figure 2.4.3</a>, plot both <span class="process-math">\(\mathbf{v}\)</span> and <span class="process-math">\(\mathbf{w}\)</span> as directed line segments (i.e. arrows).  Also plot the results you obtained for <span class="process-math">\(\mathbf{v}+\mathbf{w}\)</span> and <span class="process-math">\(\mathbf{w}+\mathbf{v}\text{.}\)</span>  In your groups, discuss how you might interpret movement from the origin along <span class="process-math">\(\mathbf{v}\)</span> and <span class="process-math">\(\mathbf{w}\)</span> to arrive at the location of <span class="process-math">\(\mathbf{v}+\mathbf{w}\)</span> and <span class="process-math">\(\mathbf{w}+\mathbf{v}\text{.}\)</span>  How is the interpretation of movement different depending on whether you are using <span class="process-math">\(\mathbf{v}+\mathbf{w}\)</span> or <span class="process-math">\(\mathbf{w}+\mathbf{v}\text{?}\)</span>  Sketch the directed movement as a combination of two vectors (arrows) for each case.</div> <div class="para" id="act-basic-vector-operations-4-1-2"><figure class="figure figure-like" id="fig-grid-vector-add"><div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/images/grid-blank-1-1.png" class="contained" alt="Grid for Adding Vectors"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.4.3<span class="period">.</span></span><span class="space"> </span>Grid for Vector Addition</figcaption></figure></div></article><article class="task exercise-like" id="act-basic-vector-operations-5"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="act-basic-vector-operations-5-1-1">In <a href="sec24-intro-vectors-matrices.html#def-scalar-mult" class="xref" data-knowl="./knowl/xref/def-scalar-mult.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 2.4.2">Definition 2.4.2</a>, we defined scalar multiplication for vectors based on component-wise multiplication by the same scalar (number).  Consider the vector in <span class="process-math">\(\mathbb{R}^2\text{,}\)</span> <span class="process-math">\(\mathbf{v}=\begin{bmatrix} 2\\-1 \end{bmatrix}\text{.}\)</span>  Numerically multiply this vector by the scalars <span class="process-math">\(c=-1\text{,}\)</span> <span class="process-math">\(c=3\text{,}\)</span> and <span class="process-math">\(c=-2\text{.}\)</span>  Give your result in each case.</div></article><article class="task exercise-like" id="act-basic-vector-operations-6"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="act-basic-vector-operations-6-1-1">On the grid in <a href="sec24-intro-vectors-matrices.html#fig-grid-scalar-mult" class="xref" data-knowl="./knowl/xref/fig-grid-scalar-mult.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 2.4.4">Figure 2.4.4</a>, plot <span class="process-math">\(\mathbf{v}\)</span> and <span class="process-math">\(c \cdot \mathbf{v}\)</span> as directed line segments (i.e. arrows) for each value of <span class="process-math">\(c\text{.}\)</span>  Describe what you notice about all of these results.</div> <figure class="figure figure-like" id="fig-grid-scalar-mult"><div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/images/grid-blank-1-1.png" class="contained" alt="Grid for Adding Vectors"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.4.4<span class="period">.</span></span><span class="space"> </span>Grid for Vector Addition</figcaption></figure> <div class="para" id="act-basic-vector-operations-6-1-3"></div></article></article></div></section><section class="subsubsection" id="sec-Linear-Comb-Data"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">2.4.1.1</span><span class="space"> </span><span class="title">Linear Combinations and Dealing with Data</span>
+</h4>
+<div class="para" id="sec-Linear-Comb-Data-2">Continuing our scenario from the introduction.  Suppose that a supplier provides four different products with prices, <span class="process-math">\(p_1, p_2, p_3, p_4 \text{,}\)</span> to three companies.  One thing we may want to do is to play with pricing schemes and look at the generated revenue we would get from each of the three companies. Suppose we have orders from the three companies for each of our four products as given in the table below.</div>
+<div class="para" id="sec-Linear-Comb-Data-3"><figure class="table table-like" id="product-orders"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">2.4.5<span class="period">.</span></span><span class="space"> </span>Product Orders</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r0 l0 t0 lines">Clients</th>
+<th scope="col" class="c m b1 r0 l0 t0 lines">Product 1</th>
+<th scope="col" class="c m b1 r0 l0 t0 lines">Product 2</th>
+<th scope="col" class="c m b1 r0 l0 t0 lines">Product 3</th>
+<th scope="col" class="c m b1 r0 l0 t0 lines">Product 4</th>
+</tr>
+<tr>
+<td class="c m b0 r0 l0 t0 lines">Company 1</td>
+<td class="c m b0 r0 l0 t0 lines">14</td>
+<td class="c m b0 r0 l0 t0 lines">9</td>
+<td class="c m b0 r0 l0 t0 lines">34</td>
+<td class="c m b0 r0 l0 t0 lines">41</td>
+</tr>
+<tr>
+<td class="c m b0 r0 l0 t0 lines">Company 2</td>
+<td class="c m b0 r0 l0 t0 lines">32</td>
+<td class="c m b0 r0 l0 t0 lines">7</td>
+<td class="c m b0 r0 l0 t0 lines">12</td>
+<td class="c m b0 r0 l0 t0 lines">52</td>
+</tr>
+<tr>
+<td class="c m b0 r0 l0 t0 lines">Company 3</td>
+<td class="c m b0 r0 l0 t0 lines">21</td>
+<td class="c m b0 r0 l0 t0 lines">8</td>
+<td class="c m b0 r0 l0 t0 lines">5</td>
+<td class="c m b0 r0 l0 t0 lines">23</td>
+</tr>
+</table></div></figure></div>
+<div class="para" id="sec-Linear-Comb-Data-4"><article class="activity project-like" id="act-prices-vectors-revenue"><h5 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">2.4.2</span><span class="period">.</span><span class="space"> </span><span class="title">Prices, Vectors, and Revenue.</span>
+</h5>
+<div class="introduction" id="act-prices-vectors-revenue-2"><div class="para" id="act-prices-vectors-revenue-2-1">Consider the scenario given above for the orders by three companies for four different products.</div></div>
+<article class="task exercise-like" id="act-prices-vectors-revenue-3"><h6 class="heading"><span class="codenumber">(a)</span></h6>
+<div class="para" id="act-prices-vectors-revenue-3-1-1">Thinking of the four <dfn class="terminology">Products</dfn> from <a href="sec24-intro-vectors-matrices.html#product-orders" class="xref" data-knowl="./knowl/xref/product-orders.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 2.4.5: Product Orders">Table 2.4.5</a> as each being a vector where the entries of the vector store the orders made for each of the three companies, express this information as a set of four vectors in <span class="process-math">\(\mathbb{R}^3\text{.}\)</span>
+</div>
+<div class="solutions"><details id="act-prices-vectors-revenue-3-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para logical" id="act-prices-vectors-revenue-3-2-1">
+<div class="para">Since there are four <dfn class="terminology">Products</dfn>, we can express the orders from the three companies for each <dfn class="terminology">Product</dfn> as an ordered triple (or vector) containing three entries (one for each company) for that product.  This would give us a set of four vectors:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\left\{ \begin{bmatrix}
+14\\32\\21
+\end{bmatrix}
+,\begin{bmatrix}
+9\\7\\8
+\end{bmatrix}
+,\begin{bmatrix}
+34\\12\\5
+\end{bmatrix}
+,\begin{bmatrix}
+41\\52\\23
+\end{bmatrix}
+\right\}
+\end{equation*}
+</div>
+</div></div></details></div></article><article class="task exercise-like" id="act-prices-vectors-revenue-4"><h6 class="heading"><span class="codenumber">(b)</span></h6>
+<div class="para" id="act-prices-vectors-revenue-4-1-1">If Product 1 is priced at $12, Product 2 is priced at $9, Product 3 is priced at $15, and Product 4 is priced at $7, using these prices for each of the four Products in the table as scalars, write a linear combination of the vectors from your set from part (a) that when added will give a vector in <span class="process-math">\(\mathbb{R}^3\)</span> that represents the revenue generated from each company.  How much did you collect from each company?  Feel free to use your CAS to do the computation here.</div>
+<div class="solutions"><details id="act-prices-vectors-revenue-4-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para logical" id="act-prices-vectors-revenue-4-2-1">
+<div class="displaymath process-math">
+\begin{equation*}
+12\cdot \begin{bmatrix}
+14\\32\\21\end{bmatrix} + 9\cdot \begin{bmatrix}
+9\\7\\8\end{bmatrix} + 15\cdot \begin{bmatrix}
+34\\12\\5\end{bmatrix} + 7\cdot \begin{bmatrix}
+41\\52\\23\end{bmatrix}=
+\begin{bmatrix}
+1046\\991\\560
+\end{bmatrix}
+\end{equation*}
+</div>
+<div class="para">This means we received $1046 from Company 1, $991 from Company 2, and $560 from Company 3.</div>
+</div></div></details></div></article><article class="task exercise-like" id="act-prices-vectors-revenue-5"><h6 class="heading"><span class="codenumber">(c)</span></h6>
+<div class="para" id="act-prices-vectors-revenue-5-1-1">Since you allowed your CAS to do the computation for part (b), let’s think about how it is doing the arithmetic.  Using what we have defined for combining scalar multiplication and vector addition in Equation 1.1.2, show the details of how the CAS was computing the resulting vector that you obtained in part (b).</div>
+<div class="solutions"><details id="act-prices-vectors-revenue-5-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para logical" id="act-prices-vectors-revenue-5-2-1">
+<div class="displaymath process-math">
+\begin{equation*}
+\begin{bmatrix}
+12\cdot14 \\12\cdot32 \\12\cdot21 \end{bmatrix} + \begin{bmatrix}
+9\cdot9 \\9\cdot7 \\9\cdot8 \end{bmatrix} + \begin{bmatrix}
+15\cdot34 \\15\cdot12 \\15\cdot5 \end{bmatrix} + \begin{bmatrix}
+7\cdot41 \\7\cdot52 \\7\cdot23 \end{bmatrix} = 
+\end{equation*}
+</div>
+<div class="para"><div class="para logical" id="act-prices-vectors-revenue-5-2-1-2"><div class="displaymath process-math">
+\begin{equation*}
+\begin{bmatrix}
+12\cdot14 + 9\cdot9 + 15\cdot34 + 7\cdot41 \\
+12\cdot32 + 9\cdot7 + 15\cdot12 + 7\cdot52 \\
+12\cdot21 + 9\cdot8 + 15\cdot5 + 7\cdot23
+\end{bmatrix} = 
+\begin{bmatrix}
+1046\\991\\560
+\end{bmatrix}
+\end{equation*}
+</div></div></div>
+</div></div></details></div></article><article class="task exercise-like" id="act-prices-vectors-revenue-6"><h6 class="heading"><span class="codenumber">(d)</span></h6>
+<div class="para" id="act-prices-vectors-revenue-6-1-1">In general, we can think of the selling price for each of the four <dfn class="terminology">Products</dfn> as scalars <span class="process-math">\(p_1, p_2, p_3, p_4 \text{.}\)</span>  Give a general expression in terms of <span class="process-math">\(p_1, p_2, p_3, p_4 \)</span> for the revenue generated by the purchases for the three companies expressing them as a linear combination of three-entry revenue vectors (one entry for each company) resulting in the revenue vector, <span class="process-math">\(\begin{bmatrix} r_1\\r_2\\r_3\end{bmatrix}\text{.}\)</span>
+</div>
+<div class="solutions"><details id="act-prices-vectors-revenue-6-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para logical" id="act-prices-vectors-revenue-6-2-1"><div class="displaymath process-math">
+\begin{equation*}
+p_1 \begin{bmatrix}
+14\\32\\21\end{bmatrix} + p_2 \begin{bmatrix}
+9\\7\\8\end{bmatrix} + p_3 \begin{bmatrix}
+34\\12\\5\end{bmatrix} + p_4 \begin{bmatrix}
+41\\52\\23\end{bmatrix} = \begin{bmatrix}
+r_1\\r_2\\r_3\end{bmatrix}
+\end{equation*}
+</div></div></div></details></div></article></article></div>
+<div class="para" id="sec-Linear-Comb-Data-5">Notice that where the product and sum are combined in part (c) we have the scalar values (or prices) of each <dfn class="terminology">Product</dfn> ($12, $9, $15, and $7) being multipled by all entries in their respective vectors where the number of orders of each <dfn class="terminology">Product</dfn> is placed in the vector in order by the company.  When these vectors are then added, we get the total revenue for each company organized as an ordered triple (since there are three companies).</div>
+<div class="para" id="sec-Linear-Comb-Data-6">Here we are purposefully using an example where the number of entries in each set of values of interest (prices and revenue) are different to highlight that although we can have the same number of entries in each set be the same, it is not necessary.  Eventually we will express the prices as a vector consisting of four entries and the revenue as a vector consisting of three entries where we can think of the process of going from prices to revenue as a <em class="emphasis">transformation</em> between worlds so to speak.  In this case we will have four entries in one set of vectors/world (prices of different Products) meaning that these vectors exist in <span class="process-math">\(\mathbb{R}^4\)</span> such as <span class="process-math">\(\begin{bmatrix}
+p_1\\p_2\\p_3\\p_4
+\end{bmatrix}\)</span> and three entries in the other set of vectors/world (revenue from each of the three companies) existing in <span class="process-math">\(\mathbb{R}^3\)</span> like <span class="process-math">\(\begin{bmatrix}
+r_1\\r_2\\r_3\end{bmatrix}
+\text{.}\)</span>
+</div>
+<div class="para" id="sec-Linear-Comb-Data-7">In the previous activity, you may have noticed behaviors of the arithmetic when working with the vectors and scalars that are familiar.  From your basic experiences in elementary school, you will recall some properties for operating on numbers that seem to also be happening in your work with vectors.  Let’s explore these briefly by using the properties of vector addition and scalar multiplication we have just defined.</div>
+<div class="para" id="sec-Linear-Comb-Data-8"><article class="activity project-like" id="sec-Linear-Comb-Data-8-1"><h5 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">2.4.3</span><span class="period">.</span><span class="space"> </span><span class="title">Structure of Vectors.</span>
+</h5>
+<div class="introduction" id="sec-Linear-Comb-Data-8-1-2"><div class="para" id="sec-Linear-Comb-Data-8-1-2-1">Consider the vectors <span class="process-math">\(\mathbf{u}=
+\begin{bmatrix}
+-1\\2\\5
+\end{bmatrix}\text{,}\)</span> <span class="process-math">\(\mathbf{v}=
+\begin{bmatrix}
+2\\3\\0
+\end{bmatrix}\text{,}\)</span> and <span class="process-math">\(\mathbf{w}=
+\begin{bmatrix}
+-2\\-1\\4
+\end{bmatrix}\text{.}\)</span> Define each of these vectors in your computer algebra system (CAS).</div></div>
+<article class="task exercise-like" id="sec-Linear-Comb-Data-8-1-3"><h6 class="heading"><span class="codenumber">(a)</span></h6>
+<div class="para" id="sec-Linear-Comb-Data-8-1-3-1-1">Based on what we know about how we have defined vector addition and the fact that all of these vectors are in <span class="process-math">\(\mathbb{R}^3\text{,}\)</span> when we add any two of them we will get another vector in <span class="process-math">\(\mathbb{R}^3\text{.}\)</span> However, what other properties hold?  Using your CAS, compute <span class="process-math">\(\mathbf{u}+\mathbf{v}\)</span> and then compute <span class="process-math">\(\mathbf{v}+\mathbf{u}\text{.}\)</span>  Describe what you notice?  Have you seen this behavior before with real numbers?  What is this property called?</div></article><article class="task exercise-like" id="sec-Linear-Comb-Data-8-1-4"><h6 class="heading"><span class="codenumber">(b)</span></h6>
+<div class="para" id="sec-Linear-Comb-Data-8-1-4-1-1">Using your CAS, compute <span class="process-math">\(\left(\mathbf{u}+\mathbf{v}\right)+\mathbf{w}\text{,}\)</span> first by computing <span class="process-math">\(\mathbf{u}+\mathbf{v}\)</span> and then adding <span class="process-math">\(\mathbf{w}\)</span> to your result.  Now compute <span class="process-math">\(\mathbf{u}+\left(\mathbf{v}+\mathbf{w}\right)\text{,}\)</span> first by computing <span class="process-math">\(\mathbf{v}+\mathbf{w}\)</span> and then adding your result to <span class="process-math">\(\mathbf{u}\text{.}\)</span> Describe what you notice?  Have you seen this behavior before with real numbers?  What is this property called?</div></article><article class="task exercise-like" id="sec-Linear-Comb-Data-8-1-5"><h6 class="heading"><span class="codenumber">(c)</span></h6>
+<div class="para" id="sec-Linear-Comb-Data-8-1-5-1-1">Using each of the vectors, <span class="process-math">\(\mathbf{u}\text{,}\)</span> <span class="process-math">\(\mathbf{v}\text{,}\)</span> and <span class="process-math">\(\mathbf{w}\text{,}\)</span> add the vector <span class="process-math">\(\begin{bmatrix} 0\\0\\0\end{bmatrix}\)</span> to each.  Describe what you notice.  Have you seen this behavior before with real numbers?  What is this property called?</div></article><article class="task exercise-like" id="sec-Linear-Comb-Data-8-1-6"><h6 class="heading"><span class="codenumber">(d)</span></h6>
+<div class="para" id="sec-Linear-Comb-Data-8-1-6-1-1">Using each of the vectors, <span class="process-math">\(\mathbf{u}\text{,}\)</span> <span class="process-math">\(\mathbf{v}\text{,}\)</span> and <span class="process-math">\(\mathbf{w}\text{,}\)</span> negate each entry of <span class="process-math">\(\mathbf{u}\)</span> and add the resulting vector to <span class="process-math">\(\mathbf{u}\text{.}\)</span>  Describe what you notice.  Repeat this process with <span class="process-math">\(\mathbf{v}\)</span> and <span class="process-math">\(\mathbf{w}\text{.}\)</span>  Do you get similar results?  Have you seen this behavior before with real numbers?  What is this property called?</div></article><article class="task exercise-like" id="sec-Linear-Comb-Data-8-1-7"><h6 class="heading"><span class="codenumber">(e)</span></h6>
+<div class="para" id="sec-Linear-Comb-Data-8-1-7-1-1">Using your CAS, compute <span class="process-math">\(2\cdot \left(\mathbf{u}+\mathbf{v}\right)\text{,}\)</span> first by computing <span class="process-math">\(\mathbf{u}+\mathbf{v}\)</span> and then multiplying 2 times your result.  Now compute <span class="process-math">\(2\cdot \mathbf{u}+2\cdot \mathbf{v}\text{,}\)</span> first by computing 2 times each vector and then adding your results together. Describe what you notice?  Have you seen this behavior before with real numbers?  What is this property called?</div></article><article class="task exercise-like" id="sec-Linear-Comb-Data-8-1-8"><h6 class="heading"><span class="codenumber">(f)</span></h6>
+<div class="para" id="sec-Linear-Comb-Data-8-1-8-1-1">Given that <span class="process-math">\(2+3=5\text{,}\)</span> compute <span class="process-math">\(5\cdot \left(\mathbf{u}+\mathbf{v}\right)\)</span> and <span class="process-math">\(2\cdot \mathbf{u} + 3\cdot \mathbf{v}\text{.}\)</span>  Describe what you notice?  Have you seen this behavior before with real numbers?  What is this property called?</div></article><article class="task exercise-like" id="sec-Linear-Comb-Data-8-1-9"><h6 class="heading"><span class="codenumber">(g)</span></h6>
+<div class="para" id="sec-Linear-Comb-Data-8-1-9-1-1">Using your CAS, compute <span class="process-math">\(2 \left(3\mathbf{u}\right)\text{,}\)</span> first by computing <span class="process-math">\(3\mathbf{u}\)</span> and then multiplying 2 times your result.  Now compute <span class="process-math">\(\left(2\cdot3\right) \mathbf{u}\text{,}\)</span> first by computing 2 times 3 and then multiplying your result by <span class="process-math">\(\mathbf{u}\text{.}\)</span> Describe what you notice?  Have you seen this behavior before with real numbers?  What is this property called?</div></article></article></div>
+<div class="para" id="sec-Linear-Comb-Data-9">Since we have seen these properties before from our work with real numbers, we can use them with vectors and scalars so that we can manipulate these combinations of operations.  To this end, we can define a "world" where objects like vectors and scalars behave in a way that we expect and can use.</div>
+<div class="para" id="sec-Linear-Comb-Data-10"><article class="definition definition-like" id="def-vector-space"><h5 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.4.6</span><span class="period">.</span><span class="space"> </span><span class="title">Vector Space.</span>
+</h5>
+<div class="para logical" id="def-vector-space-2-1">
+<div class="para">A <dfn class="terminology">vector space</dfn> is a nonempty set <span class="process-math">\(V\)</span> of objects, called <em class="emphasis">vectors</em>, on which are defined two operations, called <em class="emphasis">addition</em> and <em class="emphasis">scalar multiplication</em> (for real numbers), that satisfy the following axioms. For any  <span class="process-math">\(\mathbf{u}, \mathbf{v}, \mathbf{w} \in V\)</span> and <span class="process-math">\(c, d \in \mathbb{R}\text{:}\)</span>
+</div>
+<ol class="decimal" id="def-vector-space-2-1-8">
+<li id="def-vector-space-2-1-8-1"><div class="para" id="def-vector-space-2-1-8-1-1"><span class="process-math">\(\displaystyle \mathbf{u}+\mathbf{v} \in V\)</span></div></li>
+<li id="def-vector-space-2-1-8-2"><div class="para" id="def-vector-space-2-1-8-2-1"><span class="process-math">\(\displaystyle \mathbf{u}+\mathbf{v}=\mathbf{v}+\mathbf{u}\)</span></div></li>
+<li id="def-vector-space-2-1-8-3"><div class="para" id="def-vector-space-2-1-8-3-1"><span class="process-math">\(\displaystyle \left(\mathbf{u}+\mathbf{v}\right)+\mathbf{w}=\mathbf{u}+\left(\mathbf{v}+\mathbf{w}\right)\)</span></div></li>
+<li id="def-vector-space-2-1-8-4"><div class="para" id="def-vector-space-2-1-8-4-1">There exists a <em class="emphasis">zero vector</em>, denoted <span class="process-math">\(\mathbf{0} \in V\text{,}\)</span> such that <span class="process-math">\(\mathbf{u}+\mathbf{0}=\mathbf{u}, \forall \mathbf{u} \in V\text{.}\)</span>
+</div></li>
+<li id="def-vector-space-2-1-8-5"><div class="para" id="def-vector-space-2-1-8-5-1">For each <span class="process-math">\(\mathbf{u} \in V\text{,}\)</span> there exists a vector denoted <span class="process-math">\(-\mathbf{u} \in V\)</span> such that <span class="process-math">\(\mathbf{u}+\left(-\mathbf{u}\right)=\mathbf{0}\text{.}\)</span>
+</div></li>
+<li id="def-vector-space-2-1-8-6"><div class="para" id="def-vector-space-2-1-8-6-1">The scalar multiple of <span class="process-math">\(\mathbf{u}\)</span> by <span class="process-math">\(c\text{,}\)</span> denoted <span class="process-math">\(c\mathbf{u} \in V\text{.}\)</span>
+</div></li>
+<li id="def-vector-space-2-1-8-7"><div class="para" id="def-vector-space-2-1-8-7-1"><span class="process-math">\(\displaystyle c\left(\mathbf{u}+\mathbf{v}\right)=c\mathbf{u}+c\mathbf{v}\)</span></div></li>
+<li id="def-vector-space-2-1-8-8"><div class="para" id="def-vector-space-2-1-8-8-1"><span class="process-math">\(\displaystyle \left(c+d\right)\mathbf{u}=c\mathbf{u}+d\mathbf{u}\)</span></div></li>
+<li id="def-vector-space-2-1-8-9"><div class="para" id="def-vector-space-2-1-8-9-1"><span class="process-math">\(\displaystyle c\left(d\mathbf{u}\right)=\left(cd\right)\mathbf{u}\)</span></div></li>
+<li id="def-vector-space-2-1-8-10"><div class="para" id="def-vector-space-2-1-8-10-1"><span class="process-math">\(\displaystyle 1\mathbf{u}=\mathbf{u}\)</span></div></li>
+</ol>
+</div></article></div></section><section class="subsubsection" id="sec-Transform-Data-Matrix-Mult"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">2.4.1.2</span><span class="space"> </span><span class="title">Transforming Data and Matrix Multiplication</span>
+</h4>
+<div class="para" id="sec-Transform-Data-Matrix-Mult-2">As we have seen, we can use vectors to represent any entity that might have multiple components.  This allows us to manipulate values of common components by adding or multiplying them while keeping the components separated in the process.  This use of linear combinations of vectors is useful, but the real desire of the previous scenario is to examine how manipulating one set of values (say, prices of products) affects another set of values (revenue from each company).  Just as we explored functional relationships in algebra and calculus, we also might want to explore functional relationships with objects that have not just one value as an input and one corresponding value as an output, but rather inputs that have many component values and a corresponding output that also has many component values.</div>
+<div class="para" id="sec-Transform-Data-Matrix-Mult-3">Recall that one of our first experiences with functions dealt with simple linear relationships.  For example, Hooke’s Law states that there is a simple linear relationship between force on a stretched or compressed spring and the distance of the associated stretch or compression, <span class="process-math">\(F=kx\text{,}\)</span> where <span class="process-math">\(k\)</span> is a constant of proportionality.  If we use <em class="emphasis">function notation</em> to express that force, <span class="process-math">\(F\text{,}\)</span> is a function of stretch, <span class="process-math">\(x\text{,}\)</span> we indicate the independent variable by placing it in parentheses getting, <span class="process-math">\(F\left(x\right)=kx\text{.}\)</span>
+</div>
+<div class="para logical" id="sec-Transform-Data-Matrix-Mult-4">
+<div class="para">In this situation, we obtain the force as an output by multiplying the stretch, <span class="process-math">\(x\text{,}\)</span> by a numerical value, <span class="process-math">\(k\text{.}\)</span>  What if in our scenario for the relationship between pricing of products and the revenue generated from each of our three companies, we could have a simple multiplication by something that acted like <span class="process-math">\(k\)</span> in our Hooke’s Law relationship?  In the <span class="process-math">\(F\left(x\right)=kx\)</span> case, there is a single value, <span class="process-math">\(k\text{,}\)</span> that affects the output, <span class="process-math">\(F\text{,}\)</span> for a given input, <span class="process-math">\(x\text{.}\)</span>  However, in the situation with price vs revenue, there are many values impacting the output of revenue for an input vector of prices (namely, all of the different order values provided by the companies placing orders).  So, our <em class="emphasis">k</em>-equivalent must take into account all of the values of the orders placed by the companies.  Here we can think of our single multiplier (like that of <span class="process-math">\(k\)</span>) as being comprised of an array of order values for the products like we had for the linear combination of the vectors</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\left\{ \begin{bmatrix}
+14\\32\\21
+\end{bmatrix}
+,\begin{bmatrix}
+9\\7\\8
+\end{bmatrix}
+,\begin{bmatrix}
+34\\12\\5
+\end{bmatrix}
+,\begin{bmatrix}
+41\\52\\23
+\end{bmatrix}
+\right\}
+\end{equation*}
+</div>
+<div class="para">except now we express this set of vectors as a single matrix where each column is a vector (called a <em class="emphasis">column vector</em>).  This gives an entity (matrix)</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\begin{bmatrix}
+14\amp 9\amp 34\amp 41\\
+32\amp 7\amp 12\amp 52\\
+21\amp 8\amp 5\amp 23
+\end{bmatrix}
+\end{equation*}
+</div>
+<div class="para">that serves the role that <span class="process-math">\(k\)</span> did in <span class="process-math">\(F=kx\text{.}\)</span>
+</div>
+</div>
+<div class="para logical" id="sec-Transform-Data-Matrix-Mult-5">
+<div class="para">What this does for us is it allows us to think of the scalars (prices) we used in the linear combination,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+p_1 \begin{bmatrix}
+14\\32\\21\end{bmatrix} + p_2 \begin{bmatrix}
+9\\7\\8\end{bmatrix} + p_3 \begin{bmatrix}
+34\\12\\5\end{bmatrix} + p_4 \begin{bmatrix}
+41\\52\\23\end{bmatrix} = \begin{bmatrix}
+r_1\\r_2\\r_3\end{bmatrix}
+\end{equation*}
+</div>
+<div class="para">as an input vector, <span class="process-math">\(\begin{bmatrix}
+p_1\\p_2\\p_3\\p_4
+\end{bmatrix}
+\text{,}\)</span> so that we get a relationship that is structurally similar to <span class="process-math">\(F=kx\text{:}\)</span>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\begin{bmatrix}
+r_1\\r_2\\r_3\end{bmatrix} =
+\begin{bmatrix}
+14\amp 9\amp 34\amp 41\\
+32\amp 7\amp 12\amp 52\\
+21\amp 8\amp 5\amp 23
+\end{bmatrix}
+\begin{bmatrix}
+p_1\\p_2\\p_3\\p_4
+\end{bmatrix}
+\end{equation*}
+</div>
+<div class="para">where <span class="process-math">\(\begin{bmatrix}
+r_1\\r_2\\r_3\end{bmatrix} \)</span> acts like <span class="process-math">\(F\text{,}\)</span> <span class="process-math">\(\begin{bmatrix}
+p_1\\p_2\\p_3\\p_4
+\end{bmatrix}\)</span> acts like <span class="process-math">\(x\text{,}\)</span> and <span class="process-math">\(\begin{bmatrix}
+14\amp 9\amp 34\amp 41\\
+32\amp 7\amp 12\amp 52\\
+21\amp 8\amp 5\amp 23
+\end{bmatrix}\)</span> acts like <span class="process-math">\(k\text{.}\)</span>
+</div>
+</div>
+<div class="para logical" id="sec-Transform-Data-Matrix-Mult-6">
+<div class="para">The use of a matrix as a single entity that we can use to multiply by a vector brings an interesting question.  What does it mean to multiply by a matrix?  If we look at what we want to do from our functional perspective in the case above, we would like to have the outputs represent the revenue in the way we ultimately added them up in the linear combination of the vectors with the prices viewed as scalars for the column vectors in the matrix.  This means that we will need to define the multiplication of a matrix and a vector in such a way that we get:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\begin{bmatrix}
+14\amp 9\amp 34\amp 41\\
+32\amp 7\amp 12\amp 52\\
+21\amp 8\amp 5\amp 23
+\end{bmatrix}
+\begin{bmatrix}
+p_1\\p_2\\p_3\\p_4
+\end{bmatrix} = 
+\begin{bmatrix}
+p_1\cdot14 + p_2\cdot9 + p_3\cdot34 + p_4\cdot41 \\
+p_1\cdot32 + p_2\cdot7 + p_3\cdot12 + p_4\cdot52 \\
+p_1\cdot21 + p_2\cdot8 + p_3\cdot5 + p_4\cdot23
+\end{bmatrix} =
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+p_1 \begin{bmatrix}
+14\\32\\21\end{bmatrix} + p_2 \begin{bmatrix}
+9\\7\\8\end{bmatrix} + p_3 \begin{bmatrix}
+34\\12\\5\end{bmatrix} + p_4 \begin{bmatrix}
+41\\52\\23\end{bmatrix}
+\end{equation*}
+</div>
+<div class="para">Now this may seem complicated, but one way to look at the process is that we proceed across a row in the matrix while moving down the vector component by component adding the products of the row entries of the matrix and the corresponding component entries of the vector.  For example, for the top entry in the resulting revenue vector, we obtained it by moving across the first row with values 14, 9, 34, and 41, while multiplying each by their respective position price value <span class="process-math">\(p_1\text{,}\)</span> <span class="process-math">\(p_2\text{,}\)</span> <span class="process-math">\(p_3\text{,}\)</span> and <span class="process-math">\(p_4\)</span> and then adding these four products together.  This gives <span class="process-math">\(p_1\cdot14 + p_2\cdot9 + p_3\cdot34 + p_4\cdot41\text{.}\)</span>  Now we proceed similarly for each row moving across the row and down the vector creating product combinations and adding them together as we go.  The row of the matrix we use for the computation becomes the row position in the resulting vector we are creating (in this case, revenue).</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\begin{bmatrix}
+14\amp 9\amp 34\amp 41\\
+32\amp 7\amp 12\amp 52\\
+21\amp 8\amp 5\amp 23
+\end{bmatrix}
+\begin{bmatrix}
+p_1\\p_2\\p_3\\p_4
+\end{bmatrix} = 
+\begin{bmatrix}
+p_1\cdot14 + p_2\cdot9 + p_3\cdot34 + p_4\cdot41 \\
+p_1\cdot32 + p_2\cdot7 + p_3\cdot12 + p_4\cdot52 \\
+p_1\cdot21 + p_2\cdot8 + p_3\cdot5 + p_4\cdot23
+\end{bmatrix} = 
+\begin{bmatrix}
+r_1\\r_2\\r_3\end{bmatrix}
+\end{equation*}
+</div>
+<div class="para">You will likely notice that the result of the way we have chosen to define the multiplication of a matrix and a vector only makes sense if the number of columns of the matrix matches the number of entries (rows of components) of the vector.</div>
+</div></section><section class="subsubsection" id="sec-Transformations-Vectors"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">2.4.1.3</span><span class="space"> </span><span class="title">Transformations of Vectors</span>
+</h4>
+<div class="para" id="sec-Transformations-Vectors-2">Now that we have defined what it means to multiply a matrix and a vector, we can go back to the concept that motivated it, namely, the desire to move between an input vector and an output vector.  In a way, we are looking to <em class="emphasis">transform</em> one type of vector into another type of vector.  When we think of our example of Hooke’s Law as <em class="emphasis">transforming</em> stretch or compression into force, we note that this happens in our daily lives and we are not often even aware it is there.</div>
+<div class="para" id="sec-Transformations-Vectors-3">Consider a trip to the grocery store.  In the produce aisle, we take zucchini and place them on a scale.  In turn, the scale returns a weight (force) in pounds (if you are in the USA) or mass in kilograms (practically anywhere else in the world).  Inside the scale, there is a spring that is being compressed or stretched.  This value is then <em class="emphasis">transformed</em> into a value of weight or mass using Hooke’s Law.  In fact, it is more likely the case that you are more familiar with a transformation in form of cost instead of weight or mass as most digital scales today allow us to scan the scale’s output barcode registering a cost in our "shop and scan" app.  Below is a video illustrating this process.</div>
+<div class="para" id="sec-Transformations-Vectors-4"><figure class="figure figure-like" id="linear-transformation-video"><div class="video-box" style="width: 100%;padding-top: 56.25%; margin-left: 0%; margin-right: 0%;"><iframe class="video" allowfullscreen="" src="https://www.youtube-nocookie.com/embed/mzqYk0K7FMA?&amp;modestbranding=1&amp;rel=0" id="linear-transformation-video-1"></iframe></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.4.7<span class="period">.</span></span><span class="space"> </span>The Produce Aisle: Concept of Linear Transformation</figcaption></figure></div>
+<div class="para logical" id="sec-Transformations-Vectors-5">
+<div class="para">So what are the characteristics of this type of transformation?  Consider the case from the video where we saw that the doubling the force (or mass) corresponded in the doubling of the stretch.  Similarly, tripling the force would triple the stretch.  In general, this means that any multiple of stretch will correspond to the same multiple of force (or mass or cost) depending on the output we desire for the transformation.  We can see this from the basic algebra from Hooke’s Law.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+F\left(2x\right)=k\left(2x\right)=2\left(kx\right)=2F\left(x\right)
+\end{equation*}
+</div>
+<div class="para">What this says is that <em class="emphasis">scalar multiplication is preserved</em>.</div>
+</div>
+<div class="para logical" id="sec-Transformations-Vectors-6">
+<div class="para">Now this is all well and good if we are looking at replicating the same stretch multiple times (e.g. all of our zucchini are the exact same weight), but what about the case where we have multiple numbers of zucchini of varying weight (corresponding to varying stretches)?  We also want to have it be the case that if we place two different "stretch" zucchinis on the scale that the resulting weight will simply be added together as well so that their corresponding costs will also be added together (since we are paying based on the cost/unit weight).  In this case, suppose we have two possibly different stretches <span class="process-math">\(x\text{,}\)</span> and <span class="process-math">\(y\text{.}\)</span>  Here we get</div>
+<div class="displaymath process-math">
+\begin{equation*}
+F\left(x+y\right)=k\left(x+y\right)=kx+ky=F\left(x\right)+F\left(y\right)
+\end{equation*}
+</div>
+<div class="para">What this says is that <em class="emphasis">vector addition is preserved</em>.  In this case, we can think of the inputs, <span class="process-math">\(x\)</span> and <span class="process-math">\(y\text{,}\)</span> as vectors with only one component.  In fact, if you have ever taken a physics class, you will recall that both force and stretch in Hook’e Law were considered vectors since along a single line we associate a positive and negative direction for these values to indicate direction of the force or stretch.  We often represent this relationship as a vector relationship, <span class="process-math">\(\mathbf{F}=k\mathbf{x}\)</span> or <span class="process-math">\(\overset{\rightharpoonup}{F}=k\overset{\rightharpoonup}{x}\text{.}\)</span>
+</div>
+</div>
+<div class="para" id="sec-Transformations-Vectors-7">Recall from your Algebra 1 days, a function like <span class="process-math">\(F=kx\)</span> is the most basic of linear functions. Therefore, it should come as no surprise that these two aspects of behavior (preservation of scalar multiplication and vector addition) by this type of function are the defining properties of what we call <em class="emphasis">linear transformations</em>.</div>
+<div class="para" id="sec-Transformations-Vectors-8"><article class="activity project-like" id="sec-Transformations-Vectors-8-1"><h5 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">2.4.4</span><span class="period">.</span>
+</h5>
+<div class="introduction" id="sec-Transformations-Vectors-8-1-1">
+<div class="para" id="sec-Transformations-Vectors-8-1-1-1">In the case of the force and spring stretch, we had a spring constant, <span class="process-math">\(k\text{,}\)</span> as our <em class="emphasis">constant of proportionality</em> where it was a single value that worked for a specific spring.  As we have seen, we may have relationships where this "constant" is actually dependent on many different values instead of a single one (i.e. a matrix of values).  Can we still have these two operations (scalar multiplication and vector addition) work when the thing we are multiplying the vectors by is a matrix? Suppose we have a matrix transformation given by <span class="process-math">\(T\left(\mathbf{x}\right)=
+\begin{bmatrix}
+-1 \amp 3 \amp 1\\
+2 \amp 5 \amp 2\\
+1 \amp 0 \amp -1
+\end{bmatrix}\mathbf{x}\text{.}\)</span> Define this transformation in your CAS and then define <span class="process-math">\(\mathbf{v}=\begin{bmatrix} -2\\1\\0\end{bmatrix}\)</span> and <span class="process-math">\(\mathbf{w}=\begin{bmatrix} 3\\2\\-2\end{bmatrix}\text{.}\)</span>
+</div>
+<div class="para" id="sec-Transformations-Vectors-8-1-1-2"><figure class="figure figure-like" id="defining-transformation-nspire"><div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/images/lineartransformation-act-1-1-3.png" class="contained" alt="Defining on TI-Nspire CX II CAS"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.4.8<span class="period">.</span></span><span class="space"> </span>Defining Transformation on TI-Nspire CX II CAS</figcaption></figure></div>
+</div>
+<article class="task exercise-like" id="sec-Transformations-Vectors-8-1-2"><h6 class="heading"><span class="codenumber">(a)</span></h6>
+<div class="para" id="sec-Transformations-Vectors-8-1-2-1-1">Compute <span class="process-math">\(T\left(\mathbf{v}\right)\)</span> and <span class="process-math">\(T\left(\mathbf{w}\right)\)</span> and add them.</div></article><article class="task exercise-like" id="sec-Transformations-Vectors-8-1-3"><h6 class="heading"><span class="codenumber">(b)</span></h6>
+<div class="para" id="sec-Transformations-Vectors-8-1-3-1-1">Compute <span class="process-math">\(\mathbf{v}+\mathbf{w}\)</span> and <span class="process-math">\(T\left(\mathbf{v}+\mathbf{w}\right)\text{.}\)</span>  Describe your observations relative to your responses from part(a).</div></article><article class="task exercise-like" id="sec-Transformations-Vectors-8-1-4"><h6 class="heading"><span class="codenumber">(c)</span></h6>
+<div class="para" id="sec-Transformations-Vectors-8-1-4-1-1">Compute <span class="process-math">\(T\left(4\mathbf{v}\right)\)</span> and <span class="process-math">\(4T\left(\mathbf{v}\right)\text{.}\)</span>  Describe your observations.</div></article><article class="task exercise-like" id="sec-Transformations-Vectors-8-1-5"><h6 class="heading"><span class="codenumber">(d)</span></h6>
+<div class="para" id="sec-Transformations-Vectors-8-1-5-1-1">To see if your observations will hold in general for this particular matrix, create two vectors on your CAS , <span class="process-math">\(\mathbf{x}=\begin{bmatrix} x_1\\x_2\\x_3\end{bmatrix}\)</span> and <span class="process-math">\(\mathbf{y}=\begin{bmatrix} y_1\\y_2\\y_3\end{bmatrix}\text{.}\)</span>  Using your CAS, find expressions for <span class="process-math">\(T\left(\mathbf{x}+\mathbf{y}\right)\)</span> and <span class="process-math">\(T\left(\mathbf{x}\right)+T\left(\mathbf{y}\right)\text{.}\)</span>  Does your earlier observation hold for any two vectors in <span class="process-math">\(\mathbb{R}^3\text{?}\)</span>  Explain.</div></article><article class="task exercise-like" id="sec-Transformations-Vectors-8-1-6"><h6 class="heading"><span class="codenumber">(e)</span></h6>
+<div class="para" id="sec-Transformations-Vectors-8-1-6-1-1">Using, <span class="process-math">\(c\text{,}\)</span> to represent any real number, find expressions for <span class="process-math">\(T\left(c\cdot \mathbf{x}\right)\)</span> and <span class="process-math">\(c\cdot T\left(\mathbf{x}\right)\text{.}\)</span>  Does your observation from part (c) hold for all vectors in <span class="process-math">\(\mathbb{R}^3\text{?}\)</span>  Explain.</div></article><article class="task exercise-like" id="sec-Transformations-Vectors-8-1-7"><h6 class="heading"><span class="codenumber">(f)</span></h6>
+<div class="para" id="sec-Transformations-Vectors-8-1-7-1-1">Given how we defined matrix-vector multiplication out of linear combiinations, come up with an argument for why all such matrix transformations <em class="emphasis">must</em> be <span class="process-math">\(\mathbf{linear}\)</span> <span class="process-math">\(\mathbf{transformations}\)</span> preserving both scalar multiplication and vector addition.</div></article></article></div>
+<div class="para" id="sec-Transformations-Vectors-9"><article class="definition definition-like" id="def-linear-mapping"><h5 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.4.9</span><span class="period">.</span><span class="space"> </span><span class="title">Linear Transformation.</span>
+</h5>
+<div class="para logical" id="def-linear-mapping-2-1">
+<div class="para">Suppose <span class="process-math">\(T\)</span> is a mapping between <span class="process-math">\(\mathbb{R}^n\)</span> and <span class="process-math">\(\mathbb{R}^m\text{,}\)</span> <span class="process-math">\(T: \mathbb{R}^n\rightarrow \mathbb{R}^m\)</span> (<span class="process-math">\(n\)</span> and <span class="process-math">\(m\)</span> need not be distinct) such that both scalar multiplication and vector addition are preserved.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+T\left(\alpha \mathbf{v}\right)=\alpha T\left(\mathbf{v}\right)
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+T\left(\mathbf{v}+\mathbf{w}\right)=T\left(\mathbf{v}\right)+T\left(\mathbf{w}\right)
+\end{equation*}
+</div>
+<div class="para">where <span class="process-math">\(\mathbf{v}, \mathbf{w} \in \mathbb{R}^n\text{,}\)</span> and <span class="process-math">\(\alpha\)</span> is a scalar. Then the mapping <span class="process-math">\(T\)</span> is called <dfn class="terminology">linear</dfn> or a <dfn class="terminology">linear transformation</dfn>.</div>
+</div></article></div>
+<div class="para logical" id="sec-Transformations-Vectors-10">
+<div class="para">Just as the relationship of Hooke’s Law can be thought of as transforming <em class="emphasis">stretch</em> into <em class="emphasis">force</em>, in our scenario between pricing structures and the revenue generated, we are similarly looking to transform a pricing scheme into the resulting revenue for our three companies.  We can even use function notation to represent this relationship.  If we let the vector <span class="process-math">\(\mathbf{p}=\begin{bmatrix}
+p_1\\p_2\\p_3\\p_4 \end{bmatrix}\text{,}\)</span> we can think of the product of the matrix of orders by the companies and the vector <span class="process-math">\(\mathbf{p}\)</span> as a revenue transformation (or function), <span class="process-math">\(R\text{,}\)</span> given by</div>
+<div class="displaymath process-math">
+\begin{equation*}
+R\left(\mathbf{p}\right)=
+\begin{bmatrix}
+14\amp 9\amp 34\amp 41\\
+32\amp 7\amp 12\amp 52\\
+21\amp 8\amp 5\amp 23
+\end{bmatrix}
+\mathbf{p} = 
+\begin{bmatrix}
+14\amp 9\amp 34\amp 41\\
+32\amp 7\amp 12\amp 52\\
+21\amp 8\amp 5\amp 23
+\end{bmatrix}
+\begin{bmatrix}
+p_1\\p_2\\p_3\\p_4
+\end{bmatrix}
+\end{equation*}
+</div>
+<div class="para">This is effectively a mapping between vectors in <span class="process-math">\(\mathbb{R}^4\)</span> and vectors in <span class="process-math">\(\mathbb{R}^3\text{.}\)</span> We can represent this mapping as <span class="process-math">\(R:\mathbb{R}^4 \rightarrow \mathbb{R}^3\text{.}\)</span>
+</div>
+</div>
+<div class="para" id="sec-Transformations-Vectors-11"><article class="activity project-like" id="sec-Transformations-Vectors-11-1"><h5 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">2.4.5</span><span class="period">.</span><span class="space"> </span><span class="title">Price to Revenue: Linear Transformation?</span>
+</h5>
+<div class="introduction" id="sec-Transformations-Vectors-11-1-2"><div class="para" id="sec-Transformations-Vectors-11-1-2-1">In the previous activity, we illustrated how we can show that a matrix transformation between the same spaces (<span class="process-math">\(\mathbb{R}^3\)</span> to <span class="process-math">\(\mathbb{R}^3\)</span>) is, in fact, a linear transformation. In this activity, let’s take a similar approach to show we can also make the same claim for mappings between different spaces (<span class="process-math">\(\mathbb{R}^4\)</span> to <span class="process-math">\(\mathbb{R}^3\)</span>).  Here we will use our earlier example of transforming price scenarios into revenues for our three companies.</div></div>
+<article class="task exercise-like" id="sec-Transformations-Vectors-11-1-3"><h6 class="heading"><span class="codenumber">(a)</span></h6>
+<div class="para" id="sec-Transformations-Vectors-11-1-3-1-1">Consider the transformation <span class="process-math">\(R=T\left(\mathbf{p}\right)=
+\begin{bmatrix}
+14\amp 9\amp 34\amp 41\\
+32\amp 7\amp 12\amp 52\\
+21\amp 8\amp 5\amp 23
+\end{bmatrix}
+\mathbf{p}\text{,}\)</span> where <span class="process-math">\(\mathbf{p}=\begin{bmatrix} p_1\\p_2\\p_3\\p_4\end{bmatrix}\text{.}\)</span>  Find expressions for <span class="process-math">\(T\left(c\cdot \mathbf{p}\right)\)</span> and <span class="process-math">\(c\cdot T\left(\mathbf{p}\right)\text{.}\)</span> Is scalar multiplication preserved for all vectors in <span class="process-math">\(\mathbb{R}^4\text{?}\)</span>  Explain.</div></article><article class="task exercise-like" id="sec-Transformations-Vectors-11-1-4"><h6 class="heading"><span class="codenumber">(b)</span></h6>
+<div class="para" id="sec-Transformations-Vectors-11-1-4-1-1">To see if preservation of vector addition holds in general for this particular matrix, create two vectors on your CAS , <span class="process-math">\(\mathbf{p}=\begin{bmatrix} p_1\\p_2\\p_3\\p_4\end{bmatrix}\)</span> and <span class="process-math">\(\mathbf{q}=\begin{bmatrix} q_1\\q_2\\q_3\\q_4\end{bmatrix}\text{.}\)</span>  Using your CAS, find expressions for <span class="process-math">\(T\left(\mathbf{p}+\mathbf{q}\right)\)</span> and <span class="process-math">\(T\left(\mathbf{p}\right)+T\left(\mathbf{q}\right)\text{.}\)</span>  Is vector addition preserved for any two vectors in <span class="process-math">\(\mathbb{R}^4\text{?}\)</span>  Explain.</div></article></article></div>
+<div class="para" id="sec-Transformations-Vectors-12">
+<article class="lemma theorem-like" id="lem-zero-vector-map"><h5 class="heading">
+<span class="type">Lemma</span><span class="space"> </span><span class="codenumber">2.4.10</span><span class="period">.</span>
+</h5>
+<div class="para" id="lem-zero-vector-map-1-1">If <span class="process-math">\(T\)</span> is a linear transformation, then it must map the zero vector from the domain to the zero vector in the range.  In other words, <span class="process-math">\(T\left(\mathbf{0}_D\right)=\mathbf{0}_R\text{.}\)</span>
+</div></article><details id="lem-zero-vector-map-2" class="hiddenproof born-hidden-knowl"><summary class="knowl__link"><h5 class="heading"><span class="type">Proof<span class="period">.</span></span></h5></summary><article class="hiddenproof knowl__content"><div class="para" id="lem-zero-vector-map-2-1">Suppose <span class="process-math">\(T:\mathbb{R}^n \rightarrow \mathbb{R}^m\)</span> is a linear transformation and <span class="process-math">\(\mathbf{v} \in \mathbb{R}^n\text{.}\)</span>  Well since <span class="process-math">\(-\mathbf{v} \in \mathbb{R}^n\text{,}\)</span> we know that <span class="process-math">\(T\left(\mathbf{0}_n\right)=T\left(\mathbf{v}+\mathbf{-v}\right)\)</span> where <span class="process-math">\(\mathbf{0}_n\)</span> here is in <span class="process-math">\(\mathbb{R}^n\text{.}\)</span>  Since vector addition is preserved, we get that this is equal to <span class="process-math">\(T\left(\mathbf{v}\right)+T\left(\mathbf{-v}\right)\text{.}\)</span>  Again, as a linear transformation, we know that scalar multiplication is also preserved and so <span class="process-math">\(T\left(\mathbf{-v}\right)=-T\left(\mathbf{v}\right)\)</span> and thus <span class="process-math">\(T\left(\mathbf{v}\right)+T\left(\mathbf{-v}\right)=T\left(\mathbf{v}\right)+ 
+-T\left(\mathbf{v}\right)=\mathbf{0}_m\)</span> where <span class="process-math">\(\mathbf{0}_m\)</span> here is in <span class="process-math">\(\mathbb{R}^m\text{.}\)</span>
+</div></article></details>
+</div>
+<div class="para" id="sec-Transformations-Vectors-13">We began this section looking at how we can represent practical data and relationships using matrices and vectors along with operations allowing us to transform one type of vector into another.  In the next few sections, we will extend this view to consider geometric representations that have far reaching applications into areas such as digital file compression and image detection.  Eveytime you access your phone using facial recognition, you are using linear algebra.  Vectors and matrices play a key role in your everyday life and you may not even be aware of it!</div></section></section><section class="subsection" id="subsec-solving-systems"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">2.4.2</span><span class="space"> </span><span class="title">Solving Systems of Equations</span>
+</h3>
+<section class="introduction" id="subsec-solving-systems-2"><div class="para" id="subsec-solving-systems-2-1">In this subsection we will explore processes surrounding solving systems of linear equations.  In the last section, we ended by experimenting with various scalars to determine if a set of vectors were linearly independent.  Mostly we used trial and error or tried to reduce the linear combinations by chosing a value for one of the scalars and then working backwards to find the remaining scalars.  This was a time-consuming process and can often be challenging if there is a unique solution.  In this section, we will try a more systematic approach that will help us find the desired scalars more efficiently.</div></section><section class="subsubsection" id="finding-scalars"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">2.4.2.1</span><span class="space"> </span><span class="title">Finding Scalars: Gaussian Elimination</span>
+</h4>
+<div class="para" id="finding-scalars-2">As we ended section 2.1, we wanted to establish whether or not a set of vectors was linealry independent. To do this, we needed to determine whether or not we could find a set of scalar values that would give us a linear combination for other vectors in the set.  In addition, we sought to determine the if a vector was in the <dfn class="terminology">Span</dfn> of a set of vectors.  For both of these questions, we ultimately want to solve for specific scalars that would meet our desired requirements.</div>
+<div class="para" id="finding-scalars-3">While this process of finding scalars may seem new, it is actually not a new idea.  Recall that in high school we solved systems of equations using a variety of techniques including substitution, elimination, and graphing.  As the number of variables and equations increased, the techniques of substitution and graphing became very challenging.  The process of elimination was generally easier as the number of variables increased and so this process is the one we will refine here.</div>
+<div class="para" id="finding-scalars-4">You may recall that there were certain operations we could perform on equations so that their solution sets did not change.  These included multiplying an equation by a nonzero constant, adding equals to equals, and rearranging the equations.  For example, since, say, <span class="process-math">\(5=5\text{,}\)</span> we can also say that <span class="process-math">\(2\cdot5=2\cdot5\text{.}\)</span>  Similarly for an equation like <span class="process-math">\(x+2y=5\)</span> (for which a solution is clearly <span class="process-math">\(x=1\)</span> and <span class="process-math">\(y=2\)</span>), then if we multiply both sides by, say 3, we get <span class="process-math">\(3\left(x+2y=5\right) \Rightarrow 3x+6y=3\cdot5\Rightarrow 3x+6y=15\text{.}\)</span>  Just as <span class="process-math">\(x=1\)</span> and <span class="process-math">\(y=2\)</span> is a solution to the original equation, due to the fact that multiplying both sides of an equation by the same value gives a new equation that is also true, <span class="process-math">\(x=1\)</span> and <span class="process-math">\(y=2\)</span> is also a solution to <span class="process-math">\(3x+6y=15\)</span> (i.e. <span class="process-math">\(3\cdot1+6\cdot2=3+12=15\)</span>).</div>
+<div class="para" id="finding-scalars-5">In a similar fashion, if we start with <span class="process-math">\(x+2y=5\)</span> and add the same amount to both sides, we get <span class="process-math">\(x+2y+7=5+7 \Rightarrow x+2y+7=12\text{.}\)</span>  If we plug in <span class="process-math">\(x=1\)</span> and <span class="process-math">\(y=2\)</span> we get <span class="process-math">\(1+2\cdot2+7=1+4+7=12\text{.}\)</span>  In both cases, if we start with an equation with a certain solution, adding the same constant to both sides or multiplying both sides by the same constant will give a new equation for which the solution to the original equation will be a solution to the new equation.</div>
+<div class="para logical" id="finding-scalars-6">
+<div class="para">What if we want to add expressions to both sides of an equation?  Consider another equation, <span class="process-math">\(4x+y=6\text{,}\)</span> that also has a common solution, <span class="process-math">\(x=1\)</span> and <span class="process-math">\(y=2\text{.}\)</span>  If we add this equation to or earlier equation, <span class="process-math">\(x+2y=5\text{,}\)</span> we get</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/three-lines.html">
+\begin{equation*}
+\begin{array} 3 x+2y=5\\4x+y=6\\\overline{5x+3y=11}\end{array}
+\end{equation*}
+</div>
+<div class="para">where <span class="process-math">\(x=1\)</span> and <span class="process-math">\(y=2\)</span> is still a solution to the result, <span class="process-math">\(5x+3y=11\)</span> (see <a href="sec24-intro-vectors-matrices.html#three-lines" class="xref" data-knowl="./knowl/xref/three-lines.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 2.4.11">Figure 2.4.11</a>).  What this tells us is that if we seek solutions to a system of equations, we can add any of the equations in the system to each other and get a new equation that also shares the same solution(s) as the previous equations.</div>
+</div>
+<div class="para" id="finding-scalars-7"><figure class="figure figure-like" id="three-lines"><div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/images/three-lines.png" class="contained" alt="(for accessibility)"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.4.11<span class="period">.</span></span><span class="space"> </span>Three Lines</figcaption></figure></div>
+<div class="para" id="finding-scalars-8">So now suppose we did not know that the solution to our earlier set of equations, <span class="process-math">\(x+2y=5\)</span> and <span class="process-math">\(4x+y=6\text{,}\)</span> was <span class="process-math">\(x=1\)</span> and <span class="process-math">\(y=2\text{.}\)</span>  How do these manipulations that yield new equations with the same solution help us?  As you may recall from your earlier mathematics experiences, we can take the approach of trying to "eliminate" a variable from the system so that we can more easily solve for one of the variables.  In this case, consider what would happen if we multipled the top equation by -4.  This would give us a new equation, <span class="process-math">\(-4x-8y=-20\text{,}\)</span> and we can use it in place of the original one.  Why multiply it by -4?  As we saw, if two equations share the same solution(s), we can add them and the resulting equation will also have the same solution(s).  The -4 was selected since it will give a coefficient of <span class="process-math">\(x\)</span> that is the opposite of the coefficient of <span class="process-math">\(x\)</span> in the second equation so that when added they will cancel each other to leave us only the variable <span class="process-math">\(y\text{.}\)</span>
+</div>
+<div class="para logical" id="finding-scalars-9">
+<div class="displaymath process-math">
+\begin{equation*}
+\begin{array} 2 -4(x+2y=5)\\\quad 4x+\; y=6\end{array}
+\Rightarrow
+\begin{array} 3 \quad -4x-8y=-20\\ \quad\;\; 4x+\;\, y=\quad\; 6\\ \quad \overline{\quad 0x-7y=-14}\end{array}
+\Rightarrow
+-7y=-14 \Rightarrow y=2
+\end{equation*}
+</div>
+<div class="para">Now we can simply plug <span class="process-math">\(y=2\)</span> into either of our original equations to get a value for <span class="process-math">\(x\text{.}\)</span> Let’s use the first equation as it is easier to solve for <span class="process-math">\(x\text{.}\)</span>  This gives <span class="process-math">\(x+2\cdot2=5\)</span> which yields <span class="process-math">\(x+4=5 \Rightarrow x=1\text{.}\)</span>
+</div>
+</div>
+<div class="para" id="finding-scalars-10"><em class="emphasis">Now consider the following example where we use this process to find scalars for a linear combination of vectors.</em></div>
+<div class="para" id="finding-scalars-11"><details id="find-scalars" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h5 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.4.12</span><span class="period">.</span><span class="space"> </span><span class="title">Finding Scalars.</span>
+</h5></summary><article class="example example-like knowl__content"><div class="para" id="find-scalars-2">Consider a more simplified version of our scenario from Chapter 1 involving prices, <span class="process-math">\(p\)</span> and revenue <span class="process-math">\(r\)</span> for products we are selling to various companies.  In this case, we consider fewer companies and products to make this example easier to disect.  Suppose we have the following data for the number of items for two different products for two different companies.</div>
+<div class="para" id="find-scalars-3"><figure class="table table-like" id="product-orders-small"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">2.4.13<span class="period">.</span></span><span class="space"> </span>Product Orders</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r0 l0 t0 lines">Clients</th>
+<th scope="col" class="c m b1 r0 l0 t0 lines">Product 1</th>
+<th scope="col" class="c m b1 r0 l0 t0 lines">Product 2</th>
+</tr>
+<tr>
+<td class="c m b0 r0 l0 t0 lines">Company 1</td>
+<td class="c m b0 r0 l0 t0 lines">2</td>
+<td class="c m b0 r0 l0 t0 lines">3</td>
+</tr>
+<tr>
+<td class="c m b0 r0 l0 t0 lines">Company 2</td>
+<td class="c m b0 r0 l0 t0 lines">1</td>
+<td class="c m b0 r0 l0 t0 lines">5</td>
+</tr>
+</table></div></figure></div>
+<div class="para" id="find-scalars-4">In this case we are looking for scalars for prices, <span class="process-math">\(p_1\)</span> and <span class="process-math">\(p_2\text{,}\)</span> that provide desired revenues, <span class="process-math">\(r_1\)</span> and <span class="process-math">\(r_2\text{.}\)</span>  This gives the following vector equation.</div>
+<div class="para logical" id="find-scalars-5"><div class="displaymath process-math">
+\begin{equation*}
+p_1 \begin{bmatrix}
+2\\1\end{bmatrix} + p_2 \begin{bmatrix}
+3\\5\end{bmatrix} = \begin{bmatrix}
+r_1\\r_2\end{bmatrix}
+\end{equation*}
+</div></div>
+<div class="para" id="find-scalars-6">A question we might ask is what prices do we need to set so that we have revenue of $43 from Company 1 and $46 from Company 2?  It may be that there are no such price combinations that will yield what we want (i.e. does this combination exist?).  There may be a case where there are infinitely many such price combinations (i.e. there is not uniqueness).  These two fundamental questions of <dfn class="terminology">existence</dfn> and <dfn class="terminology">uniqueness</dfn> will be ones we revisit as we seek solutions to equations.</div>
+<div class="para" id="find-scalars-7">So now we ask if we can find solutions to the vector equation, <span class="process-math">\(p_1 \begin{bmatrix}
+2\\1\end{bmatrix} + p_2 \begin{bmatrix}
+3\\5\end{bmatrix} = \begin{bmatrix}
+43\\46\end{bmatrix}
+\text{?}\)</span>
+</div>
+<div class="para logical" id="find-scalars-8">
+<div class="para">However, this is not such an unusual task.  Recall from high algebra we solved these equations before, but they were simply written in a different form.  This vector equation could also be written as</div>
+<div class="displaymath process-math">
+\begin{equation*}
+2p_1+3p_2=43
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+p_1+5p_2=46
+\end{equation*}
+</div>
+</div>
+<div class="para" id="find-scalars-9">Now we can use the process of Gaussian elimination to reduce these equations to only one variable.  Suppose we multiply the second equation by <span class="process-math">\(-2\)</span> and add the resulting equations to obtain the following.</div>
+<div class="para logical" id="find-scalars-10"><div class="displaymath process-math">
+\begin{equation*}
+\begin{array} 2 \quad 2p_1+3p_2=43\\ -2(p_1+ 5p_2=46)\end{array}
+\Rightarrow
+\begin{array} 3 \quad 2p_1+3p_2=\quad 43\\ -2p_1-10p_2= -92\\
+\overline{\quad 0p_1- \; 7p_2=-49}\end{array}
+\Rightarrow
+-7p_2=-49 \Rightarrow p_2=7
+\end{equation*}
+</div></div>
+<div class="para" id="find-scalars-11">Now we can use our value for <span class="process-math">\(p_2=7\)</span> in one of our original equations (let’s use the second one since it is easier) to get <span class="process-math">\(p_1+5\cdot7=46\)</span> which gives <span class="process-math">\(p_1=46-35=11\text{.}\)</span>
+</div>
+<div class="para" id="find-scalars-12">Checking this result we get <span class="process-math">\(11\cdot \begin{bmatrix}
+2\\1\end{bmatrix} + 7\cdot \begin{bmatrix}
+3\\5\end{bmatrix} = \begin{bmatrix}
+43\\46\end{bmatrix}
+\text{.}\)</span>
+</div></article></details></div>
+<div class="para" id="finding-scalars-12"><article class="activity project-like" id="solve-3by3-system"><h5 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">2.4.6</span><span class="period">.</span>
+</h5>
+<div class="introduction" id="solve-3by3-system-1">
+<div class="para" id="solve-3by3-system-1-1">Consider the following system of equations.</div>
+<div class="para logical" id="solve-3by3-system-1-2"><div class="displaymath process-math">
+\begin{equation*}
+\begin{array} 3
+x + 2y + z =-1 \\
+2x - y + 3z =6 \\
+-x + 4y - z =-5
+\end{array}
+\end{equation*}
+</div></div>
+</div>
+<article class="task exercise-like" id="solve-3by3-system-2"><h6 class="heading"><span class="codenumber">(a)</span></h6>
+<div class="para" id="solve-3by3-system-2-1-1">Use the process of Gaussian elimination to reduce the system of 3 equations and 3 unknowns to a system of 2 equations and 2 unknowns by scaling and/or adding pairs of these equations.</div></article><article class="task exercise-like" id="solve-3by3-system-3"><h6 class="heading"><span class="codenumber">(b)</span></h6>
+<div class="para" id="solve-3by3-system-3-1-1">Now eliminate another of your two remaining variables from part (a) in similar manner (scaling and/or adding pairs of these equations) to find a solution value for one of the three variables.</div></article><article class="task exercise-like" id="solve-3by3-system-4"><h6 class="heading"><span class="codenumber">(c)</span></h6>
+<div class="para" id="solve-3by3-system-4-1-1">Use your value from part (b) and one of your equations found in part (a) to solve for a second unknown.</div></article><article class="task exercise-like" id="solve-3by3-system-5"><h6 class="heading"><span class="codenumber">(d)</span></h6>
+<div class="para" id="solve-3by3-system-5-1-1">Use the two values you have found so far along with one of your original equations to solve for the last unknown.</div></article><article class="task exercise-like" id="solve-3by3-system-6"><h6 class="heading"><span class="codenumber">(e)</span></h6>
+<div class="para" id="solve-3by3-system-6-1-1">Use the GeoGebra applet in <a href="sec24-intro-vectors-matrices.html#3d-system-graphical" class="xref" data-knowl="./knowl/xref/3d-system-graphical.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 2.4.14">Figure 2.4.14</a> to verify your solution to the system. Feel free to rotate the planes so that the intersection point of all three is visible.</div> <div class="para" id="solve-3by3-system-6-1-2"><figure class="figure figure-like" id="3d-system-graphical"><iframe id="geogebra-3d-example" width="600" height="600" src="geogebra-3d-example-if.html"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.4.14<span class="period">.</span></span><span class="space"> </span>3D System of Equations</figcaption></figure></div></article></article></div>
+<div class="para" id="finding-scalars-13">Now that we have worked through a process to reduce a system of equations to fewer and fewer variables, we can summarize the operations that changed the look of the equations without changing the solutions. We essentially have three types of "moves" we can do that will create equivalent systems of equations that maintain the same solutions as the original system.</div>
+<div class="para" id="finding-scalars-14">
+<dfn class="terminology">Scaling</dfn> <div class="para" id="finding-scalars-14-1-1-2-1">In this situation, we can multiply an entire equation by a constant and not change the solutions. For example, <span class="process-math">\(\frac{1}{2} \left(2x+4y=8\right) \Rightarrow x+2y=4\)</span> will have the same solutions as the original, <span class="process-math">\(2x+4y=8\text{.}\)</span>
+</div> <div class="para" id="finding-scalars-14-1-1-2-2"></div> <dfn class="terminology">Swapping</dfn> <div class="para logical" id="finding-scalars-14-1-2-2-1">
+<div class="para">Here we are allowing the position of the listed equations within the system to be simply swapped. This principle is kind of obvious since the two systems of equations</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\begin{aligned}
+3x+2y=1 \\
+-x+5y=11
+\end{aligned}
+\quad \text{and} \quad
+\begin{aligned}
+-x+5y=11\\
+3x+2y=1
+\end{aligned}
+\end{equation*}
+</div>
+<div class="para">clearly have the same solution!</div>
+</div> <div class="para" id="finding-scalars-14-1-2-2-2"></div> <dfn class="terminology">Replacing</dfn> <div class="para logical" id="finding-scalars-14-1-3-2-1">
+<div class="para">In this situation, we found that if we multiply one equation by a scalar (even if it is just 1) and add it to another equation and use this result in place of the equation we added the scalar multiple to, the solutions to the system remain the same.  For example, we can take a system like</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\begin{aligned}
+3x+2y=1 \\
+-x+5y=11
+\end{aligned}
+\end{equation*}
+</div>
+<div class="para">and take, say 3, times the bottom equation and add it to the top equation replacing the top equation with this result to get</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\begin{aligned}
+0x+17y=34 \\
+-x+5y=11
+\end{aligned}
+\end{equation*}
+</div>
+<div class="para">and we will still have the same solution, <span class="process-math">\(x=-1\)</span> and <span class="process-math">\(y=2\text{,}\)</span> be the solution to both systems.</div>
+</div> <div class="para" id="finding-scalars-14-1-3-2-2"></div>
+</div>
+<div class="para" id="finding-scalars-15">As you may have noticed in both of these examples for solving a system with Gaussian elimination, to make it easier to manipulate and perform operations on the equations, we made it a practice to keep the variables aligned with each other and then performed the multiplication by scalars and addition of equations using the three "moves" described above.  This helped us make sure we were not accidently adding the coefficients of different variables together.  For the most part, this practice just makes "bookkeeping" easier.  This should sound kind of familiar.  We did the same thing in Chapter 1 when we introduced vectors and matrices.  We viewed these arrays of elements as an easier way to keep track of corresponding components that represented values for the same type of quantities (e.g. orders of the same product, price of the same product, revenue from the same company) without needing to label them.  So the natural question is, do we need to write the variable name if we already know which variable is associated with which column in our "stacked" representation of the equations?  The answer is a resounding, no!  So let’s consider what would happen if we were to forego the writing of the variable names.</div></section><section class="subsubsection" id="stripping-variables"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">2.4.2.2</span><span class="space"> </span><span class="title">Augmented Matrices and Stripping Away Variable Names</span>
+</h4>
+<div class="para" id="stripping-variables-2">When we look at the general structure we have been using for our equations in the Guassian elimination process, we wanted our equations to be of the form, <span class="process-math">\(5x_1+3x_2+2x_3=-7\text{,}\)</span> where the variables are all on the left side of the equation and the right side contains only a numerical value.  If we assume this structure for our equations, we can define them in the following way.</div>
+<article class="definition definition-like" id="def-linear-equations"><h5 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.4.15</span><span class="period">.</span>
+</h5>
+<div class="para" id="def-linear-equations-1-1">A <dfn class="terminology">linear equation</dfn> in the variables, <span class="process-math">\(x_1, x_2, x_3, \ldots, x_n\)</span> may be written in the form <span class="process-math">\(a_1x_1+a_2x_2+a_3x_3+\cdots+a_nx_n=b\)</span> where the real numbers represented by <span class="process-math">\(a_1,a_2,\ldots,a_n\)</span> are called <dfn class="terminology">coefficients</dfn> and <span class="process-math">\(b\)</span> is a constant real number.</div> <div class="para" id="def-linear-equations-1-2">When we have several such equations that share common variables, we say that it is a <dfn class="terminology">system of linear equations</dfn> or, more simply, a <dfn class="terminology">linear system</dfn>.</div></article><div class="para" id="stripping-variables-4">Recall from <a href="sec24-intro-vectors-matrices.html#subsec-model-moving-worlds" class="internal" title="Subsection 2.4.1: Modeling Data and Moving Between Worlds">Subsection 2.4.1</a>, we began by looking at systems of equations from the standpoint of transformations.</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/subsec-model-moving-worlds.html ./knowl/xref/find-scalars.html ./knowl/xref/solve-3by3-system.html ./knowl/xref/convert-equations-matrix-trans.html">
+\begin{equation*}
+\begin{bmatrix}
+14\amp 9\amp 34\amp 41\\
+32\amp 7\amp 12\amp 52\\
+21\amp 8\amp 5\amp 23
+\end{bmatrix}
+\begin{bmatrix}
+p_1\\p_2\\p_3\\p_4
+\end{bmatrix} = 
+\begin{bmatrix}
+r_1\\r_2\\r_3
+\end{bmatrix}
+\Rightarrow
+\begin{array} 3
+14\cdot p_1 + 9\cdot p_2 + 34\cdot p_3 + 41\cdot p_4 =r_1 \\
+32\cdot p_1 + 7\cdot p_2 + 12\cdot p_3 + 52\cdot p_4 =r_2 \\
+21\cdot p_1 + 8\cdot p_2 + 5\cdot p_3 + 23\cdot p_4 =r_3
+\end{array}
+\end{equation*}
+</div>
+<div class="para" id="stripping-variables-6">Here we are separating out the variable names into a single vector and the <em class="emphasis">coefficients</em> are isolated into a matrix.  If you wanted to give a name to this matrix, you might call it...you guessed it, a <dfn class="terminology">coefficient matrix</dfn>.</div>
+<div class="para" id="stripping-variables-7"><article class="activity project-like" id="convert-equations-matrix-trans"><h5 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">2.4.7</span><span class="period">.</span><span class="space"> </span><span class="title">From Equations to Matrix Transformation.</span>
+</h5>
+<div class="introduction" id="convert-equations-matrix-trans-2">
+<div class="para" id="convert-equations-matrix-trans-2-1">Consider the following system of equations.</div>
+<div class="para logical" id="convert-equations-matrix-trans-2-2"><div class="displaymath process-math">
+\begin{equation*}
+\begin{array} 3
+x_1-2x_2+x_3=5 \\
+2x_1+3x_2-2x_3=-17 \\
+3x_1+4x_2+x_3=-5
+\end{array}
+\end{equation*}
+</div></div>
+</div>
+<article class="task exercise-like" id="convert-equations-matrix-trans-3"><h6 class="heading"><span class="codenumber">(a)</span></h6>
+<div class="para" id="convert-equations-matrix-trans-3-1-1">Express this system of equations as a <em class="emphasis">coefficient matrix</em> multiplied by a <span class="process-math">\(3\times1\)</span> vector that is equal to another <span class="process-math">\(3\times1\)</span> vector.</div></article><article class="task exercise-like" id="convert-equations-matrix-trans-4"><h6 class="heading"><span class="codenumber">(b)</span></h6>
+<div class="para" id="convert-equations-matrix-trans-4-1-1">Use your <dfn class="terminology">System of Equations</dfn> command on your CAS to solve this system for <span class="process-math">\(x_1\text{,}\)</span> <span class="process-math">\(x_2\text{,}\)</span> and <span class="process-math">\(x_3\text{.}\)</span>
+</div></article><article class="task exercise-like" id="convert-equations-matrix-trans-5"><h6 class="heading"><span class="codenumber">(c)</span></h6>
+<div class="para" id="convert-equations-matrix-trans-5-1-1">Use the solutions you found in part (b) to show that the matrix-vector equation you created in part (a) is true by multiplying your coefficient matrix by the vector made up of the components from your solutions.</div></article></article></div>
+<div class="para" id="stripping-variables-8">In the last activity, you took a system of equations and converted it into a coefficient matrix, a vector whose components represented the variables, and another vector whose components represented the values from the right-hand side of the equations.  From Chapter 1, we viewed these equations as transformations and in this section we used Gaussian elimination to find solutions for the variables in the equations (see <a href="sec24-intro-vectors-matrices.html#find-scalars" class="xref" data-knowl="./knowl/xref/find-scalars.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 2.4.12: Finding Scalars">Example 2.4.12</a> and <a href="sec24-intro-vectors-matrices.html#solve-3by3-system" class="xref" data-knowl="./knowl/xref/solve-3by3-system.html" data-reveal-label="Reveal" data-close-label="Close" title="Activity 2.4.6">Activity 2.4.6</a>). So how are these connected?  Think back to our use of Gaussian elimination.  What did we really manipulate?  We kept the variables aligned for convenience and multiplied entire equations by scalar values and from time to time added equations together.  However, the only things we really changed in the process were the <em class="emphasis">values</em> of the coefficients (the very things that become isloated in the coefficient matrix in our transformation version of the equations).  So the natural question is, why do we waste our time writing down the variable names if we are just going to keep them aligned anyway.  Instead, why don’t we simply work with the numerical values of the coefficients?</div>
+<div class="para" id="stripping-variables-9">To enable us to more easily work with the solution process, we can tweak our <em class="emphasis">coefficient matrix</em> just a bit, so that the numerical values from the right-hand side of our equations (which do change as we manipilate) are also included.  We can simply <em class="emphasis">augment</em> our coefficient matrix with these values. Consider the system of equations given below.  We can use the processes of scaling equations and adding them together like in <a href="sec24-intro-vectors-matrices.html#convert-equations-matrix-trans" class="xref" data-knowl="./knowl/xref/convert-equations-matrix-trans.html" data-reveal-label="Reveal" data-close-label="Close" title="Activity 2.4.7: From Equations to Matrix Transformation">Activity 2.4.7</a> to try and simplify the system to find solutions.</div>
+<div class="para logical" id="stripping-variables-10"><div class="displaymath process-math">
+\begin{equation*}
+\begin{array} 3
+x_1 + 2x_2 + 4x_3 =5 \\
+4x_1 + 5x_2 + 4x_3 =2 \\
+2x_1 + 4x_2 + 5x_3 =4
+\end{array}
+\end{equation*}
+</div></div>
+<div class="para" id="stripping-variables-11">In this case we can create the coefficient matrix and then <dfn class="terminology">augment</dfn> it with an additional column containing the values from the right-hand side of the equations.  In this case we get</div>
+<div class="para logical" id="stripping-variables-12"><div class="displaymath process-math">
+\begin{equation*}
+\left[
+\begin{array}{ccc|c}
+1 \amp 2 \amp 4 \amp 5 \\
+4 \amp 5 \amp 4 \amp 2 \\
+2 \amp 4 \amp 5 \amp 4
+\end{array}
+\right]
+\end{equation*}
+</div></div>
+<div class="para" id="stripping-variables-13">Once we have reduced the equations to an <dfn class="terminology">augmented matrix</dfn> with the coefficients on the left side of the bar and the numerical values from the right side of the equations on the right side of the bar, we can use the process we used earlier to operate on the matrix and reduce it to a simplified form. Recall that before, we wanted to eliminate variables so that we could get an equation with just one variable in it.  Here we will do the same, but instead, we wish to manipulate the matrix so that we have entries that are zero in locations (this is like eliminating the variable from that particular equation).  Note that the rows represent equations and the columns represent the variables, <span class="process-math">\(x_1\text{,}\)</span> <span class="process-math">\(x_2\text{,}\)</span> and <span class="process-math">\(x_3\text{,}\)</span> respectively.</div>
+<div class="para" id="stripping-variables-14">Suppose we want to eliminate the variable, <span class="process-math">\(x_1\text{,}\)</span> from the second row (equation).  As we did earlier, we can multiply the first row (equation) by <span class="process-math">\(-4\)</span> and add it to the second row and use the new resulting row (equation) to replace the old version of the second row.  This would give us the following.</div>
+<div class="para logical" id="stripping-variables-15"><div class="displaymath process-math">
+\begin{equation*}
+\left[
+\begin{array}{ccc|c}
+1 \amp 2 \amp 4 \amp 5 \\
+4 \amp 5 \amp 4 \amp 2 \\
+2 \amp 4 \amp 5 \amp 4
+\end{array}
+\right]
+\overset{-4R_1+R_2 \rightarrow R_2}{\longrightarrow}
+\left[
+\begin{array}{ccc|c}
+1 \amp 2 \amp 4 \amp 5 \\
+0 \amp -3 \amp -12 \amp -18 \\
+2 \amp 4 \amp 5 \amp 4
+\end{array}
+\right]
+\end{equation*}
+</div></div>
+<div class="para" id="stripping-variables-16">This can also be done step-by-step on most basic graphing calculators.  In this case, the first entry in the <span class="process-math">\(\mathbf{mRowAdd}\)</span> command is the scalar (-4), followed by the matrix, then the row that is being scaled (row 1), and finally the row that is being added to and thus <span class="process-math">\(\mathbf{replaced}\)</span> (row 3).</div>
+<div class="para" id="stripping-variables-17"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/images/nspire-system-stage1.png" class="contained" alt="Using CAS Stage 1"></div></div>
+<div class="para" id="stripping-variables-18">Now we can do the same thing for the third row multiplying Row 1 by <span class="process-math">\(-2\)</span> and adding it to Row 3 and replacing Row 3 with the result.</div>
+<div class="para logical" id="stripping-variables-19"><div class="displaymath process-math">
+\begin{equation*}
+\left[
+\begin{array}{ccc|c}
+1 \amp 2 \amp 4 \amp 5 \\
+0 \amp -3 \amp -12 \amp -18 \\
+2 \amp 4 \amp 5 \amp 4
+\end{array}
+\right]
+\overset{-2R_1+R_3 \rightarrow R_3}{\longrightarrow}
+\left[
+\begin{array}{ccc|c}
+1 \amp 2 \amp 4 \amp 5 \\
+0 \amp -3 \amp -12 \amp -18 \\
+0 \amp 0 \amp -3 \amp -6
+\end{array}
+\right]
+\end{equation*}
+</div></div>
+<div class="para" id="stripping-variables-20"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/images/nspire-system-stage2.png" class="contained" alt="Using CAS Stage 1"></div></div>
+<div class="para" id="stripping-variables-21">At this point, we can begin to back-solve since the last row represents an equation that contains only the variable <span class="process-math">\(x_3\text{.}\)</span>  Once we have this value, we can use it in <span class="process-math">\(R_2\)</span> since it now has entries representing <span class="process-math">\(x_2\)</span> and <span class="process-math">\(x_3\)</span> and inserting our value for <span class="process-math">\(x_3\)</span> leaves just <span class="process-math">\(x_2\text{.}\)</span> Finally, we then use the values we have obtained for <span class="process-math">\(x_2\)</span> and <span class="process-math">\(x_3\)</span> in the first row to get our value for <span class="process-math">\(x_1\text{.}\)</span>
+</div>
+<div class="para" id="stripping-variables-22">From this version of the augmented matrix, we can see that <span class="process-math">\(-3x_3=-6\)</span> and so <span class="process-math">\(x_3=2\text{.}\)</span>  As a result, we can see that <span class="process-math">\(-3x_2-12\cdot2=-18\)</span> and so <span class="process-math">\(x_2+4\cdot2=6 \Rightarrow x_2=6-8=-2\text{.}\)</span>  Using the first row with these values gives us  <span class="process-math">\(x_1+2\cdot-2+4\cdot2=5 \Rightarrow x_1-4+8=5\text{.}\)</span>  This results in <span class="process-math">\(x_1=5+4-8=1\text{.}\)</span>
+</div>
+<div class="para" id="stripping-variables-23">The fact that our matrix has zeros in the lower left that enable us to easily back-solve means that this kind of matrix is special and thus deserves a special name.  We refer to this structure of a matrix as <dfn class="terminology">upper triangular</dfn> since the nonzero values of the coefficient matrix portion of the augmented matrix form a triangle.</div>
+<div class="para" id="stripping-variables-24">If we want, we could make our back-solving easier by scaling the last two rows.  If we multiply both the second and third rows by <span class="process-math">\(-\frac{1}{3}\text{,}\)</span> we get</div>
+<div class="para logical" id="stripping-variables-25"><div class="displaymath process-math">
+\begin{equation*}
+\left[
+\begin{array}{ccc|c}
+1 \amp 2 \amp 4 \amp 5 \\
+0 \amp 1 \amp 4 \amp 6 \\
+0 \amp 0 \amp 1 \amp 2
+\end{array}
+\right]
+\end{equation*}
+</div></div>
+<div class="para" id="stripping-variables-26">Here the <span class="process-math">\(\mathbf{mRow}\)</span> command first takes the scalar, followed by the matrix and then the row that is being scaled.</div>
+<div class="para" id="stripping-variables-27"><div class="sidebyside"><div class="sbsrow" style="margin-left:2.5%;margin-right:2.5%;">
+<div class="sbspanel top" style="width:47.3684210526316%;"><img src="external/images/nspire-system-stage3.png" class="contained"></div>
+<div class="sbspanel top" style="width:47.3684210526316%;"><img src="external/images/nspire-system-stage4.png" class="contained"></div>
+</div></div></div>
+<div class="para" id="stripping-variables-28">From this version of the augmented matrix, we can more easily see that <span class="process-math">\(x_3=2\text{.}\)</span>  As a result, we can see that <span class="process-math">\(x_2+4\cdot2=6\)</span> and so <span class="process-math">\(x_2=6-8=-2\text{.}\)</span>  Using the first row with these values gives us <span class="process-math">\(x_1+2\cdot-2+4\cdot2=5 \Rightarrow x_1-4+8=5\text{.}\)</span>  This results in <span class="process-math">\(x_1=1\text{.}\)</span>
+</div>
+<div class="para logical" id="stripping-variables-29">
+<div class="para">You may notice that we can continue to use these manipulation processes to further reduce this matrix so that the "back-solve" process will be even easier.  For example, wouldn’t it be great if we could get the matrix into the form</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\left[
+\begin{array}{ccc|c}
+1 \amp 0 \amp 0 \amp 1 \\
+0 \amp 1 \amp 0 \amp -2 \\
+0 \amp 0 \amp 1 \amp 2
+\end{array}
+\right]
+\end{equation*}
+</div>
+<div class="para">where we can easily read off the solutions since each row has a 1 in the position of a different variable and zeros everywhere else (i.e. no other substitutions to make)?  We will address this later in this section.</div>
+</div>
+<div class="para" id="stripping-variables-30"><article class="activity project-like" id="system-solve-upper-triangular"><h5 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">2.4.8</span><span class="period">.</span>
+</h5>
+<div class="introduction" id="system-solve-upper-triangular-1"><div class="para logical" id="system-solve-upper-triangular-1-1">
+<div class="para">Consider the following system of equations.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\begin{array} 3
+x_1 + x_2 + 2x_3 =7 \\
+2x_1 - x_2 + x_3 =5 \\
+4x_1 - 2x_2 + 3x_3 =12
+\end{array}
+\end{equation*}
+</div>
+</div></div>
+<article class="task exercise-like" id="system-solve-upper-triangular-2"><h6 class="heading"><span class="codenumber">(a)</span></h6>
+<div class="para" id="system-solve-upper-triangular-2-1-1">Convert the system of equations into an augmented matrix.</div></article><article class="task exercise-like" id="system-solve-upper-triangular-3"><h6 class="heading"><span class="codenumber">(b)</span></h6>
+<div class="para" id="system-solve-upper-triangular-3-1-1">Use Gaussian Elimination to reduce your augmented matrix to one that is in upper triangular form. Be sure to indicate your process at each stage by using notation such as <span class="process-math">\(\overset{5R_1+R_3 \rightarrow R_3}{\longrightarrow}\)</span> or <span class="process-math">\(\overset{R_1 \leftrightarrow R_3}{\longrightarrow}\text{.}\)</span>  Feel free to use technology (e.g. <span class="process-math">\(\mathbf{mRowAdd}\)</span> command) to perform the arithmetic, but make sure to show your stages in the reduction process.</div></article><article class="task exercise-like" id="system-solve-upper-triangular-4"><h6 class="heading"><span class="codenumber">(c)</span></h6>
+<div class="para" id="system-solve-upper-triangular-4-1-1">After you have solved for one of the values of the unknowns, back-solve to find the remaining unknown values.</div></article></article></div>
+<div class="para" id="stripping-variables-31">Now that we have converted a system of equations to augmented matrix form and then used the process of Gaussian elimination to reduce the system and find solutions, we might ask the question, will we always be able to reduce the matrix to a nice upper triangular form where back-solving to obtain a unique solution is possible?  As you will recall, not all linear combinations of vectors (and thus systems) end with a unique solution.  This means that it will not always be able to find a unique solution to a given system of equations and thus get a nice upper triangular matrix.  If you have taken a formal linear algebra course, you may recall that we can use the form of a matrix for linear systems to determine whether or not the solution(s) is (are) unique, infinite, or non-existent by simplying looking at a reduced version of the matrix.</div></section></section></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="sec23-intro-sequences.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="backmatter.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>
