@@ -16,6 +16,7 @@
   <!-- include sections -->
   <xi:include href="sec21-elementary-concepts-number.ptx" />
   <xi:include href="sec22-complex-numbers.ptx" />
-  <xi:include href="sec23-intro-vectors-matrices.ptx" />
+  <xi:include href="sec23-intro-sequences.ptx" />
+  <xi:include href="sec24-intro-vectors-matrices.ptx" />
 
 </chapter>
