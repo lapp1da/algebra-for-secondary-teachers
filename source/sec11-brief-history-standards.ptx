@@ -15,9 +15,6 @@
     the United States.
     </p>
 
-    
-  </introduction>
-
     <p>
       Much of why we see slow advancement of educational practice is that humans are often change-averse.  
       For example, consider the "traditional" secondary curriculum consisting of the sequence of courses: 
@@ -75,6 +72,65 @@
       if the nature of mathematics is far more than the memorization of a set of rules, the strategies employed 
       for learning mathematics will be completely different from those employed for memorization.
     </p>
+
+  </introduction>
+
+<subsection xml:id="subsec-brief-history-math-standards">
+  <title>A Brief History of Mathematics Standards</title>
+
+  <p>
+    Believe it or not, the first attempt at developing some comprehensive standards for what mathematics should 
+    be taught did not occur until 1989.  The National Council of Teachers of Mathematics (NCTM) put forth the 
+    <em>Curriculum and Evaluation Standards for School Mathematics</em> in 1989.  Since each state had control 
+    over what was taught in its schools, there was quite a variation of content covered from grade-to-grade 
+    depending on the state.  The attempt by NCTM to put in writing some basic expectations was a move forward in 
+    articulating what it means to do mathematics.  <em>The Standards</em>, as they were called, were followed 
+    by a series of <em>Addenda</em> that spelled out in greater detail what it meant to teach the Standards by 
+    providing examples in various subareas of mathematics.
+  </p>
+
+  <p>
+    Following the release of <em>The Standards</em>, NCTM developed the <em>Professional Standards for 
+    Teaching Mathematics</em> in 1991.  The <em>Professional Standards</em>, as they were referred to, focused 
+    on how a teacher should teach the Standards.  The <em>Professional Standards</em> were broken up into 
+    three key components: Process Standards, Teaching Standards, and Professional Development Standards.  The 
+    Process Standards dealt with essential processes of mathematical thinking including problem solving, 
+    reasoning and proof, communication, representation, and connections.  The Teaching Standards included 
+    discussion of what is a worthwhile mathematical task, the teacher's role in promoting discourse, what is the 
+    student's role in discourse, tools that enhance mathematical discourse, how to create an effective learning 
+    environment, and how to analyze teaching and learning.  The Professional Development Standards dealt with 
+    a teacher's knowledge of mathematics, pedagogical knowledge, knowledge of students as learners, and their 
+    own reflective practices as teachers.
+  </p>
+
+  <p>
+    Now it should be noted that both <em>The Standards</em> and the <em>Professional Standards</em> were based 
+    on decades of research on teaching and learning, but were written in a concise way without much attention 
+    to citation of the research in the text itself.  One of the criticisms of these standards was that they lacked 
+    support by research.  For this reason, in 2000, NCTM release an updated version of the earlier standards, 
+    called the <em>Principles and Standards for School Mathematics</em> (PSSM).  In the revised version, greater 
+    detail was provided for the research support of the PSSM.
+  </p>
+
+  <p>
+    While the PSSM provided research-based guidance for what and how to teach mathematics, it still lacked one 
+    thing...teeth.  Since NCTM is a professional organization without authority to require schools or states 
+    to implement these standards, movement to adopt them was slow.  Recall that one of the motivations for 
+    standards in the first place was the need to have a cohesive curriculum that would allow for people to move 
+    from state to state without having their children subjected to gaps in learning.  Suppose a child in a state 
+    would normally be taught how to work with fractions in grade 5, but moved to another state after finishing 
+    grade 4 where working with fractions was taught in grade 4.  The student would miss this content and be 
+    behind as they began grade 5.  The only way to avoid this problem would be for the states to agree on both 
+    the mathematical content to be taught at the various grade levels and the way in which the mathematics 
+    should be taught.
+  </p>
+
+  <p>
+    Enter the 
+  </p>
+
+      
+  </subsection>
 
     <p>
       Traditionally, mathematical content knowledge and pedagogical content knowledge have been the main parts 
