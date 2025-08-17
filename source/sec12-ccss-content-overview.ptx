@@ -44,13 +44,13 @@
 
   <p>
     Within the K-8 band, the standards for that grade begin with an overview of what is expected.  This gives the 
-    teacher a broad view of the goals for that grade level (see <xref ref="fig-ccss-grade6-overview"/>).
+    teacher a broad view of the goals for that grade level (see <xref ref="fig-ccss-grade5-overview"/>).
   </p>
 
   <p>
-    <figure xml:id="fig-ccss-grade6-overview">
+    <figure xml:id="fig-ccss-grade5-overview">
     <caption>Grade Level Overview</caption>
-    <image source="images/ccss-grade6-overview.png" width="90%">
+    <image source="images/ccss-grade5-overview.png" width="90%">
       <shortdescription>Grade Level Overview</shortdescription>
     </image>
   </figure>
