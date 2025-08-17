@@ -4,9 +4,28 @@
   <title>Introduction to Sequences</title>
 <introduction>
     <p>
-        Text of section.
+      In <xref ref="sec12-ccss-content-overview"/>, we looked at the CCSS and noted that young learners tended 
+      be adept at analyzing patterns.  Sequences are a type of pattern that can take on many representations and 
+      can allow for various approaches by students for analyzing and solving them.  For this reason, this 
+      section will examine how students see sequences from both a mathematical and pedagogical perspective.  
+      While there are many different kinds of sequences, we will focus primarily on arithmetic, geometric, 
+      figurative, and recursive sequences.  We will ground our discussion in some classroom excerpts where 
+      students are grappling with patterns and also address how the students begin to represent these patterns 
+      and the effect this has on their thinking.
     </p>
 
 </introduction>
+
+<subsection xml:id="subsec-arithmetic-sequences">
+  <title>Arithmetic Sequences</title>
+
+  <p>
+    To begin, consider <em>The Border Problem: Part 1</em> found in <em>Connecting Mathematical Ideas: 
+    Middle School Video Cases to Support Teaching and Learning (2005)</em> by Jo Boaler and Cathy Humphreys.  
+    In this video case, students are exploring the pattern for finding the number of shaded squares along 
+    the outer edge of a <m>10 \times 10</m> square as seen in 
+  </p>
+  
+</subsection>
 
 </section>
