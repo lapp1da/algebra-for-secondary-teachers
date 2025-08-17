@@ -536,16 +536,52 @@
       representations for reasoning, they begin to view the "real world" experiences differently as the 
       representations serve as a lens through which reality is filtered.  As this process progresses, new, more 
       refined representations and symbols are created influencing both the tools used for reasoning as well as 
-      the learner's view of the real world itself (see XXX).  You will note that the diagram contains various 
-      incarnations of reality as influenced by different symbol systems.  Reality is a social construct (although 
-      there are certain facts about the world around us) in that we interpret information collected by our senses 
-      through the lenses of our experience.  Here  represents reality (A) as viewed through the representation system, B.  Similarly,  represents reality (A) as viewed through the representation system, C, and so on.  Our view of reality is constantly evolving, influenced by our experiences.
+      the learner's view of the real world itself (<xref ref="fig-kaput-blanton-moreno"/>).  You will note that 
+      the diagram contains various incarnations of reality as influenced by different symbol systems.  Reality is 
+      a social construct (although there are certain facts about the world around us) in that we interpret 
+      information collected by our senses through the lenses of our experience.  Here <m>A_B</m> represents 
+      reality (<m>A</m>) as viewed through the representation system, <m>B</m>.  Similarly, <m>A_C</m> represents 
+      reality (<m>A</m>) as viewed through the representation system, <m>C</m>, and so on.  Our view of reality is 
+      constantly evolving, influenced by our experiences.
     </p>
+
     <p>
-      <figure xml:id="fig-pirie-kieren-parabola-example">
-        <caption>Image Making Examples (Pirie and Kieren, 1994, p. 178)</caption>
-        <image source="images/fig-pirie-kieren-parabola-example.png" width="90%"/>
+      <figure xml:id="fig-kaput-blanton-moreno">
+        <caption>Kaput, Blanton, and Moreno Model (2008, p. 30)</caption>
+        <image source="images/kaput-blanton-moreno.png" width="90%"/>
       </figure>
+    </p>
+
+    <p>
+      It is important to note that this process, while focusing on representations, is consistent with Sfard's 
+      (1991) process of <em>interiorization</em>, <em>condensation</em>, and <em>reification</em> where concepts 
+      become internalized through interaction with the various natures of the mathematical ideas.  In some ways, 
+      the use of technology here reduces the length of time for Sfard's <em>interiorization</em> and facilitates 
+      the <em>condensation</em> process.  Alleviating the computational load can also keep the lack of procedural 
+      fluency from becoming a cognitive obstacle to reaching condensation or reification as observed by Lapp, 
+      Nyman, and Berry (2010).
+    </p>
+
+    <p>
+      Expanding on our earlier discussion of perception of reality, in <xref ref="fig-kaput-blanton-moreno"/>, 
+      we begin with experiences in the world (<m>A</m>) and then create a set of raw representations (<m>B</m>) 
+      to describe these experiences.  These raw representations can take forms such as rough diagrams, written 
+      prose, or pictures.  In turn, the representations we create give us a means to reason about the 
+      mathematical ideas, influencing how we view reality (<m>A_B</m>) based on the representations we previously 
+      created.  Now in light of our new perspective of the world, our representations eventually prove inadequate 
+      for dealing with new information.  Thus, we create more refined sets of representations (<m>C</m>) such as 
+      graphs, more refined algebraic expressions, or tables to deal with our new view of reality.  As a result, 
+      our view of reality (<m>A_C</m>) is influenced relative to our new symbol system and this process continues 
+      as our symbolization evolves.
+    </p>
+
+    <p>
+      The diagram given in <xref ref="fig-kaput-blanton-moreno"/> only tells part of the story when it comes to 
+      the development of symbolization.  Kaput, Blanton, and Moreno (2008) also point out that each more refined 
+      symbol system does not necessarily supplant the previous system, but rather adds to the existing system 
+      and the way the learner views reality.  Therefore, both the symbol system and the perception of reality 
+      from previous iterations of this process become subsets of systems that are found within new and more 
+      extensive views of mathematics (<xref ).  In a way, it is the retention of the old symbol systems that aid in the folding back process described by Pirie and Kieren (1994).  The interplay between the old and new symbol systems provides a vehicle for the student to begin to see an old and less sophisticated understanding of a concept through a new lens with respect to the new symbols.  In turn, the new symbols provide a way to reason about an old idea in a more advanced way paving the path to a deeper understanding.
     </p>
 
   
