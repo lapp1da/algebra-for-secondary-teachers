@@ -22,8 +22,59 @@
   <p>
     To begin, consider <em>The Border Problem: Part 1</em> found in <em>Connecting Mathematical Ideas: 
     Middle School Video Cases to Support Teaching and Learning (2005)</em> by Jo Boaler and Cathy Humphreys.  
-    In this video case, students are exploring the pattern for finding the number of shaded squares along 
-    the outer edge of a <m>10 \times 10</m> square as seen in 
+    In this video case, students are exploring the pattern for finding the number of small shaded squares along 
+    the outer edge of a larger <m>10 \times 10</m> square as seen in <xref ref="fig-border-10-10"/>.
+  </p>
+
+  <p>
+      <figure xml:id="fig-border-10-10">
+        <caption>How Many Small Squares in the Shaded Region?</caption>
+        <image source="images/border-10-10.png" width="60%"/>
+      </figure>
+  </p>
+
+  <p>
+    <activity>
+      <title>The Border Problem: Part 1</title>
+      <introduction>
+        <p>
+          Watch the classroom episode of Cathy Humphreys' 7th grade class working on ways to find the border 
+          of a square grid.  This video is found in the book, <em>Connecting Mathematical Ideas: Middle School 
+          Video Cases to Support Teaching and Learning (2005)</em> by Jo Boaler and Cathy Humphreys.  You may 
+          want to following along with the provided transcript (pp. 1-5) from Boaler and Humphreys (2005) in 
+          case you have a hard time discerning what is being said.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            As you watch the episode for the first time, make some notes of at least 3 things the teacher did 
+            to facilitate the discussion and some quick thoughts on why she chose this problem.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            In looking at the CCSS for 7th grade, what are the relevant mathematical concepts involved in this 
+            classroom episode?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Compare your observations from the video with those of your fellow group members.  Discuss in your 
+            groups why you think the teacher did what she did.  How did the students respond?
+          </p>
+        </statement>
+      </task>
+      
+      
+    </activity>
   </p>
   
 </subsection>

@@ -490,6 +490,64 @@
     process to take place.
   </p>
 
+</subsection>
+
+<subsection xml:id="subsec-kaput-blanton-moreno">
+  <title>Kaput, Blanton, and Moreno Model for Symbolic Meaning</title>
+  <introduction>
+    <p>
+      One of the powerful aspects of mathematics is its use of symbolization.  On the other hand, from the 
+      aspect of the learner, one of its worst obstacles is its symbolization.  Since the early development of 
+      mathematics, power has come from the development of symbol systems used to describe the concepts that are 
+      fundamental to furthering mathematical knowledge.  The encapsulation of big ideas, that before took pages 
+      and pages to communicate, into smaller collections of symbols allows the reader to see various stages of 
+      arguments within one field of view. However, from a learner's perspective, it is the unpacking of the 
+      symbolization that poses a significant hurdle in the development of conceptual understanding.
+    </p>
+  </introduction>
+
+    <p>
+      If we think of this in terms of concept image and concept definition (Tall and Vinner, 1981), a small 
+      collection of symbols typically elicits much more information than could be contained in paragraphs of 
+      written prose.  Tall and Vinner describe concept image as “the total cognitive structure that is associated 
+      with the concept, which includes all the mental pictures and associated properties and processes.” (p. 152).  
+      In contrast, the concept definition can be described as “a form of words used to specify that concept” 
+      (p. 152).
+    </p>
+
+    <p>
+      For example, suppose we say the word “dog”.  What comes to mind?  It might likely be a mental image of a 
+      beloved pet from your childhood or an image of a traumatic event you had with a strange animal while 
+      walking last week.  These images are far more complex than the simple three letters “dog” or a formal 
+      definition from Webster's dictionary.  It is our experiences that are connected to the compact system of 
+      symbols “dog” that form our concept image of a dog.  Similarly, it is the experiences that a student has 
+      between mathematical ideas and the symbols that represent them that determine her/his concept image for a 
+      given concept definition.
+    </p>
+
+    <p>
+      So how does the use of symbol systems influence our learning, and even more, our development of new ideas?  
+      Kaput, Blanton, and Moreno (2008) propose a model that describes how we develop both our understanding of 
+      existing ideas as well as the creation new concepts.  The key to this model is the communication and 
+      analysis between two worlds.  One is the "real world" (i.e. the world of either broader mathematical or 
+      physical experiences) and the other is the world of the symbols that we use to represent these "real world" 
+      experiences.  In this model, the learner creates raw representations of ideas and in turn these 
+      representations provide the learner with a tool to reason about these ideas.  As the learner uses these raw 
+      representations for reasoning, they begin to view the "real world" experiences differently as the 
+      representations serve as a lens through which reality is filtered.  As this process progresses, new, more 
+      refined representations and symbols are created influencing both the tools used for reasoning as well as 
+      the learner's view of the real world itself (see XXX).  You will note that the diagram contains various 
+      incarnations of reality as influenced by different symbol systems.  Reality is a social construct (although 
+      there are certain facts about the world around us) in that we interpret information collected by our senses 
+      through the lenses of our experience.  Here  represents reality (A) as viewed through the representation system, B.  Similarly,  represents reality (A) as viewed through the representation system, C, and so on.  Our view of reality is constantly evolving, influenced by our experiences.
+    </p>
+    <p>
+      <figure xml:id="fig-pirie-kieren-parabola-example">
+        <caption>Image Making Examples (Pirie and Kieren, 1994, p. 178)</caption>
+        <image source="images/fig-pirie-kieren-parabola-example.png" width="90%"/>
+      </figure>
+    </p>
+
   
 </subsection>
   
