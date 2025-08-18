@@ -109,14 +109,69 @@
   <subsection xml:id="subsec-ccss-mathematical-practice">
     <title>CCSS: Standards for Mathematical Practice</title>
   <p>
-    While the content of what should be taught at various grade levels is often the major focus of the 
-    curriculum or standards, there is a much broader view that is equally important when it comes to developing 
-    mathematical thinking.  It is not enough to "know" content.  If we realize that mathematics is a creative 
-    endeavor, we must also address the <em>habits of mind</em> that need to be developed for mathematical 
+    While the mathematical content of what should be taught at various grade levels is often the major focus of 
+    the curriculum or standards, there is a much broader view that is equally important when it comes to 
+    developing mathematical thinking.  It is not enough to "know" content.  If we realize that mathematics is a 
+    creative endeavor, we must also address the <em>habits of mind</em> that need to be developed for mathematical 
     thinking.  For this reason, the Common Core State Standards was intentionally partitioned into two parts 
     in order to make this point clear.  We have described the Content Standards, but now we need to address the 
-    <em>Standards for Mathematical Practice</em>.  These standards describe the 8 basic habits of mind that we 
-    need students to possess in order to use the mathematics content knowledge effectively and creatively.
+    <em>Standards for Mathematical Practice</em> (see <xref ref="fig-ccss-math-practices-list"/>).  These 
+    standards describe the 8 basic habits of mind that we need students to possess in order to use the 
+    mathematics content knowledge effectively and creatively.
+  </p>
+
+  <p>
+    <figure xml:id="fig-ccss-math-practices-list">
+      <caption><m>\mathbf{Standards}</m> <m>\mathbf{for}</m> <m>\mathbf{Mathematical}</m> <m>\mathbf{Practice}</m></caption>
+    
+    <ol>
+      
+    <li>
+      <p>
+        Make sense of problems and persevere in solving them.
+      </p>
+    </li>
+    <li>
+      <p>
+        Reason abstractly and quantitatively.
+      </p>
+    </li>
+    <li>
+      <p>
+        Construct viable arguments and critique the reasoning of others.
+      </p>
+    </li>
+    <li>
+      <p>
+        Model with mathematics.
+      </p>
+    </li>
+    <li>
+      <p>
+        Use appropriate tools strategically.
+      </p>
+    </li>
+    <li>
+      <p>
+        Attend to precision.
+      </p>
+    </li>
+    <li>
+      <p>
+        Look for and make use of structure.
+      </p>
+    </li>
+    <li>
+      <p>
+        Look for and express regularity in repeated reasoning.
+      </p>
+    </li>
+
+    </ol>
+    <p>
+      
+    </p>
+    </figure>
   </p>
 
   </subsection>
