@@ -62,7 +62,6 @@
 
   <!-- include sections -->
   <xi:include href="sec11-brief-history-standards.ptx" />
-  <xi:include href="sec12-ccss-content-overview.ptx" />
-  <xi:include href="sec13-ccss-mathematical-practice.ptx" />
+  <xi:include href="sec12-ccss-overview.ptx" />
 
 </chapter>

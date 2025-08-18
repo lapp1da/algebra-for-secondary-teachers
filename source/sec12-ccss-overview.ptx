@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec12-ccss-content-overview" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Common Core State Standards for Mathematics: Content Standards</title>
+<section xml:id="sec12-ccss-overview" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Common Core State Standards for Mathematics</title>
   <introduction>
     <p>
       The <em>Common Core State Standards for Mathematics</em> (NGACBP and CCSSO, 2010) are broken into two areas.  
@@ -14,6 +14,11 @@
       these <em>Math Practices</em> in the next section.
     </p>
   </introduction>
+
+  <subsection xml:id="subsec-content-standards">
+    <title>CCSS: Content Standards</title>
+    
+  
 
   <p>
     The Content Standards are broken down by grade level for the K-8 grades, but then are arranged by content 
@@ -74,7 +79,9 @@
     include things like  "Analyze and solve linear equations and pairs of simultaneous linear equations",  
     "Define, evaluate, and compare functions", and "Use functions to model relationships between quantities".  
     This does not mean that symbolic forms are not expected in the earlier grades, but rather that in Grade 8, 
-    formalization of these concepts should be a focus of the curriculum.
+    formalization of these concepts should be a focus of the curriculum.  For this reason, the CCSS also provides 
+    a summary of <em>focal points</em> at the beginning of each grade level (K-8).  An example of this can be 
+    seen in <xref ref="fig-ccss-grade8-focal-points"/>.
   </p>
 
   <p>
@@ -92,10 +99,17 @@
     <em>Geometry</em>, <em>Statistics and Probability</em>.  For the purpose of this text, we will focus mainly 
     on <em>Algebra</em>, but keep in mind that it is difficult to discuss algebraic ideas without the use of 
     <em>Functions</em> and <em>Modeling</em> as these applications drive much of our need for algebraic 
-    structure.
+    structure.  Like the K-8 grade-level standards, the high school standards also give a summary of focal 
+    points for each theme so that the teacher has an idea of how the content should be approached when teaching
+    it.
 
   </p>
+  </subsection>
 
+  <subsection xml:id="subsec-ccss-mathematical-practice">
+    <title>CCSS: Standards for Mathematical Practice</title>
+    
+  </subsection>
   <p>
     
   </p>
