@@ -411,7 +411,112 @@
     </p>
 
     <p>
-      
+      In his book, <em>Building Thinking Classrooms in Mathematics</em> (2020), Peter Liljedahl discusses types 
+      of tasks and their effectiveness for engaging students in thinking as opposed to mimicking.  He refers this 
+      type of task as a "highly engaging thinking task".  These are tasks that are so engaging that people 
+      cannot resist thinking.  They have broad appeal and can be used across a wide range of grades (e.g. upper 
+      elementary, middle, high school, Calculus and beyond).  Now let's take a look at what you experienced in 
+      solving the Roadkill problem and relate it to the CCSS and Liljedahl's ideas of tasks.
+
+    </p>
+
+    <p>
+      <activity xml:id="act-roadkill-ccss-reflection">
+        <title>Roadkill: Revisited</title>
+        <introduction>
+          <p>
+            In class, we used the <em>TI-Innovator Rover</em> to avoid hitting a deer and developed strategies 
+            using an inquiry approach.  This task (as I am sure you have discovered) involves mathematics.  For 
+            this reflection, read through the <em>Common Core State Standards</em> (which also happen to be the 
+            Michigan Standards).  As stated before, the Standards have two components (Standards for 
+            Mathematical Content and the Standards for Mathematical Practice).  For this assignment, read through 
+            the Grades 5-8 and the High School Standards.
+          </p>
+        </introduction>
+
+        <task>
+          <statement>
+            <p>
+              Identify items found in the middle and high school portion (Grades 5-8 and the High School 
+              portion) for the Standards for Mathematical Content of the Common Core State Standards for 
+              Mathematics that are directly related to this task.  As you list the standards, give a brief 
+              description of each and explain how your experience with the Rover might help you teach the given 
+              standard.
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              Are the content standards you listed in part (a) dependent on the approach a group may have taken?  
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              Are the content standards you listed in part (a) related to each other in any way?  Describe any 
+              connections you see.
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              As you think about this task, how might it be used in a middle grades (grades 5, 6, 7, or 8) 
+              classroom?  What tools would you expect students in these grades to use to tackle this task?
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              As you think about this task, how might it be used in a lower level high school (Algebra, 
+              Geometry, or Integrated) classroom?  What tools would you expect students in these classes to use 
+              to tackle this task?
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              Identify items found in the <em>Standards for Mathematical Practice</em> that are directly related 
+              to these experiences.  As you list the standards, give a brief description of each and explain 
+              how your experience with the Rover might help you address the given standards when working with 
+              students.
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              While this activity uses robotic Rovers to engage students in looking at relationships, you might 
+              be tempted to say, "But when I go to teach, I won't likely have Rovers...How can I use this activity?  
+              I knew this class would be a waste."  Well, I like to think that <em>We All Use Math Every Day</em>!  
+              When I walk through a toy aisle of a store, I am always thinking, "How can I use that toy to teach 
+              math?".  To get you thinking, you have in front of you a toy car that can be pulled back to engage a 
+              spring so that it moves forward when released.  In your groups, devise a plan to teach some of the 
+              same mathematical concepts you identified in Roadkill using this cheap car.  Summarize your ideas 
+              on the whiteboards and be prepared to share with your colleagues.
+            </p>
+
+          </statement>
+        </task>
+      </activity>
     </p>
     
   </subsection>
