@@ -342,7 +342,76 @@
 
     <p>
       In this section, we will focus on identifying and applying the <em>Common Core State Standards</em> within 
-      mathematical tasks and classroom cases.  
+      mathematical tasks and classroom cases.  To begin, we can start by examining a task that involves both 
+      mathematical content and mathematical practices with a goal of identifying aspects of the CCSS in relation 
+      to our reflections on what we do and why we do it.  As a teacher, it is essential that we continually assess 
+      and evaluate our students' thinking.  This allows us to make adjustments in our instruction to meet the 
+      needs of young learners.  Novice teachers can practice this process by participating in 
+      <em>metacognitive </em> activities.  <em>Metacognition</em>, often described as "thinking about your own 
+      thinking," is the awareness and understanding of one's own thought processes. It's a higher-level 
+      cognitive skill that allows individuals to plan, monitor, and evaluate their own learning and 
+      problem-solving.  Consider the following task.
+    </p>
+
+    <p>
+      <activity xml:id="act-roadkill">
+        <title>Roadkill</title>
+        <introduction>
+          <p>
+            Consider a problem in many rural areas<m>-</m>roadkill.  As you drive along the highway, I am sure you have 
+            noticed deer carcasses in the ditch.  Deer collisions are a common cause of insurance claims and 
+            vehicles have evolved to try and reduce the number of deer incidents.  Some cars have sensors that 
+            alert the driver to a potential object in the road and can even engage the brakes.  So how does 
+            the technology make decisions on how to brake if an object is detected?  It is not practical to 
+            slam on the brakes if the object is still a fair distance away.  However, if the object is closer, 
+            the vehicle may need to decelerate more quickly.  How fast can a vehicle decelerate safely without 
+            harming the occupants?  These questions can be answered by a series of calculations that relate 
+            distance, rate, and time.  In this activity, you will explore a simple model for dealing with this 
+            question.  Consider the problem posed in the video below.
+          </p>
+          <p>
+            <figure xml:id="fig-roadkill-video">
+              <video youtube="kjxUOxCHccw"/>
+              <caption>Roadkill Activity</caption>
+            </figure>
+          </p>
+        </introduction>
+
+        <task>
+          <statement>
+            <p>
+              Before actually tackling the <em>Roadkill</em> task, in your group, develop a strategy for how 
+              you will approach the task.  Don't begin trying to solve it yet, just develop a strategy and 
+              summarize it on your whiteboard to share with others.
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              Share your strategy for attacking the problem and listen to others' approaches.  On your 
+              whiteboards, summarize your thought on the following questions.  What are some 
+              pros and cons of each approach?  How are the approaches the same?  How are they different?  
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              Now carry out your plan.  Remember, I will place the deer in front of your Rover at an unknown 
+              location and you will have to then enter a time into the Rover to try and get as close to the deer 
+              as possible without hitting it.  The team with the closest approach will get a prize.
+            </p>
+          </statement>
+        </task>
+        
+      </activity>
+    </p>
+
+    <p>
+      
     </p>
     
   </subsection>
