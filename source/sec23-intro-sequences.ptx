@@ -11,7 +11,24 @@
       While there are many different kinds of sequences, we will focus primarily on arithmetic, geometric, 
       figurative, and recursive sequences.  We will ground our discussion in some classroom excerpts where 
       students are grappling with patterns and also address how the students begin to represent these patterns 
-      and the effect this has on their thinking.
+      and the effect this has on their thinking.  To begin, we should define what we mean by a sequence.
+    </p>
+
+    <p>
+      <definition xml:id="def-sequence">
+        <title>Sequence</title>
+        <statement>
+          <p>
+            A <em>sequence</em> is a list of terms <m>a_0, a_1, a_2, a_3, \ldots</m>, given in a specific order.  
+            These sequenced values can also be thought of as a function of the term number, <m>n</m>, and 
+            denoted as <m>a_n</m>.  For the practical use of a computer algebra system, we often express the 
+            terms using function notation, <m>a\left(n\right)</m>, so that we can define it in the CAS and 
+            operate on its terms.  To express the entire sequence we often use the notation, 
+            <m>\left \{a_n \right \}</m>, since we can think of the entire sequence as a list such as 
+            <m>\left \{a_0, a_1, a_2, a_3, \ldots\right \}</m>.
+          </p>
+        </statement>
+      </definition>
     </p>
 
 </introduction>
