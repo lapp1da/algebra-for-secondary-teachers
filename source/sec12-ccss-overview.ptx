@@ -558,12 +558,44 @@
         </task>
       </activity>
     </p>
-    
+
+    <p>
+      The Commonn Core State Standards have been a topic of debate by partents and teachers alike.  Many parents 
+      become frustrated when they struggle to help their children with homework.  One example that made its way 
+      around the internet was a parent (who claims a degree in engineering) having difficulty helping with 
+      subtraction.  The curriclum has children use a number line to solve the problem by moving along the 
+      number line.  The parent expresses frustration since he thinks the children should just line up the digits 
+      and use the "standard" algorithm that he was taught (see for a summary).  One of the reasons for parental 
+      frustration is that many parents simply memorized or mimicked procedures without connecting it to the 
+      meaning of the algorithm and therefore the alternative methods being taught do not make sense to them.
+    </p>
+
+    <p>
+      <figure xml:id="fig-ccss-frustration">
+        <video youtube="tBkQAxt1JXA"/>
+        <caption>Common Core Frustration Explained</caption>
+      </figure>
+    </p>
+
+    <p>
+      What is interesting about the method explained in <xref ref="fig-ccss-frustration"/> is that while angry 
+      parents complain about this "new" method, it is actually not "new" at all.  This is actually how my 
+      grandmother learned it.  This method called "counting on" or "cashier's subtraction" stems from an era 
+      where electronic cash registers did not exist and cashiers actually "counted back" a patron's change.  In 
+      fact, from a practical sense, people with an understanding of arithmetic do not usually line up digits and 
+      subtract.  Counting on is a much easier way to <em>mentally</em> compute a difference.  Otherwise, people 
+      generally pull out their phone and use their calculator app.  I once received free frozen yogurt because 
+      a cashier could not make change.  His cash register locked up and he could not rely on it to tell him how 
+      much change to give me.  I tried to walk him through counting on, but instead, he simply gave my wife and 
+      me free frozen yogurt and locked the door behind us as we left, closing up for the night.
+    </p>
+
+    <p>
+      As we work through this course, it is essential that the preservice teacher try to make sense of the 
+      Common Core State Standards and always ask the question, "Why do we teach this concept and how can I help 
+      students make sense of it?".  Reducing mimicking in favor of thinking is the key and as teachers we should 
+      always strive for thinking over mere procedural fluency.
+    </p>
   </subsection>
-
-
-  <p>
-    
-  </p>
 
 </section>
