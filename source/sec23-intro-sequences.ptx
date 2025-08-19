@@ -187,8 +187,9 @@
         <statement>
           <p>
             As the discussion progresses, students share ways to represent the computation using more than one 
-            variable.  Recall that on the first day of The Border Problem, Cathy made an intentional effort to 
-            list all student approaches on the board with 
+            variable.  Sharmeen abandons her original expression as a group member want to "make it simpler" and 
+            instead uses, <m>s+s+m+m</m>.  Recall that on the first day of The Border Problem, Cathy made an 
+            intentional effort to list all student approaches on the board with 
             <me>
               4 \times 10 -4
             </me>
@@ -202,19 +203,19 @@
               \left(10 \times 10\right)-\left(8 \times 8\right)
             </me>
             <me>
+              9 \times 4
+            </me>
+            <me>
               4 \times 8 +4
             </me>
             In your groups, discuss how these multiple representations might play a role in transitioning the 
             class to use only one variable.  What will eventually happen with the expresions if all of the 
-            methods use the same variable to represent the "10" from the <m>10 \times 10</m> square computation?  
-            How can Cathy leverage these expressions to help the students see they are the same?  What does the 
-            "8" represent in Sharmeen's first symbolic expression?
+            methods use the same variable to represent the "10" from their expressions of the <m>10 \times 10</m> 
+            square computation?  How can Cathy leverage these expressions to help the students see they are the 
+            same?  What does the "8" represent in Sharmeen's first symbolic expression?
           </p>
         </statement>
       </task>
-      
-      
-      
     </activity>
   </p>
   
