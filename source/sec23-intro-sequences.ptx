@@ -51,14 +51,14 @@
   </p>
 
   <p>
-    <activity>
-      <title>The Border Problem: Part 1</title>
+    <activity xml:id="act-border-problem-part1">
+      <title>The Border Problem: Part 1 Reflection</title>
       <introduction>
         <p>
           Watch the classroom episode of Cathy Humphreys' 7th grade class working on ways to find the border 
           of a square grid.  This video is found in the book, <em>Connecting Mathematical Ideas: Middle School 
           Video Cases to Support Teaching and Learning (2005)</em> by Jo Boaler and Cathy Humphreys.  You may 
-          want to following along with the provided transcript (pp. 1-5) from Boaler and Humphreys (2005) in 
+          want to follow along with the provided transcript (pp. 1-5) from Boaler and Humphreys (2005) in 
           case you have a hard time discerning what is being said.
         </p>
       </introduction>
@@ -89,10 +89,157 @@
           </p>
         </statement>
       </task>
+
+      <task>
+        <statement>
+          <p>
+            The teacher, Cathy, in the episode allows for several different students to explain their way of 
+            determining the total number of squares and she writes their method on the board with numerical 
+            representations that align with the method.  For example, Sharmeen shares her thinking, "Well, first 
+            I started out with forty from ten times four and then I subtracted four from that because there would 
+            be four squares overlapping, and so that got thirty-six.".  Here Cathy writes on the board 
+            <m>4 \times 10 -4</m>.  At this point, Cathy asks the questions, "And the four was for ...?", and 
+            "OK. And this four was for?".  Discuss in your groups why you think Cathy chose this move in the 
+            lesson?  From an algebraic standpoint, what is she trying to set up for later discussion?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Cathy then asks Colin to go up to the front and show his method.  Colin shares, "Anyway, so I, like, 
+            I know this side is ten so I just did like ten and then this one, this one's the overlapping one, so 
+            then this would be nine, then this one would be nine, too, because this one's overlapping. And then 
+            for this, one it'd be eight because these two, this one is being used by this one and this one is 
+            being used by that one."  As Colin explains, Cathy writes on the board, <m>10+9+9+8</m>.  In looking 
+            at Sharmeen's and Colin's representations, how do you see them as the same?  How are they different?  
+            Is there a way to move from one to the other in a way that makes <em>physical</em> sense?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Toward the end of the lesson, Cathy asks the students to imagine shrinking the <m>10 \times 10</m> 
+            square into a <m>6 \times 6</m> square.  She then asks them to use whatever method they want from 
+            those previously discussed to determine the number of border square in the <m>6 \times 6</m> square.  
+            In your groups, discuss why you think Cathy asked this question and where you think she is going with 
+            this task?
+          </p>
+        </statement>
+      </task>
+    </activity>
+  </p>
+
+  <p>
+    Now that we have speculated about Cathy's plan for her class, let's see where she takes the discussion on the 
+    next day.  In the next activity, pay attention to the way Cathy tries to draw connections between the 
+    physical representations of border squares and the way the computations are taking place.
+  </p>
+
+  <p>
+    <activity xml:id="act-border-problem-part2">
+      <title>The Border Problem: Part 2 Reflection</title>
+      <introduction>
+        <p>
+          Watch the continuation of the classroom episode of Cathy Humphreys' 7th grade class working on ways to 
+          find the border of a square grid.  This video is found in the book, 
+          <em>Connecting Mathematical Ideas: Middle School Video Cases to Support Teaching and Learning (2005)</em> 
+          by Jo Boaler and Cathy Humphreys.  You may want to follow along with the provided transcript (pp. 1-5) 
+          from Boaler and Humphreys (2005) in case you have a hard time discerning what is being said.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            In the episode, Cathy asks the question, "What's staying the same in this arithmetic?".  Here Cathy is 
+            using the expression, <m>10+10+8+8</m>. In your groups, discuss why you think Cathy is asking this 
+            question?  What is she trying to accomplish with this question with respect to Kaput, Blanton, and 
+            Moreno's model?
+          </p>
+          <hint>
+            <p>
+              In looking at Kaput, Blanton, and Moreno (see <xref ref="fig-kaput-blanton-moreno"/>), how do 
+              learners transition to new representation systems?
+            </p>
+          </hint>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            At this stage of the discussion, Sarah responds by saying, "Well, the first two numbers are the same 
+            numbers and the last two numbers are the same numbers.".  Cathy then has the students work in their 
+            groups to try and find a way to represent the general process for computing the number of border 
+            squares.  In her group, Sharmeen, shares, "S and so <m>s+s+\left(s-2\right)+\left(s-2\right)</m>. 
+            Though that's kind of complicated. Is there any other way to put it?".  Given Sharmeen's original 
+            method from the day before (<m>4 \times 10-4</m>), what question might you ask Sharmeen to help her 
+            link her current method to her previoous one?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            As the discussion progresses, students share ways to represent the computation using more than one 
+            variable.  Recall that on the first day of The Border Problem, Cathy made an intentional effort to 
+            list all student approaches on the board with 
+            <me>
+              4 \times 10 -4
+            </me>
+            <me>
+              10+9+9+8
+            </me>
+            <me>
+              10+10+8+8
+            </me>
+            <me>
+              \left(10 \times 10\right)-\left(8 \times 8\right)
+            </me>
+            <me>
+              4 \times 8 +4
+            </me>
+            In your groups, discuss how these multiple representations might play a role in transitioning the 
+            class to use only one variable.  What will eventually happen with the expresions if all of the 
+            methods use the same variable to represent the "10" from the <m>10 \times 10</m> square computation?  
+            How can Cathy leverage these expressions to help the students see they are the same?  What does the 
+            "8" represent in Sharmeen's first symbolic expression?
+          </p>
+        </statement>
+      </task>
+      
       
       
     </activity>
   </p>
+  
+</subsection>
+
+<subsection xml:id="subsec-geometric-sequences">
+  <title>Geometric Sequences</title>
+
+  <p>
+    
+  </p>
+  
+</subsection>
+
+<subsection xml:id="subsec-recursive-sequences">
+  <title>Recursive Sequences</title>
+
+  <p>
+    
+  </p>
+  
+</subsection>
+
+<subsection xml:id="subsec-figurative-sequences">
+  <title>Figurative Sequences</title>
   
 </subsection>
 
