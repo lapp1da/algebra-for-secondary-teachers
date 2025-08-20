@@ -53,7 +53,18 @@
           <p>
             <em>Jason</em> : Today we are going to deal with a problem that many businesses face.  How do you 
             set prices for your products and what effects do those decisions have on the revenue you get 
-            from your consumers?  Suppose we have a company that sells 
+            from your consumers?  Suppose we have a company that sells T-shirts to three main stores: 
+            <em>Total Tees</em>, <em>T-Riffic</em>, and <em>T-Rex</em>.  Our company mass produces four basic 
+            prints of T-shirts.  Let's call them <em>T1</em>, <em>T2</em>, <em>T3</em>, and <em>T4</em>.  
+            On the board, I have put the orders for each type of T-shirt for each of the three stores.
+          </p>
+          <p>
+            <figure xml:id="fig-tshirt-orders">
+              <caption>Jason's List of T-Shirt Orders</caption>
+              <image source="images/tshirt-orders.png" width="90%">
+                <shortdescription>Jason's List of T-Shirt Orders</shortdescription>
+              </image>
+            </figure>
           </p>
         </introduction>
       </activity>
