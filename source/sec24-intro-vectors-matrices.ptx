@@ -15,22 +15,41 @@
       Here we will examine the concept of vectors as well as <em>matrices</em> (a kind of super vector) that 
       can store information that vectors can use.
     </p>
+
   </introduction>
 
   <subsection xml:id="subsec-model-moving-worlds">
     <title>Modeling Data and Moving Between Worlds</title>
 
   <introduction>
+
+    <p>
+      The Common Core State Standards include the teaching of vectors and matrices, although not all aspects of 
+      these concepts are expected for all student who graduate high school.  Many of the more complex uses 
+      of vectors and matrices are left for those planning to enter mathematically rigorous fields of study 
+      at the university level.  The CCSS denote this by placing a (+) next to the standard that is not intended 
+      for all students (see <xref ref="fig-ccss-vectors-matrices"/>).
+    </p>
+
+    <p>
+      <figure xml:id="fig-ccss-vectors-matrices">
+        <caption>CCSS: Vectors and Matrices</caption>
+        <image source="images/ccss-vectors-matrices.png">
+          <shortdescription>CCSS: Vectors and Matrices</shortdescription>
+        </image>
+      </figure>
+    </p>
   
-  <p>
-  In this section we will look at linear algebra as a way to encode information 
-  and operate on it allowing us to move between different sets of information.  To this end, we 
-  will define how <em>matrices</em> and <em>vectors</em> are operated on with binary operations like addition and 
-  multiplication.  While multiplication of matrices may seem weird at first, you will see that it is defined 
-  as it is for convenience in manipulating data and transforming different types of values into 
-  other computed values based on them.  We begin by considering a case where we want to move between 
-  a pricing scheme and the revenue it generates for three different companies with three different 
-  sets of orders of our products.
+  
+    <p>
+    In this section we will look at linear algebra as a way to encode information 
+    and operate on it allowing us to move between different sets of information.  To this end, we 
+    will define how <em>matrices</em> and <em>vectors</em> are operated on with binary operations like addition 
+    and multiplication.  While multiplication of matrices may seem weird at first, you will see that it is 
+    defined as it is for convenience in manipulating data and transforming different types of values into 
+    other computed values based on them.  We begin by considering a case where we want to move between 
+    a pricing scheme and the revenue it generates for three different companies with three different 
+    sets of orders of our products.
   </p>
   <p>
     To accomplish this, we will use constructs created to deal with objects that contain multiple entries.  
