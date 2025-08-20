@@ -151,15 +151,44 @@
           </p>
 
           <p>
-            [<em>Jason displays Mia's calculator through the wireless network.</em> (see XXX)]
+            [<em>Jason displays Mia's calculator through the wireless network.
+            </em> (see <xref ref="fig-mia-cas-define"/>)]
           </p>
 
           <p>
-            
+            <figure xml:id="fig-mia-cas-define">
+              <caption>Mia's Group's Defined Functions</caption>
+              <image source="images/mia-cas-define.png" width="70%">
+                <shortdescription>Mia's Group's Defined Functions</shortdescription>
+              </image>
+            </figure>
           </p>
 
           <p>
             <em>Jason</em> : Tell us what everything is.
+          </p>
+
+          <p>
+            <em>Mia</em> : Well, the tt is for orders for Totally Tees, tr is for T-Riffic, and tx is for T-Rex.  
+            We just used w,x,y, and z for the placeholders for the prices so we can just enter them in the 
+            functions.
+          </p>
+
+          <p>
+            <em>Jason</em> : Great idea.  Can you show us how you would calculate the revenue.
+          </p>
+
+          <p>
+            <em>Mia</em> : Sure, just put in 12, 9, 10, and 8 in the functions and you get ...
+          </p>
+
+          <p>
+            <figure xml:id="fig-mia-cas-prices">
+              <caption>Mia's Group's Defined Functions</caption>
+              <image source="images/mia-cas-prices.png" width="70%">
+                <shortdescription>Mia's Group's Functions with Prices</shortdescription>
+              </image>
+            </figure>
           </p>
 
         </introduction>
