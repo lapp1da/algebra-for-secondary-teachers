@@ -66,6 +66,102 @@
               </image>
             </figure>
           </p>
+
+          <p>
+            We want to be able to work with various options of pricing for the different shirts as the demand 
+            warrants.  For example, if one particular print gaiin popularity, we might want to raise its cost 
+            to the stores since there is higher demand.  If another print is less popular, we may want to lower 
+            the price we charge the stores to encourage more demand.  Long-story-short, we want to develop a 
+            way to calculate the revenue we get from each store as we tweak the prices we charge for the 
+            different shirts.  Does anyone have any questions?  Yeah, Bri?
+          </p>
+
+          <p>
+            <em>Bri</em> : So what you're saying is that if we have the prices, we want to be able to quickly 
+            find the total amount we get from each store?  With the orders you put on the board?
+          </p>
+
+          <p>
+            <em>Jason</em> : Yep.  You got it!
+          </p>
+
+          <p>
+            <em>Nic</em> : What if the orders change?
+          </p>
+
+          <p>
+            <em>Jason</em> : Excellent question!  Let's just assume the orders stay the same here and we are just 
+            messing with the prices for now.  Make a note, though, Nic, and we'll come back to your idea later.
+          </p>
+
+          <p>
+            <em>Rosa</em> : Can we have some prices to start?  I'd like to have some prices so I can do some 
+            calculations to see what's happening.
+          </p>
+
+          <p>
+            <em>Jason</em> : OK, how about saying that we charge $12 for T1, $9 for T2, $10 for T3, and $8 for 
+            T4.  Will that work?
+          </p>
+
+          <p>
+            <em>Rosa</em> : Thanks.  That'll give us somewhere to start.
+          </p>
+
+          <p>
+            <em>Jason</em> : Great, now go ahead in your groups and talk about how you might go about this.  
+            Feel free to use any tools we usually have in class like your computer or CAS.
+          </p>
+
+          <p>
+            [<em>Jason allows the students about 20 minutes to start talking about ways to handle the situation. 
+              As he circulates, Jason notices Mia's group working with their CAS to take a functional approach 
+              to deal with problem.  He makes a note to have Mia share when the class comes back together for 
+              discussion.  Jason also notes that Nic's group seems to holding onto Nic's earlier comment about 
+              changing orders and have started to explore the problem with a spreadsheet.  Jason was happy to 
+              see Nic's group's approach as he thinks it will help him transition eventually to defining 
+              multiplication between a matrix and a vector.  After time for exploration, Jason brings the class 
+              back together to share ideas.
+            </em>]
+          </p>
+
+          <p>
+            <em>Jason</em> : So what did you try?  Anyone want to go first?  Yeah, Mia?
+          </p>
+
+          <p>
+            <em>Mia</em> : Well, we kinda used our CAS to define functions for each store.  We can put the 
+            in the functions and it gives us the money we get froom them.
+          </p>
+
+          <p>
+            <em>Jason</em> : The revenue?
+          </p>
+
+          <p>
+            <em>Mia</em> : Yeah, I guess.
+          </p>
+
+          <p>
+            <em>Jason</em> : Can I show your calculator on the display?
+          </p>
+
+          <p>
+            <em>Mia</em> : Yeah, I'm logged in.
+          </p>
+
+          <p>
+            [<em>Jason displays Mia's calculator through the wireless network.</em> (see XXX)]
+          </p>
+
+          <p>
+            
+          </p>
+
+          <p>
+            <em>Jason</em> : Tell us what everything is.
+          </p>
+
         </introduction>
       </activity>
     </p>
