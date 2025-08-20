@@ -34,7 +34,7 @@
     <p>
       <figure xml:id="fig-ccss-vectors-matrices">
         <caption>CCSS: Vectors and Matrices</caption>
-        <image source="images/ccss-vectors-matrices.png">
+        <image source="images/ccss-vectors-matrices.png" width="90%">
           <shortdescription>CCSS: Vectors and Matrices</shortdescription>
         </image>
       </figure>
