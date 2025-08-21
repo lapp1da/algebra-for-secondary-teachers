@@ -191,6 +191,51 @@
             </figure>
           </p>
 
+          <p>
+            <em>Jason</em> : That's a neat way to do it so you don't have to keep doing the same thing on 
+            your calculator and retyping the orders.  With my luck, I'd retype something wrong anyway.
+          </p>
+
+          <p>
+            <em>Vero</em> : We kinda did something like that, but when our group was talking, Nic was sharing 
+            more about what he said earlier and we came up with something that lets us change more than the 
+            prices.
+          </p>
+
+          <p>
+            <em>Jason</em> : Can you share it?  Can I put your calculator on the display?
+          </p>
+
+          <p>
+            <em>Vero</em> : I didn't do it on the calculator, but we used our Chromebooks.  Can I plug it in?
+          </p>
+
+          <p>
+            <em>Jason</em> : Sure, bring it up.
+          </p>
+
+          <p>
+            [<em>Vero brings her laptop up to the front and plugs it in to get 
+              <xref ref="fig-vero-ss-orders-prices"/>
+            </em>]
+          </p>
+
+          <p>
+            <figure xml:id="fig-vero-ss-orders-prices">
+              <caption>Vero's Group's Spreadsheet with Orders and Prices</caption>
+              <image source="images/vero-ss-orders-prices.png" width="70%">
+                <shortdescription>Vero's Group's Spreadsheet with Orders and Prices</shortdescription>
+              </image>
+            </figure>
+          </p>
+
+          <p>
+            [<em>Jason smiles.  He can't believe his luck that Vero's group formatted the spreadsheet the 
+              way they did with the prices listed vertically.  As he looks at the command line for formatting 
+              the computation, the colored entries match his plans for later in the lesson.
+            </em>]
+          </p>
+
         </introduction>
       </activity>
     </p>
