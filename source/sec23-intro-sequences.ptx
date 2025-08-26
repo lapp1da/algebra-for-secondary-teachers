@@ -234,7 +234,205 @@
   <title>Recursive Sequences</title>
 
   <p>
-    
+    In order to make connections with what is taught in the secondary curriculum, we begin by examining some 
+    activities from the Interactive Mathematics Program (IMP).  This activity will set the stage for reflecting 
+    on both the mathematics and the teaching and learning practices involved in the exploration.  In particular, 
+    we will consider the relevance of the depth of content knowledge on classroom decisions made by the teacher.
+  </p>
+
+  <p>
+    <activity xml:id="act-over-and-over">
+      <title>Over, and Over, and Over, and...(IMP)</title>
+      <introduction>
+        <p>
+          To start, let's examine the supplemental problem titled, <em>Over, and Over, and Over and…</em>, from 
+          the fourth year text of IMP found on pages 153-154.  Give responses to the following questions (a-d) 
+          before discussing them within your group.  After you have provided individual responses to the 
+          questions, spend approximately 15 minutes discussing your answers within your group and record any 
+          changes or modifications to your original responses along with brief elaborations on why you may or 
+          may not have modified your responses.
+        </p>
+      </introduction>
+      <task>
+        <statement>
+          <p>
+            What do you consider to be the relevant mathematical concepts involved in the exploration?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What do you think are the relevant standards from the CCSS in this activity?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Describe how you think content from undergraduate courses might be helpful in leading students 
+            through this investigation.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Imagine yourself in your first teaching position.  You are handed the IMP text to use as your 
+            primary resource and find that the investigation, <em>Over, and Over, and Over and…</em>,  is part 
+            of the material to be covered by the school.  Describe how would you teach it and what you would 
+            expect from the students.
+          </p>
+        </statement>
+      </task>
+    </activity>
+  </p>
+
+  <p>
+    Now that you have started to reflect on the mathematics and pedagogy present in the exploration, consider 
+    the following classroom exchange as a teacher (Jill) interacts with her students.  Following the vignette, 
+    you will be asked to respond to questions surrounding the discussion.
+  </p>
+
+  <p>
+    <activity xml:id="act-over-and-over-and-out">
+      <title>Case Study: Over and Over and Out</title>
+      <introduction>
+        <p>
+          Jill's <em>Algebra I</em> class has been working with radicals and as a result of using her calculator, 
+          a student, Kay, raises a question during class.
+        </p>
+
+        <p>
+          <em>Jill</em> : How did the homework go last night?  Does anyone have any questions about reducing the 
+          radical expressions?
+        </p>
+
+        <p>
+          <em>Kay</em> : Well, I don't really have a question about reducing the radicals, but I did have another 
+          question that's kind of related to what we're doing.
+        </p>
+
+        <p>
+          <em>Jill</em> : OK, go for it.  What'ya got?
+        </p>
+
+        <p>
+          <em>Kay</em> : Well, as I was working on some of the radical simplifying stuff, I was checking them by 
+          using my calculator to see if my answer matched when I punched the original expression on the 
+          calculator.  Anyway, I got to playing with my calculator during my advising period and noticed that 
+          when I entered something like <m>\sqrt{2}</m> and kept hitting the equals button, it ended up giving 
+          me 1.  I tried it with <m>\sqrt{3}</m> and it did the same thing.  Will that always happen?
+        </p>
+
+        <p>
+          <em>Jill</em> : Interesting.  Maybe we should take some time to try this.  <em>(To the class)</em> 
+          What I want you to do is get in your groups and see if you can find any numbers that when you take the 
+          square root over and over again do not end up at 1.
+        </p>
+
+        <p>
+          [<em>Jill allows the students to look for a counter example for about 10 minutes and then brings the 
+            class back together for discussion.</em>]
+        </p>
+
+        <p>
+          <em>Jill</em> : Well, what did you find?
+        </p>
+
+        <p>
+          <em>Jeff</em> : Our group couldn't find any number that didn't end up at 1.
+        </p>
+
+        <p>
+          <em>Anna</em> : Neither could ours.
+        </p>
+
+        <p>
+          <em>Sean</em> : At first our group thought we had found an example where it just kept getting bigger 
+          and bigger, but that was because I was using the <m>x^2</m> button instead of the square root.
+        </p>
+
+        <p>
+          <em>Jill</em> : That raises an interesting question though, Sean.  Does the type of operation make a 
+          difference in whether or not it converges to a certain number?  The word <em>converge</em> just means 
+          that it gets closer and closer to that number as you keep repeating it.  Yes, Erin.  Do you want to 
+          say something?
+        </p>
+
+        <p>
+          <em>Erin</em> : Well, I have a graphing calculator and I was trying to find an easier way to enter 
+          this stuff in it to do the repeat.  I used the [ANS] key.  What it does is take the last thing you got 
+          out of your calculator and does a new thing to it.  So what I did was put the <em>square root of x</em> 
+          in my <em>Y=</em> list and then entered <m>Y_1\left(3\right)</m> on my screen and got 1.73 something.  
+          Then I just put in <m>Y_1\left(ANS\right)</m> and kept hitting [ENTER].  This gave me the numbers that 
+          got closer and closer to 1.
+        </p>
+
+        <p>
+          <em>Jill</em> : That's a great idea.  It also now makes it easier to try other types of functions like 
+          Sean's <m>x^2</m> example.  Let's go through what Erin was talking about together on our class set of 
+          graphing calculators.  Take out your calculators and look up front.
+        </p>
+
+        <p>
+          [<em>Jill takes about 5 minutes to go through the mechanics of how to evaluate an iterated function on 
+            the graphing calculator and then sent the groups exploring different functions.  She allowed them 
+            approximately 20 minutes to get started before the bell rang.  She assigned them the task of 
+            exploring this for homework and told the class that they would continue with the discussion the next 
+            day.</em>]
+        </p>
+
+        <p>
+          The Next Day
+        </p>
+
+        <p>
+          <em>Jill</em> : Does anyone have anything to share from your exploring last night?
+        </p>
+
+        <p>
+          <em>Jan</em> : I thought I'd try some other types of roots and so I tried <m>\sqrt[3]{x}</m> and it 
+          went to 1 too.
+        </p>
+
+        <p>
+          <em>Jill</em> : Did it go to 1 no matter what number you started with?
+        </p>
+
+        <p>
+          <em>Jan</em> : Yeah.  For everything I tried.  So I think that anything with roots will go to 1.
+        </p>
+
+        <p>
+          <em>Sam</em> : I thought that too, but I tried something a little different.  I did the same thing Jan 
+          did with <m>\sqrt[3]{x}</m>, but then I tried it by putting a 2 in front and used <m>2\sqrt[3]{x}</m>.  
+          This time it didn't go to 1, but went to 2.828 something.  So, it looks like it can go to things other 
+          than 1.  Can we make up a function that will go to any number we want?
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Describe the central mathematical issues involved in the classroom exchange.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            If you were in Jill's position, how would you facilitate the rest of the classroom discussion?  Give 
+            a detailed account of what you would do next anticipating what the students might discover and how 
+            you would respond.
+          </p>
+        </statement>
+      </task>
+    </activity>
   </p>
   
 </subsection>
