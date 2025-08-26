@@ -436,7 +436,48 @@
   </p>
 
   <p>
-    
+    At this point we will take some time to explore some mathematical ideas related to the previous classroom 
+    vignette using an activity called, <em>Evaluate Me Again Sam</em>.  In your groups, complete 
+    .  The material needed for the activity is only a computer algebra system.
+  </p>
+
+  <p>
+    <activity xml:id="act-evaluate-me-again-sam">
+      <title>Evaluate Me Again, Sam</title>
+      <introduction>
+        <p>
+          You may have at one time used a scientific or standard calculator and entered an evaluation for 
+          <m>\sqrt{2}</m> and then continued to press the [√] or [=] key only to see the decimal 
+          approximation eventually get closer and closer to 1.  This illustrates values of an infinite sequence 
+          where each element of the sequence is obtained by taking the previous element in the sequence and 
+          plugging it into a given function.  In this investigation we will explore such sequences and look for 
+          common properties.
+        </p>
+
+        <p>
+          <em>Problem Statement</em>:  In the example given above, a specific function, 
+          <m>f\left(x\right)=\sqrt{x}</m>, and a specific starting point, <m>x=2</m>, were used to generate the 
+          sequence.  In this exploration, consider a more general question.  Suppose you have a function <m>f</m> 
+          and the infinite sequence, 
+          <m>f\left(x_0\right), f\left(f\left(x_0\right)\right), f\left(f\left(f\left(x_0\right)\right)\right), \ldots</m>.  
+          In this exploration, we will examine this sequence for some specific families of functions and then generate 
+          more questions for further investigation.
+        </p>
+
+        <p>
+          Here we will use the <em>TI-Nspire CX II CAS</em>, but this can also be done with a variety of other 
+          computer algebra systems.  To begin, we will explore a very familiar function, <m>f\left(x\right)=ax^2</m>, 
+          for various values of the parameter, <m>a</m>.  Open a new document and select <em>1:New Document</em>.  
+          When prompted, select <em>2:Add Graphs</em> to open a graphing screen.  Enter the function 
+          <m>f_1\left(x\right)=x^2</m> in the command line at the bottom of the screen and press [enter] to 
+          display the graph.  You will be able to morph this graph later by grabbing it in order to explore the 
+          effect of the parameter, <m>a</m>, on the sequence.
+        </p>
+      </introduction>
+      
+      
+      
+    </activity>
   </p>
   
 </subsection>
