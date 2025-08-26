@@ -476,7 +476,7 @@
 
         <p>
           <image source="images/evaluate-sam-screens-1.png" width="90%">
-            <shortdescription>first screens</shortdescription>
+            <shortdescription>1st set of screenshots</shortdescription>
           </image>
         </p>
 
@@ -496,7 +496,32 @@
           view.  If you want to adjust only one axis scale at a time, simply hold down the [shift] key while you 
           move on the screen.  To adjust where the axes are located within the window, move to any open space in 
           the graphing window and hold the "click/grab" key down until the hand closes, then move the entire 
-          graph to any location you desire.
+          graph to any location you desire (see images below).
+        </p>
+
+        <p>
+          <image source="images/evaluate-sam-screens-2.png" width="90%">
+            <shortdescription>2nd set of screenshots</shortdescription>
+          </image>
+        </p>
+
+        <p>
+          <image source="images/evaluate-sam-screens-3.png" width="60%">
+            <shortdescription>3rd set of screenshots</shortdescription>
+          </image>
+        </p>
+
+        <p>
+          In order to explore the relationship between the parameter, <m>a</m>, and the behavior of the 
+          sequence, it will be helpful to view the function and the sequence plot side-by-side.  In order to do 
+          this press [+page] to insert a new page and then press [esc] since you do not wish to insert just one 
+          application, but two in a side-by-side layout.  Now press [doc] and select 
+          <em>5:Page Layout</em> and <em>2:Select Layout</em> followed by <em>2:Layout 2</em>.  This will give a 
+          side-by-side partitioned screen that will allow you to place a different application in each partition.
+        </p>
+
+        <p>
+          
         </p>
       </introduction>
       
