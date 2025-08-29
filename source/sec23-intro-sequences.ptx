@@ -662,7 +662,20 @@
           </p>
 
           <p>
-            
+            <image source="images/evaluate-sam-screens-10.png" width="40%">
+              <shortdescription>8th set of screenshots</shortdescription>
+            </image>
+          </p>
+
+          <p>
+            Since the spreadsheet in the CAS allows symbolic entries, we can use the <em>Generate Sequence</em> 
+            feature to look at repeated iterations of the function composition.  To do this, insert a new 
+            <em>4:Lists &amp; Spreadsheet</em> page.  Give the first column a title of, 
+            <m>\mathbf{iterations}</m>.  Now generate the sequence of compositions as shown below by entering 
+            <m>x</m> in the first open cell.  In cell A2, enter <m>\mathbf{=f(a1)}</m> just as you would in 
+            Excel.  You will see an algebraic result appear.  Now move your cursor to the bottom right corner of 
+            the cell until you see a <m>\mathbf{+}</m> appear and click and drag down the column to perform a 
+            “fill down”.  You should see expressions appear.
           </p>
         </statement>
       </task>
