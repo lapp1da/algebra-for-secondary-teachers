@@ -465,6 +465,11 @@
         </p>
 
         <p>
+          <m>\mathbf{Setting}</m> <m>\mathbf{Things}</m> <m>\mathbf{Up}</m> <m>\mathbf{to}</m> 
+          <m>\mathbf{Explore}</m>
+        </p>
+
+        <p>
           Here we will use the <em>TI-Nspire CX II CAS</em>, but this can also be done with a variety of other 
           computer algebra systems.  To begin, we will explore a very familiar function, <m>f\left(x\right)=ax^2</m>, 
           for various values of the parameter, <m>a</m>.  Open a new document and select <em>1:New Document</em>.  
@@ -543,13 +548,60 @@
           To paste the graphing screen into the left side, just press [ctrl][V] (like paste on a computer).  To 
           get the sequence plot pasted into the right side of the screen, repeat this process, but you will need 
           to click on the right side of the screen to make it active before pasting.  You will know that a 
-          portion of the screen is active since it will have a darkened border around it.
+          portion of the screen is active since it will have a darkened border around it (see screens below).
         </p>
 
         <p>
-          
+          <image source="images/evaluate-sam-screens-6.png" width="90%">
+            <shortdescription>5th set of screenshots</shortdescription>
+          </image>
+        </p>
+
+        <p>
+          At this point you are ready to examine the effects of the parameter, <m>a</m>, on the behavior of the 
+          sequence.  The side-by-side view of the two graphs allows you to manipulate the function and see the 
+          sequence plot change dynamically in real time.  To do this, move the cursor to the edge of the parabola 
+          until you see the dilation icon appear as shown below.  Press and hold the click key until the "hand" 
+          closes to grab the parabola then use the arrow keys to “morph” it.  To "let go" just press [esc].
         </p>
       </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Sketch the graphs for at least four different values of <m>a</m> in <m>f\left(x\right)=ax^2</m>.  
+            Describe any patterns you may see.  Will the sequence always converge?
+          </p>
+
+          <p>
+            As you have seen, the parameter, <m>a</m>, affects the behavior of the sequence.  Are there other 
+            factors that also affect the behavior of the sequence?  You may have already considered the 
+            possibility that the “seed”, or initial, value might also affect it.  At this point change the seed 
+            value and investigate how the parameter, <m>a</m>, and the seed value interact.  You can change the 
+            seed by clicking in the sequence window and editing the initial term or by grabbing the initial 
+            point (green) in the sequence plot and moving it or editing it directly in the command line.  To 
+            make the command line visible, press [ctrl][G] or double click in any white space in the window.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>  
+            Record your data for at least two other seed values and the corresponding different values of 
+            <m>a</m> for each seed.  Does there appear to be a relationship between the seed and a? Describe 
+            any patterns you may see.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            
+          </p>
+        </statement>
+      </task>
       
       
       
