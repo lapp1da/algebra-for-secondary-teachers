@@ -910,7 +910,15 @@
     In practice, we can approximate using Newton's Method on our CAS by entering the original function in one 
     location and the formula for the next approximation in another function location referring to the original 
     function.  In the figure below, the original function is entered in the function <m>f\left(x\right)</m> and 
-    the iteration formula is in <m>nm\left(x\right)</m> for “Newton's Method”.
+    the iteration formula is in <m>nm\left(x\right)</m> for “Newton's Method” 
+    (see <xref ref="fig-newton-method-numerical"/>).
+  </p>
+
+  <p>
+    <figure xml:id="fig-newton-method-numerical">
+        <caption>Numerical Iterations of Newton's Method</m></caption>
+        <image source="images/newton-method-numerical.png" width="60%"/>
+      </figure>
   </p>
 
 
