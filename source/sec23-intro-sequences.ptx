@@ -842,6 +842,40 @@
     </activity>
   </p>
 
+  <p>
+    The previous explorations have given us some insight into predicting when an iterative sequence will converge 
+    and when it might diverge.  So how can we be certain of the behavior and then, as teachers, help our 
+    students discover the properties behind the behavior?  Here we will take a deeper look into the observations 
+    made in our previous investigations and see how iterative sequences can play a role in practical 
+    applications.
+  </p>
+
+  <p>
+    The concept of iteration is an important part of the mathematical landscape.  It is used in real-world 
+    applications to find solutions that have no direct algebraic solution as well as for approximating values 
+    of mathematical constants such as <m>e</m> and <m>\pi</m>.  Having taken Calculus, you are already familiar 
+    with one such iteration process, Newton's Method.  Recall that Newton's Method allows the approximation of 
+    roots by using the projection along a tangent line to the x-axis as a new approximation of the root.  Then 
+    the new value from the x-axis is used as the new point of tangency and the process continues until the 
+    desired level of accuracy for the root is achieved.
+  </p>
+
+  <p>
+    <m>\mathbf{Newton's}</m> <m>\mathbf{Method:}</m> <m>\mathbf{A}</m> <m>\mathbf{Refresher}</m>
+  </p>
+
+  <p>
+    We know that some equations of the form <m>f\left(x\right)=0</m> can be solved exactly (e.g. using the 
+    quadratic formula).  However, the general equations that can be solved exactly are very few within the realm 
+    of mathematical endeavor.  To be able to approximate a solution, Isaac Newton noticed that as a point on a 
+    curve approaches the root of the function, its tangent line at that point begins to have an x-intercept that 
+    is approximately the root desired (See Figure Below).
+  </p>
+
+  <p>
+    
+  </p>
+
 
   
 </subsection>
