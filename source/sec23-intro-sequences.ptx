@@ -610,6 +610,25 @@
             move location or <em>2:Settings</em> and edit the settings as you wish. You can also change the 
             slider settings to allow finer step sizes when dragging (below shows changing it to 0.01).
           </p>
+            
+          <p>
+            <image source="images/evaluate-sam-screens-8.png" width="60%">
+              <shortdescription>8th set of screenshots</shortdescription>
+            </image>
+          </p>
+
+          <p>
+            Now to connect the slider to the sequence plot, edit the sequence plot setting as you did before so 
+            that the <em>Initial Term</em> simply reads, <em>seed</em>.  This will now allow you to change the 
+            seed value on the graphing page for the function.  You can also move the slider to a convenient 
+            place on the screen so that it is not interfering with the view of the graph.
+          </p>
+
+          <p>
+            <image source="images/evaluate-sam-screens-9.png" width="90%">
+              <shortdescription>7th set of screenshots</shortdescription>
+            </image>
+          </p>
         </statement>
       </task>
 
