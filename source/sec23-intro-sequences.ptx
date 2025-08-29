@@ -626,7 +626,7 @@
 
           <p>
             <image source="images/evaluate-sam-screens-9.png" width="90%">
-              <shortdescription>7th set of screenshots</shortdescription>
+              <shortdescription>9th set of screenshots</shortdescription>
             </image>
           </p>
         </statement>
@@ -634,6 +634,33 @@
 
       <task>
         <statement>
+          <p>
+            Investigate other combinations of <m>a</m> and the <m>seed</m>.  Record your data and sketches.  
+            Does there appear to be a relationship between the seed and <m>a</m>? Describe any patterns you may 
+            see.  Based on your observations, can you predict whether or not the sequence will converge?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Repeat your process from part (c) for another seed value recording your data and sketches.  Did your 
+            second choice of seed value confirm or refute any earlier conjectures?  Explain.
+          </p>
+
+          <p>
+            Although we may have a conjecture at this point, we still need to prove that this conjecture will 
+            always hold.  To accomplish this, we turn to the algebraic representation.  Open a new 
+            <em>Calculator</em> page by pressing [ctrl][+page] and selecting <em>1:Add Calculator</em>.  Define 
+            the function <m>f</m> by pressing [menu] and selecting <em>1:Actions</em> followed by 
+            <em>1:Define</em>.  Then enter the function, <m>f\left(x\right)=a\cdot x^2</m> keeping in mind that 
+            implied multiplication is not recognized between two letters and that you must use the 
+            [<m>\times</m>] key.  We can explore a few cases for 
+            <m>f\left(f\left(x\right)\right), f\left(f\left(f\left(x\right)\right)\right), \ldots</m> on the 
+            <em>Calculator</em> page (see below).
+          </p>
+
           <p>
             
           </p>
