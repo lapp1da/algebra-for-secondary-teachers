@@ -533,6 +533,20 @@
         </p>
 
         <p>
+          In order to copy the graph page for both the function and the scatter plot, you must first select 
+          them.  Page back to the function graph by pressing [ctrl] followed by the left arrow until you get to 
+          the page you want.  Unfortunately you cannot just copy the page, but must “select” it first.  To do 
+          this, press [doc] and then select <em>5:Page Layout</em> followed by <em>3:Select App</em>.  In the 
+          future, the shortcut for selecting an application is [ctrl][K].  You will see the border of the screen 
+          begin to flash indicating it is selected.  Then press [ctrl][C] to copy it (just like on a computer).  
+          Now page back to the split screen by pressing [ctrl] followed by the right arrow until you reach it.  
+          To paste the graphing screen into the left side, just press [ctrl][V] (like paste on a computer).  To 
+          get the sequence plot pasted into the right side of the screen, repeat this process, but you will need 
+          to click on the right side of the screen to make it active before pasting.  You will know that a 
+          portion of the screen is active since it will have a darkened border around it.
+        </p>
+
+        <p>
           
         </p>
       </introduction>
