@@ -663,7 +663,7 @@
 
           <p>
             <image source="images/evaluate-sam-screens-10.png" width="40%">
-              <shortdescription>8th set of screenshots</shortdescription>
+              <shortdescription>10th set of screenshots</shortdescription>
             </image>
           </p>
 
@@ -675,7 +675,32 @@
             <m>x</m> in the first open cell.  In cell A2, enter <m>\mathbf{=f(a1)}</m> just as you would in 
             Excel.  You will see an algebraic result appear.  Now move your cursor to the bottom right corner of 
             the cell until you see a <m>\mathbf{+}</m> appear and click and drag down the column to perform a 
-            “fill down”.  You should see expressions appear.
+            “fill down”.  You should see expressions appear (see below).
+          </p>
+
+          <p>
+            <image source="images/evaluate-sam-screens-11.png" width="90%">
+              <shortdescription>11th set of screenshots</shortdescription>
+            </image>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Examining several different iterations of <m>f</m> composed with itself, describe any patterns you 
+            see.  How might we prove any patterns that you may observe will always hold?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Enter several different iterations of <m>f</m> composed with itself where instead of the initial 
+            input being <m>x</m>, the input is <m>\frac{1}{a}</m>.  What output do you get for each case you 
+            try?  How do the input and output compare?
           </p>
         </statement>
       </task>
