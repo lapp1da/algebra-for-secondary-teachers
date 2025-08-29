@@ -704,6 +704,65 @@
           </p>
         </statement>
       </task>
+    </activity>
+  </p>
+
+  <p>
+    Before we continue our discussion of the mathematics involved here, reread the vignette of the classroom 
+    discussion in the <em>Case Study: Over and Over and Out</em> found in 
+    <xref ref="act-over-and-over-and-out"/>.
+  </p>
+
+  <p>
+    <activity xml:id="act-over-and-over-and-out-revisited">
+      <title>Over, and Over, and Over, and Out: Revisited</title>
+      <introduction>
+        <p>
+          Now that we have spent some time exploring the mathematics involved in the situation that played out 
+          in the vignette where Sam made an interesting observation, let's look at how we might change our 
+          approach to leading the class discussion.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            In light of your conclusions from <xref ref="act-evaluate-me-again-sam"/>, devise a strategy to 
+            investigate Sam's question at the end of the vignette.  You may want to graph the line <m>y=x</m> 
+            along with your function, <m>f\left(x\right)=ax^2</m>.  Describe anything you notice about these 
+            two graphs.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Try graphing Sam's function along with <m>y=x</m>.  What do you notice?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How is the line <m>y=x</m> related to your observations from <xref ref="act-evaluate-me-again-sam"/>?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Suppose you wish to solve a polynomial of the form <m>p\left(x\right)=0</m>.  Consider the 
+            transformed equation <m>p\left(x\right)+x=x</m>.  Now let <m>q\left(x\right)=p\left(x\right)+x</m>.  
+            Discuss a practical application of the iteration convergence process you have just explored as it is 
+            applied to <m>q\left(x\right)</m> and its relationship to the solution of the original equation, 
+            <m>p\left(x\right)=0</m>.  How does Sam's question at the end of the vignette relate to the ability 
+            to find real solutions to <m>p\left(x\right)=0</m>?
+          </p>
+        </statement>
+      </task>
       
       
       
