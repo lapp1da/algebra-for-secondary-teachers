@@ -869,7 +869,27 @@
     quadratic formula).  However, the general equations that can be solved exactly are very few within the realm 
     of mathematical endeavor.  To be able to approximate a solution, Isaac Newton noticed that as a point on a 
     curve approaches the root of the function, its tangent line at that point begins to have an x-intercept that 
-    is approximately the root desired (See Figure Below).
+    is approximately the root desired (see <xref ref="fig-newton-method-tangents"/>).
+  </p>
+
+  <p>
+    <figure xml:id="fig-newton-method-tangents">
+        <caption>Tangents Lines and Newton's Method</caption>
+        <image source="images/newton-method-tangents.png" width="60%"/>
+      </figure>
+  </p>
+
+  <p>
+    Newton's idea was to “surf” the tangent line.  In other words, pick an x-coordinate of a point you know is 
+    close to the actual root, and then find where the tangent line to the curve at that point intersects the 
+    x-axis.  Now use the x-intercept of the tangent line as the new x-coordinate as stated earlier and repeat 
+    the process.  With each iteration, the approximation gets closer to the root of the function.
+  </p>
+
+  <p>
+    For example, suppose you wish to find the solution for <m>f\left(x\right)=0</m>, where 
+    <m>f\left(x\right)=x^2-3</m>.  As you can see, one solution is approximately 2 as can be seen from the graph 
+    in .
   </p>
 
   <p>
