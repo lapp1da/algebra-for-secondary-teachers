@@ -553,7 +553,7 @@
 
         <p>
           <image source="images/evaluate-sam-screens-6.png" width="90%">
-            <shortdescription>5th set of screenshots</shortdescription>
+            <shortdescription>6th set of screenshots</shortdescription>
           </image>
         </p>
 
@@ -582,6 +582,12 @@
             point (green) in the sequence plot and moving it or editing it directly in the command line.  To 
             make the command line visible, press [ctrl][G] or double click in any white space in the window.
           </p>
+
+          <p>
+            <image source="images/evaluate-sam-screens-7.png" width="90%">
+              <shortdescription>7th set of screenshots</shortdescription>
+            </image>
+          </p>
         </statement>
       </task>
 
@@ -589,8 +595,20 @@
         <statement>
           <p>  
             Record your data for at least two other seed values and the corresponding different values of 
-            <m>a</m> for each seed.  Does there appear to be a relationship between the seed and a? Describe 
-            any patterns you may see.
+            <m>a</m> for each seed sketching your plots.  Does there appear to be a relationship between the 
+            seed and a? Describe any patterns you may see.
+          </p>
+
+          <p>
+            Since we will want to explore the effects of the seed value for multiple trials, it will make it 
+            easier to place an editable seed value on the graphing page.  To do this, on the graphing page 
+            containing the parabola, select [menu] and then <em>1:Actions</em> followed by 
+            <em>B:Insert Slider</em>.  Type the variable name, <m>\mathbf{seed}</m>, into the slider 
+            <em>Variable</em> dialogue box and press [enter].  You can place the slider anywhere in the window 
+            and elongate it by grabbing the dot on either end.  To adjust the slider after it is set in place, 
+            click on the slider box and press [ctrl][menu] to open the attributes and select <em>1:Move</em> to 
+            move location or <em>2:Settings</em> and edit the settings as you wish. You can also change the 
+            slider settings to allow finer step sizes when dragging (below shows changing it to 0.01).
           </p>
         </statement>
       </task>
