@@ -889,11 +889,28 @@
   <p>
     For example, suppose you wish to find the solution for <m>f\left(x\right)=0</m>, where 
     <m>f\left(x\right)=x^2-3</m>.  As you can see, one solution is approximately 2 as can be seen from the graph 
-    in .
+    in <xref ref="fig-newton-method-example-function"/>.
   </p>
 
   <p>
-    
+    <figure xml:id="fig-newton-method-example-function">
+        <caption>Graph of <m>f\left(x\right)=x^2-3</m></caption>
+        <image source="images/newton-method-example-function.png" width="60%"/>
+      </figure>
+  </p>
+
+  <p>
+    In order to find a better approximation, we can notice that if <m>x_0</m> is our initial guess, then the 
+    next choice for an approximation of the root will be 
+    <m>x_1=x_0-\frac{f\left(x\right)}{f'\left(x\right)}</m>, since this is where the tangent line at <m>x=x_0</m> 
+    intersects the x-axis.  Repeating this process will give better approximations.
+  </p>
+
+  <p>
+    In practice, we can approximate using Newton's Method on our CAS by entering the original function in one 
+    location and the formula for the next approximation in another function location referring to the original 
+    function.  In the figure below, the original function is entered in the function <m>f\left(x\right)</m> and 
+    the iteration formula is in <m>nm\left(x\right)</m> for “Newton's Method”.
   </p>
 
 
