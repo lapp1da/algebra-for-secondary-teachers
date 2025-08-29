@@ -916,9 +916,9 @@
 
   <p>
     <figure xml:id="fig-newton-method-numerical">
-        <caption>Numerical Iterations of Newton's Method</m></caption>
+        <caption>Numerical Iterations of Newton's Method</caption>
         <image source="images/newton-method-numerical.png" width="60%"/>
-      </figure>
+    </figure>
   </p>
 
 
