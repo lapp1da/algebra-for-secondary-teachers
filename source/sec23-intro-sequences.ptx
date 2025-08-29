@@ -718,6 +718,9 @@
       <title>Over, and Over, and Over, and Out: Revisited</title>
       <introduction>
         <p>
+          
+        </p>
+        <p>
           Now that we have spent some time exploring the mathematics involved in the situation that played out 
           in the vignette where Sam made an interesting observation, let's look at how we might change our 
           approach to leading the class discussion.
@@ -761,11 +764,34 @@
             <m>p\left(x\right)=0</m>.  How does Sam's question at the end of the vignette relate to the ability 
             to find real solutions to <m>p\left(x\right)=0</m>?
           </p>
+
+          <p>
+            Now let's revisit your original responses to the vignette in <xref ref="act-over-and-over-and-out"/>. 
+            In the next few questions, try to view the vignette through the lens of undergraduate mathematics.  
+            In particular, try to relate your experiences from our mathematical exploration in 
+            <xref ref="act-evaluate-me-again-sam"/> to what is happening in the classroom exchange in Jill's class.
+          </p>
         </statement>
       </task>
-      
-      
-      
+
+      <task>
+        <statement>
+          <p>
+            In light of your experience in <xref ref="act-evaluate-me-again-sam"/>, describe the central 
+            mathematical issues involved in the classroom exchange.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Describe how your facilitation of the rest of the classroom discussion would change from how you 
+            responded earlier in <xref ref="act-over-and-over-and-out"/> based on your experiences in 
+            <xref ref="act-evaluate-me-again-sam"/>. Give specific examples to illustrate what you would do.
+          </p>
+        </statement>
+      </task>
     </activity>
   </p>
   
