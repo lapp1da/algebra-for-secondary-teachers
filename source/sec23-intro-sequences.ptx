@@ -962,12 +962,42 @@
     as the new input of <m>f</m> each time we iterate the function with itself.  Here is the reason for graphing 
     <m>y=x</m> along with <m>f</m>.  Since the outputs are found along the <em>y</em>-axis, we get 
     <m>x_{n+1}=y_n</m>.  This process is shown by the arrows marking the progress of the iteration on the graph in 
-    XXX.  We begin with <m>x_0</m> and find its corresponding output (<m>y_0</m>) on the function.  We then move 
-    horizontally until we meet the line <m>y=x</m> since this is where <em>x</em> and <em>y</em> are the same.  
-    We now move vertically to the <em>x</em>-axis so that we stop on the “new input” (<m>x_1=y_0</m>).  We 
-    repeat the process by moving vertically to the function's new output.  As you can see by following the 
-    arrows in the graph, we keep moving closer and closer to the point of intersection between the graph of 
-    <m>f</m> and <m>y=x</m>.  But why is the intersection with <m>y=x</m> important?
+    <xref ref="fig-iteration-cobweb-sqrtx"/>.  We begin with <m>x_0</m> and find its corresponding output 
+    (<m>y_0</m>) on the function.  We then move horizontally until we meet the line <m>y=x</m> since this is 
+    where <em>x</em> and <em>y</em> are the same.  We now move vertically to the <em>x</em>-axis so that we stop 
+    on the “new input” (<m>x_1=y_0</m>).  We repeat the process by moving vertically to the function's new 
+    output.  As you can see by following the arrows in the graph, we keep moving closer and closer to the point 
+    of intersection between the graph of <m>f</m> and <m>y=x</m>.  But why is the intersection with <m>y=x</m> 
+    important?
+  </p>
+
+  <p>
+    <figure xml:id="fig-iteration-cobweb-sqrtx">
+        <caption>Iteration Sequence Attracting to Fixed Point of <m>\sqrt{x}</m></caption>
+        <image source="images/iteration-cobweb-sqrtx.png" width="60%"/>
+    </figure>
+  </p>
+
+  <p>
+    The point where a function intersects the line <m>y=x</m> is important and is called a <em>fixed point</em>.  
+    The reason it plays a vital role in the convergence of iterated functions is that it has the property of 
+    the function's output being equal to the function's input.
+  </p>
+
+  <p>
+    <definition xml:id="def-fixed-point">
+      <statement>
+        <p>
+          A <em>fixed point</em> of a function, <m>f</m>, is a number, <m>p</m>, in the domain of <m>f</m> such 
+          that <m>f\left(p\right)=p</m>.  In other words, when applying <m>f</m>, the point, <m>p</m>, stays 
+          fixed.
+        </p>
+      </statement>
+    </definition>
+  </p>
+
+  <p>
+    
   </p>
 
 
