@@ -1022,13 +1022,30 @@
   </p>
 
   <p>
-    <figure xml:id="fig-iteration-cobweb-2xminus1">
-        <caption>Iteration Sequence Repelling from Fixed Point of <m>h\left(x\right)=2x-1</m></caption>
-    <sidebyside widths="25% 25% valign="middle">
-      <image source="images/iteration-cobweb-2xminus1-1.png"/>
-      <image source="images/iteration-cobweb-2xminus1-2.png"/>
-    </sidebyside>
-    </figure>
+   <sidebyside width="45%"> 
+   <figure xml:id="fig-iteration-cobweb-2xminus1-1">
+    <caption>Iteration Sequence Repelling from Fixed Point of <m>h\left(x\right)=2x-1</m> from Left</caption>
+    <image source="images/iteration-cobweb-2xminus1-1.png">
+    <shortdescription>Iteration Sequence Repelling from Fixed Point of <m>h\left(x\right)=2x-1</m></shortdescription>
+   </image>
+   </figure>
+   <figure xml:id="fig-iteration-cobweb-2xminus1-2">
+    <caption>Iteration Sequence Repelling from Fixed Point of <m>h\left(x\right)=2x-1</m> from Right</caption>
+    <image source="images/iteration-cobweb-2xminus1-2.png">
+    <shortdescription>Iteration Sequence Repelling from Fixed Point of <m>h\left(x\right)=2x-1</m></shortdescription>
+   </image>
+   </figure>
+   </sidebyside>
+  </p>
+
+  <p>
+    As can be seen here, no matter which side of the fixed point we choose, the iteration diverges to either 
+    <m>\pm \infty</m>.  In this case, the fact that <m>h</m> is steeper than <m>y=x</m> means as we 
+    choose points near the fixed point to use for iteration, the mapping onto the line <m>y=x</m> prior to the 
+    re-evaluation of <m>h</m> moves away from the fixed point.  As we saw with the function 
+    <m>g\left(x\right)=\frac{1}{2}x+1</m> earlier, the mapping back to the line <m>y=x</m> prior to 
+    re-evaluation of <m>g</m> causes the <m>x_n</m> to approach the fixed point.  The behavior near these types 
+    of fixed points has given rise to the categorizations of repelling and attracting fixed points.
   </p>
 
 
