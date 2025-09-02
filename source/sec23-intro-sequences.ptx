@@ -1022,16 +1022,13 @@
   </p>
 
   <p>
-    <sidebyside widths="25% 25% valign="middle">
-      <figure xml:id="fig-iteration-cobweb-2xminus1-1">
+    <figure xml:id="fig-iteration-cobweb-2xminus1">
         <caption>Iteration Sequence Repelling from Fixed Point of <m>h\left(x\right)=2x-1</m></caption>
-        <image source="images/iteration-cobweb-2xminus1-1.png" width="25%"/>
-      </figure>
-      <figure xml:id="fig-iteration-cobweb-2xminus1-2">
-        <caption>Iteration Sequence Attracting to Fixed Point of <m>g\left(x\right)=\frac{1}{2}x+1</m></caption>
-        <image source="images/iteration-cobweb-2xminus1-2.png" width="25%"/>
-      </figure>
+    <sidebyside widths="25% 25% valign="middle">
+      <image source="images/iteration-cobweb-2xminus1-1.png"/>
+      <image source="images/iteration-cobweb-2xminus1-2.png"/>
     </sidebyside>
+    </figure>
   </p>
 
 
