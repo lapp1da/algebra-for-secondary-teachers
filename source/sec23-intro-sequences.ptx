@@ -997,7 +997,13 @@
   </p>
 
   <p>
-    
+    Since the convergence of an iterated function relies on the fact that the 
+    <m>\lim_{n\rightarrow \infty}f\left(x_n\right)=p</m> when <m>\lim_{n\rightarrow \infty}x_{n+1}=p</m> and 
+    thus <m>f\left(p\right)=p</m> assuming <m>f</m> continuous, the intersection of <m>f</m> and <m>y=x</m> 
+    gives us possible values of convergence for our iterated function.  We can gain insight into some general 
+    principles for convergence by looking at the earlier investigation found in the IMP materials, 
+    <em>Over, and Over, and Over, and…</em>.  Recall that in this exploration, the students began with linear 
+    functions.  For functions such as  , the iterated function diverged no matter what initial seed value was chosen.  Consider the function   and examine the progression of the inputs as shown below using arrows along the graph.  Notice that no matter which side of the fixed point you begin with, the result converges on the fixed point.
   </p>
 
 
