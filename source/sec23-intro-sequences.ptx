@@ -915,6 +915,26 @@
   </p>
 
   <p>
+    We now simply evaluate the <m>nm\left(x\right)</m> function at our initial guess and then successively using 
+    our result as the new input into <m>nm\left(x\right)</m>.  You can see that with just a few iterations, we 
+    get a solution to 11-decimal place accuracy.  Here we have actually approximated <m>\sqrt{3}</m> since the 
+    function we are using is <m>f\left(x\right)=x^2-3</m>.
+  </p>
+
+  <p>
+    <figure xml:id="fig-newton-method-numerical">
+        <caption>Numerical Iterations of Newton's Method</caption>
+        <image source="images/newton-method-numerical.png" width="60%"/>
+    </figure>
+  </p>
+
+  <p>
+    From a graphical standpoint, suppose we begin with an initial value of 3.  The x-intercept of the tangent 
+    line at <m>x=3</m> is 2 and thus a new tangent is constructed at <m>x=2</m>.  As can be seen from the sketch 
+    in XXX, the new x-intercept is much closer to the root.  It does not take many iterations of this process to get extremely accurate approximations.
+  </p>
+
+  <p>
     <figure xml:id="fig-newton-method-numerical">
         <caption>Numerical Iterations of Newton's Method</caption>
         <image source="images/newton-method-numerical.png" width="60%"/>
