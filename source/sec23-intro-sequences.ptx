@@ -1003,7 +1003,17 @@
     gives us possible values of convergence for our iterated function.  We can gain insight into some general 
     principles for convergence by looking at the earlier investigation found in the IMP materials, 
     <em>Over, and Over, and Over, and…</em>.  Recall that in this exploration, the students began with linear 
-    functions.  For functions such as , the iterated function diverged no matter what initial seed value was chosen.  Consider the function   and examine the progression of the inputs as shown below using arrows along the graph.  Notice that no matter which side of the fixed point you begin with, the result converges on the fixed point.
+    functions.  For functions such as <m>f\left(x\right)=3x+2</m>, the iterated function diverged no matter 
+    what initial seed value was chosen.  Consider the function <m>g\left(x\right)=\frac{1}{2}x+1</m> and 
+    examine the progression of the inputs as shown below using arrows along the graph.  Notice that no matter 
+    which side of the fixed point you begin with, the result converges on the fixed point.
+  </p>
+
+  <p>
+    <figure xml:id="fig-iteration-cobweb-halfxplus1">
+        <caption>Iteration Sequence Attracting to Fixed Point of <m>g\left(x\right)=\frac{1}{2}x+1</m></caption>
+        <image source="images/iteration-cobweb-halfxplus1.png" width="60%"/>
+    </figure>
   </p>
 
 
