@@ -931,14 +931,43 @@
   <p>
     From a graphical standpoint, suppose we begin with an initial value of 3.  The x-intercept of the tangent 
     line at <m>x=3</m> is 2 and thus a new tangent is constructed at <m>x=2</m>.  As can be seen from the sketch 
-    in XXX, the new x-intercept is much closer to the root.  It does not take many iterations of this process to get extremely accurate approximations.
+    in <xref ref="fig-newton-method-tangents-sqrt3"/>, the new x-intercept is much closer to the root.  It does 
+    not take many iterations of this process to get extremely accurate approximations.
   </p>
 
   <p>
-    <figure xml:id="fig-newton-method-numerical">
-        <caption>Numerical Iterations of Newton's Method</caption>
-        <image source="images/newton-method-numerical.png" width="60%"/>
+    <figure xml:id="fig-newton-method-tangents-sqrt3">
+        <caption>Tangent Lines in Newton's Method Approaching <m>\sqrt{3}</m></caption>
+        <image source="images/newton-method-tangents-sqrt3.png" width="60%"/>
     </figure>
+  </p>
+
+  <p>
+    <m>\mathbf{Iterations}</m> <m>\mathbf{and}</m> <m>\mathbf{Convergence}</m>
+  </p>
+
+  <p>
+    As we have seen from exploration and classroom vignettes, not all self-iterating functions yield a 
+    convergence.  So how can we tell if a particular function will converge to a value at all or whether or not 
+    it may have multiple values that are possible for convergence?  How do we predict the value to which they 
+    will converge?  Are there any criteria that can be applied to predict convergence?
+  </p>
+
+  <p>
+    Let us begin by examining the familiar function from the activity, <em>Evaluate Me Again Sam</em>, 
+    <xref ref="act-evaluate-me-again-sam"/>, with <m>f\left(x\right)=\sqrt{x}</m>.  Below is a graph of <m>f</m> 
+    along with the graph of <m>y=x</m>.  The reason for <m>y=x</m> will become evident shortly.  Assume that 
+    <m>f</m> is continuous and differentiable on the desired interval.  Also let us define the iteration by 
+    stating <m>x_{n+1}=f\left(x_n\right)</m>.  All this says is that we choose the previous output of <m>f</m> 
+    as the new input of <m>f</m> each time we iterate the function with itself.  Here is the reason for graphing 
+    <m>y=x</m> along with <m>f</m>.  Since the outputs are found along the <em>y</em>-axis, we get 
+    <m>x_{n+1}=y_n</m>.  This process is shown by the arrows marking the progress of the iteration on the graph in 
+    XXX.  We begin with <m>x_0</m> and find its corresponding output (<m>y_0</m>) on the function.  We then move 
+    horizontally until we meet the line <m>y=x</m> since this is where <em>x</em> and <em>y</em> are the same.  
+    We now move vertically to the <em>x</em>-axis so that we stop on the “new input” (<m>x_1=y_0</m>).  We 
+    repeat the process by moving vertically to the function's new output.  As you can see by following the 
+    arrows in the graph, we keep moving closer and closer to the point of intersection between the graph of 
+    <m>f</m> and <m>y=x</m>.  But why is the intersection with <m>y=x</m> important?
   </p>
 
 
