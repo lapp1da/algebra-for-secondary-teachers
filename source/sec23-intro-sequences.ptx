@@ -1005,8 +1005,9 @@
     <em>Over, and Over, and Over, and…</em>.  Recall that in this exploration, the students began with linear 
     functions.  For functions such as <m>f\left(x\right)=3x+2</m>, the iterated function diverged no matter 
     what initial seed value was chosen.  Consider the function <m>g\left(x\right)=\frac{1}{2}x+1</m> and 
-    examine the progression of the inputs as shown below using arrows along the graph.  Notice that no matter 
-    which side of the fixed point you begin with, the result converges on the fixed point.
+    examine the progression of the inputs as shown in <xref ref="fig-iteration-cobweb-halfxplus1"/> using arrows 
+    along the graph.  Notice that no matter which side of the fixed point you begin with, the result converges 
+    on the fixed point.
   </p>
 
   <p>
@@ -1014,6 +1015,23 @@
         <caption>Iteration Sequence Attracting to Fixed Point of <m>g\left(x\right)=\frac{1}{2}x+1</m></caption>
         <image source="images/iteration-cobweb-halfxplus1.png" width="60%"/>
     </figure>
+  </p>
+
+  <p>
+    Now consider the function, <m>h\left(x\right)=2x-1</m>.
+  </p>
+
+  <p>
+    <sidebyside widths="25% 25% valign="middle">
+      <figure xml:id="fig-iteration-cobweb-2xminus1-1">
+        <caption>Iteration Sequence Repelling from Fixed Point of <m>h\left(x\right)=2x-1</m></caption>
+        <image source="images/iteration-cobweb-2xminus1-1.png" width="25%"/>
+      </figure>
+      <figure xml:id="fig-iteration-cobweb-2xminus1-2">
+        <caption>Iteration Sequence Attracting to Fixed Point of <m>g\left(x\right)=\frac{1}{2}x+1</m></caption>
+        <image source="images/iteration-cobweb-2xminus1-2.png" width="25%"/>
+      </figure>
+    </sidebyside>
   </p>
 
 
