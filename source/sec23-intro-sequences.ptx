@@ -212,10 +212,86 @@
             class to use only one variable.  What will eventually happen with the expresions if all of the 
             methods use the same variable to represent the "10" from their expressions of the <m>10 \times 10</m> 
             square computation?  How can Cathy leverage these expressions to help the students see they are the 
-            same?  What does the "8" represent in Sharmeen's first symbolic expression?
+            same?
           </p>
         </statement>
       </task>
+
+      <task>
+        <statement>
+          <p>
+            At the beginning of the group work, Sharmeen expressed a way to express the total using only one 
+            variable (see part (b)), but then the group decided that it was "kind of complicated" and wanted to 
+            find another way to express it more simply.  During the class discussion, Stephanie reiterates 
+            Sharmeen's expression by suggesting, "Um, I think maybe you could, like, do <m>x</m> plus <m>x</m> 
+            for the top and the bottom, or whatever letter you're using, and then you could do 
+            <m>\left(x-2\right)+\left(x-2\right)</m>. And that would give you the, um, the total border.".  If 
+            you were the teacher and had heard Sharmeen's group discussion while circulating in the class, what 
+            would you have done when Stephanie made her suggestion?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            When looking at part (c), one of the representations given was <m>10+10+8+8</m>.  What question 
+            might you ask both Sharmeen and Stephanie to help link the prior representation to their symbolic 
+            expression?  What does the "8" represent in Sharmeen's and Stephanie's expression?
+          </p>
+        </statement>
+      </task>
+    </activity>
+  </p>
+
+  <p>
+    The classroom exchange provides a context to explore this type of sequence.  Understanding how a sequence 
+    behaves can give us, as teachers, a way to allow students to explore their own observations while 
+    facilitating a fruitful discussion.  Cathy does a masterful job in allowing students to express their ideas 
+    and connecting them during the whole-class interaction.  So, let's look a little deeper at this type of 
+    sequence by exploring the question Cathy posed when she asked the students to image shrinking the square 
+    to a <m>6\times6</m> and using various methods to compute the total number of small squares on the border.  
+    In this case, we will extend it more to consider the <m>n \times n</m> case.
+  </p>
+
+  <p>
+    <activity xml:id="act-border-arithmetic-sequence">
+      <introduction>
+        <p>
+          Cathy asked her students to think about shrinking the square and to find a way to computer the number 
+          of small squares on the border.  For this activity, we will collect data to analyze the 
+          characteristics of this type of sequence.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Using graph paper or small blocks, make a rough sketch or model of the first 8 cases (beginning with 
+            <m>n=2</m>).  In a table, record a column for <m>n</m> and another column for the number of blocks 
+            on the border.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Describe, in words, the behavior of the values in the column for the number of blocks on the border.  
+            How does the number change for successive values?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How does your description in part (b) relate to the expressions the students were developing in 
+            Cathy's class?
+          </p>
+        </statement>
+      </task>
+      
     </activity>
   </p>
   
@@ -1076,11 +1152,63 @@
           <p>
             On your CAS, define the function, <m>f\left(x\right)=m \cdot x+b</m>.  Note that on most CAS, you 
             need to make sure to use the multiplication operator between the <m>m</m> and the <m>x</m> since 
-            we could easily name a variable with a multiletter name.  Now use your CAS to evalute and obtain 
+            we could easily name a variable with a multi-letter name.  Now use your CAS to evalute and obtain 
             expressions for <m>f\left(x\right)</m>, <m>f\left(f\left(x\right)\right)</m>, 
             <m>f\left(f\left(f\left(x\right)\right)\right)</m>, and 
             <m>f\left(f\left(f\left(f\left(x\right)\right)\right)\right)</m>.  Describe any patterns you see in 
             the expressions.
+          </p>
+        </statement>
+        <hint>
+          <p>
+            When grouping terms, give your responses as a single term with an <m>x</m> and another term with a 
+            <m>b</m> factored out of a sum of terms involving <m>m</m>.
+          </p>
+        </hint>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            If <m>f^n\left(x\right)</m> represents the <m>n^{th}</m> iteration of the function with itself, 
+            give an expression for <m>f^n\left(x\right)</m>.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Based on your observations, we want to prove that your conjecture for <m>f^n\left(x\right)</m> is 
+            always true.  Proof by induction is a means to do this.  Essentially, you assume it is true for the 
+            <m>k^{th}</m> iteration and then try to show it is true for the <m>\left(k+1\right)^{st}</m> case.  
+            Based on your expression from part (b), assume the form of <m>f^k\left(x\right)</m> and plug 
+            <m>x=mx+b</m> in for <m>x</m> in your expression and rearrange the terms.  Do you get the same 
+            thing as if you replaced all of the <m>k</m> in your <m>f^k\left(x\right)</m> expression with 
+            <m>k+1</m>?  If so, you have shown that you can always get to the next largest <m>n</m> value and 
+            so this will continue to infinity.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Now that we have established that your expression for <m>f^n\left(x\right)</m> will always work, 
+            we need to find when this will converge and when it will diverge.  Consider the long sum that is 
+            associated with <m>b</m> in your expression (a sum of powers of <m>m</m>).  Based on what you know 
+            from geometric series (think back to Calculus 2), for what values of <m>m</m> will this series 
+            converge?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            If the sum in the term associated with <m>b</m> in your expression converges for your conditions on 
+            <m>m</m>, will those same values of <m>m</m> also guarantee that the term involing the <m>x</m> 
+            will also converge?  Explain.
           </p>
         </statement>
       </task>
@@ -1161,5 +1289,73 @@
   <title>Figurative Sequences</title>
   
 </subsection>
+
+<exercises xml:id="exercises-sequences">
+    
+    <exercise>
+      <statement>
+        <p>
+          
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Use Newton's Method to find approximations (11-decimal places) to all solutions of 
+          <m>x^3-2x^2-3x+1=0</m>.  Explain your process and why you picked the initial value you chose.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Use Newton's Method to find approximations (11-decimal places) to all solutions of 
+          <m>e^x=x^10</m>.  Explain your process and why you picked the initial value you chose.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Give an 11-decimal place approximation for <m>\sqrt{51}</m>.  Explain your process and why you 
+          picked the initial value you chose.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          The function <m>f\left(x\right)=x^2</m> has two fixed points, <m>x=0</m> and <m>x=1</m>, where it 
+          intersects the line <m>y=x</m>.  Explain why it is not possible for the iterated sequence 
+          <m>\left \{a_n \right \}</m> defined by <m>a_{n+1}=f\left(a_n\right)</m> to converge to 1 unless 
+          <m>x_0=1</m>.
+        </p>
+      </statement>
+    </exercise>
+
+    
+
+  </exercises>
 
 </section>
