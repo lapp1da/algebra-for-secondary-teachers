@@ -1045,7 +1045,86 @@
     re-evaluation of <m>h</m> moves away from the fixed point.  As we saw with the function 
     <m>g\left(x\right)=\frac{1}{2}x+1</m> earlier, the mapping back to the line <m>y=x</m> prior to 
     re-evaluation of <m>g</m> causes the <m>x_n</m> to approach the fixed point.  The behavior near these types 
-    of fixed points has given rise to the categorizations of repelling and attracting fixed points.
+    of fixed points has given rise to the categorizations of <em>repelling</em> and <em>attracting</em> fixed 
+    points.
+  </p>
+
+  <p>
+    So if sometimes we are repelled from a fixed point and sometimes we are attracted to one, how can we tell 
+    what will happen?  For example, when using <m>f\left(x\right)=\sqrt{x}</m>, we saw any seed we used be 
+    attracted to 1, but with <m>f\left(x\right)=x^2</m>, it was repelled.  Why?
+  </p>
+
+  <p>
+    To look deeper into this let's reconsider our earlier activity from IMP, 
+    <em>Over, and Over, and Over, and...</em>, we discussed in <xref ref="act-over-and-over"/>.
+  </p>
+
+  <p>
+    <activity xml:id="act-over-and-over-analyzed">
+      <title>Over, and Over, and Over, and...: Analyzed</title>
+      <introduction>
+        <p>
+          In looking at the IMP activity, <em>Over, and Over, and Over, and...</em>, we noticed that in some 
+          cases iteration converged, but in other cases we had divergence.  Instead of looking at specific linear 
+          functions, here we will take a look at the general case for <m>f\left(x\right)=mx+b</m>.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            On your CAS, define the function, <m>f\left(x\right)=m \cdot x+b</m>.  Note that on most CAS, you 
+            need to make sure to use the multiplication operator between the <m>m</m> and the <m>x</m> since 
+            we could easily name a variable with a multiletter name.  Now use your CAS to evalute and obtain 
+            expressions for <m>f\left(x\right)</m>, <m>f\left(f\left(x\right)\right)</m>, 
+            <m>f\left(f\left(f\left(x\right)\right)\right)</m>, and 
+            <m>f\left(f\left(f\left(f\left(x\right)\right)\right)\right)</m>.  Describe any patterns you see in 
+            the expressions.
+          </p>
+        </statement>
+      </task>
+      
+    </activity>
+  </p>
+
+  <p>
+    The use of linear functions to analyze the convergence or divergence of the iterated function is helpful 
+    since as with any continuous and differentiable function, we consider them locally linear as we zoom in on 
+    a fixed point.  Therefore, this leads us to the following argument regarding convergence of iterated 
+    functions with fixed points.
+  </p>
+
+  <p>
+    <theorem xml:id="thm-fixed-point-convergence">
+      <statement>
+        <p>
+          Let <m>f</m> be a continuous and differentiable function with a fixed point, <m>z=f\left(z\right)</m>.  
+          Further, let <m>x_n=f\left(x_{n-1}\right)</m>.  If <m>x_0</m> lies on an interval, <m>I</m>, 
+          containing <m>z</m> such that <m>\left| f'\left(x\right) \right| \lt 1</m> for all <m>x \in I</m>, 
+          then <m>x_n</m> converges to <m>z</m>.
+        </p>
+      </statement>
+      <proof>
+        <p>
+          Suppose <m>x_0 \in I</m> such that <m>\left| f'\left(x\right) \right| \lt 1</m> for all 
+          <m>x \in I</m>.  Since <m>x_1=f\left(x_0\right)</m> and 
+          <m>f\left(z\right)=z \Rightarrow</m> <m>x_1-z=f\left(x_0\right)-f\left(z\right)</m>.  Now by the 
+          Mean Value Theorem, there exists some <m>c</m> between <m>x_0</m> and <m>z</m> such that 
+          <m>f'\left(c\right)=\frac{f\left(x_0\right)-f\left(z\right)}{x_0-z}</m> and thus 
+          <m>f\left(x_0\right)-f\left(z\right)=\left(x_0-z\right) \cdot f'\left(c\right)</m>.  Since 
+          <m>c \in I</m> and by assumption <m>\left| f'\left(x\right) \right| \lt 1</m> for all <m>x \in I</m> 
+          <m>\Rightarrow</m> <m>\left|x_1-z\right| \leq k\left|x_0-z\right|</m> for some <m>k</m> with 
+          <m>\left|k\right| \lt 1</m>.   Therefore, <m>x_1 \in I</m>.  Using a similar argument, 
+          <m>\left|x_2-z\right| \leq k\left|x_1-z\right|\leq k^2\left|x_0-z\right|</m>.  In general, we can 
+          state that <m>\left|x_n-z\right|\leq k^n\left|x_0-z\right|</m>.  Since 
+          <m>\lim\limits_{n\rightarrow \infty}k^n=0</m>, we get 
+          <m>\lim\limits_{n\rightarrow \infty} \left|x_n-z\right|=0</m> and thus 
+          <m>\lim\limits_{n\rightarrow \infty}x_n=z=f\left(z\right)</m>.
+        </p>
+      </proof>
+    </theorem>
+    
   </p>
 
 
