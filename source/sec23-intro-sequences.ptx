@@ -1124,7 +1124,33 @@
         </p>
       </proof>
     </theorem>
-    
+  </p>
+
+  <p>
+    So what does this theorem say about convergence to fixed points?  Basically, the theorem says that if the 
+    fixed point, <m>z</m>, is in an interval where <m>\left|f'\left(x\right)\right| \gt 1</m>, then the mapping 
+    that transforms the outputs to inputs back into the function is expanding and thus the iteration process 
+    diverges.
+  </p>
+
+  <p>
+    <m>\mathbf{Fixed}</m> <m>\mathbf{Point}</m> <m>\mathbf{Iteration}</m> <m>\mathbf{and}</m> 
+    <m>\mathbf{Root}</m> <m>\mathbf{Finding}</m>
+  </p>
+
+  <p>
+    Although Newton's Method is very efficient for finding zeros of a function, a more simplistic method 
+    involves only the iteration of a function with itself using only a small alteration.  Suppose you are 
+    looking for the root of a polynomial, <m>p\left(x\right)</m>.  The process boils down to solving the 
+    equation, <m>p\left(x\right)=0</m>.  Now consider the transformed equation formed by adding <m>x</m> to 
+    both sides of the original equation, <m>p\left(x\right)+x=x</m>.  If we let 
+    <m>q\left(x\right)=p\left(x\right)+x</m>, we are essentially finding a solution to <m>q\left(x\right)=x</m>.  
+    We know from our earlier discussion that this solution is simply a fixed point for <m>q\left(x\right)</m>.  
+    Based on the fact that repeated iteration will converge to a fixed point (if convergence does occur), we 
+    can simply take the original function, add <m>x</m>, and then iterate it with itself as a method to find 
+    its root.  The down side of this process is that not all fixed points are accessible through iteration as 
+    we have seen in earlier examples.  However, this does remain a very simple algorithm for finding roots 
+    although not as efficient as Newton’s Method.
   </p>
 
 
