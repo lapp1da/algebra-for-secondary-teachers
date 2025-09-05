@@ -286,8 +286,18 @@
       <task>
         <statement>
           <p>
-            How does your description in part (b) relate to the expressions the students were developing in 
-            Cathy's class?
+            For the border, <m>b</m>, express your sequence in the form 
+            <m>b_n=\text{_____}+\left(n-1\right) \cdot \text{_____}</m> where the first blank represents the 
+            first term in the sequence.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How does your description in parts (b) and (c) relate to the expressions the students were 
+            developing in Cathy's class?
           </p>
         </statement>
       </task>
@@ -295,7 +305,59 @@
   </p>
 
   <p>
-    
+    <definition xml:id="def-arithmetic-sequence">
+      <statement>
+        <p>
+          A sequence, <m>\left\{a_n \right\}</m>, is <em>arithmetic</em> if it can be expressed in the form 
+          <m>a_n=a_1+\left(n-1\right)\cdot d</m>, where <m>d</m> is a constant called the <em>common difference</em> 
+          and <m>a_1</m> is the initail term in the sequence.
+        </p>
+      </statement>
+    </definition>
+  </p>
+
+  <p>
+    <activity xml:id="act-arithmetic-sequences-practice">
+      <introduction>
+        <p>
+          For the following sequences, express them in the form, <m>a_n=a_1+\left(n-1\right)\cdot d</m>.  
+          Identify the initial term and the <em>common difference</em> in each.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            <m>\left\{4, 11, 18, 25, \ldots \right\}</m>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            <m>\left\{-1, 2, 5, 8, \ldots \right\}</m>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            <m>\left\{5, 11, 17, 23, \ldots \right\}</m>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            <m>\left\{10, 7, 4, 1, \ldots \right\}</m>
+          </p>
+        </statement>
+      </task>
+      
+    </activity>
   </p>
   
 </subsection>
