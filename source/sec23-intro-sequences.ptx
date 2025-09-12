@@ -403,8 +403,19 @@
           height before the drop.  We will use a device called a Calculator-Based Ranger (CBR2™) to collect 
           data related to this issue.  This device will measure the distance of the ball from the sensor as a 
           function of time.  We want to find the height, so we will need to subtract the distance of the ball 
-          from the sensor from the height of the sensor.
+          from the sensor from the height of the sensor.  You may choose to collect your own data or use the 
+          data from the provided file, <em>BallBounce.tns</em>.  As seen in the video, the data generated once 
+          the height is computed will look something like that data in <xref ref="fig-ball-bounce-graph"/>.
         </p>
+
+        <p>
+          <figure xml:id="fig-ball-bounce-graph">
+            <caption>Ball Bounce vs. Height</caption>
+            <image source="images/ball-bounce-graph.png" width="80%"/>
+          </figure>
+        </p>
+
+      
 
         <p>
         <table xml:id="table-ball-bounce-data">
@@ -455,7 +466,17 @@
             process at the top of the second column selecting <em>run1.position</em> as shown below.
           </p>
           <p>
-            <image source="ball-bounce-spreadsheet-height-combo.png">
+            To create a column with the actual height of the ball, we need to subtract the position data from 
+            the original height of the sensor from the floor.  In the video, that height was measured to be 
+            1.793 meters.  If you are collecting your own data, use your measurement of the original height of 
+            the sensor.  To do this, go to the top of the third column in your spreadsheet and click on top 
+            cell and type "height".  Directly below that cell click on the cell and <m>\mathbf{height:=}</m> 
+            will appear.  Now enter <em>1.793-</em> and [var] and select run1.position as shown below.  This 
+            will populate the column with the difference between the original sensor height and the position of 
+            the ball yielding the actual height of the ball.
+          </p>
+          <p>
+            <image source="images/ball-bounce-spreadsheet-height-combo.png" width="80%">
               <shortdescription>Spreadsheet Ball Data</shortdescription>
             </image>
           </p>
