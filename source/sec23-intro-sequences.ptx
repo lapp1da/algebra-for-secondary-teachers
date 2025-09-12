@@ -405,14 +405,53 @@
           function of time.  We want to find the height, so we will need to subtract the distance of the ball 
           from the sensor from the height of the sensor.
         </p>
+
+        <p>
+        <table xml:id="table-ball-bounce-data">
+          <title>Ball Bounce Data</title>
+            <tabular halign="center">
+              <row header="yes" bottom="minor">
+                <cell>Bounce Number</cell>
+                <cell>Height (m)</cell>
+                <cell>Ratio <m>\frac{h_n}{h_{n-1}}</m></cell>
+              </row>
+              <row>
+                <cell>1</cell>
+                <cell></cell>
+                <cell></cell>
+              </row>
+              <row>
+                <cell>2</cell>
+                <cell></cell>
+                <cell></cell>
+              </row>
+              <row>
+                <cell>3</cell>
+                <cell></cell>
+                <cell></cell>
+              </row>
+              <row>
+                <cell>4</cell>
+                <cell></cell>
+                <cell></cell>
+              </row>
+              <row>
+                <cell>5</cell>
+                <cell></cell>
+                <cell></cell>
+              </row>
+          </tabular>
+        </table>
+      </p>
+
       </introduction>
 
       <task>
         <statement>
           <p>
             Use the trace feature to find successive peaks on the graph and record your data in a table like the 
-            one shown.  You do not need to worry about the time here since we are only interested in the sequences 
-            of heights as a function of bounce number.
+            one shown in <xref ref="table-ball-bounce-data"/>.  You do not need to worry about the time here 
+            since we are only interested in the sequences of heights as a function of bounce number.
           </p>
         </statement>
       </task>
