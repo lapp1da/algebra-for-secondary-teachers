@@ -449,6 +449,22 @@
       <task>
         <statement>
           <p>
+            First we need to generate data for the height of the ball.  Using the <em>BallBounce.tns</em> file, 
+            add a <em>Lists &amp; Spreadsheet</em> page.  Click the top of the first column next to the "A", 
+            and press the [var] key and select <em>3 Link To:</em> and choose <em>run1.time</em>.  Repeat this 
+            process at the top of the second column selecting <em>run1.position</em> as shown below.
+          </p>
+          <p>
+            <image source="ball-bounce-link-spreadsheet">
+              <shortdescription>Spreadsheet Ball Data</shortdescription>
+            </image>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
             Use the trace feature to find successive peaks on the graph and record your data in a table like the 
             one shown in <xref ref="table-ball-bounce-data"/>.  You do not need to worry about the time here 
             since we are only interested in the sequences of heights as a function of bounce number.
