@@ -395,14 +395,15 @@
         <p>
           To begin investigating infinite sequence, we start by grounding the mathematical concept within a 
           real-world context.  Let's consider the physical phenomenon arising from the bouncing ball we see in 
-          the video.  Suppose we drop a ball from a certain height and measure its position over time.  One 
-          question we might want to explore deals with predicting the height of the ball during the bouncing 
-          process.  In short, on the <m>5^{th}</m>, <m>6^{th}</m>, or <m>7^{th}</m> bounce how high can we 
-          expect it to rise?  What about the <m>n^{th}</m> bounce? To begin, we must know something about the 
-          rebound height of the ball as it relates to the previous height before the drop.  We will use a 
-          device called a Calculator-Based Ranger (CBR2™) to collect data related to this issue.  This device 
-          will measure the distance of the ball from the sensor as a function of time.  We want to find the 
-          height, so we will need to subtract the distance from the sensor from the height of the sensor.
+          the video in <xref ref="fig-ball-bounce-video"/>.  Suppose we drop a ball from a certain height and 
+          measure its position over time.  One question we might want to explore deals with predicting the 
+          height of the ball during the bouncing process.  In short, on the <m>5^{th}</m>, <m>6^{th}</m>, or 
+          <m>7^{th}</m> bounce how high can we expect it to rise?  What about the <m>n^{th}</m> bounce? To 
+          begin, we must know something about the rebound height of the ball as it relates to the previous 
+          height before the drop.  We will use a device called a Calculator-Based Ranger (CBR2™) to collect 
+          data related to this issue.  This device will measure the distance of the ball from the sensor as a 
+          function of time.  We want to find the height, so we will need to subtract the distance of the ball 
+          from the sensor from the height of the sensor.
         </p>
       </introduction>
 
@@ -411,7 +412,7 @@
           <p>
             Use the trace feature to find successive peaks on the graph and record your data in a table like the 
             one shown.  You do not need to worry about the time here since we are only interested in the sequences 
-            of heights.
+            of heights as a function of bounce number.
           </p>
         </statement>
       </task>
@@ -1395,7 +1396,7 @@
     can simply take the original function, add <m>x</m>, and then iterate it with itself as a method to find 
     its root.  The down side of this process is that not all fixed points are accessible through iteration as 
     we have seen in earlier examples.  However, this does remain a very simple algorithm for finding roots 
-    although not as efficient as Newton’s Method.
+    although not as efficient as Newton's Method.
   </p>
 
 
@@ -1404,6 +1405,11 @@
 
 <subsection xml:id="subsec-figurative-sequences">
   <title>Figurative Sequences</title>
+  <introduction>
+    <p>
+      
+    </p>
+  </introduction>
   
 </subsection>
 
