@@ -1579,8 +1579,8 @@
       students explore patterns based on the construction of staircases using blocks.
     </p>
   </introduction>
-
-  <activity>
+    <p>
+    <activity>
     <title>Step It Up</title>
     <introduction>
       <p>
@@ -1609,12 +1609,89 @@
       </p>
 
       <p>
-        
+        <em>Sarah</em> : OK, let's see what you've come up with.  [<em>Sarah draws a group number out of her 
+        bucket to determine which gorup will report out</em>].  Group 4.  What did you find?
+      </p>
+
+      <p>
+        <em>Cait</em> : Well, we just noticed that when we built them, we could just take the staircase that 
+        we built before and put a row on the bottom that was just one block more than the bottom of the 
+        staircase.
+      </p>
+
+      <p>
+        <em>Sarah</em> : Nice observation.  Did any other groups notice any other patterns?  Yeah, Ben?
+      </p>
+
+      <p>
+        <em>Ben</em> : We just built a bunch and wrote the total blocks in a table.  At first we thought it 
+        might be an arithmetic sequence and it kind of was, but not.
+      </p>
+
+      <p>
+        <em>Sarah</em> : What do you mean, "...it kind of was, but not."?
+      </p>
+
+      <p>
+        <em>Ben</em> : Well, when we subtracted we didn't get a common difference, but did get a pattern.
+      </p>
+
+      <p>
+        <em>Sarah</em> : Can you describe your pattern?
+      </p>
+
+      <p>
+        <em>Ben</em> : Instead of the numbers always being the same, they just kept getting bigger.  You know...
+        one at a time.  Like at first the difference was 2, then 3, then 4, and so on.  So it was kind of 
+        arithmetic, but it was the differences that was arithmetic because those all had a change of 1.  You 
+        know, from 2 to 3 is 1, then from 3 to 4 is 1, and from 4 to 5 is also 1.
+      </p>
+
+      <p>
+        <em>Sarah</em> : That's kind of interesting.  Is this connected to Cait's group in any way?  Yeah, Liam?
+      </p>
+
+      <p>
+        <em>Liam</em> [<em>from Cait's group</em>]:  Ben's numbers are just what we were sayin'.  His numbers 
+        in his differences were just going up by one like us when we were sayin' we added a row on the botton 
+        that was one more than the one that came before.
       </p>
     </introduction>
-    
-    
+
+    <task>
+      <statement>
+        <p>
+          In your groups, discuss what you would do to lead the next stage of the discussion.  Keep in mind 
+          that Sarah ultimately wants to have the students move beyond a recursive method of computing the 
+          total number of block toward a "closed form" expression where they could just plug the height of the 
+          staircase into the expression and get the total number of blocks out.
+        </p>
+      </statement>
+    </task>
+
+    <task>
+      <statement>
+        <p>
+          Now that you have discussed what you might do from a pedagogical perspective, try to find a 
+          "closed form" expression.  Ultimately, you will need to try and prove your expression will always 
+          work.  Be prepared to share your strategies with the rest of the class.
+        </p>
+      </statement>
+    </task>
   </activity>
+  </p>
+
+  <p>
+    <definition xml:id="def-figurative-sequence">
+      <statement>
+        <p>
+          A <em>figurative sequence</em> is a sequence of numbers based on geometric shapes or visual patterns.  
+          In the example from Sarah's class, you could see the staircases as triangles and thus we would call 
+          this sequence a triangular sequence (or triangular numbers).  
+        </p>
+      </statement>
+    </definition>
+  </p>
   
 </subsection>
 
