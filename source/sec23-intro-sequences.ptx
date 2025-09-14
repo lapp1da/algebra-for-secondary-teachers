@@ -1585,7 +1585,7 @@
     <introduction>
       <p>
         Sarah has been working with her students on sequences and has posed the following task where they need 
-        to build staircases using block of the form found in 
+        to build staircases using blocks of the form found in <xref ref="fig-block-staircase"/>.
       </p>
 
       <p>
@@ -1593,6 +1593,23 @@
           <caption>Block Staircases</caption>
           <image source="images/block-staircase.png" width="60%"/>
         </figure>
+      </p>
+
+      <p>
+        <em>Sarah</em> : I gave each group some blocks and I want you to build at least the first four sets 
+        of staircases as I have drawn on the board.  Notice that the staircases I have drawn have heights of 
+        one, two, and three.  Our main goal is to be able to determine how many blocks we would need to build 
+        a staircase with a height of 50.  We could simply start building it, but we would not be sure how many 
+        blocks we would need before we began.  So, collect some data and see if you can find a pattern that 
+        would allow us to compute it.
+      </p>
+
+      <p>
+        [<em>Sarah allows the students to spend about 20 minutes building some models and recording some data.</em>]
+      </p>
+
+      <p>
+        
       </p>
     </introduction>
     
