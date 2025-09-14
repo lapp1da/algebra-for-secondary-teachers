@@ -422,8 +422,8 @@
           <title>Ball Bounce Data</title>
             <tabular halign="center">
               <row header="yes" bottom="minor">
-                <cell>Bounce Number</cell>
-                <cell>Height (m)</cell>
+                <cell>Bounce Number, <m>n</m></cell>
+                <cell>Height (meters)</cell>
                 <cell>Ratio <m>\frac{h_n}{h_{n-1}}</m></cell>
               </row>
               <row>
@@ -492,11 +492,102 @@
           </p>
         </statement>
       </task>
-      
-      
-      
+
+      <task>
+        <statement>
+          <p>
+            Explore the relationship between a rebound height of the ball with respect to its previous height by 
+            computing the ratio, <m>\frac{h_n}{h_{n-1}}</m>.  Record your ratios in your table.  Describe any 
+            pattern you see in the ratios you compute.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Use what you found in part (c) to predict the height of the ball on the <m>10^{th}</m> rebound.
+          </p>
+        </statement>
+      </task>
     </activity>
   </p>
+
+  <p>
+    The relationship from term to term you have just explored is called <em>geometric</em>.  Just like with 
+    <em>arithmetic</em> sequences where we can determine its arithmetic nature by subtracting adjacent terms 
+    to see if we always get the same result, with geometric sequences we can do the same, but using division 
+    instead of subtraction.  In a sense, the structure of the behavior is the same, but instead of observing 
+    the relationship between addition and subtraction, we notice the analogous relationship between 
+    multiplication and division.
+  </p>
+
+  <p>
+    <definition xml:id="def-geometric-sequence">
+      <title>Geometric Sequence</title>
+      <statement>
+        <p>
+          A <em>geometric sequence</em> is a sequence of non-zero numbers where each term after the first term 
+          is found by multipying the previous term by a fixed number called the <em>common ratio</em>, <m>r</m>.  
+          In otherwords, the sequence will be of the form, <m>a_n=ra_{n-1}</m>.  If we were to list the terms, we 
+          would get <m>a, ar, ar^2, ar^3, \ldots</m>.  Therefore, the general <m>n^{th}</m> term can be 
+          expressed as <m>a_n=ar^{n-1}</m>.
+        </p>
+      </statement>
+    </definition>
+  </p>
+
+  <p>
+    You will notice in the previous definition, if we take successive ratios as you did in the 
+    <em>Ball Bounce</em> activity, we get <m>\frac{ar}{a}=\frac{ar^2}{ar}=\frac{ar^3}{ar^2}=\ldots =r</m>.  We 
+    use the notation, <m>r</m>, here since we are referring to the common <em>ratio</em>.
+  </p>
+
+  <p>
+    <activity>
+      <introduction>
+        <p>
+          For the following sequences, determine if they are geometric, arithmetic, or neither.  If a sequence 
+          is geometric, give the initial term and the common ratio.  If it is arithmetic, give the initial 
+          term and the common difference.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            <m>\left\{12, 48, 192, 768, \ldots \right\}</m>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            <m>\left\{2, 9, 16, 23, \ldots \right\}</m>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            <m>\left\{6, -18, 54, -162, \ldots \right\}</m>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            <m>\left\{1, 1, 2, 3, 5, \ldots \right\}</m>
+          </p>
+        </statement>
+      </task>
+    </activity>
+  </p>
+
+  
   
 </subsection>
 
