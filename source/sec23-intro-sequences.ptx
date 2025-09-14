@@ -1574,9 +1574,30 @@
   <title>Figurative Sequences</title>
   <introduction>
     <p>
-      
+      The last type of sequence we will explore is a <em>figurative sequence</em>.  Consider the following 
+      classroom exchange between a teacher, Sarah, and her algebra class.  In this class, Sarah is having her 
+      students explore patterns based on the construction of staircases using blocks.
     </p>
   </introduction>
+
+  <activity>
+    <title>Step It Up</title>
+    <introduction>
+      <p>
+        Sarah has been working with her students on sequences and has posed the following task where they need 
+        to build staircases using block of the form found in 
+      </p>
+
+      <p>
+        <figure xml:id="fig-block-staircase">
+          <caption>Block Staircases</caption>
+          <image source="images/block-staircase.png" width="60%"/>
+        </figure>
+      </p>
+    </introduction>
+    
+    
+  </activity>
   
 </subsection>
 
