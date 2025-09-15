@@ -1360,6 +1360,74 @@
 
 </subsection>
 
+<exercises xml:id="exercises-number-concepts">
+    
+    <exercise>
+      <statement>
+        <p>
+          Express the following Hindu-Arabic numerals in Egyptian numerals.
+        </p>
+      </statement>
+      <task>
+        <statement>
+          <p>
+            13,745
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            304,341
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            4,671
+          </p>
+        </statement>
+      </task>
+    </exercise>
 
+    <exercise>
+      <statement>
+        <p>
+          Express the following Hindu-Arabic numerals as Babylonian numerals.
+        </p>
+      </statement>
+      <task>
+        <statement>
+          <p>
+            123,155
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            1,632
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            75,652
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          
+        </p>
+      </statement>
+    </exercise>
+
+  </exercises>
 
 </section>
