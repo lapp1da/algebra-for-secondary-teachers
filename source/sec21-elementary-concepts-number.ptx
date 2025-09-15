@@ -1444,6 +1444,43 @@
       </statement>
     </exercise>
 
+    <exercise>
+      <statement>
+        <p>
+          Convert the following base-ten numerals to the desired base.
+        </p>
+        <task>
+          <statement>
+            <p>
+              3247 to base seven.
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              95,314 to base five.
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              3527 to base three.
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>321_{four}</m> to base five.
+            </p>
+          </statement>
+        </task>
+      </statement>
+    </exercise>
+
+
   </exercises>
 
 </section>
