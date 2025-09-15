@@ -1367,8 +1367,7 @@
         <p>
           Express the following Hindu-Arabic numerals in Egyptian numerals.
         </p>
-      </statement>
-      <task>
+        <task>
         <statement>
           <p>
             13,745
@@ -1389,6 +1388,8 @@
           </p>
         </statement>
       </task>
+      </statement>
+      
     </exercise>
 
     <exercise>
@@ -1396,8 +1397,7 @@
         <p>
           Express the following Hindu-Arabic numerals as Babylonian numerals.
         </p>
-      </statement>
-      <task>
+        <task>
         <statement>
           <p>
             123,155
@@ -1418,13 +1418,29 @@
           </p>
         </statement>
       </task>
+      </statement>
+      
     </exercise>
 
     <exercise>
       <statement>
         <p>
-          
+          Express the following Hindu-Arabic numerals as Mayan numerals.
         </p>
+        <task>
+          <statement>
+            <p>
+              5,493
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              3,972
+            </p>
+          </statement>
+        </task>
       </statement>
     </exercise>
 
