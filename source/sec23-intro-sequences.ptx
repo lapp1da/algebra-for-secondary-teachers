@@ -1728,11 +1728,45 @@
     study because it is often difficult to express sequences in explicit algebraic terms.  Therefore, the use 
     of a variety of representations becomes necessary in order for students to explore the behavior of these 
     sequences.  Weigand examined six different non-algebraic representations: Beginning of Sequence, Table, 
-    Cobweb Diagram, Graph, Arrow Chain, and Arrow Diagram.  These representations can be seen below.
+    Cobweb Diagram, Graph, Arrow Chain, and Arrow Diagram.  These representations can be seen in 
+    <xref ref="fig-weigand-beginning-sequence"/>, <xref ref="fig-weigand-table-cobweb"/>, 
+    <xref ref="fig-weigand-graph-arrow-chain"/>, and <xref ref="fig-weigand-arrow-diagram"/>.
   </p>
 
   <p>
-    
+    <figure xml:id="fig-weigand-beginning-sequence">
+      <caption>Beginning of Sequence (Weigand, 1991, p. 412)</caption>
+      <image source="images/weigand-beginning-sequence.png" width="80%">
+        <shortdescription>Beginning of Sequence</shortdescription>
+      </image>
+    </figure>
+  </p>
+
+  <p>
+    <figure xml:id="fig-weigand-table-cobweb">
+      <caption>Table &amp; Cobweb Diagram (Weigand, 1991, pp. 412-413)</caption>
+      <image source="images/weigand-table-cobweb.png" width="80%">
+        <shortdescription>Table and Cobweb Diagram</shortdescription>
+      </image>
+    </figure>
+  </p>
+
+  <p>
+    <figure xml:id="fig-weigand-graph-arrow-chain">
+      <caption>Graph &amp; Arrow Chain (Weigand, 1991, p. 414)</caption>
+      <image source="images/weigand-graph-arrow-chain.png" width="80%">
+        <shortdescription>Graph and Arrow Chain</shortdescription>
+      </image>
+    </figure>
+  </p>
+
+  <p>
+    <figure xml:id="fig-weigand-arrow-diagram">
+      <caption>Arrow Diagram (Weigand, 1991, p. 415)</caption>
+      <image source="images/weigand-arrow-diagram.png" width="60%">
+        <shortdescription>Arrow Diagram</shortdescription>
+      </image>
+    </figure>
   </p>
   
 </subsection>
