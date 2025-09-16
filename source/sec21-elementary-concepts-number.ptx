@@ -1457,7 +1457,7 @@
           </p>
           <p>
             <image source="images/babylonian-exercise1.png" width="40%">
-              <shortdescription>Egyptian Numeral</shortdescription>
+              <shortdescription>Babylonian Numeral</shortdescription>
             </image>
           </p>
         </statement>
@@ -1483,6 +1483,18 @@
           <statement>
             <p>
               3,972
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Mayan numeral
+            </p>
+            <p>
+              <image source="images/mayan-exercise1.png" width="40%">
+              <shortdescription>Mayan Numeral</shortdescription>
+              </image>
             </p>
           </statement>
         </task>
