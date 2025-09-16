@@ -1410,7 +1410,10 @@
       <task>
         <statement>
           <p>
-            <image source="images/egyptian-exercise1.png">
+            Egyptian numeral
+          </p>
+          <p>
+            <image source="images/egyptian-exercise1.png" width="40%">
               <shortdescription>Egyptian Numeral</shortdescription>
             </image>
           </p>
@@ -1444,6 +1447,18 @@
         <statement>
           <p>
             75,652
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Babylonian numeral
+          </p>
+          <p>
+            <image source="images/babylonian-exercise1.png" width="40%">
+              <shortdescription>Egyptian Numeral</shortdescription>
+            </image>
           </p>
         </statement>
       </task>
