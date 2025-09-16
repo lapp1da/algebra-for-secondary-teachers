@@ -1871,14 +1871,19 @@
     questions themselves.  Connecting algebraic reasoning to graphical behavior is also described by Lapp and 
     St. John (2009).  Here students are asked specifically to explain the graphical behavior they have observed 
     in terms of algebraic representations.  The students in this case used the computer algebra system to 
-    extend the patterns to algebraic representations and then reason from those representations (see XXX).  
-    Alcock and Simpson (2004) suggest this same approach when they state, “in order to help other visualizing 
-    students build on their existing strengths, we need to think about ways to have them engage in work that 
-    will help them to build such links” (p. 30).
+    extend the patterns to algebraic representations and then reason from those representations 
+    (see <xref ref="fig-lapp-stjohn-algebraic-reasoning"/>).  Alcock and Simpson (2004) suggest this same 
+    approach when they state, “in order to help other visualizing students build on their existing strengths, we 
+    need to think about ways to have them engage in work that will help them to build such links” (p. 30).
   </p>
 
   <p>
-    
+    <figure xml:id="fig-lapp-stjohn-algebraic-reasoning">
+      <caption>Algebraic Reasoning to Justify the Observed Patterns (Lapp &amp; St. John, 2009)</caption>
+      <image source="images/lapp-stjohn-algebraic-reasoning.png" width="60%">
+        <shortdescription>Algebraic Reasoning to Justify the Observed Patterns</shortdescription>
+      </image>
+    </figure>
   </p>
   
 </subsection>
