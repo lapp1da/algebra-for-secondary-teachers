@@ -346,6 +346,19 @@
         </hint>
       </task>
 
+      <task>
+        <statement>
+          <p>
+            Write the following Babylonian numeral as a Hindu-Arabic base-ten numeral.
+          </p>
+          <p>
+            <image source="images/babylonian-activity1.png" width="60%">
+              <shortdescription>Babylonian Numeral</shortdescription>
+            </image>
+          </p>
+        </statement>
+      </task>
+
     </activity>
   </p>
 
