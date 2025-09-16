@@ -1830,16 +1830,22 @@
     describing the change of changing graphs lies in dynamically linked representations where the change in one 
     triggers real-time change in the others.  In this case, students have the graph and algebraic representation 
     of the generating function appearing on one side of a viewing window and the graph of the scatter plot of 
-    the iterative sequence on the other side of the same viewing window (See XXX).  Here the graph of the 
-    generating function can be grabbed and pulled resulting in changes in both the graphical and algebraic 
-    representations of the function.  As the graph is manipulated, the scatter plot of the iterative sequence 
-    dynamically changes in the same field of view.  This use of technology allows students to not only see the 
-    sequence behavior, but also the corresponding behavior of the function that creates the sequence, thus 
-    addressing a problem found with students in Weigand's study.
+    the iterative sequence on the other side of the same viewing window (see 
+    <xref ref="fig-lapp-stjohn-dynamic-sequence"/>).  Here the graph of the generating function can be grabbed 
+    and pulled resulting in changes in both the graphical and algebraic representations of the function.  As 
+    the graph is manipulated, the scatter plot of the iterative sequence dynamically changes in the same field 
+    of view.  This use of technology allows students to not only see the sequence behavior, but also the 
+    corresponding behavior of the function that creates the sequence, thus addressing a problem found with 
+    students in Weigand's study.
   </p>
 
   <p>
-    
+    <figure xml:id="fig-lapp-stjohn-dynamic-sequence">
+      <caption>Dynamically Changing <m>f</m> and the Sequence (Lapp &amp; St. John, 2009)</caption>
+      <image source="images/lapp-stjohn-dynamic-sequence.png" width="70%">
+        <shortdescription>Dynamically Changing <m>f</m> and the Sequence</shortdescription>
+      </image>
+    </figure>
   </p>
   
 </subsection>
