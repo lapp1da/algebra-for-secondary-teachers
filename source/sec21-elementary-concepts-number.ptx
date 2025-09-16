@@ -349,10 +349,15 @@
       <task>
         <statement>
           <p>
-            Write the following Babylonian numeral as a Hindu-Arabic base-ten numeral.
+            Write the following Babylonian numerals as a Hindu-Arabic base-ten numerals.
           </p>
           <p>
-            <image source="images/babylonian-activity1.png" width="60%">
+            <image source="images/babylonian-activity1.png" width="40%">
+              <shortdescription>Babylonian Numeral</shortdescription>
+            </image>
+          </p>
+          <p>
+            <image source="images/babylonian-activity2.png" width="40%">
               <shortdescription>Babylonian Numeral</shortdescription>
             </image>
           </p>
