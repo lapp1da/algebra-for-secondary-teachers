@@ -1768,6 +1768,79 @@
       </image>
     </figure>
   </p>
+
+  <p>
+    In these representations, the numerical view of sequence was embodied primarily in the <em>Beginning of 
+    Sequence</em> and <em>Table</em> format while the geometric view was primarily embodied within the 
+    <em>Cobweb Diagram</em>, <em>Graph</em>, and <em>Arrow Chain</em> diagrams.  What is interesting is that 
+    from a geometric perspective, the cobweb and arrow representations were not effective in relating the 
+    representation to the sequence.  These were viewed primarily as pictorial descriptions rather than 
+    relationships.  For someone already familiar with the concept of iterative sequences, the cobweb diagram 
+    makes sense and can lend additional meaning to the user, but to the newcomer, it adds little and in fact, 
+    can lead to incorrect mathematical interpretations (Weigand, 1991).  Although Weigand's results cannot 
+    definitively explain why the geometric representations apart from the graphs were not effective in 
+    connecting the representation to the relations involved in the sequence, one might speculate that it may be 
+    related to the lack of exposure to such representations.  Weigand suggests that in order for students to 
+    deepen their understanding of a concept such as iterative sequences, “[they] must also be given the 
+    opportunity to use this variety of representations.  When teaching using these elements, the computer can 
+    be an indispensable aid and tool” (p. 433).
+  </p>
+
+  <p>
+    In order to help students develop reasoning skills related to a concept, it is also important that the 
+    teacher is aware of how students make use of representations.  As Weigand found, the teachers and students 
+    applied different methods of thinking.  The teachers tended to use more formal mathematical thinking 
+    strategies while the students made use of informal approaches involving different representations.  It is 
+    crucial that teachers not ignore the ways in which students think as they plan instruction.  Weigand 
+    suggests that his results support the demand typically given to symbolic representations in contrast to 
+    iconic ones within the classroom since, to the teacher, the goal is to move in the direction of symbolic 
+    forms.
+  </p>
+
+  <p>
+    So what are the advantages and disadvantages of different representations?  While the numerical 
+    representations found in Weigand's beginning of sequence and table formats offer views of the actual value 
+    to which a sequence is converging, these representations do little to offer insight into an overall 
+    behavior of a sequence.  Weigand found that unsuccessful students tended to use the numerical forms; 
+    beginning of sequence and table representations, and did not use any graphical representations at all.  He 
+    found that for most solutions strategies, students needed to deal with comparisons of sequences with 
+    different initial values.  The numerical representations force students to do a comparison of terms on a 
+    one-by-one basis.  In contrast, the graphical representations provide comparison of many terms in a single 
+    view allowing broader patterns to be detected.
+  </p>
+
+  <p>
+    Even though the graphical representation allows the students to see the sequence behavior from a broader 
+    perspective, Weigand also reports that students still had difficulty connecting the properties of the 
+    function used to generate the iterative sequence and the iterative sequence itself.  In this case, students 
+    did see the iterative sequence as a functional relationship, but described the properties of the sequence 
+    dynamically with no connection to the recursive nature of the sequence's origin or the properties of the 
+    generating function.  The result of this disconnected view of sequence iteration is that students “hardly 
+    used arguments which could be applied to all iteration sequences” (Weigand, 1991, p. 434).
+  </p>
+
+  <p>
+    So how do we help students view commonalities that might apply to iteration sequences in general?  One of 
+    the challenges is to help students make broader observations with respect to sequence behavior.  Just as 
+    the graphical representation gave a broader perspective of the sequence behavior in comparison to the 
+    numerical representation in Weigand's study, we need to find a way to allow a “bigger view” of multiple 
+    graphical representations as parameters in the situation change in order to give a broader perspective of 
+    change across situations.  Lapp and St. John (2009) describe just such an environment where students notice 
+    patterns across multiple graphical representations as parameters in the situation change.  The key to 
+    describing the change of changing graphs lies in dynamically linked representations where the change in one 
+    triggers real-time change in the others.  In this case, students have the graph and algebraic representation 
+    of the generating function appearing on one side of a viewing window and the graph of the scatter plot of 
+    the iterative sequence on the other side of the same viewing window (See XXX).  Here the graph of the 
+    generating function can be grabbed and pulled resulting in changes in both the graphical and algebraic 
+    representations of the function.  As the graph is manipulated, the scatter plot of the iterative sequence 
+    dynamically changes in the same field of view.  This use of technology allows students to not only see the 
+    sequence behavior, but also the corresponding behavior of the function that creates the sequence, thus 
+    addressing a problem found with students in Weigand's study.
+  </p>
+
+  <p>
+    
+  </p>
   
 </subsection>
 
