@@ -2027,7 +2027,7 @@
       <statement>
         <p>
           Use Newton's Method to find approximations (11-decimal places) to all solutions of 
-          <m>e^x=x^10</m>.  Explain your process and why you picked the initial value you chose.
+          <m>e^x=x^{10}</m>.  Explain your process and why you picked the initial value you chose.
         </p>
       </statement>
     </exercise>
