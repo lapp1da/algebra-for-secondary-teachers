@@ -2017,6 +2017,18 @@
     <exercise>
       <statement>
         <p>
+          In Jill's class from <xref ref="act-over-and-over-and-out"/>, Kay noticed that if the function being 
+          iterated was <m>f\left(x\right)=\sqrt{x}</m>, then it didn't matter what the seed was (as long as it 
+          was positive), it always went to one.  However, Sean's function, <m>f\left(x\right)=x^2</m>, could 
+          potentially converge to zero, but could also diverge.  Explain the differing behavior of these two 
+          cases.  Address the significance of the functions' intersection with <m>y=x</m>.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
           Use Newton's Method to find approximations (11-decimal places) to all solutions of 
           <m>x^3-2x^2-3x+1=0</m>.  Explain your process and why you picked the initial value you chose.
         </p>
