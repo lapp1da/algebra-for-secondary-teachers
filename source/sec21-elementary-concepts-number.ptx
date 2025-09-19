@@ -1541,8 +1541,69 @@
       <statement>
         <p>
           Express the numeral <m>134_{five}</m> as a base-four numeral by sketching bundling sticks and 
-          rebundling.
+          rebundling.  Then show the equivalence by expressing the quantity in expanded base notation (using 
+          base ten numerals) for both base five and base four.
         </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Express the numeral <m>134_{five}</m> as a base-four numeral by sketching base blocks and 
+          rearranging them from base-five blocks to base-four blocks.  Then show the equivalence by expressing 
+          the quantity in expanded base notation (using base ten numerals) for both base five and base four.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Using chips of two different colors (or a pile-hole model) explain how you would perform the following
+          computations with manipulatives by drawing sketches and writing your explanations.  Be mindful what 
+          values or actions are being represented by the first or second number in each case and be consistent 
+          throughout your responses.
+        </p>
+        <task>
+          <statement>
+            <p>
+              <m>-5+3</m>
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              <m>-7+^{-}2</m>
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              <m>4\cdot ^{-}3</m>
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              <m>-6 \cdot 2</m>
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              <m>-3 \cdot ^{-}4</m>
+            </p>
+          </statement>
+        </task>
       </statement>
     </exercise>
 
