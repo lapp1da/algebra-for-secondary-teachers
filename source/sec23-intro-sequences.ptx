@@ -1940,25 +1940,77 @@
             </p>
           </statement>
         </task>
-        <p>
-          
-        </p>
+        <task>
+          <statement>
+            <p>
+              Is the sequence arithmetic, geometric, or neither?  Explain your reasoning.
+            </p>
+          </statement>
+        </task>
       </statement>
     </exercise>
 
     <exercise>
       <statement>
         <p>
-          
+          When a baby begins to form from a single cell, the cell divides forming two cells.  These cells then 
+          divide forming four cells and so on.
         </p>
+        <task>
+          <statement>
+            <p>
+              Give a list of the number of cells in the <m>n^{th}</m> iteration of cell division for 
+              <m>n=1,2,3,4,5,\ldots</m>.
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Express the sequence of cells in the <m>n^{th}</m> iteration of cell division in terms of the 
+              <m>(n-1)^{st}</m> iteration.  In other words, give <m>c_n</m> in terms of <m>c_{n-1}</m>.
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Express the sequence of cells in the <m>n^{th}</m> iteration of cell division as a closed form 
+              expression in terms of only <m>n</m>.
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Is the sequence arithmetic, geometric, or neither?  Explain your reasoning.
+            </p>
+          </statement>
+        </task>
       </statement>
     </exercise>
 
     <exercise>
       <statement>
         <p>
-          
+          The Fibonacci sequence it an iterative sequence that begins with the first two terms 1 and 1.  The 
+          next term is found by adding the two previous terms (e.g. <m>1+1=2</m>) and so the first three terms 
+          are <m>\left\{1,1,2,\ldots\right\}</m>.
         </p>
+        <task>
+          <statement>
+            <p>
+              Give the first seven terms in the Fibbonacci sequence.
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Is the sequence arithmetic, geometric, or neither?  Explain your reasoning.
+            </p>
+          </statement>
+        </task>
       </statement>
     </exercise>
 
