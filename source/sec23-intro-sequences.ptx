@@ -1903,6 +1903,44 @@
     <exercise>
       <statement>
         <p>
+          Consider the following pattern of toothpicks.
+        </p>
+        <p>
+          <image source="images/toothpick-sequence.png" width="60%">
+            <shortdescription>Toothpick Sequence</shortdescription>
+          </image>
+        </p>
+        <task>
+          <statement>
+            <p>
+              Sketch the first five figures in the sequence.
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Give a list of the number of toothpicks in the <m>n^{th}</m> figure for <m>n=1,2,3,4,5,\ldots</m>.
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Express the sequence of toothpicks generated for the <m>n^{th}</m> figure in terms of the 
+              <m>(n-1)^{st}</m> term.  In other words, give <m>a_n</m> in terms of <m>a_{n-1}</m>.
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Express the sequence of toothpicks generated for the <m>n^{th}</m> figure as a closed form 
+              expression in terms of only <m>n</m>.
+            </p>
+          </statement>
+        </task>
+        <p>
           
         </p>
       </statement>
