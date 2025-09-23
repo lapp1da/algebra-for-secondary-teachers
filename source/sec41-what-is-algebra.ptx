@@ -49,16 +49,26 @@
         wanted to play a game.  Being bored, he quickly said yes and so I explained the rules to a game I called, 
         “Guess My Number”.  The game is quite simple (as the name suggests) and so I told him that I would store 
         a number in the calculator and his job was to guess it by using only expressions of inequalities.  I 
-        stored a number in the variable <m>z</m> as shown in (fig XXX) and then cleared the screen.  My son 
-        then tried to guess the number by entering an inequality and reading the response.  He then proceeded to 
-        try other inequalities until he thought he could guess the number.  He thought this was a fun game and 
-        so I stored another number in <m>z</m> and we started again.  My son was fascinated with the idea that I 
-        could change <m>z</m> and play again.  Now this may not seem like algebra, but this simple activity was 
-        building the concept of variable in a first grader.  It should also be noted that in this simple game, 
-        the three main views of variable (<em>unknown quantity</em>, <em>generalized quantity</em>, and 
-        <em>quantities in a functional relationship</em>) are all present.  This type of algebraic reasoning is 
-        mathematics.  The recognition of algebraic reasoning as a significant part of algebra has prompted us to 
-        better characterize what younger students do in mathematics and consider algebra a preK-12 endeavor.
+        stored a number in the variable <m>z</m> as shown in <xref ref="fig-guess-number"/> and then cleared the 
+        screen.  My son then tried to guess the number by entering an inequality and reading the response.  He 
+        then proceeded to try other inequalities until he thought he could guess the number.  He thought this was 
+        a fun game and so I stored another number in <m>z</m> and we started again.  My son was fascinated with 
+        the idea that I could change <m>z</m> and play again.  Now this may not seem like algebra, but this 
+        simple activity was building the concept of variable in a first grader.  It should also be noted that in 
+        this simple game, the three main views of variable (<em>unknown quantity</em>, 
+        <em>generalized quantity</em>, and <em>quantities in a functional relationship</em>) are all present.  
+        This type of algebraic reasoning <em>is</em> mathematics.  The recognition of algebraic reasoning as a 
+        significant part of algebra has prompted us to better characterize what younger students do in 
+        mathematics and consider algebra a preK-12 endeavor.
+    </p>
+
+    <p>
+        <figure xml:id="fig-guess-number">
+            <caption>Guess My Number Game</caption>
+            <image source="images/guess-number.png">
+                <shortdescription>guess my number game</shortdescription>
+            </image>
+        </figure>
     </p>
 
   </introduction>
