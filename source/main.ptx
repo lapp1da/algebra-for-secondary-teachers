@@ -14,6 +14,7 @@
     <!-- Include chapters -->
     <xi:include href="./ch1-intro-to-standards.ptx" />
     <xi:include href="./ch2-number-quantity.ptx" />
+    <xi:include href="./ch3-ratio-proportion.ptx" />
 
 
     <!-- Include backmatter -->
