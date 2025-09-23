@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch4-algebraic-structure" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Algebraic Structure</title>
+
+  <introduction>
+    <p>
+      The Common Core State Standards use the phrase <em>Ratios and Proportional Relationships</em> to describe 
+      concepts that are associated with ratios used to describe relationships between quantities (e.g. 2:3 or as 
+      a fraction, <m>\frac{2}{3}</m>).  When two quantities maintain the same relationship we say that they are 
+      proportional (e.g. 2:3 is equivalent to 4:6 or as fractions, <m>\frac{2}{3}=\frac{4}{6}</m>).  In this 
+      chapter, we will examine how these ideas develop in learners and extend them to rates of change and scaling.
+    </p>
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="sec41-what-is-algebra.ptx" />
+  <xi:include href="sec42-variable.ptx" />
+  <xi:include href="sec43-inverses-undoing-structure.ptx" />
+  <xi:include href="sec44-algebra-dynamic-processes.ptx" />
+
+</chapter>

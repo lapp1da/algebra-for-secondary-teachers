@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec42-variable" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Developing the Concept of Variable</title>
+
+  <introduction>
+    <p>
+       If you were to ask the typical person on the street to describe algebra, more than likely their first 
+       response would have something to do with “letters” or variables.  The concept of variable is central to 
+       the study of algebra.  Historically, the ability of mathematicians to use a symbol or collection of 
+       symbols to represent quantities was a major breakthrough that allowed complex mathematical ideas to be 
+       expressed in writing within a much smaller space.  Prior to this, it might have taken several pages of 
+       prose to express a mathematical statement, theorem, or proof.  With the use of variables, the same idea 
+       could be communicated in a single page or less within a single field of view.  This allowed the reader to 
+       follow an argument or train of thought without flipping back and forth among many pages of text.  While 
+       this may seem like a simple idea, it had major consequences on the development of mathematics.
+    </p>
+
+    <p>
+        Although the use of variables proved to be an important advancement, it came with a price.  To 
+        illustrate this price, think back to your first experience with function notation.  It is not uncommon 
+        for a student to look at the collection of symbols, <m>f\left(x\right)</m>, and interpret it to mean 
+        “multiply f by x”.  In mathematics, we often use similar symbol structures to communicate different 
+        meanings.  In the example just given, the student often generalizes notation encountered earlier and 
+        applies that meaning to a new situation.  This is consistent with Pirie and Kieren's (1994) construct of 
+        folding back as it is applied to a symbol system.  When a student misinterprets function notation to 
+        mean multiplication, it likely comes from their earlier experiences with multiplying integers such as 
+        <m>\left(5\right)\cdot \left(-3\right)</m>.  Typically parentheses are used in this case when negative 
+        integers are introduced so that the operation of subtraction is not confused with the negative sign 
+        attached to the integer.  Hence the power of symbol use carries with it the problem of “unpacking” the 
+        symbols to grasp their meaning.
+    </p>
+  </introduction>
+
+  <subsection xml:id="subsec-three-views-letter">
+    <title>Three Views of Letter Use</title>
+    <p>
+        As we begin to examine the concept of variable, we will first restrict our discussion to the literature 
+        surrounding the use of “letters” as a form of representation.  Using letters is probably the most 
+        common vantage point regarding the concept of variable for most people.  In fact, one could argue that 
+        a thumbnail definition of variable for most secondary school students could be characterized by “the 
+        advanced study of the last three letters of the alphabet”.  For this reason, we first turn our attention 
+        to the use of letters to represent variables.  Within this context, Trigueros and Ursini (2003) propose 
+        three structural categories: <em>unknown number</em>, <em>generalized number</em>, and <em>functional 
+        relationship</em>.
+    </p>
+    <p>
+        <em>Unknown Number</em>
+    </p>
+    <p>
+        
+    </p>
+    
+  </subsection>
+
+
+
+</section>
