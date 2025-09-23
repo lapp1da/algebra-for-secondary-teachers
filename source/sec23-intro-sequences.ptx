@@ -1501,7 +1501,36 @@
     </activity>
   </p>
 
-  
+  <p>
+    <theorem xml:id="thm-linear-iteration">
+      <statement>
+        <p>
+          Let <m>f\left(x\right)=mx+b</m> be a linear function and let 
+          <m>f^n\left(x\right)=\left(\underbrace{f\circ \cdots \circ f}_{\text{n times}}\right)\left(x\right)</m>.  
+          The sequence, <m>\left\{f^n\right\}</m>, converges if <m>\left|m\right|\lt 1</m> and diverges if 
+          <m>\left|m\right|\geq 1</m>.
+        </p>
+      </statement>
+      <proof>
+        <p>
+          Consider the iterations for <m>f^2\left(x\right)=m^2x+b\left(m+1\right)</m> and 
+          <m>f^3\left(x\right)=m^3x+b\left(m^2+m+1\right)</m>.  In general, we could conclude that 
+          <m>f^n\left(x\right)=m^nx+b\left(m^{n-1}+\cdots m^2+m+1\right)</m>.  We can use proof by induction to 
+          show this holds.  Assume <m>f^k\left(x\right)=m^kx+b\left(m^{k-1}+\cdots m^2+m+1\right)</m>.  We get 
+          <m>f^{k+1}\left(x\right)=m^k\left(mx+b\right)+b\left(m^{k-1}+\cdots m^2+m+1\right)</m>.  Expanding and 
+          collecting like terms gives 
+          <m>f^{k+1}\left(x\right)=m^{k+1}x+m^kb+b\left(m^{k-1}+\cdots m^2+m+1\right)</m>, and therefore 
+          <m>f^{k+1}\left(x\right)=m^{k+1}x+b\left(m^k+m^{k-1}+\cdots m^2+m+1\right)</m>.  By induction, this 
+          holds.  In order to converge, the geometric series <m>m^n+m^{n-1}+\cdots m^2+m+1</m> needs 
+          <m>\left|m\right|\lt 1</m>.  If <m>\left|m\right|\lt 1</m>, then <m>m^n \rightarrow 0</m> as 
+          <m>n \rightarrow \infty</m> and thus <m>\left\{f^n\right\}</m> converges.  If 
+          <m>\left|m\right|\geq 1</m> then the series diverges and the <m>m^nx</m> term will either diverge or 
+          simply be <m>x</m> in the case of <m>m=1</m>.  In either case, <m>\left\{f^n\right\}</m> will diverge.
+        </p>
+      </proof>
+    </theorem>
+    
+  </p>
 
   <p>
     The use of linear functions to analyze the convergence or divergence of the iterated function is helpful 
