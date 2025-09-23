@@ -5,7 +5,60 @@
 
   <introduction>
     <p>
-        
+        In the preparation of secondary mathematics teachers, it is important to situate the content of algebra 
+        within the overall mathematical education of the learner.  Where does algebra begin?  For quite a few 
+        years, there has been a call for “algebra for all” in the eighth grade (Usiskin, 1987).  The Principles 
+        and Standards for School Mathematics (NCTM, 2000) and the Common Core State Standards for Mathematics 
+        (CCSS-M) (NGACBP &amp; CCSSO, 2010) have an algebra strand that runs through the spectrum of the 
+        curriculum from pre-Kindergarten through grade 12.  The traditional place for algebra has been at the 
+        beginning of secondary school (usually at the ninth grade) for most students.  Why then, does NCTM and 
+        others place algebra as a strand beginning in preschool education?  Here we will address two major 
+        reasons that “algebra” is now being considered at lower grades: (1) our understanding about what 
+        constitutes algebra has significantly changed over the last few decades and (2) the advent of newer 
+        technologies has provided the opportunity for students to begin abstracting ideas at younger ages.
+    </p>
+    <p>
+        <em>Algebraic Reasoning</em>
+    </p>
+    <p>
+        Within the traditional culture algebra has been viewed as the collection of symbol manipulations and 
+        rules that govern them.  This can be seen by the remarks given by the student in the TIMSS excerpt 
+        shared at the opening of this module.  Here the student states, “It's kind of a set in stone.  It's 
+        procedure.  It's a formula.  You learn the formula and you know how to do math.”  This view of algebra 
+        as a collection of letters on a page has often stood in the way of exposing younger students to 
+        algebraic ideas because the feeling was that in order for students to do algebra, they must be able to 
+        use letters to represent mathematical ideas.  Recent research; however, has suggested that younger 
+        students might be capable of symbolizing mathematical ideas (Carraher, Schielmann, Brizuela, &amp; 
+        Earnest, 2006).  But even if a student does not currently symbolize mathematical ideas in the 
+        traditional “algebraic” sense, does that mean they are not doing algebra?  The basic assumption of the 
+        CCSS-M and NCTM Standards is that algebraic ideas develop over time and that the ability to directly 
+        symbolize is neither necessary nor sufficient to learn algebra.  As you recall from our discussion of 
+        the Pirie and Kieren model for growth of mathematical understanding, the development of the concepts of 
+        algebra take place on various levels and evolve as the learner participates in experiences that advance 
+        the growth.  The student may still be doing algebra even though they are not directly manipulating symbols.
+    </p>
+
+    <p>
+        To illustrate a young learner “doing” algebra, consider the following example from parenting experience.  
+        When my son was in first grade, I had taken him and his sisters to a local fast food establishment.  
+        At this particular restaurant, there was a children's area equipped with the standard network of “gerbil 
+        tubes” for the children to climb through as they frequently took breaks from eating.  Now my son became 
+        tired of climbing around and sat down next to me at the table to see what I was doing.  I had been 
+        playing with my TI-89 calculator equipped with a computer algebra system (CAS) and he asked me to show 
+        him what it would do.  I knew that in his classroom he was studying inequality and so I asked if he 
+        wanted to play a game.  Being bored, he quickly said yes and so I explained the rules to a game I called, 
+        “Guess My Number”.  The game is quite simple (as the name suggests) and so I told him that I would store 
+        a number in the calculator and his job was to guess it by using only expressions of inequalities.  I 
+        stored a number in the variable <m>z</m> as shown in (fig XXX) and then cleared the screen.  My son 
+        then tried to guess the number by entering an inequality and reading the response.  He then proceeded to 
+        try other inequalities until he thought he could guess the number.  He thought this was a fun game and 
+        so I stored another number in <m>z</m> and we started again.  My son was fascinated with the idea that I 
+        could change <m>z</m> and play again.  Now this may not seem like algebra, but this simple activity was 
+        building the concept of variable in a first grader.  It should also be noted that in this simple game, 
+        the three main views of variable (<em>unknown quantity</em>, <em>generalized quantity</em>, and 
+        <em>quantities in a functional relationship</em>) are all present.  This type of algebraic reasoning is 
+        mathematics.  The recognition of algebraic reasoning as a significant part of algebra has prompted us to 
+        better characterize what younger students do in mathematics and consider algebra a preK-12 endeavor.
     </p>
 
   </introduction>
