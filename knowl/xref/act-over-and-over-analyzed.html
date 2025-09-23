@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="robots" content="noindex, nofollow">
+</head>
+<body class="ignore-math">
+<article class="activity project-like"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">2.3.12</span><span class="period">.</span><span class="space"> </span><span class="title">Over, and Over, and Over, and...: Analyzed.</span>
+</h4>
+<div class="introduction"><div class="para">In looking at the IMP activity, <em class="emphasis">Over, and Over, and Over, and...</em>, we noticed that in some cases iteration converged, but in other cases we had divergence.  Instead of looking at specific linear functions, here we will take a look at the general case for <span class="process-math">\(f\left(x\right)=mx+b\text{.}\)</span>
+</div></div>
+<article class="task exercise-like"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para">On your CAS, define the function, <span class="process-math">\(f\left(x\right)=m \cdot x+b\text{.}\)</span>  Note that on most CAS, you need to make sure to use the multiplication operator between the <span class="process-math">\(m\)</span> and the <span class="process-math">\(x\)</span> since we could easily name a variable with a multi-letter name.  Now use your CAS to evalute and obtain expressions for <span class="process-math">\(f\left(x\right)\text{,}\)</span> <span class="process-math">\(f\left(f\left(x\right)\right)\text{,}\)</span> <span class="process-math">\(f\left(f\left(f\left(x\right)\right)\right)\text{,}\)</span> and <span class="process-math">\(f\left(f\left(f\left(f\left(x\right)\right)\right)\right)\text{.}\)</span>  Describe any patterns you see in the expressions.</div>
+<div class="solutions"><details class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like knowl__content"><div class="para">When grouping terms, give your responses as a single term with an <span class="process-math">\(x\)</span> and another term with a <span class="process-math">\(b\)</span> factored out of a sum of terms involving <span class="process-math">\(m\text{.}\)</span>
+</div></div></details></div></article><article class="task exercise-like"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para">If <span class="process-math">\(f^n\left(x\right)\)</span> represents the <span class="process-math">\(n^{th}\)</span> iteration of the function with itself, give an expression for <span class="process-math">\(f^n\left(x\right)\text{.}\)</span>
+</div></article><article class="task exercise-like"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para">Based on your observations, we want to prove that your conjecture for <span class="process-math">\(f^n\left(x\right)\)</span> is always true.  Proof by induction is a means to do this.  Essentially, you assume it is true for the <span class="process-math">\(k^{th}\)</span> iteration and then try to show it is true for the <span class="process-math">\(\left(k+1\right)^{st}\)</span> case. Based on your expression from part (b), assume the form of <span class="process-math">\(f^k\left(x\right)\)</span> and plug <span class="process-math">\(x=mx+b\)</span> in for <span class="process-math">\(x\)</span> in your expression and rearrange the terms.  Do you get the same thing as if you replaced all of the <span class="process-math">\(k\)</span> in your <span class="process-math">\(f^k\left(x\right)\)</span> expression with <span class="process-math">\(k+1\text{?}\)</span>  If so, you have shown that you can always get to the next largest <span class="process-math">\(n\)</span> value and so this will continue to infinity.</div></article><article class="task exercise-like"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para">Now that we have established that your expression for <span class="process-math">\(f^n\left(x\right)\)</span> will always work, we need to find when this will converge and when it will diverge.  Consider the long sum that is associated with <span class="process-math">\(b\)</span> in your expression (a sum of powers of <span class="process-math">\(m\)</span>).  Based on what you know from geometric series (think back to Calculus 2), for what values of <span class="process-math">\(m\)</span> will this series converge?</div></article><article class="task exercise-like"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para">If the sum in the term associated with <span class="process-math">\(b\)</span> in your expression converges for your conditions on <span class="process-math">\(m\text{,}\)</span> will those same values of <span class="process-math">\(m\)</span> also guarantee that the term involing the <span class="process-math">\(x\)</span> will also converge?  Explain.</div></article></article><span class="incontext"><a class="internal" href="sec23-intro-sequences.html#act-over-and-over-analyzed">in-context</a></span>
+</body>
+</html>
