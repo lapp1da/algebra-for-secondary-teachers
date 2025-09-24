@@ -133,14 +133,49 @@
   <p>
     <figure xml:id="fig-youve-got-mail">
         <caption>You've Got Mail Activity</caption>
-        <image source="images/youve-got-mail.png">
+        <image source="images/youve-got-mail.png" width="80%">
             <shortdescription>You've Got Mail Activity</shortdescription>
         </image>
     </figure>
   </p>
 
   <p>
-    In response to the problem, some students began using a spreadsheet formating it to fit the table.
+    In response to the problem, some students began by using a spreadsheet and formating it to fit the table.  A 
+    sample of the students' approach can be seen in <xref ref="fig-youve-got-mail-spreadsheet"/>.
+  </p>
+
+  <p>
+    <figure xml:id="fig-youve-got-mail-spreadsheet">
+        <caption>Sample Spreadsheet Created by Fourth Graders</caption>
+        <image source="images/youve-got-mail-spreadsheet.png" width="80%">
+            <shortdescription>Sample Spreadsheet</shortdescription>
+        </image>
+    </figure>
+  </p>
+
+  <p>
+    In this instance the student clicks on the cells they wish to use in the calculation of the postage (A2 and 
+    B2).  Those cell names are then expressed in the command line and the postage calculation is given by 
+    “=A2*0.03+B2*0.05”.  As simple as this exercise may seem, even young children are capable of understanding 
+    what the spreadsheet is doing.  The students are beginning to represent “changeable” quantities by 
+    expressions like A2 and B2.  Later in this exploration, the students used the “Fill Down” command to copy 
+    the expression relative to the corresponding cells in columns <m>\mathbf{A}</m> and <m>\mathbf{B}</m> in 
+    other rows so that they could continue to test various combinations of 3¢ and 5¢ stamps.  Here they were not 
+    only using the fact that the expressions in column <m>\mathbf{C}</m> were “changeable”, but that the values 
+    in columns <m>\mathbf{A}</m> and <m>\mathbf{B}</m> were as well.  The experience that cell values can be 
+    changed and that those changes affect the postage calculation helps lay the groundwork for the concept of 
+    variable which we will discuss further in the next section.
+  </p>
+
+  <p>
+    Here we have tried to describe how technology can be used to help advance algebraic reasoning and concept 
+    development at a young age.  What about secondary school students?  Throughout this course we have used 
+    similar strategies tied to technology such as computer algebra systems, dynamic geometry systems, and data 
+    collection devices to give you experience implementing these approaches in both your own learning of 
+    mathematics as well as your reflection on pedagogical uses in the secondary classroom.  We live in a 
+    technological world and so to think we can teach meaningful mathematics that is relevant to today's society 
+    without the use of technology is simply misguided and certainly not supported by the decades of research on 
+    the use of technology in the teaching and learning of mathematics.
   </p>
 
 
