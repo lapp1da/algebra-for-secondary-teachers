@@ -126,7 +126,21 @@
     student to algebraic representation.  In the elementary grades, students are required by most school 
     districts to learn basic word processing and spreadsheet functionality.  The use of a spreadsheet can help 
     the student construct a concept image (Tall &amp; Vinner, 1981) of variable by simply formatting one cell in 
-    relation to another.  Consider the following spreadsheet where a fourth-grade class is exploring the problem:
+    relation to another.  Consider the following problem posed to a group of fourth graders 
+    (<xref ref="fig-youve-got-mail"/>).
+  </p>
+
+  <p>
+    <figure xml:id="fig-youve-got-mail">
+        <caption>You've Got Mail Activity</caption>
+        <image source="images/youve-got-mail.png">
+            <shortdescription>You've Got Mail Activity</shortdescription>
+        </image>
+    </figure>
+  </p>
+
+  <p>
+    In response to the problem, some students began using a spreadsheet formating it to fit the table.
   </p>
 
 
