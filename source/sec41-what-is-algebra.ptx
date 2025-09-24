@@ -17,6 +17,8 @@
         constitutes algebra has significantly changed over the last few decades and (2) the advent of newer 
         technologies has provided the opportunity for students to begin abstracting ideas at younger ages.
     </p>
+ </introduction>
+
     <p>
         <em>Algebraic Reasoning</em>
     </p>
@@ -71,7 +73,61 @@
         </figure>
     </p>
 
-  </introduction>
+
+  <p>
+    <em>Technology and Abstraction</em>
+  </p>
+
+  <p>
+    Due to the traditional perspective of algebra, we have been hesitant to challenge students to abstraction 
+    before we feel they are ready.  Piaget's work has suggested that we need to be mindful of the developmental 
+    stage of our students and that younger students may not be physiologically capable of doing certain abstract 
+    tasks.  Although we must acknowledge the limitations that students possess within their developmental 
+    progress toward abstraction, we must also seek experiences that will help them reach higher levels of 
+    abstraction.  As in the Pirie and Kieren (1994) model, the continual advancing and folding back to expand 
+    understanding is part of the process that helps move students along.  Technology is one mechanism that can 
+    assist students in the ability to abstract mathematical concepts.
+  </p>
+
+  <p>
+    Much like the example given above where a young child plays the game, “Guess My Number”, a computer algebra 
+    system (CAS) can play an important role in developing abstract representations.  One might suggest that one 
+    of the most powerful pedagogical tools available in a CAS is the <em>Define</em> command.  This command 
+    allows the student to name a mathematical expression and then act on it by its name as if it was an object.  
+    Arnon et al. (2014) use this construct in their APOS Theory.  APOS Theory refers to viewing mathematical 
+    development through a four-stage structure.  APOS refers to <em>Action-Process-Object-Schema</em> where 
+    the learner transistions through these stages much like Piaget's stages.  The learner first does some action 
+    to interact with the mathematical idea.  This leads to viewing it as a process that is eventually treated as 
+    an object.  Once it is viewed as an object, it can be acted on and placed into a broader structure or schema.  
+    While the <em>Define</em> command may seem a trivial function of a CAS, it is an important feature in 
+    representing mathematical ideas in a way that they can be acted upon and thus the learner can begin placing 
+    a mathematical idea(s) into a coherent system.  Kaput, Blanton and Moreno (2008) suggest that it is the 
+    student's interaction with notation that builds meaning of the notation.  As in the “Guess My Number” game, 
+    students must choose the notation (i.e. <m>\lt</m>, <m>\gt</m>, <m>=</m>) and then observe the results of those choices.  By this 
+    trial and error experience, meaning is developed in a much deeper way than simply listening to a teacher 
+    tell them what each symbol represents.  We can all be told a definition, but it is not until we must use the 
+    definition that we obtain a gut-level understanding of its meaning.  No one can do this for us.  We must do 
+    it ourselves.
+  </p>
+
+  <p>
+    There is evidence to suggest that children at age 9 and 10 have the ability to represent mathematical 
+    concepts and relationships using algebraic notation (Carraher, Schliemann, Brizuela, &amp; Earnest, 2006).  
+    Brizuela and Schliemann (2004) found that students in this age range could not only represent mathematical 
+    ideas algebraically, but could also use this notation to solve problems within an algebraic environment.  
+    This does not mean that we simply start using symbolic notation with young children.  The students in the 
+    studies mentioned were first exposed to activities that helped them develop the ability to work on a more 
+    abstract level.
+  </p>
+
+  <p>
+    To illustrate how the concept of variable might be developed in young children we have previously shared the 
+    “Guess My Number” game.  There are; however, other experiences that, over time, help to slowly expose the 
+    student to algebraic representation.  In the elementary grades, students are required by most school 
+    districts to learn basic word processing and spreadsheet functionality.  The use of a spreadsheet can help 
+    the student construct a concept image (Tall &amp; Vinner, 1981) of variable by simply formatting one cell in 
+    relation to another.  Consider the following spreadsheet where a fourth-grade class is exploring the problem:
+  </p>
 
 
 
