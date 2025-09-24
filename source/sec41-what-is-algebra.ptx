@@ -67,7 +67,7 @@
     <p>
         <figure xml:id="fig-guess-number">
             <caption>Guess My Number Game</caption>
-            <image source="images/guess-number.png">
+            <image source="images/guess-number.png" width="80%">
                 <shortdescription>guess my number game</shortdescription>
             </image>
         </figure>
@@ -176,6 +176,29 @@
     technological world and so to think we can teach meaningful mathematics that is relevant to today's society 
     without the use of technology is simply misguided and certainly not supported by the decades of research on 
     the use of technology in the teaching and learning of mathematics.
+  </p>
+
+  <p>
+    So what exactly is algebra?  Some view it as an extension of arithmetic (a generalized arithmetic or number 
+    if you will).  However, Davydov (1999) showed that students could actually develop algebraic structure through 
+    relationships between quantities instead.  The students that Davydov worked with and the subsequent curriculum 
+    developed has been successful in allowing younger children to develop both the structural view of algebra 
+    while symbolizing these structural relationships.  Schmittau and Morris (2004) used Davydov's curriculum with 
+    elementary children in the US and found that by the end, the children could use their understanding to solve 
+    algebraic problem typically reserved for secondary school students in the US.
+  </p>
+
+  <p>
+    Algebra is more than simply moving symbols around a page.  The algebraic reasoning that allows the learner 
+    to understand why certain processes work is just as important (if not more) as the ability to perform the 
+    symbolic manipulations.  Seeing structure is at the heart of grasping algebraic concepts, but structure is 
+    often the part of the algebra curriculum we pay the least attention to when it comes to our instruction.  
+    Kaput (2008) states, "The heart of algebraic reasoning is comprised of complex symbolization processes that 
+    serve purposeful generalizations and reasoning with generalizations".  Symbolization gives students the 
+    ability to organize ideas into smaller visual space as compared to use of prose.  Beyond this, symbolization 
+    not only reasons with existing ideas, but also <em>shapes</em> new ideas as they develop.  The symbols we 
+    use affect the way we see reality and so algebra encompasses far more than the symbols used, but serve as a 
+    medium by which we reason.
   </p>
 
 
