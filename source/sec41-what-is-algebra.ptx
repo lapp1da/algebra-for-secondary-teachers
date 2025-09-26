@@ -191,14 +191,37 @@
   <p>
     Algebra is more than simply moving symbols around a page.  The algebraic reasoning that allows the learner 
     to understand why certain processes work is just as important (if not more) as the ability to perform the 
-    symbolic manipulations.  Seeing structure is at the heart of grasping algebraic concepts, but structure is 
-    often the part of the algebra curriculum we pay the least attention to when it comes to our instruction.  
-    Kaput (2008) states, "The heart of algebraic reasoning is comprised of complex symbolization processes that 
-    serve purposeful generalizations and reasoning with generalizations".  Symbolization gives students the 
-    ability to organize ideas into smaller visual space as compared to use of prose.  Beyond this, symbolization 
-    not only reasons with existing ideas, but also <em>shapes</em> new ideas as they develop.  The symbols we 
-    use affect the way we see reality and so algebra encompasses far more than the symbols used, but serve as a 
-    medium by which we reason.
+    symbolic manipulations.  The research on use of computer algebra systems clearly shows that CAS can actually 
+    be used to help develop by-hand skills <em>and</em> conceptual understanding.  In a technological world, the 
+    emphasis that used to be placed on by-hand skills needs to be reduced since many of those skills are not as 
+    important as they used to be.  For instance, it was not that long ago that the curriculum required students 
+    to be able to compute <m>\sqrt{3}</m> to four decimal places by hand.  Today, we would look at that part of 
+    the curriculum and ask why?  Every calcultor has a square root button, so is there a need for proficiency 
+    at doing this computation?  It is far more important that a student understand that if we multiply that 
+    1.73205ish number by itself, we get 3.  That is the <em>concept</em> of square root.  Ability to compute it 
+    by hand is simply not necessary and so this is why the curriculum stopped requiring it.  In the same sense, 
+    future generations will ask why we spent so much time making sure students could proficiently do much of 
+    the symbolic manipulation we currently require when CAS was available to allow students to focus on thinking 
+    rather than symbol pushing.
+    
+  </p>
+    
+  <p>
+    Seeing structure is at the heart of grasping algebraic concepts, but structure is often the part of the 
+    algebra curriculum we pay the least attention to when it comes to our instruction.  Kaput (2008) states, 
+    "The heart of algebraic reasoning is comprised of complex symbolization processes that serve purposeful 
+    generalizations and reasoning with generalizations".  Symbolization gives students the ability to organize 
+    ideas into smaller visual space as compared to use of prose.  Beyond this, symbolization not only reasons 
+    with existing ideas, but also <em>shapes</em> new ideas as they develop.  The symbols we use affect the way 
+    we see reality and so algebra encompasses far more than the symbols used, but serve as a medium by which we 
+    reason.  One of the most powerful aspects of mathematics is its symbolization; however, one of the biggest 
+    obstacles of mathematics (from a learner standpoint) is it symbolization.  Students must be able to unpack 
+    the symbols when using them to reason.  As Kaput, Blanton, and Moreno suggest, this happens when students are 
+    given time to interact with the symbols (or even better, are allowed to create the symbols).  Just like 
+    learning a language, we begin with translation between words until those words become so connected in our 
+    mental schema that we can use them interchangeably.  As this process progresses, we move toward fluency.  The 
+    same is true for mathematical language.  Students must be given the time to move back and forth between 
+    the represented world and the world of symbols doing the representing.
   </p>
 
 
