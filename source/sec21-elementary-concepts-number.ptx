@@ -1319,6 +1319,87 @@
   </p>
 
   <p>
+    <activity xml:id="act-multiplying-fractions">
+      <introduction>
+        <p>
+          Take a square piece of paper and fold it along one edge into thirds (fold it like a formal letter 
+          that you are putting into an envelope).  Now unfold the square and using the side adjacent to the side 
+          you just used to fold it into thirds, fold it in half and then fold it into half again (essentially 
+          folding into fourths).
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Highlight along the "thirds" edge, two of the three segments along that direction (this represents 2/3 
+            of the unit length).
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            In a similar manner, highlight along the "fourths" edge, three of the four segments along that 
+            direction (this represents 3/4 of the unit length).
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Shade the entire rectangle formed by the two edges that you have just shaded.  What does this area 
+            represent?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How many small rectanlges have you shaded?  Where does this number come from with respect to the 
+            two fractions that they represent (2/3 and 3/4)?
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            How many total small rectanlges are there in your original square?  Where does this number come from 
+            with respect to the two fractions that they represent (2/3 and 3/4)?
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            If you were to express the fraction of small shaded rectangles as compared to the total number of 
+            small rectangles in the square, how would you state it?
+          </p>
+          <p>
+            There are ____________________ out of ____________________ small rectangles that are shaded.
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Explain how you would express the statement from part (f) as a fraction.
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Based on your observations, give a process that could be used for multiplying fractions.
+          </p>
+        </statement>
+      </task>
+      
+    </activity>
+  </p>
+
+  <p>
     When Pythagoras' work suggested that the hypotenuse of a right isosceles triangle with legs of length 1 could 
     not be represented as the quotient of two integers (see <xref ref="fig-pythagorean-theorem-sqrt2" />) and 
     therefore, his work was considered heresy.  According to Pythagoras, if <m>a</m> and <m>b</m> are the lengths 
@@ -1605,6 +1686,16 @@
           </statement>
         </task>
       </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Sketch an area model for multiplying <m>\frac{3}{5} \cdot \frac{2}{7}</m> explaining where the 
+      numerator and denominator come from with respect to your sketch.
+        </p>
+      </statement>
+      
     </exercise>
 
 
