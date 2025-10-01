@@ -1400,6 +1400,59 @@
   </p>
 
   <p>
+    <activity xml:id="act-adding-fractions">
+      <introduction>
+        <p>
+          Think back to when you learned to add whole numbers during elementary school.
+        </p>
+      </introduction>
+      <task>
+        <statement>
+          <p>
+            In your groups, discuss how you recall "adding" sets of objects in, say, Kindergarten. What did you 
+            do with the objects?
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            As you think about your response to part (a), how would you describe the objects you "added"? Were 
+            they treated the same in terms of the counting or differently?
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            With respect to Pirie and Kieren's model, what would be some primitive knowing concepts that might 
+            be used to begin thinking about "adding" rational numbers?
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            In thinking about the video, <em>The Weird Number</em>, would all slices of cake be treated equally 
+            when "counting" them or are some slices treated differently when trying to "add"?  Consider the 
+            number of slices in the portion of cake stolen by that scoundrel <m>\frac{2}{3}</m> versus the number of 
+            slices stolen by <m>\frac{4}{6}</m>.
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            In your groups, discuss why non-integer rational numbers need to have the same denominator in order to 
+            add them.
+          </p>
+        </statement>
+      </task>
+      
+    </activity>
+  </p>
+
+  <p>
     When Pythagoras' work suggested that the hypotenuse of a right isosceles triangle with legs of length 1 could 
     not be represented as the quotient of two integers (see <xref ref="fig-pythagorean-theorem-sqrt2" />) and 
     therefore, his work was considered heresy.  According to Pythagoras, if <m>a</m> and <m>b</m> are the lengths 
