@@ -244,10 +244,56 @@
   </p>
 
   <p>
-    A concept map is like a flow chart; however, there is not necessarily a linear flow of ideas.  Instead, it is 
-    often the case that the concept map resembles more of a web with concepts connected in a variety of ways.  
-    Below is a sample of a concept map constructed by a student showing relationships within concepts from a Linear Algebra course.  The main aspects of the maps are the concept (usually encased in a bubble) and segments or directed line segments showing how the concepts are connected.  In some cases, the connections are bidirectional; in others they may only go one way.  These connections usually have words or symbols written along them to explain how the person views the connection between the two concepts.
+    <activity xml:id="act-inverse-concept-map">
+      <introduction>
+        <p>
+          A concept map is like a flow chart; however, there is not necessarily a linear flow of ideas.  Instead, 
+          it is often the case that the concept map resembles more of a web with concepts connected in a variety 
+          of ways.  <xref ref="fig-sample-concept-map"/> gives a sample of a concept map constructed by a student 
+          showing relationships within concepts from a Linear Algebra course.  The main aspects of the maps are 
+          the concept (usually encased in a bubble) and segments or directed line segments showing how the 
+          concepts are connected.  In some cases, the connections are bidirectional; in others they may only go 
+          one way.  These connections usually have words or symbols written along them to explain how the person 
+          views the connection between the two concepts.
+        </p>
+        <p>
+          <figure xml:id="fig-sample-concept-map">
+            <caption>Sample Concept Map for Linear Algebra</caption>
+            <image source="images/sample-concept-map.png" width="80%">
+            <shortdescription>Sample Concept Map</shortdescription>
+            </image>
+         </figure>
+       </p>
+      </introduction>
+      <task>
+        <statement>
+          <p>
+            Using all related concepts you can think of, create a concept map for the concept of <em>inverse 
+            function</em>.
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Share your concept map with other members of your group.  On your whiteboards, summarize 
+            commonalities in your group members' maps.  Summarize some of the ways in which group members gave a 
+            unique connection on their maps.
+          </p>
+        </statement>
+      </task>
+      
+    </activity>
   </p>
+
+  <p>
+    Now that you have started to reflect on the concept of inverse function, consider the following classroom 
+    exchange as a teacher (Tim) interacts with his students.  Following the vignette, you will be asked to 
+    respond to questions surrounding the discussion.
+  </p>
+    
+
+  
   
 </subsection>
 
