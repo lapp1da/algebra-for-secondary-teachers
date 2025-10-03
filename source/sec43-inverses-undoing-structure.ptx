@@ -5,11 +5,250 @@
 
   <introduction>
     <p>
-        
+        As we examine the nature of algebra, we might begin by asking the question, "What is it good for?".  
+        Think back to your early experiences with algebra in middle or high school.  What would you say was its 
+        purpose?  You will likely recall spending a great deal of time solving equations.  In fact, much of the 
+        processes and procedures that you spent substantial time mastering were in pursuit of solutions to 
+        equations.  But how and why do these processes and procedures work?  To answer this question, we need to 
+        examine the "structure" that <em>is</em> algebra.
     </p>
 
   </introduction>
 
+  <p>
+    <activity xml:id="act-additive-structure">
+      <introduction>
+        <p>
+          Suppose you wanted to solve the equation, <m>x+5=8</m>.  What processes would you use to solve it?  
+          For each of the following stages of the solution process, provide a mathematical property that was 
+          used to transform the equation to its new form.
+        </p>
+      </introduction>
 
+      <task>
+        <statement>
+          <p>
+            <me>
+              x+5=8
+            </me>
+            <me>
+              \left(x+5\right)+^-5=8+^-5
+            </me>
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            <me>
+              \left(x+5\right)+^-5=8+^-5
+            </me>
+            <me>
+              x+\left(5+^-5\right)=3
+            </me>
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            <me>
+              x+\left(5+^-5\right)=3
+            </me>
+            <me>
+              x+0=3
+            </me>
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            <me>
+              x+0=3
+            </me>
+            <me>
+              x=3
+            </me>
+            
+          </p>
+        </statement>
+      </task>
+      
+    </activity>
+  </p>
+
+  <p>
+    In <xref ref="act-additive-structure"/>, you identified mathematical properties at each stage of the solution 
+    process.  But is there truly a "structure" to this process?  If so, can this structure be abstracted and 
+    can it be used in other cases for solving equations?  Consider the following activity.
+  </p>
+
+  <p>
+    <activity xml:id="act-multiplicative-structure">
+      <introduction>
+        <p>
+          Suppose you wanted to solve the equation, <m>7x=28</m>.  What processes would you use to solve it?  
+          For each of the following stages of the solution process, provide a mathematical property that was 
+          used to transform the equation to its new form.
+        </p>
+      </introduction>
+      <task>
+        <statement>
+          <p>
+            <me>
+              7\cdot x=28
+            </me>
+            <me>
+              \frac{1}{7} \cdot \left(7\cdot x\right)=\frac{1}{7} \cdot 28
+            </me>
+            <me>
+              
+            </me>
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            <me>
+              \frac{1}{7} \cdot \left(7\cdot x\right)=\frac{1}{7} \cdot 28
+            </me>
+            <me>
+              \left(\frac{1}{7} \cdot 7\right)\cdot x=4
+            </me>
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            <me>
+              \left(\frac{1}{7} \cdot 7\right)\cdot x=4
+            </me>
+            <me>
+              1 \cdot x=4
+            </me>
+            
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            <me>
+              1 \cdot x=4
+            </me>
+            <me>
+              x=4
+            </me>
+            
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Looking at the mathematical properties you used in <xref ref="act-additive-structure"/>, describe 
+            any pattern you see with respect to parts (a)-(d) of this activity.
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            In <xref ref="act-additive-structure"/>, you used addition as the operation within the equation.  
+            In this activity, you used multiplication.  Suppose you have an equation that uses only one operation, 
+            summarize the basic properties that are essential in order to solve an equation.
+          </p>
+        </statement>
+      </task>
+      
+    </activity>
+  </p>
+
+  <p>
+    Think back to when you first decided to become a secondary mathematics teacher.  Now recall your reaction 
+    when you learned how much mathematics you had to take to complete the degree.  Often preservice mathematics 
+    teachers contemplate entering the profession thinking, “Well, I've been through high school math so becoming 
+    a math teacher shouldn't be too difficult.  After all, it only involves learning how to present the 
+    mathematics I already know.”
+  </p>
+
+  <p>
+    When listening to university students talking in the hallways, it is not uncommon to hear comments such as, 
+    “Why do I have to take Abstract Algebra, I'm never going to teach this stuff to high school students?”  
+    Lurking in the background is the assumption that they have a deep knowledge of the mathematics that makes up 
+    the secondary curriculum.  Unfortunately, most high school students' perception of algebra involves symbol 
+    manipulations and memorized formulae and algorithms.  In order to address the underlying structure of 
+    mathematics, we will examine a basic skill that is taught in the secondary schools from an advanced standpoint.
+  </p>
+
+<subsection xml:id="subsec-inverse">
+  <title>The Concept of Inverse</title>
+
+  <p>
+    In order to begin a fruitful discussion of mathematical concepts and their relationship to teaching and 
+    learning, it is helpful to first examine our own understanding of the concepts in question.  In this 
+    particular section, we will investigate the concept of inverse function.  From a constructivist perspective, 
+    no two people have exactly the same conceptual understanding of inverse function.  While there may be some 
+    common definitions and representations used for describing this idea, not all people have the same mental 
+    constructs and images that emerge when the term “inverse function” is mentioned.  The way in which other 
+    mathematical ideas are connected to this concept may also be quite different depending on the person you 
+    ask.  Here you will be asked to give some preliminary responses to questions and to build a concept map 
+    showing your linkages among mathematical ideas.
+  </p>
+
+  <p>
+    <activity xml:id="act-inverse-concept-initial">
+      <introduction>
+        <p>
+          We begin by reflecting on our own understanding of inverse.  In your own words, respond to the 
+          following questions with respect to your current conception of "inverse function".
+        </p>
+      </introduction>
+      <task>
+        <statement>
+          <p>
+            In relation to the concept of function, describe what the term “inverse function” means?
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Describe how you came to understand the concept of inverse function.
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Imagine yourself in your first teaching position where you have to teach students about inverse 
+            functions, how would you teach it?  How is it connected to other mathematics they have learned (i.e. 
+            what would Pirie &amp; Kieren give as the <em>primitive knowing</em> for expanding the concept of 
+            inverse function)?
+          </p>
+        </statement>
+      </task>
+      
+    </activity>
+  </p>
+
+  <p>
+    One of the ways in which we advance our thinking is through reflection.  In 
+    <xref ref="act-inverse-concept-initial"/>, you began by describing your understanding of a concept.  At this 
+    point it is important to reflect on your responses and try to articulate your understanding in greater 
+    detail.  To accomplish this task, we will use a concept map to pull your mental constructs together and 
+    prompt you to reflect on your own understanding.
+  </p>
+
+  <p>
+    A concept map is like a flow chart; however, there is not necessarily a linear flow of ideas.  Instead, it is 
+    often the case that the concept map resembles more of a web with concepts connected in a variety of ways.  
+    Below is a sample of a concept map constructed by a student showing relationships within concepts from a Linear Algebra course.  The main aspects of the maps are the concept (usually encased in a bubble) and segments or directed line segments showing how the concepts are connected.  In some cases, the connections are bidirectional; in others they may only go one way.  These connections usually have words or symbols written along them to explain how the person views the connection between the two concepts.
+  </p>
+  
+</subsection>
 
 </section>
