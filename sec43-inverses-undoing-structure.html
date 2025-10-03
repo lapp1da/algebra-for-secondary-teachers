@@ -96,15 +96,15 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.9.11';
+eBookConfig.runestone_version = '7.9.12';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.59de9dca80a62a76.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.b37c97cbe7a5455b.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
-<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.8141ae22fd347e48.css">
+<script src="_static/prefix-runtime.a85e2f1fefeea635.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.a707b621c77f7e48.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.557d81b04b3ec0e4.css">
 <style>
 #subsec-pirie-kieren-model-11-1-1 { counter-set: subsec-pirie-kieren-model-11-1-1 0; }
 #subsec-pirie-kieren-model-11-1-1 > li::marker { content: ""counter(subsec-pirie-kieren-model-11-1-1,decimal)"."; }
@@ -250,7 +250,10 @@ eBookConfig.enable_chatcodes =  false;
 <div class="toc-title-box"><a href="sec42-variable.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Developing the Concept of Variable</span></a></div>
 <ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec42-variable.html#subsec-three-views-letter" class="internal"><span class="codenumber">4.2.1</span> <span class="title">Three Views of Letter Use (Trigueros &amp; Ursini, 2003)</span></a></div></li></ul>
 </li>
-<li class="toc-item toc-section active"><div class="toc-title-box"><a href="sec43-inverses-undoing-structure.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Inverses, Undoing, and the Role of Structure</span></a></div></li>
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="sec43-inverses-undoing-structure.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Inverses, Undoing, and the Role of Structure</span></a></div>
+<ul class="structural toc-item-list active"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec43-inverses-undoing-structure.html#subsec-inverse" class="internal"><span class="codenumber">4.3.1</span> <span class="title">The Concept of Inverse</span></a></div></li></ul>
+</li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec44-algebra-dynamic-processes.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Algebra and Dynamic Processes</span></a></div></li>
 </ul>
 </li>
@@ -259,7 +262,147 @@ eBookConfig.enable_chatcodes =  false;
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec43-inverses-undoing-structure"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">4.3</span><span class="space"> </span><span class="title">Inverses, Undoing, and the Role of Structure</span>
 </h2>
-<section class="introduction" id="sec43-inverses-undoing-structure-2"><div class="para" id="sec43-inverses-undoing-structure-2-1"></div></section></section></div>
+<section class="introduction" id="sec43-inverses-undoing-structure-2"><div class="para" id="sec43-inverses-undoing-structure-2-1">As we examine the nature of algebra, we might begin by asking the question, "What is it good for?". Think back to your early experiences with algebra in middle or high school.  What would you say was its purpose?  You will likely recall spending a great deal of time solving equations.  In fact, much of the processes and procedures that you spent substantial time mastering were in pursuit of solutions to equations.  But how and why do these processes and procedures work?  To answer this question, we need to examine the "structure" that <em class="emphasis">is</em> algebra.</div></section><div class="para" id="sec43-inverses-undoing-structure-3"><article class="activity project-like" id="act-additive-structure"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">4.3.1</span><span class="period">.</span>
+</h3>
+<div class="introduction" id="act-additive-structure-1"><div class="para" id="act-additive-structure-1-1">Suppose you wanted to solve the equation, <span class="process-math">\(x+5=8\text{.}\)</span>  What processes would you use to solve it? For each of the following stages of the solution process, provide a mathematical property that was used to transform the equation to its new form.</div></div>
+<article class="task exercise-like" id="act-additive-structure-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para logical" id="act-additive-structure-2-1-1">
+<div class="displaymath process-math">
+\begin{equation*}
+x+5=8
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\left(x+5\right)+^-5=8+^-5
+\end{equation*}
+</div>
+</div></article><article class="task exercise-like" id="act-additive-structure-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para logical" id="act-additive-structure-3-1-1">
+<div class="displaymath process-math">
+\begin{equation*}
+\left(x+5\right)+^-5=8+^-5
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+x+\left(5+^-5\right)=3
+\end{equation*}
+</div>
+</div></article><article class="task exercise-like" id="act-additive-structure-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para logical" id="act-additive-structure-4-1-1">
+<div class="displaymath process-math">
+\begin{equation*}
+x+\left(5+^-5\right)=3
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+x+0=3
+\end{equation*}
+</div>
+</div></article><article class="task exercise-like" id="act-additive-structure-5"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<div class="para logical" id="act-additive-structure-5-1-1">
+<div class="displaymath process-math">
+\begin{equation*}
+x+0=3
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+x=3
+\end{equation*}
+</div>
+</div></article></article></div>
+<div class="para" id="sec43-inverses-undoing-structure-4">In <a href="sec43-inverses-undoing-structure.html#act-additive-structure" class="xref" data-knowl="./knowl/xref/act-additive-structure.html" data-reveal-label="Reveal" data-close-label="Close" title="Activity 4.3.1">Activity 4.3.1</a>, you identified mathematical properties at each stage of the solution process.  But is there truly a "structure" to this process?  If so, can this structure be abstracted and can it be used in other cases for solving equations?  Consider the following activity.</div>
+<div class="para" id="sec43-inverses-undoing-structure-5"><article class="activity project-like" id="act-multiplicative-structure"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">4.3.2</span><span class="period">.</span>
+</h3>
+<div class="introduction" id="act-multiplicative-structure-1"><div class="para" id="act-multiplicative-structure-1-1">Suppose you wanted to solve the equation, <span class="process-math">\(7x=28\text{.}\)</span>  What processes would you use to solve it? For each of the following stages of the solution process, provide a mathematical property that was used to transform the equation to its new form.</div></div>
+<article class="task exercise-like" id="act-multiplicative-structure-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para logical" id="act-multiplicative-structure-2-1-1">
+<div class="displaymath process-math">
+\begin{equation*}
+7\cdot x=28
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{1}{7} \cdot \left(7\cdot x\right)=\frac{1}{7} \cdot 28
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+
+\end{equation*}
+</div>
+</div></article><article class="task exercise-like" id="act-multiplicative-structure-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para logical" id="act-multiplicative-structure-3-1-1">
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{1}{7} \cdot \left(7\cdot x\right)=\frac{1}{7} \cdot 28
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\left(\frac{1}{7} \cdot 7\right)\cdot x=4
+\end{equation*}
+</div>
+</div></article><article class="task exercise-like" id="act-multiplicative-structure-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para logical" id="act-multiplicative-structure-4-1-1">
+<div class="displaymath process-math">
+\begin{equation*}
+\left(\frac{1}{7} \cdot 7\right)\cdot x=4
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+1 \cdot x=4
+\end{equation*}
+</div>
+</div></article><article class="task exercise-like" id="act-multiplicative-structure-5"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<div class="para logical" id="act-multiplicative-structure-5-1-1">
+<div class="displaymath process-math">
+\begin{equation*}
+1 \cdot x=4
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+x=4
+\end{equation*}
+</div>
+</div></article><article class="task exercise-like" id="act-multiplicative-structure-6"><h4 class="heading"><span class="codenumber">(e)</span></h4>
+<div class="para" id="act-multiplicative-structure-6-1-1">Looking at the mathematical properties you used in <a href="sec43-inverses-undoing-structure.html#act-additive-structure" class="xref" data-knowl="./knowl/xref/act-additive-structure.html" data-reveal-label="Reveal" data-close-label="Close" title="Activity 4.3.1">Activity 4.3.1</a>, describe any pattern you see with respect to parts (a)-(d) of this activity.</div></article><article class="task exercise-like" id="act-multiplicative-structure-7"><h4 class="heading"><span class="codenumber">(f)</span></h4>
+<div class="para" id="act-multiplicative-structure-7-1-1">In <a href="sec43-inverses-undoing-structure.html#act-additive-structure" class="xref" data-knowl="./knowl/xref/act-additive-structure.html" data-reveal-label="Reveal" data-close-label="Close" title="Activity 4.3.1">Activity 4.3.1</a>, you used addition as the operation within the equation. In this activity, you used multiplication.  Suppose you have an equation that uses only one operation, summarize the basic properties that are essential in order to solve an equation.</div></article></article></div>
+<div class="para" id="sec43-inverses-undoing-structure-6">Think back to when you first decided to become a secondary mathematics teacher.  Now recall your reaction when you learned how much mathematics you had to take to complete the degree.  Often preservice mathematics teachers contemplate entering the profession thinking, “Well, I’ve been through high school math so becoming a math teacher shouldn’t be too difficult.  After all, it only involves learning how to present the mathematics I already know.”</div>
+<div class="para" id="sec43-inverses-undoing-structure-7">When listening to university students talking in the hallways, it is not uncommon to hear comments such as, “Why do I have to take Abstract Algebra, I’m never going to teach this stuff to high school students?” Lurking in the background is the assumption that they have a deep knowledge of the mathematics that makes up the secondary curriculum.  Unfortunately, most high school students’ perception of algebra involves symbol manipulations and memorized formulae and algorithms.  In order to address the underlying structure of mathematics, we will examine a basic skill that is taught in the secondary schools from an advanced standpoint.</div>
+<section class="subsection" id="subsec-inverse"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.3.1</span><span class="space"> </span><span class="title">The Concept of Inverse</span>
+</h3>
+<div class="para" id="subsec-inverse-2">In order to begin a fruitful discussion of mathematical concepts and their relationship to teaching and learning, it is helpful to first examine our own understanding of the concepts in question.  In this particular section, we will investigate the concept of inverse function.  From a constructivist perspective, no two people have exactly the same conceptual understanding of inverse function.  While there may be some common definitions and representations used for describing this idea, not all people have the same mental constructs and images that emerge when the term “inverse function” is mentioned.  The way in which other mathematical ideas are connected to this concept may also be quite different depending on the person you ask.  Here you will be asked to give some preliminary responses to questions and to build a concept map showing your linkages among mathematical ideas.</div>
+<div class="para" id="subsec-inverse-3"><article class="activity project-like" id="act-inverse-concept-initial"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">4.3.3</span><span class="period">.</span>
+</h4>
+<div class="introduction" id="act-inverse-concept-initial-1"><div class="para" id="act-inverse-concept-initial-1-1">We begin by reflecting on our own understanding of inverse.  In your own words, respond to the following questions with respect to your current conception of "inverse function".</div></div>
+<article class="task exercise-like" id="act-inverse-concept-initial-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="act-inverse-concept-initial-2-1-1">In relation to the concept of function, describe what the term “inverse function” means?</div></article><article class="task exercise-like" id="act-inverse-concept-initial-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="act-inverse-concept-initial-3-1-1">Describe how you came to understand the concept of inverse function.</div></article><article class="task exercise-like" id="act-inverse-concept-initial-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="act-inverse-concept-initial-4-1-1">Imagine yourself in your first teaching position where you have to teach students about inverse functions, how would you teach it?  How is it connected to other mathematics they have learned (i.e. what would Pirie &amp; Kieren give as the <em class="emphasis">primitive knowing</em> for expanding the concept of inverse function)?</div></article></article></div>
+<div class="para" id="subsec-inverse-4">One of the ways in which we advance our thinking is through reflection.  In <a href="sec43-inverses-undoing-structure.html#act-inverse-concept-initial" class="xref" data-knowl="./knowl/xref/act-inverse-concept-initial.html" data-reveal-label="Reveal" data-close-label="Close" title="Activity 4.3.3">Activity 4.3.3</a>, you began by describing your understanding of a concept.  At this point it is important to reflect on your responses and try to articulate your understanding in greater detail.  To accomplish this task, we will use a concept map to pull your mental constructs together and prompt you to reflect on your own understanding.</div>
+<div class="para" id="subsec-inverse-5"><article class="activity project-like" id="act-inverse-concept-map"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">4.3.4</span><span class="period">.</span>
+</h4>
+<div class="introduction" id="act-inverse-concept-map-1">
+<div class="para" id="act-inverse-concept-map-1-1">A concept map is like a flow chart; however, there is not necessarily a linear flow of ideas.  Instead, it is often the case that the concept map resembles more of a web with concepts connected in a variety of ways.  <a href="sec43-inverses-undoing-structure.html#fig-sample-concept-map" class="xref" data-knowl="./knowl/xref/fig-sample-concept-map.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 4.3.1">Figure 4.3.1</a> gives a sample of a concept map constructed by a student showing relationships within concepts from a Linear Algebra course.  The main aspects of the maps are the concept (usually encased in a bubble) and segments or directed line segments showing how the concepts are connected.  In some cases, the connections are bidirectional; in others they may only go one way.  These connections usually have words or symbols written along them to explain how the person views the connection between the two concepts.</div>
+<div class="para" id="act-inverse-concept-map-1-2"><figure class="figure figure-like" id="fig-sample-concept-map"><div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/images/sample-concept-map.png" class="contained" alt="Sample Concept Map"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.3.1<span class="period">.</span></span><span class="space"> </span>Sample Concept Map for Linear Algebra</figcaption></figure></div>
+</div>
+<article class="task exercise-like" id="act-inverse-concept-map-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="act-inverse-concept-map-2-1-1">Using all related concepts you can think of, create a concept map for the concept of <em class="emphasis">inverse function</em>.</div></article><article class="task exercise-like" id="act-inverse-concept-map-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="act-inverse-concept-map-3-1-1">Share your concept map with other members of your group.  On your whiteboards, summarize commonalities in your group members’ maps.  Summarize some of the ways in which group members gave a unique connection on their maps.</div></article></article></div>
+<div class="para" id="subsec-inverse-6">Now that you have started to reflect on the concept of inverse function, consider the following classroom exchange as a teacher (Tim) interacts with his students.  Following the vignette, you will be asked to respond to questions surrounding the discussion.</div></section></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="sec42-variable.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec44-algebra-dynamic-processes.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
