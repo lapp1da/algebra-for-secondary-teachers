@@ -72,6 +72,46 @@
     </p>
 
     <p>
+      <activity xml:id="act-depressing-cubic">
+        <title>Depressing the Cubic</title>
+        <introduction>
+          <p>
+            So how did Cardano do it?
+          </p>
+        </introduction>
+
+        <task>
+          <statement>
+            <p>
+              Enter the general cubic, <m>ax^3+bx^2+cx+d=0</m>, on your CAS.  Now using the "such that" key, |, 
+              make the substitution, <m>x=t-\frac{b}{3a}</m> and expand the result.  Is there a "<m>t^2</m>" 
+              term?  Can you put the result into the <m>x^3+mx=n</m> form?
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Well, it worked for the cubic.  What about the quadratic?  Enter the general quadratic, 
+              <m>ax^2+bx+c=0</m>, on your CAS.  Now using the "such that" key, |, make the substitution, 
+              <m>x=t-\frac{b}{2a}</m> and expand the result.  Is there a "<m>t</m>" term?
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Well, it worked for the quadratic and cubic.  What about the quartic?  Enter the general quartic, 
+              <m>ax^4+bx^3+cx^2+dx+e=0</m>, on your CAS.  Now using the "such that" key, |, make the substitution, 
+              <m>x=t-\frac{b}{4a}</m> and expand the result.  Does this process continue to work?
+            </p>
+          </statement>
+        </task>
+        
+      </activity>
+    </p>
+
+    <p>
       So now you are wondering, how is this historical trip relevant to complex numbers?  As it turns out, using 
       Cardano's process for finding solutions to the general cubic, at stages of the process, the pesky number, 
       <m>\sqrt{-1}</m>, shows up.  However, when continuing the process, we can have the <m>\sqrt{-1}</m> 
