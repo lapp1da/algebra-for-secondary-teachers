@@ -387,7 +387,8 @@
     and <xref ref="act-multiplicative-structure"/> are the basic and essential properties that are required to 
     solve an equation that uses only one binary operation.  For this reason, it should come as no surprise that 
     the most basic structure we define in algebra is composed of these properties.  We call a structure that has 
-    these four properties a <em>group</em>.
+    these four properties a <em>group</em> and we will spend some time looking at the behavior of groups and 
+    examine how these structures are actually taught in the secondary algebra curriculum.
   </p>
 
   <p>
