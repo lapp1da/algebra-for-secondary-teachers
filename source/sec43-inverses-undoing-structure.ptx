@@ -165,6 +165,22 @@
           </p>
         </hint>
       </task>
+      <task>
+        <statement>
+          <p>
+            Could you use your process if the only set of numbers allowed was the set of integers, 
+            <m>\mathbb{Z}</m>?
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Could you use your process if the only set of numbers allowed was the set of real numbers, 
+            <m>\mathbb{R}</m>?
+          </p>
+        </statement>
+      </task>
       
     </activity>
   </p>
@@ -332,6 +348,22 @@
       <task>
         <statement>
           <p>
+            Could you use your process if the only set of numbers allowed was the set of integers, 
+            <m>\mathbb{Z}</m>?
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Could you use your process if the only set of numbers allowed was the set of real numbers, 
+            <m>\mathbb{R}</m>?
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
             Looking at the mathematical properties you used in <xref ref="act-additive-structure"/>, describe 
             any pattern you see with respect to parts (a)-(d) of this activity.
           </p>
@@ -348,6 +380,39 @@
       </task>
       
     </activity>
+  </p>
+
+  <p>
+    The properties that you just noticed in trying to solve the equations in <xref ref="act-additive-structure"/> 
+    and <xref ref="act-multiplicative-structure"/> are the basic and essential properties that are required to 
+    solve an equation that uses only one binary operation.  For this reason, it should come as no surprise that 
+    the most basic structure we define in algebra is composed of these properties.  We call a structure that has 
+    these four properties a <em>group</em>.
+  </p>
+
+  <p>
+    <definition xml:id="def-group">
+      <statement>
+        <p>
+          A <em>group</em> is a set, <m>G</m> along with a binary operation, <m>*</m>, such that if 
+          <m>a,b,c \in G</m> the following properties hold.
+        </p>
+        <p>
+          <em>Closure</em> : If <m>a,b \in G</m>, then <m>a*b \in G</m>.
+        </p>
+        <p>
+          <em>Associativity</em> : If <m>a,b,c \in G</m>, then <m>a*\left(b*c\right)=\left(a*b\right)*c</m>.
+        </p>
+        <p>
+          <em>Identity</em> : There exists an element, <m>e \in G</m>, (called the <em>identity</em>) such that 
+          <m>e*a=a*e=a</m> for all <m>a \in G</m>.
+        </p>
+        <p>
+          <em>Inverses</em> : For all <m>a \in G</m>, there exists an <em>inverse element</em>, denoted <m>a^{-1}</m>, 
+          such that <m>a*a^{-1}=a^{-1}*a=e</m>.
+        </p>
+      </statement>
+    </definition>
   </p>
 
   <p>
