@@ -561,11 +561,11 @@
           today.  What is composition of functions?
         </p>
         <p>
-          <em>Jen</em> : Isn’t it just sticking one thing into another?
+          <em>Jen</em> : Isn't it just sticking one thing into another?
         </p>
         <p>
-          <em>Tim</em> : Yes, it is.  Can anyone show us how to do it?  [Lori raises her hand].  Lori, go to the 
-          board.  Can anyone give us two functions?  [Ken raises his hand].  Ken, whatcha got?
+          <em>Tim</em> : Yes, it is.  Can anyone show us how to do it?  [<em>Lori raises her hand</em>].  Lori, 
+          go to the board.  Can anyone give us two functions?  [<em>Ken raises his hand</em>].  Ken, whatcha got?
         </p>
         <p>
           <em>Ken</em> : How about <m>f\left(x\right)=3x-1</m> and <m>g\left(x\right)=x^2+x</m>?
@@ -584,25 +584,110 @@
           us <m>3\left(x^2+x\right)-1</m>.  Now we can just distribute it out and that gives us <m>3x^2+3x-1</m>.
         </p>
         <p>
-          <em>Tim</em> : Super!  Is everyone OK with that?  [The class is quiet].  Good, let's move on to today's 
-          stuff.  Thanks, Lori.  [Lori sits down].
+          <em>Tim</em> : Super!  Is everyone OK with that?  [<em>The class is quiet</em>].  Good, let's move on 
+          to today's stuff.  Thanks, Lori.  [<em>Lori sits down</em>].
         </p>
         <p>
           <em>Tim</em> : Today we're going to look at inverses when it comes to functions.  Has anyone ever heard 
-          the word “inverse” before?  [Several hands go up].  Yeah, Mia.
+          the word “inverse” before?  [<em>Several hands go up</em>].  Yeah, Mia.
         </p>
         <p>
           <em>Mia</em> : Wouldn't that just be like the flip of a function?
         </p>
         <p>
-          <em>Tim</em> : [Smiles].  No, that's a common mistake.  This is completely different when it comes to 
-          functions.  Let's look at the book's way of finding inverse functions.  In pairs, take a couple of 
-          minutes to read the procedure on page 213.
+          <em>Tim</em> : [<em>Smiles</em>].  No, that's a common mistake.  This is completely different when it 
+          comes to functions.  Let's look at the book's way of finding inverse functions.  In pairs, take a 
+          couple of minutes to read the procedure on page 213 (see <xref ref="fig-tim-text-inverse-function"/>).
         </p>
         <p>
-          
+          <figure xml:id="fig-tim-text-inverse-function">
+            <caption>Excerpt from Tim's Text</caption>
+            <image source="images/tim-text-inverse-function.png" width="80%">
+              <shortdescription>Tim's Text</shortdescription>
+            </image>
+          </figure>
+        </p>
+        <p>
+          [<em>Students are given 5 minutes to read and discuss the procedure as Tim circulates observing their 
+            discussions.  Tim notices that in the pair of Mike and Sam, Mike seems to be doing most of the 
+            explaining and so plans to call on Mike.</em>]
+        </p>
+        <p>
+          <em>Tim</em> : Mike, in your own words explain how to find inverse functions.
+        </p>
+        <p>
+          <em>Mike</em> : Well, first you just switch the <m>x</m> and <m>y</m>s.  Then you just solve for 
+          <m>y</m> so that <m>y</m> is on one side of the equation and the other side just has <m>x</m>s.
+        </p>
+        <p>
+          <em>Tim</em> : Very good.  Let's do one together.  Let's start with lines.  How about the function we 
+          used earlier, <m>y=3x-1</m>.  Tell me what to do.  Yeah, Joan, get us started.
+        </p>
+        <p>
+          <em>Joan</em> : First write it as <m>x=3y-1</m>.
+        </p>
+        <p>
+          <em>Tim</em> : Now what?  Someone else [<em>Hiro raises his hand</em>].  Hiro go ahead.
+        </p>
+        <p>
+          <em>Hiro</em> : Just add 1 to both sides to get <m>x+1=3y</m>.  The only thing we have to do now is 
+          divide by 3 so we get <m>y</m> all by itself.  That gives us <m>y=\frac{x+1}{3}</m>.
+        </p>
+        <p>
+          <em>Tim</em> : Excellent.  Does everyone see how it's done?  [<em>Kat raises her hand</em>].  Yeah, Kat.
+        </p>
+        <p>
+          <em>Kat</em> : How do we know it's the inverse function?
+        </p>
+        <p>
+          <em>Tim</em> : I'm glad you asked that, Kat.  That's our next part of the lesson.  To see if it worked, 
+          we just think of these as functions and compose them like we did yesterday.  If we get “x”, then they 
+          are inverses.  Let's try it.  OK, let's make <m>f\left(x\right)=3x-1</m> like we did before and now 
+          make <m>g\left(x\right)=\frac{x+1}{3}</m>.  Sue, come to the board and work out this composition.
+        </p>
+        <p>
+          <em>Sue</em> : [<em>Sue goes to the board and begins writing.</em>]  OK, we have 
+          <m>f\left(g\left(x\right)\right)</m>.  That gives <m>3\left(\frac{x+1}{3}\right)-1</m>.  We can cancel the 
+          3s and that leaves just <m>x+1</m> and <m>-1</m>.  The 1 and -1 cancel and we get <m>x</m>.
+        </p>
+        <p>
+          <em>Tim</em> : Great.  Do you see, Kat?  Since we got <m>x</m> that means they're inverses.
+        </p>
+        <p>
+          <em>Kat</em> : I'm still not sure how you know they're inverses?
+        </p>
+        <p>
+          <em>Tim</em> : Well, we got <m>x</m>.  If you compose a function and its inverse you get <m>x</m>.  
+          Let's do a few more and that might help with remembering it.
+        </p>
+        <p>
+          <em>Kat</em> : But why do we get <m>x</m>?  Why don't we get 1?
+        </p>
+        <p>
+          <em>Tim</em> : That's just the definition of what it means to be an inverse function.  Just follow 
+          these steps and you'll be OK.
+        </p>
+        <p>
+          [<em>Kat gives a frustrated look and pulls out another sheet of paper.</em>]
         </p>
       </introduction>
+      <task>
+        <statement>
+          <p>
+            Describe the central issues involved in the classroom exchange.
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            At one point a student, Mia, offers up an explanation of what is meant by an inverse function.  In 
+            response to this, Tim (the teacher) says, “No, that's a common mistake.  This is completely different 
+            when it comes to functions.  Let's look at the book's way of finding inverse functions.  In pairs, 
+            take a couple of minutes to read the procedure on page 213.”.  Discuss your thoughts on Tim's response.
+          </p>
+        </statement>
+      </task>
       
     </activity>
   </p>
