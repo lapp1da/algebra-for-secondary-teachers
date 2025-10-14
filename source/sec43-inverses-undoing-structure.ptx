@@ -433,8 +433,8 @@
     mathematics, we will examine a basic skill that is taught in the secondary schools from an advanced standpoint.
   </p>
 
-<subsection xml:id="subsec-inverse">
-  <title>The Concept of Inverse</title>
+<subsection xml:id="subsec-inverse-setting-stage">
+  <title>The Concept of Inverse: Setting the Stage</title>
 
   <p>
     In order to begin a fruitful discussion of mathematical concepts and their relationship to teaching and 
@@ -691,9 +691,95 @@
       
     </activity>
   </p>
-    
+</subsection>
 
-  
+<subsection xml:id="subsec-inverses-algebraic-structure">
+  <title>Inverse and Algebraic Structure</title>
+  <p>
+    Now that we have started to reflect on our own experiences with inverses, we need to spend a little time 
+    exploring inverses beyond the elementary operations of addition and multiplication.  While these early 
+    experiences ground us in similar patterns of behavior of sets of numbers with each operation, we need to 
+    branch out to other sets of object and operations in order to begin to abstract these behaviors and not 
+    worry about the context in which they live.  After all, Poincaré expressed this so well.
+  </p>
+  <p>
+    <blockquote>
+      <p>
+        <em>Mathematicians do not study objects, but relations among objects; they are indifferent to the 
+        replacement of objects by others as long as relations do not change. Matter is not important, only form 
+        interests them. — Henri Poincaré</em>.
+      </p>
+    </blockquote>
+  </p>
+
+  <p>
+    As we saw in Tim's class from <xref ref="act-inverse-functions-case-of-tim"/>, Kat was frustrated by the 
+    response she received from Tim when her expectation of obtaining a 1 when composing a function and its 
+    inverse did not occur.  In addition to this, Mia tried to explain her understanding of inverse by stating, 
+    "Wouldn't that just be like the flip of a function?".  To which Tim smiled and responded, "No, that's a 
+    common mistake.  This is completely different when it comes to functions."  Instead of taking these two 
+    responses and noticing the commonality (both students seemed to be thinking of multiplication as the 
+    operation), Tim shut them down as if what they are about to learn with respect to inverse functions is a new 
+    concept.  Pirie &amp; Kieren would see the students' responses as an opportunity to fold back to more 
+    familiar sets and operations where the students have comfort and build toward abstraction by prompting the 
+    learner to explore the underlying structure inherent in the behavior common to addition, multiplication, and 
+    function composition.  To help us frame our discussion, let's take a little mathematical detour and explore 
+    the same structure we noticed before we defined a <em>group</em>.  Only this time, we will use sets of 
+    functions and our operation will be <em>function composition</em>, <m>\circ</m>.
+  </p>
+
+  <p>
+    <activity xml:id="act-form-function">
+      <title>Form and Function</title>
+      <introduction>
+        <p>
+          This activity explores basic concepts of algebra including properties of algebraic structure.  In 
+          high school, the primary operations used in algebra were multiplication and addition.  Are these the 
+          only types of operations that can be used?  We will explore this question and look for patterns that 
+          are common across algebra.
+        </p>
+        <p>
+          Recall that in your experiences in elementary school, you first learned to operate on the set of 
+          integers, <m>\left\{\ldots, -3, -2, -1, 0, 1, 2, 3, \ldots \right\}</m>, using a simple operation, 
+          addition.  When this set was combined with the operation of addition, certain properties held.  Some 
+          of these properties included: <em>closure</em>, <em>associativity</em>, the existence of an 
+          <em>identity</em> element, and <em>inverses</em>.
+        </p>
+        <p>
+          Consider the set of functions, <m>T=\left\{e, f, g, h, j, k\right\}</m>, where the functions are 
+          defined as follows:
+        </p>
+        <p>
+          <me>
+            e\left(x\right)=x, f\left(x\right)=\frac{1}{x}, g\left(x\right)=\frac{x}{1-x}, h\left(x\right)=1-x, 
+            j\left(x\right)=\frac{1}{1-x}, k\left(x\right)=\frac{x-1}{x}
+          </me>
+        </p>
+        <p>
+          Mathematics can be described as the study of patterns.  For this reason, we often look for similar 
+          structure in both nature and mathematical systems.  Mathematics can certainly be used to study patterns 
+          in the physical world, but we can also look for patterns within mathematics itself.  Are there times 
+          when one mathematical system is, for all practical purposes, “identical” to another mathematical system 
+          and therefore governed by the same properties and relationships?  If this is so, then one system can 
+          give us quite a bit of information about another system.  In fact, if one system is easier to operate 
+          on, we can use it instead and then deduce information about the other system without having to do more 
+          difficult computations.
+        </p>
+        <p>
+          In this activity, we will explore what properties exist when pairing the set <m>T</m> above with the 
+          operation of composition of functions, <m>\left(T,\circ \right)</m>.  As you explore this set, try to 
+          keep your eyes open for patterns in the relationships among functions.  Some properties you may want 
+          to check might include: closure, associativity, identity, inverses, and commutativity. For example, 
+          consider your experience with basic arithmetic.  For addition on the set of integers, the set is closed 
+          since adding two integers always results in another integer.  The number 0 acts as an identity (i.e. 
+          <m>a+0=0+a=a</m>, leaving other elements unchanged) and 5 and -5 are inverses of each other (i.e. 
+          <m>5+^{-}5=0</m>, where combining them yields 0, the identity).  This type of structure is very 
+          important for deducing mathematical truths within a mathematical system.
+        </p>
+      </introduction>
+      
+    </activity>
+  </p>
   
 </subsection>
 
