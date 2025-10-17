@@ -801,7 +801,73 @@
           </sidebyside>
           </figure>
         </p>
+
+        <p>
+          <image source="images/function-composition-table.png" width="90%">
+            <shortdescription>Operation Table</shortdescription>
+          </image>
+        </p>
       </introduction>
+
+      <task>
+        <statement>
+          <p>
+            In general, is the set <m>T</m> <em>closed</em> under the operation of composition of functions?  In 
+            other words, when performing the operation on any two elements of the set, do you always get a result 
+            that is also an element of the set?  If not, what elements yield an element not in <m>T</m>?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Recall that the associative property states that for any three elements under the operation, say 
+            <m>*</m>, <m>a*\left(b*c\right)=\left(a*b\right)*c</m>.  How might you check associativity?  How many 
+            different permutations of these functions would you need to check to be certain of associativity?  
+            Devise a plan to check associativity.  Your plan might include other groups from the class (divide 
+            and conquer is often very effective).
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Is there a function from the set that acts like an identity element?  If so, what is the function?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Does every element have an inverse?  If so, list all elements and their inverses.  If not, list all 
+            elements that do have an inverse along with their inverse element.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Recall if a set along with an operation meets the four criteria of closure, associativity, an 
+            identity element, and all elements have inverses, then we call the set a <em>group</em>.  Does this 
+            set of six functions under the operation of function composition form a group?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            In general, do the elements of the set commute with each other?  In other words, do you <em>always</em> 
+            get the same result when combining any two given elements in either order (<em>commutativity</em>)?  
+            If all of the elements of a group commute with each other, then the group is called <em>abelian</em>. 
+            If a group is abelian, what kind of symmetry would you see in its Cayley table?
+          </p>
+        </statement>
+      </task>
       
       
       
