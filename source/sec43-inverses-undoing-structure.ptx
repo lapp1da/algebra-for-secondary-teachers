@@ -776,6 +776,34 @@
           <m>5+^{-}5=0</m>, where combining them yields 0, the identity).  This type of structure is very 
           important for deducing mathematical truths within a mathematical system.
         </p>
+
+        <p>
+          To begin, we define the functions above on your computer algebra system.  This has already been done 
+          for you on page 1.1 of the TI-Nspire CAS document.  Once the functions are defined, build an operation 
+          table (called a Cayley table) for the composition of functions of the form <m>A \circ B</m> in the 
+          space below by simply entering compositions such as 
+          <m>f\left(g\left(x\right)\right)=\frac{x-1}{x}=k\left(x\right)</m> and recording the result in the 
+          table as shown.  This can be done more efficiently by first entering the functions in a spreadsheet 
+          (see page 1.2 of the <em>FormFunction.tns</em> file) and naming the entire set of functions “funset” 
+          and then performing compositions on the entire set all at once either on the <em>Calculator</em> page 
+          or in the <em>Lists &amp; Spreadsheets</em> page (see XXX).  If you use the spreadsheet, note that the 
+          columns in the spreadsheet correspond to rows in the table you are filling in due to the way the same 
+          operation is performed for an entire column in the spreadsheet.  This syntax is similar to Microsoft 
+          Excel [i.e. by typing <m>\mathbf{=f(funset)}</m>].
+        </p>
+
+        <p>
+          <sidebyside widths="30% 30%" valign="middle">
+          <figure>
+            <caption>Composing Functions on the <em>Calculator</em> app</caption>
+            <image source="small-graph" />
+          </figure>
+
+          <figure xml:id="">
+            <caption>Composing Functions on the <em>Lists &amp; Spreadsheets</em> app</caption>
+          </figure>
+          </sidebyside>
+        </p>
       </introduction>
       
       
