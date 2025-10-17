@@ -786,23 +786,20 @@
           table as shown.  This can be done more efficiently by first entering the functions in a spreadsheet 
           (see page 1.2 of the <em>FormFunction.tns</em> file) and naming the entire set of functions “funset” 
           and then performing compositions on the entire set all at once either on the <em>Calculator</em> page 
-          or in the <em>Lists &amp; Spreadsheets</em> page (see XXX).  If you use the spreadsheet, note that the 
-          columns in the spreadsheet correspond to rows in the table you are filling in due to the way the same 
-          operation is performed for an entire column in the spreadsheet.  This syntax is similar to Microsoft 
-          Excel [i.e. by typing <m>\mathbf{=f(funset)}</m>].
+          or in the <em>Lists &amp; Spreadsheets</em> page (see <xref ref="fig-compose-functions-cas"/>).  If you 
+          use the spreadsheet, note that the columns in the spreadsheet correspond to rows in the table you are 
+          filling in due to the way the same operation is performed for an entire column in the spreadsheet.  
+          This syntax is similar to Microsoft Excel [i.e. by typing <m>\mathbf{=f(funset)}</m>].
         </p>
 
         <p>
-          <sidebyside widths="30% 30%" valign="middle">
-          <figure>
-            <caption>Composing Functions on the <em>Calculator</em> app</caption>
-            <image source="small-graph" />
-          </figure>
-
-          <figure xml:id="">
-            <caption>Composing Functions on the <em>Lists &amp; Spreadsheets</em> app</caption>
-          </figure>
+          <figure xml:id="fig-compose-functions-cas">
+            <caption>Composing Functions on the the <em>Calculator</em> and <em>Lists &amp; Spreadsheets</em> apps</caption>
+          <sidebyside widths="40% 40%" valign="middle">
+            <image source="images/form-function-comp-funset-calcpage.png" />
+            <image source="images/form-function-comp-funset-spreadsheet.png"/>
           </sidebyside>
+          </figure>
         </p>
       </introduction>
       
