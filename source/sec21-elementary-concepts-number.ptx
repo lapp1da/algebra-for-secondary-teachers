@@ -393,8 +393,9 @@
     The Mayan calendar contained 18 months each containing 20 days.  The result was a 360-day year.  This can 
     be seen below by the replacement of the normal place value, <m>20^2</m>, with the place value of 
     <m>18\cdot 20</m>.  After this, the place values simply increase the power of 20 by one for each successive 
-    place.  The Mayans wrote the numerals vertically with the higher powers of the base above the lower powers 
-    and the symbol for zero was used as a placeholder.  For example, the number 
+    place.  The Mayans wrote the numerals <em>vertically</em> with the higher powers of the base above the lower 
+    powers and the symbol for zero was used as a placeholder.  Within a single place value location, the unit 
+    dots would be written above the horizontal bars that each represented five. For example, the number 
     <m>21,717=3\cdot 18\cdot 20^2+0\cdot 18\cdot 20+5\cdot 20+17</m>, in Hindu-Arabic would be written as
   </p>
 
