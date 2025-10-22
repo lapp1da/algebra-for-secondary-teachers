@@ -1763,7 +1763,16 @@
     <exercise>
       <statement>
         <p>
-          Explain why there can be no more than <m>n</m> distinct, <m>n^\text{th}</m> roots for complex numbers.
+          Explain why there can be no more than <m>n</m> distinct, <m>n^\text{th}</m> roots of unity for complex 
+          numbers.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Use what you know about the geometry of complex numbers to find all of the <m>12^{th}</m> roots of unity.
         </p>
       </statement>
     </exercise>
