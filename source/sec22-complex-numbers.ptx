@@ -1777,6 +1777,16 @@
       </statement>
     </exercise>
 
+    <exercise>
+      <statement>
+        <p>
+          Use what you know about the <em>geometry</em> of complex numbers (behavior of magnitudes and angles) 
+          to find the multiplicative inverse of <m>-1+\sqrt{3}i</m>.  Explain your reasoning for how you created 
+          the inverse.
+        </p>
+      </statement>
+    </exercise>
+
   </exercises>
 
 
