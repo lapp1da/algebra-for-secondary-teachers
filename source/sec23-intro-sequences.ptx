@@ -260,7 +260,7 @@
     <activity xml:id="act-border-arithmetic-sequence">
       <introduction>
         <p>
-          Cathy asked her students to think about shrinking the square and to find a way to computer the number 
+          Cathy asked her students to think about shrinking the square and to find a way to compute the number 
           of small squares on the border.  For this activity, we will collect data to analyze the 
           characteristics of this type of sequence.
         </p>
