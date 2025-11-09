@@ -868,6 +868,33 @@
           </p>
         </statement>
       </task>
+
+      <task>
+        <statement>
+          <p>
+            If the group is <em>not abelian</em>, for each element of <m>T</m>, find all elements of <m>T</m> 
+            that do commute with it. In other words, find all elements of <m>T</m> that commute with <m>e</m>, 
+            then all elements of <m>T</m> that commute with <m>f</m>, then all elements of <m>T</m> that commute 
+            with <m>g</m>, …etc. Here you might want to use the Cayley table you created earlier along with your 
+            answer regarding the symmetry of the table for commutativity from part (f).  We call each of these 
+            sets the <em>centralizer</em> of the element, denoted <m>C\left(e\right)</m>, <m>C\left(f\right)</m>, 
+            <m>C\left(g\right), \ldots</m>.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Now list all of the elements that the sets you found in part (g) have in common.  In other words, 
+            find <m>C\left(e\right) \cap C\left(f\right) \cap C\left(g\right) \cap C\left(h\right) \cap 
+            C\left(j\right) \cap C\left(k\right)=\bigcap\limits_{a \in T} C\left(a\right)</m>.  Since each of 
+            these elements must commute with each and every element of <m>T</m> in order to be in the 
+            intersection, we call this special set of elements that commute with each other the 
+            <em>center of</em> <m>T</m> and denote it by <m>Z\left(T\right)</m>.
+          </p>
+        </statement>
+      </task>
       
       
       
