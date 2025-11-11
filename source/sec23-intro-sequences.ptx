@@ -716,7 +716,7 @@
 
         <p>
           <em>Sean</em> : At first our group thought we had found an example where it just kept getting bigger 
-          and bigger, but that was because I was using the [<m>x^2</m>] button instead of the square root.
+          and bigger, but that was because I was using the <c>x^2</c> button instead of the square root.
         </p>
 
         <p>
@@ -728,10 +728,10 @@
 
         <p>
           <em>Erin</em> : Well, I have a graphing calculator and I was trying to find an easier way to enter 
-          this stuff in it to do the repeat.  I used the [ANS] key.  What it does is take the last thing you got 
+          this stuff in it to do the repeat.  I used the <c>ANS</c> key.  What it does is take the last thing you got 
           out of your calculator and does a new thing to it.  So what I did was put the <em>square root of x</em> 
           in my <em>Y=</em> list and then entered <m>Y_1\left(3\right)</m> on my screen and got 1.73 something.  
-          Then I just put in <m>Y_1\left(ANS\right)</m> and kept hitting [ENTER].  This gave me the numbers that 
+          Then I just put in <m>Y_1\left(ANS\right)</m> and kept hitting <c>ENTER</c>.  This gave me the numbers that 
           got closer and closer to 1.
         </p>
 
@@ -810,7 +810,7 @@
       <introduction>
         <p>
           You may have at one time used a scientific or standard calculator and entered an evaluation for 
-          <m>\sqrt{2}</m> and then continued to press the [√] or [=] key only to see the decimal 
+          <m>\sqrt{2}</m> and then continued to press the <c>√</c> or <c>=</c> key only to see the decimal 
           approximation eventually get closer and closer to 1.  This illustrates values of an infinite sequence 
           where each element of the sequence is obtained by taking the previous element in the sequence and 
           plugging it into a given function.  In this investigation we will explore such sequences and look for 
@@ -850,21 +850,22 @@
 
         <p>
           In order to observe the behavior of this sequence graphically, generate a sequence plot by plotting the 
-          term number vs. the iterate values.  To do this, insert a new page by pressing [ctrl] [+page] and then 
-          selecting <em>2:Add Graphs</em>.  In this case, you do not want to graph a function, but the sequence 
-          points.  To change the type of graph, press [menu] and then select <em>3:Graph Entry/Edit</em> followed  
-          by <em>7:Sequence</em> and <em>1:Sequence</em>.  You will notice that the command line at the top of 
-          the screen will change yielding fields into which you can enter the sequence relationship and initial 
-          value (see images below).  Since we want to generate an iterative sequence based on the function stored 
-          in <m>f1\left(x\right)</m>, we enter <m>u1\left(n\right)=f1\left(u1\left(n-1\right)\right)</m> so that 
-          the sequence plotter will use the function value of the pervious number in the sequence to generate the 
-          new number in the sequence.  Use 0.5 as your initial value for now.  You can adjust the viewing window 
-          by grabbing a tick mark on the axis by holding down the "click/grab" key located in the center of the 
-          NavPad (mouse pad) until the hand closes.  Dragging your finger across the NavPad will adjust the 
-          view.  If you want to adjust only one axis scale at a time, simply hold down the [shift] key while you 
-          move on the screen.  To adjust where the axes are located within the window, move to any open space in 
-          the graphing window and hold the "click/grab" key down until the hand closes, then move the entire 
-          graph to any location you desire (see images below).
+          term number vs. the iterate values.  To do this, insert a new page by pressing <c>ctrl</c> <c>+page</c> 
+          and then selecting <em>2:Add Graphs</em>.  In this case, you do not want to graph a function, but the 
+          sequence points.  To change the type of graph, press <c>menu</c> and then select 
+          <em>3:Graph Entry/Edit</em> followed by <em>7:Sequence</em> and <em>1:Sequence</em>.  You will notice 
+          that the command line at the top of the screen will change yielding fields into which you can enter 
+          the sequence relationship and initial value (see images below).  Since we want to generate an iterative 
+          sequence based on the function stored in <m>f1\left(x\right)</m>, we enter 
+          <m>u1\left(n\right)=f1\left(u1\left(n-1\right)\right)</m> so that the sequence plotter will use the 
+          function value of the pervious number in the sequence to generate the new number in the sequence.  Use 
+          0.5 as your initial value for now.  You can adjust the viewing window by grabbing a tick mark on the 
+          axis by holding down the "click/grab" key located in the center of the NavPad (mouse pad) until the 
+          hand closes.  Dragging your finger across the NavPad will adjust the view.  If you want to adjust only 
+          one axis scale at a time, simply hold down the shift key while you move on the screen.  To adjust 
+          where the axes are located within the window, move to any open space in the graphing window and hold 
+          the "click/grab" key down until the hand closes, then move the entire graph to any location you desire 
+          (see images below).
         </p>
 
         <p>
@@ -882,8 +883,8 @@
         <p>
           In order to explore the relationship between the parameter, <m>a</m>, and the behavior of the 
           sequence, it will be helpful to view the function and the sequence plot side-by-side.  In order to do 
-          this press [+page] to insert a new page and then press [esc] since you do not wish to insert just one 
-          application, but two in a side-by-side layout.  Now press [doc] and select 
+          this press <c>+page</c> to insert a new page and then press <c>esc</c> since you do not wish to insert 
+          just one application, but two in a side-by-side layout.  Now press <c>doc</c> and select 
           <em>5:Page Layout</em> and <em>2:Select Layout</em> followed by <em>2:Layout 2</em>.  This will give a 
           side-by-side partitioned screen that will allow you to place a different application in each partition.
         </p>
@@ -902,16 +903,17 @@
 
         <p>
           In order to copy the graph page for both the function and the scatter plot, you must first select 
-          them.  Page back to the function graph by pressing [ctrl] followed by the left arrow until you get to 
-          the page you want.  Unfortunately you cannot just copy the page, but must “select” it first.  To do 
-          this, press [doc] and then select <em>5:Page Layout</em> followed by <em>3:Select App</em>.  In the 
-          future, the shortcut for selecting an application is [ctrl][K].  You will see the border of the screen 
-          begin to flash indicating it is selected.  Then press [ctrl][C] to copy it (just like on a computer).  
-          Now page back to the split screen by pressing [ctrl] followed by the right arrow until you reach it.  
-          To paste the graphing screen into the left side, just press [ctrl][V] (like paste on a computer).  To 
-          get the sequence plot pasted into the right side of the screen, repeat this process, but you will need 
-          to click on the right side of the screen to make it active before pasting.  You will know that a 
-          portion of the screen is active since it will have a darkened border around it (see screens below).
+          them.  Page back to the function graph by pressing <c>ctrl</c> followed by the left arrow until you 
+          get to the page you want.  Unfortunately you cannot just copy the page, but must “select” it first.  
+          To do this, press <c>doc</c> and then select <em>5:Page Layout</em> followed by <em>3:Select App</em>.  
+          In the future, the shortcut for selecting an application is <c>ctrl</c> <c>K</c>.  You will see the 
+          border of the screen begin to flash indicating it is selected.  Then press <c>ctrl</c> <c>C</c> to 
+          copy it (just like on a computer).  Now page back to the split screen by pressing <c>ctrl</c> followed 
+          by the right arrow until you reach it.  To paste the graphing screen into the left side, just press 
+          <c>ctrl</c> <c>V</c> (like paste on a computer).  To get the sequence plot pasted into the right side 
+          of the screen, repeat this process, but you will need to click on the right side of the screen to make 
+          it active before pasting.  You will know that a portion of the screen is active since it will have a 
+          darkened border around it (see screens below).
         </p>
 
         <p>
@@ -925,7 +927,7 @@
           sequence.  The side-by-side view of the two graphs allows you to manipulate the function and see the 
           sequence plot change dynamically in real time.  To do this, move the cursor to the edge of the parabola 
           until you see the dilation icon appear as shown below.  Press and hold the click key until the "hand" 
-          closes to grab the parabola then use the arrow keys to “morph” it.  To "let go" just press [esc].
+          closes to grab the parabola then use the arrow keys to “morph” it.  To "let go" just press <c>esc</c>.
         </p>
       </introduction>
 
@@ -943,7 +945,8 @@
             value and investigate how the parameter, <m>a</m>, and the seed value interact.  You can change the 
             seed by clicking in the sequence window and editing the initial term or by grabbing the initial 
             point (green) in the sequence plot and moving it or editing it directly in the command line.  To 
-            make the command line visible, press [ctrl][G] or double click in any white space in the window.
+            make the command line visible, press <c>ctrl</c> <c>G</c> or double click in any white space in the 
+            window.
           </p>
 
           <p>
@@ -965,13 +968,14 @@
           <p>
             Since we will want to explore the effects of the seed value for multiple trials, it will make it 
             easier to place an editable seed value on the graphing page.  To do this, on the graphing page 
-            containing the parabola, select [menu] and then <em>1:Actions</em> followed by 
+            containing the parabola, select <c>menu</c> and then <em>1:Actions</em> followed by 
             <em>B:Insert Slider</em>.  Type the variable name, <m>\mathbf{seed}</m>, into the slider 
-            <em>Variable</em> dialogue box and press [enter].  You can place the slider anywhere in the window 
-            and elongate it by grabbing the dot on either end.  To adjust the slider after it is set in place, 
-            click on the slider box and press [ctrl][menu] to open the attributes and select <em>1:Move</em> to 
-            move location or <em>2:Settings</em> and edit the settings as you wish. You can also change the 
-            slider settings to allow finer step sizes when dragging (below shows changing it to 0.01).
+            <em>Variable</em> dialogue box and press <c>enter</c>.  You can place the slider anywhere in the 
+            window and elongate it by grabbing the dot on either end.  To adjust the slider after it is set in 
+            place, click on the slider box and press <c>ctrl</c> <c>menu</c> to open the attributes and select 
+            <em>1:Move</em> to move location or <em>2:Settings</em> and edit the settings as you wish. You can 
+            also change the slider settings to allow finer step sizes when dragging (below shows changing it to 
+            0.01).
           </p>
             
           <p>
@@ -1015,8 +1019,8 @@
           <p>
             Although we may have a conjecture at this point, we still need to prove that this conjecture will 
             always hold.  To accomplish this, we turn to the algebraic representation.  Open a new 
-            <em>Calculator</em> page by pressing [ctrl][+page] and selecting <em>1:Add Calculator</em>.  Define 
-            the function <m>f</m> by pressing [menu] and selecting <em>1:Actions</em> followed by 
+            <em>Calculator</em> page by pressing <c>ctrl</c> <c>+page</c> and selecting <em>1:Add Calculator</em>.  
+            Define the function <m>f</m> by pressing <c>menu</c> and selecting <em>1:Actions</em> followed by 
             <em>1:Define</em>.  Then enter the function, <m>f\left(x\right)=a\cdot x^2</m> keeping in mind that 
             implied multiplication is not recognized between two letters and that you must use the 
             [<m>\times</m>] key.  We can explore a few cases for 
