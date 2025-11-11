@@ -1059,9 +1059,90 @@
             elements in <m>T</m> below.
           </p>
           <p>
-            <image source="images/coset-diagram1.png">
+            <image source="images/coset-diagram1.png" width="50%">
               <shortdescription>coset diagram 1</shortdescription>
             </image>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Now repeat what you did in parts (m) &amp; (n) using each different subgroup you found in part (k), 
+            sketching boundaries around the cosets formed in the composition of all of the elements from 
+            <m>T</m> with the subgroup.  What can you say about the relationship among the cosets formed in each 
+            case?
+          </p>
+          <p>
+            <image source="images/coset-diagram2.png" width="90%">
+              <shortdescription>coset diagram 1</shortdescription>
+            </image>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Do all of the different cosets you found in part (p) form subgroups?  If not, under what conditions 
+            do they form subgroups?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            At this point our observations about the partitioning of a group into subsets is based solely on 
+            one example of a group.  To test your conjectures, first confirm that the following set, <m>S</m>, 
+            of matrices forms a group under the operation of regular matrix multiplication.  To do this, first 
+            insert a new problem by pressing <c>doc</c> and selecting <m>\mathbf{Insert}</m> and then 
+            <m>\mathbf{Problem}</m>.   After selecting a <em>Calculator</em> page, use the <em>Define</em> 
+            command to store each matrix by name in memory so that product of, say <m>a</m> and <m>b</m>, can be 
+            entered simply as <m>a\cdot b</m> on the CAS.  Now create subgroups of the set by raising each 
+            element to increasing powers until you reach the identity, then repeat the process from parts (o) 
+            and (p) to see if the group of matrices is partitioned in a similar manner as was the set <m>T</m> 
+            by sketching and circling subsets.
+          </p>
+          <p>
+            <me>
+              S=\left\{
+                \begin{array}
+              "a=\begin{bmatrix} 0 \amp 1\\ -1 \amp 0 \end{bmatrix} 
+              \amp
+              b=\begin{bmatrix} -1 \amp 0\\ 0 \amp -1 \end{bmatrix}
+              \amp
+              c=\begin{bmatrix} 0 \amp -1\\ 1 \amp 0\end{bmatrix}
+              \amp
+              d=\begin{bmatrix} 0 \amp i\\ i \amp 0\end{bmatrix}
+              \\
+              e=\begin{bmatrix} 0 \amp -i\\ -i \amp 0\end{bmatrix}
+              \amp
+              f=\begin{bmatrix} i \amp 0\\ 0 \amp -i\end{bmatrix}
+              \amp
+              g=\begin{bmatrix} -i \amp 0\\ 0 \amp i\end{bmatrix}
+              \amp
+              h=\begin{bmatrix} 1 \amp 0\\ 0 \amp 1\end{bmatrix}
+              \end{array}
+              \right\}
+            </me>
+          </p>
+          <p>
+            <image source="images/coset-diagram3.png" width="90%">
+              <shortdescription>coset diagram 1</shortdescription>
+            </image>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Using the evidence from your diagrams, give an argument for why the order of an element must divide 
+            the order of the group.  Given that your argument is based on only a few cases of evidence 
+            (namely the sets <m>T</m> and <m>S</m> with various subgroups), what main properties would you need 
+            to show in order to prove your claim in general?
           </p>
         </statement>
       </task>
