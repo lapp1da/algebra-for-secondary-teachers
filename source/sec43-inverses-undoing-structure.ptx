@@ -1027,13 +1027,41 @@
             below.  Note that for your convenience, the <em>Notes</em> page (3.3) allows you to edit the 
             subgroup at the top of the page and all cosets below it are automatically updated.
           </p>
+          <p>
+          <sidebyside widths="40% 40%" valign="middle">
+            <image source="images/coset-calculator.png" />
+            <image source="images/coset-notes.png"/>
+          </sidebyside>
+          </p>
         </statement>
       </task>
 
       <task>
         <statement>
           <p>
-            
+            How many elements are in our new coset, <m>f \circ \langle k \rangle</m>?  Does the new coset form 
+            a subgroup?  Use the <em>Notes</em> page (3.3) for composing the elements of 
+            <m>\langle k \rangle=kord=\left\{e,j,k\right\}</m> with the other elements from <m>T</m> not in 
+            <m>\langle k \rangle</m>.  What do you notice?  Describe what you observe if the other element is 
+            already in <m>\langle k \rangle</m> (e.g. compose <m>\langle k \rangle</m> with all elements from 
+            <m>\left\{e,j,k\right\}</m>.  Explain why your observations would be true.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Consider the following diagram of the set, <m>T</m>.  Draw a boundary around the cosets you found 
+            in part (n).  An example of the boundary for the coset of the function <m>f</m> composed with the 
+            subgroup <m>\left\{e,j,k\right\}</m> is shown below.  Describe what you notice about the coset 
+            boundaries you draw for each situation you found in part (n). Sketch a boundary around the resulting 
+            elements in <m>T</m> below.
+          </p>
+          <p>
+            <image source="images/coset-diagram1.png">
+              <shortdescription>coset diagram 1</shortdescription>
+            </image>
           </p>
         </statement>
       </task>
