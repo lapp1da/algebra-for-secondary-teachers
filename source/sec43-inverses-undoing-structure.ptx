@@ -910,6 +910,22 @@
           </p>
         </statement>
       </task>
+
+      <task>
+        <statement>
+          <p>
+            On page 2.2, use your algebraic spreadsheet to generate a sequence of 
+            <m>k, k^2, k^3, \ldots, k^{10}</m>.  To do this, you can use the <m>\mathbf{Fill Down}</m> feature 
+            of the spreadsheet by first entering <m>k\left(x\right)</m> in the cell <m>\mathbf{a1}</m> and then 
+            in cell <m>\mathbf{a2}</m> entering <m>=k\left(a1\right)</m>.  Then select cell <m>\mathbf{a2}</m> 
+            and choose <c>menu</c> <m>\mathbf{3:Data}</m> followed by <m>\mathbf{3:Fill}</m>.  Using the 
+            down arrow key, move down in the spreadsheet about 8 cells or so and press <c>enter</c>· 
+            (See screens below for setting up the recursive composition).  For what powers of <m>k</m> do you 
+            get <m>k^n=e</m>?  Note that we labeled the column “kord” because this iteration will help us find 
+            what is called the <em>order</em> of the element <m>k</m>.
+          </p>
+        </statement>
+      </task>
       
       
       
