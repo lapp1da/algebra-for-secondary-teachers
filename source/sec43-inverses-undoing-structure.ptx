@@ -893,13 +893,20 @@
             intersection, we call this special set of elements that commute with each other the 
             <em>center of</em> <m>T</m> and denote it by <m>Z\left(T\right)</m>.
           </p>
+          <p>
+            If a group would be <em>abelian</em>, what elements would be in its center?
+          </p>
         </statement>
       </task>
 
       <task>
         <statement>
           <p>
-            If a group would be <em>abelian</em>, what elements would be in its center?
+            On the Calculator page (page 2.1) of your CAS, if <m>k\left(x\right)=\frac{x-1}{x}</m>, find 
+            <m>k^5</m> if it is defined by 
+            <m>k^n=\underbrace{k\circ k\circ k\circ \cdots \circ k}_\text{n times}</m>. 
+            Note that a “power” here is not the usual “repeated multiplication”, but instead repeated composition 
+            of functions.
           </p>
         </statement>
       </task>
@@ -908,6 +915,7 @@
       
     </activity>
   </p>
+
   
 </subsection>
 
