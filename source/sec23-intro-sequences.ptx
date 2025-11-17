@@ -2128,6 +2128,33 @@
       </statement>
     </exercise>
 
+    <exercise>
+      <statement>
+        <p>
+          Suppose you have the function, <m>f\left(x\right)=3\sqrt[5]{x}</m> that has three fixed points, 
+          <m>z_1 \lt z_2 \lt z_3</m>.
+        </p>
+        <task>
+        <statement>
+          <p>
+            Identify the three fixed points expalining your reasoning.
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Pick a seed value in each zone of the x-axis (less than <m>z_1</m>, between <m>z_1</m> and <m>z_2</m>, 
+            between <m>z_2</m> and <m>z_3</m>, and greater than <m>z_3</m>) and iterate it to see if you can get the 
+            sequence to converge to different fixed points.  To which fixed points can you get the sequence to converge?  
+            Explain why you can or cannot get the sequence to converge to the various fixed points.
+          </p>
+        </statement>
+      </task>
+      </statement>
+      
+    </exercise>
+
     
 
   </exercises>
