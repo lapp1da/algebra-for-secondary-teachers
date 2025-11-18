@@ -1276,6 +1276,28 @@
     appropriate situation.
   </p>
 
+  <p>
+    For example, in my early years of teaching, I has an experience teaching algebraic concepts related to distance, 
+    rate, and time.  I asked a student the question, “If you drive at 55 mph for two hours, how far have you traveled?”  
+    Upon first consideration, the student simply looked puzzled.  In response, thinking the student was having trouble 
+    doubling 55, I changed the problem by saying, “Suppose you drive at 60 mph for two hours, how far have you traveled?”
+    <m>-</m> I thought doubling 6 might be easier.  The student replied, “Three miles.”  What was the student doing?  
+    Upon further probing, it turns out that the student was simply dividing 60 by 2 (incorrectly) because he had been 
+    taught that you “divide when you have distance, rate, and time problems.”  It comes as little surprise that this 
+    same student when posed with a new problem and asked how he might solve it responded, “Add…, no subtract…, no 
+    divide.”  After uttering each response, he would watch my face looking for cues as to which operation was correct. 
+    I referred to this student approach as the “random operator generator”.  It is important to note that this student 
+    was fairly proficient at computing with pencil and paper algorithms.  The bottom line is that this student had very 
+    weak (if not nonexistent) connections between algorithmic procedures and conceptual understanding of the operations 
+    in question.  If unable to make conceptual connections, there is very little chance that the student will be able to 
+    solve mathematical problems.  So what good is computational proficiency, if the student does not know when it is 
+    appropriate to employ a certain type of computation?
+  </p>
+
+  <p>
+    
+  </p>
+
   
   
 </subsection>
