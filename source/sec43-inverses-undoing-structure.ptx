@@ -1226,8 +1226,57 @@
   <p>
     Recall in <xref ref="act-additive-structure"/> and <xref ref="act-multiplicative-structure"/> we determined the 
     minimal properties needed to be able to solve an equation in one operation.  These properties were what we used to 
-    define the most basic of algebraic structures, a <em>group</em> (see <xref ref="def-group"/>).
+    define the most basic of algebraic structures, a <em>group</em> (see <xref ref="def-group"/>).  If we examined the 
+    steps used in the solution of each of these equations, we will noticed that the statements of properties and 
+    definitions as well as the order in which they were applied were identical.  In fact, when I was writing these 
+    portions of the text, I simply copied and pasted the first solution into the document and then replaced all of the 
+    "<m>+</m> operations with “<m>\cdot</m>" and then all of the instances of "<m>-a</m>" were replaced with 
+    "<m>\frac{1}{a}</m>".  When we think about writing this section of the text in this way, the algebraic structure 
+    becomes very clear.
   </p>
+
+  <p>
+    <m>\mathbf{Operations}</m> <m>\mathbf{and}</m> <m>\mathbf{Functions}</m>
+  </p>
+
+  <p>
+    In order to study algebraic structure, we need to first consider the basic components that make up that structure.  
+    As we stated before, generally we think of sets and operations as the building blocks of an algebraic system.  Young 
+    children become familiar with the concept of set from a very early age through the use of physical manipulatives, 
+    but what about operations?  How do children view operations?  One might argue that many children see arithmetic 
+    operations as physical actions that operate on sets of objects.  After all, early development of the addition 
+    concept involves combining sets of objects.
+  </p>
+
+  <p>
+    Others might argue that many children see operations as a series of procedures to be performed using pencil and 
+    paper.  Traditionally, in elementary school, a great deal of time is devoted to memorizing “addition facts” and 
+    “multiplication tables”.  Of course, from a traditional point of view, knowing addition and multiplication facts is 
+    essential for mastery of the algorithms that follow.  One goal of our existing curriculum is to enable students to 
+    compute sums and products efficiently and accurately.  However, after observing children working on problems within 
+    a context, we have begun to question whether or not they make the connection between the earlier physical operations 
+    on sets and the arithmetic operations on numbers.  In many cases, a child will be able to perform computations such 
+    as <m>427 \div 3</m> while at the same time struggle with a problem like:
+  </p>
+
+  <p>
+    <blockquote>
+      <p>
+        Sue, Jan, and Amanda put equal amounts of money together and bought a large tub of candy containing 427 pieces.  
+        If they agree to split the candy equally, how many pieces does each get?  Are there any pieces left over?
+      </p>
+    </blockquote>
+  </p>
+
+  <p>
+    In many instances, the child is able to do the computation when posed simply as, <m>427 \div 3=</m>, but does not 
+    necessarily have a conceptual understanding of what the quotient, remainder, or divisor represent.  This disconnect 
+    between conceptual meaning and algorithmic procedure is concerning since in order to apply mathematical processes to 
+    real-world problems, the student must first understand what the process means so that it will be applied in an 
+    appropriate situation.
+  </p>
+
+  
   
 </subsection>
 
