@@ -1295,7 +1295,33 @@
   </p>
 
   <p>
-    
+    <em>Functions, Mappings, and Binary Operations</em>
+  </p>
+
+  <p>
+    As we think about teaching children operations and the algebraic properties that are associated with them, it is 
+    helpful to put ourselves in the same unfamiliar position as our students by considering operations that are not 
+    familiar to us.  But how do we create operations other than addition, subtraction, multiplication, and division?  
+    We could use operations from linear algebra where properties such as commutativity are no longer assumed.  However, 
+    we can also create our own operations that are combinations of familiar ones.  Once created, we can then investigate 
+    properties and even attempt to solve equations that use the operation.
+  </p>
+
+  <p>
+    Suppose we want to explore a binary operation, call it <m>*</m>, on the set of real numbers defined by 
+    <m>a*b=a+b-a\cdot b</m> where "<m>+</m>" and "<m>\cdot</m>" are the familiar operations of addition and 
+    multiplication.  It would be nice if we could define this operation and then explore it using technology.  In order 
+    to do this, let's first consider viewing a binary operation in a different way.  As we discussed earlier, a binary 
+    operation takes two inputs, in this case from the set of real numbers, and yields a result that it also a real 
+    number.  In algebra, we have seen another construct that also behaves in this manner (especially if we thinking back 
+    to Calculus 3).  In a sense, a function takes inputs and produces outputs associated by the function rule.  In this 
+    situation we want two inputs to yield a single output and so we can use a function of two variables.  Here we can 
+    let a function, call it <m>\varphi</m>, be defined such that 
+    <m>\varphi : \mathbb{R} \times \mathbb{R} \rightarrow \mathbb{R}</m> and 
+    <m>\varphi : \left(a,b\right) \mapsto a+b-a\cdot b</m>.  In this case, <m>\varphi \left(a,b\right)</m> acts like the 
+    binary operation <m>a*b</m>.  The advantage of using a function approach to representing a binary operation is that 
+    we can use it to define the operation on a computer algebra system (CAS) and then explore the properties of 
+    “<m>*</m>” via the symbol manipulation capabilities of the CAS.
   </p>
 
   
