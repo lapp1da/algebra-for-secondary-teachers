@@ -1187,7 +1187,7 @@
     Before we begin an examination of algebraic structure and its relationship to the secondary curriculum, we 
     first need to think about the basic components that make up different types of algebraic structures.  
     Generally, when we think about algebra, be it at the secondary or undergraduate level, we have two basic 
-    components—a set and an operation or operations.
+    components—a <em>set</em> and an <em>operation</em> or <em>operations</em>.
   </p>
 
   <p>
@@ -1205,11 +1205,28 @@
     Although arithmetic operations are the basis of many people's experience within the school setting, we can 
     also think about non-arithmetic operations.  Recall from your experiences in the activity, 
     <em>Form and Function</em>, we used the operation of function composition.  If you have ever worked a puzzle 
-    called Rubik's Cube, you have performed other non-arithmetic operations.  In this case you can describe 
+    called <em>Rubik's Cube</em>, you have performed other non-arithmetic operations.  In this case you can describe 
     clockwise rotations of various faces as well as a myriad of other moves that transform the cube from one 
     state to another.  As we will see, whether we use arithmetic operations or non-arithmetic ones, there is an 
     underlying structure that becomes evident as we notice patterns of behavior for elements of the set with 
     which the operations are associated.
+  </p>
+
+  <p>
+    <m>\mathbf{Solving}</m> <m>\mathbf{Basic}</m> <m>\mathbf{Equations}</m>
+  </p>
+
+  <p>
+    When we examine the solutions to basic equations, we notice a similar structure that occurs in all processes 
+    regardless of the binary operation being used.  If we consider the solution to the equation <m>a*x=b</m> for any 
+    binary operation, <m>*</m>, the process used to find the solution is the same no matter what operation we choose.  
+    However, in order to use this process, there are some underlying assumptions that need to be stated.
+  </p>
+
+  <p>
+    Recall in <xref ref="act-additive-structure"/> and <xref ref="act-multiplicative-structure"/> we determined the 
+    minimal properties needed to be able to solve an equation in one operation.  These properties were what we used to 
+    define the most basic of algebraic structures, a <em>group</em> (see <xref ref="def-group"/>).
   </p>
   
 </subsection>
