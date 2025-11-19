@@ -231,13 +231,66 @@
       <task>
         <statement>
           <p>
-            In front of you, you have a set of algebra tiles.
+            In front of you, you have a set of algebra tiles.  Using the variable length tiles, "<m>x</m>", along with 
+            unit tiles, try to form a rectangle with length, <m>x+2</m>, on one side and length, <m>x+3</m>, on the 
+            other side.  On your whiteboards, draw a sketch of your area model labeling the tiles you used to fill in the 
+            rectangle.  How many of each type of tile did you use to fill in the rectangle?  What polynomial would the 
+            resulting rectangle represent and how are the numbers of each type of tile in your rectangle related to the 
+            coefficients of your polynomial?
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Now consider the product, <m>\left(x+1\right) \left(2x+3\right)</m>.  Model this product in the same way as 
+            in part (a).  On your whiteboards, draw a sketch of your area model labeling the tiles you used to fill in the 
+            rectangle.  How many of each type of tile did you use to fill in the rectangle?  What polynomial would the 
+            resulting rectangle represent  and how are the numbers of each type of tile in your rectangle related to the 
+            coefficients of your polynomial?
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Now let's turn this process around.  Suppose we start with the result of <m>x^2+7x+6</m>.  Take out one 
+            <m>x^2</m> tile, seven <m>x</m> tiles, and six units.  Try to arrange these tiles into a rectangle.  Draw a 
+            sketch of your rectangle on your whiteboards.  Compare your sketch with that of other groups.  Are they all 
+            the same?  If not, what are the differences?  What are the dimensions along each side of your rectangle and 
+            what product does this represent?
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Now try the same approach from part (c) to break down <m>2x^2+11x+12</m>.  Try to arrange these tiles into a 
+            rectangle.  Draw a sketch of your rectangle on your whiteboards.  Compare your sketch with that of other 
+            groups.  Are they all the same?  If not, what are the differences?  What are the dimensions along each side 
+            of your rectangle and what product does this represent?
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            In both parts (c) and (d), summarize any patterns you see in where the component tiles ended up.  Pay 
+            particular attention to the location of the "<m>x</m>" tiles and the units.  How were they separated within 
+            the rectangle's interior and how is this separation related to the coefficients in the original polynomial?
           </p>
         </statement>
       </task>
       
-      
     </activity>
+  </p>
+  <p>
+    <xref ref="act-algebra-tiles"/> highlights how we can help students develop an understanding of algebraic structure 
+    through the use of physical manipulatives.  The processes and relationships among coefficients in the factored and 
+    expanded forms of these expressions go beyond the simple memorization of an acronym like FOIL.  There is meaning 
+    behind where these tiles end up in the resulting rectangles and the distributive property is at the heart of this 
+    explanation.  For many students, FOIL is considered a mathematical property, while a true property like the 
+    Distributive Property is forgotten.  This is what we mean by bringing meaning to structure.
   </p>
     
   <p>
