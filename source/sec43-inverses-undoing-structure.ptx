@@ -1020,6 +1020,32 @@
             you find.  Explain how you know each is a group.
           </p>
           <p>
+            <definition xml:id="def-subgroup">
+              <title>Subgroup</title>
+              <statement>
+                <p>
+                  Let <m>H</m> be a subset of elements from a group, <m>G</m>.  If the subset <m>H</m> under the same 
+                  operation used for <m>G</m> forms a group, we call <m>H</m> a <em>subgroup</em>, denoted <m>H \lt G</m>.
+                </p>
+              </statement>
+            </definition>
+          </p>
+          <p>
+            <definition xml:id="def-cyclic-subgroup">
+              <title>Cyclic Groups and Subgroups</title>
+              <statement>
+                <p>
+                  Let <m>a</m> be an element of a finite group, <m>G</m>.  We can generate a subgroup, <m>H</m>, of 
+                  <m>G</m> by taking an element <m>a \in G</m> and forming 
+                  <m>H=\left\{a, a^2, a^3, \ldots, a^m=e\right\}</m> where we exhaust the powers of <m>a</m> until we 
+                  get the identity and it thus repeats.  This subgroup, <m>H</m>, is called a <em>cyclic subgroup</em>.  
+                  We call <m>a</m> the <em>generator</em> of the subgroup and denote <m>H=\langle a \rangle</m>.  If 
+                  <m>G=\langle a \rangle</m>, we say that <m>G</m> is a <em>cyclic group</em>.
+                </p>
+              </statement>
+            </definition>
+          </p>
+          <p>
             What do you think would happen if we composed a function not found in a specific subgroup with 
             each element in that subgroup?  To investigate this question, pick one of the subgroups generated 
             in a column from part (k) and compose it with a function not in the subgroup.  For example, using 
