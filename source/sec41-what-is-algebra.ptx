@@ -203,7 +203,41 @@
     future generations will ask why we spent so much time making sure students could proficiently do much of 
     the symbolic manipulation we currently require when CAS was available to allow students to focus on thinking 
     rather than symbol pushing.
-    
+  </p>
+
+  <p>
+    In addition to the use of CAS for exploring patterns, meaning of symbolic manipulations can come from the use of 
+    other resources such as manipulatives.  Recall that back in <xref ref="act-multiplying-fractions"/>, we used an 
+    area model to examine how we multiply fractions.  Similarly, we can also use physical models for exploring 
+    properties of symbolic expressions when we multiply them.  The physical manipulatives we use for this purpose 
+    are called <em>algebra tiles</em> and they are just area (or sometimes volume) models that involve more than 
+    just numerical values, but also "unknown" amounts.  In these tiles, there are objects that have lengths that 
+    are clearly not a whole number multiples of the other "unit" objects in the set.  These are our "unknown" variables 
+    and so we can create area models that involve both variables and integers and combinations of them.
+  </p>
+  <p>
+    <activity xml:id="act-algebra-tiles">
+      <title>Algebra Tiles and Factoring Trinomials</title>
+      <introduction>
+        <p>
+          Suppose you are teaching a high school Algebra 1 class and are tasked with teaching factoring trinomials 
+          into a product of two binomials?  How might you start?  Traditionally, the teacher would show many examples 
+          where they perform this process and then the students are given some trinomials to practice.  The problem 
+          with this approach is that it is promoting mimicking and not thinking.  So how might we change this 
+          instructional sequence to better promote thinking and reasoning so that the student discover the process we 
+          want them to do as opposed to purely memorize it?
+        </p>
+      </introduction>
+      <task>
+        <statement>
+          <p>
+            In front of you, you have a set of algebra tiles.
+          </p>
+        </statement>
+      </task>
+      
+      
+    </activity>
   </p>
     
   <p>
