@@ -227,11 +227,20 @@
           instructional sequence to better promote thinking and reasoning so that the student discover the process we 
           want them to do as opposed to purely memorize it?
         </p>
+        <p>
+            <figure xml:id="fig-algebra-tiles-interactive">
+              <caption>Virtual Algebra Tiles</caption>
+              <interactive xml:id="algebra-tiles-interactive" platform="geogebra" width="100%" reset-icon="yes">
+                <slate xml:id="ggb-algebra-tiles-interactive" surface="geogebra" material="q43FjqUQ" />
+              </interactive>
+            </figure>
+        </p>
       </introduction>
       <task>
         <statement>
           <p>
-            In front of you, you have a set of algebra tiles.  Using the variable length tiles, "<m>x</m>", along with 
+            In front of you, you have a physical set of algebra tiles (or you can use the virtual ones above in 
+            <xref ref="fig-algebra-tiles-interactive"/>).  Using the variable length tiles, "<m>x</m>", along with 
             unit tiles, try to form a rectangle with length, <m>x+2</m>, on one side and length, <m>x+3</m>, on the 
             other side.  On your whiteboards, draw a sketch of your area model labeling the tiles you used to fill in the 
             rectangle.  How many of each type of tile did you use to fill in the rectangle?  What polynomial would the 
