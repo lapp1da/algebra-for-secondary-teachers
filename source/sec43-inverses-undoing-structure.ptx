@@ -1413,4 +1413,165 @@
   
 </subsection>
 
+<exercises xml:id="exercises-algebraic-structure">
+  <exercise>
+    <statement>
+      <p>
+        Using your CAS and defining <m>a*b=a+b-a \cdot b</m>, find the solution(s) to the following equations.  Be 
+        certain to state your CAS-defined operations and the commands you used to find the solution.
+      </p>
+      <task>
+        <statement>
+          <p>
+            <m>3*x=-9</m>
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            <m>\left(7*x\right)*y=-35</m> and <m>3*x=-11*y</m>
+          </p>
+        </statement>
+      </task>
+    </statement>
+  </exercise>
+
+  <exercise>
+    <statement>
+      <p>
+        Consider the operation <m>*</m> given by <m>a*b=a+b-5</m>.  Verify or refute the following properties.  Assume 
+        the set under this operation is the set of real numbers.  You may need to decide to restrict the set based on 
+        what you discover regarding the operation and its relationship to the properties (and a desire for it to be a 
+        group).  If so, please explain your reasoning for the restriction.
+      </p>
+      <task>
+        <statement>
+          <p>
+            Closure
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Associativity
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Identity
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Inverses
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Commutativity
+          </p>
+        </statement>
+      </task>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Consider the operation <m>*</m> given by <m>a*b=\text{max} \left(a,b\right)</m>.  Verify or refute the following 
+        properties.  Assume the set under this operation is the set of real numbers.  You may need to decide to restrict 
+        the set based on what you discover regarding the operation and its relationship to the properties.  If so, 
+        please explain your reasoning for the restriction.
+      </p>
+      <task>
+        <statement>
+          <p>
+            Closure
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Associativity
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Identity
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Inverses
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Commutativity
+          </p>
+        </statement>
+      </task>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Use your CAS to show that 
+        <m>G=\left\{
+          \begin{bmatrix}
+          a \amp b\\
+          -b \amp a
+          \end{bmatrix} \mid a,b \in \mathbb{R} \text{ and not both zero} \right\}
+        </m> is a group under matrix multiplication.  Further, show that <m>G</m> also has the property of 
+        commutativity.  A group that is also commutative is called <em>abelian</em>.
+      </p>
+    </statement>
+  </exercise>
+
+  <exercise>
+    <statement>
+      <p>
+        Show that the set of 8 symmetries of a square (four rotations and 4 flips) is a group.
+      </p>
+    </statement>
+  </exercise>
+
+  <exercise>
+    <statement>
+      <p>
+        Consider <m>SL\left(2, \mathbb{R}\right)</m> which is defined to be the set of all <m>2 \times 2</m> matrices 
+        of the form <m>\begin{bmatrix}
+          a \amp b\\
+          c \amp d
+          \end{bmatrix}</m> such that <m>a,b,c,d \in \mathbb{R}</m> and <m>ad-bc=1</m>.  Show that <m>SL\left(2, \mathbb{R}\right)</m> 
+          is a group under matrix multiplication.  This is called the <em>special linear group</em>—hence the “SL” in the 
+          notation.
+      </p>
+    </statement>
+  </exercise>
+
+  <exercise>
+    <statement>
+      <p>
+        Suppose that <m>G</m> is a group and <m>a,b,c \in G</m>.  Show that if <m>ab=ac</m>, then <m>b=c</m>.
+      </p>
+    </statement>
+  </exercise>
+  
+</exercises>
+
 </section>
