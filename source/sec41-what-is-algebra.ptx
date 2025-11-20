@@ -320,6 +320,97 @@
     the represented world and the world of symbols doing the representing.
   </p>
 
+  <exercises xml:id="exercises-what-is-algebra">
+    <exercise>
+      <statement>
+        <p>
+          Carmine is using algebra tiles to teach factoring trinomials in his Algebra 1 class.  In planning his lesson, 
+          he is trying to create trinomials that will engage his students to discover the patterns between the 
+          coefficients in the trinomials and the coefficients found in their factored binomials.
+        </p>
+        <task>
+          <statement>
+            <p>
+              If he is considering <em>initially</em> using the two trinomials, <m>x^2+7x+12</m> or <m>x^2+7x+10</m>,  
+              which trinomial would you suggest he use for their first exploration and why?
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Use algebra tiles (or the virtual ones in <xref ref="fig-algebra-tiles-interactive"/>) to place the 
+              representation of the trinomial you chose in part (a) into a rectangle.  Sketch your tiles and give the 
+              resulting factorization based on your sketch.
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Use algebra tiles (or the virtual ones in <xref ref="fig-algebra-tiles-interactive"/>) to place the 
+              representation of the trinomial you <em>did not</em> chose in part (a) into a rectangle.  Sketch your tiles 
+              and give the resulting factorization based on your sketch.  Comparing this sketch to the one from part (b), 
+              why does your first choice of trinomial make more sense?
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              At the next stage of the lesson, Carmine is going to ask his students to use algebra tiles to factor either 
+              <m>2x^2+7x+6</m> or <m>4x^2+16x+15</m>.  Which trinomial would you suggest he use for this part of the 
+              exploration and why?
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              After Carmine has used algebra tiles to introduce the concept of factoring trinomials, how might he have 
+              his students use their computer algebra systems to justify their observations?
+            </p>
+          </statement>
+        </task>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Consider the <em>You've Got Mail</em> problem found in <xref ref="fig-youve-got-mail"/>.
+        </p>
+        <task>
+          <statement>
+            <p>
+              Create a spreadsheet that will produce the results you see in <xref ref="fig-youve-got-mail-spreadsheet"/>. 
+              Using this spreadsheet, place numbers of 3¢ and 5¢ stamps in each row so that the total postage in the 
+              first row is 8¢, the second row is 9¢, the third row is 10¢, etc.
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Now looking at the numbers of 3¢ and 5¢ stamps from one row to the next, describe the <em>trades</em> in 
+              stamps you could make to get from one row to the next.  How many different types of trades do you see?
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Imagine giving students chips of two different colors (one representing 3¢ and one for 5¢).  Describe how 
+              these physical manipulatives (and their trades from one amount of total postage to the next) 
+              might help your students justify that they can obtain any amount of postage 8¢ or greater.
+            </p>
+          </statement>
+        </task>
+      </statement>
+    </exercise>
+    
+  </exercises>
+
 
 
 </section>
