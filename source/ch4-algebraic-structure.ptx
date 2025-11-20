@@ -5,12 +5,22 @@
 
   <introduction>
     <p>
-      The Common Core State Standards use the phrase <em>Ratios and Proportional Relationships</em> to describe 
-      concepts that are associated with ratios used to describe relationships between quantities (e.g. 2:3 or as 
-      a fraction, <m>\frac{2}{3}</m>).  When two quantities maintain the same relationship we say that they are 
-      proportional (e.g. 2:3 is equivalent to 4:6 or as fractions, <m>\frac{2}{3}=\frac{4}{6}</m>).  In this 
-      chapter, we will examine how these ideas develop in learners and extend them to rates of change and scaling.
+      To many, algebra is jokingly referred to as the advanced study of the last three letters of the alphabet.  But 
+      what is it really?  The answer might be different to different people (even mathematicians who study advanced 
+      topics).  If we look at commonalities among varying people's perspectives, we will likely see that algebra 
+      deals with the <em>relationships</em> among quantities or mathematical objects.  We see an underlying structure 
+      whether we are dealing with numbers, or matrices, or functions, or geometric movements on objects, or, ....  In 
+      this chapter we will look at this structure and try to understand why Poincaré said:
     </p>
+    <p>
+      <blockquote>
+        <p>
+          <em>Mathematicians do not study objects, but relations among objects; they are indifferent to the 
+          replacement of objects by others as long as relations do not change. Matter is not important, only form 
+          interests them. — Henri Poincaré</em>.
+        </p>
+      </blockquote>
+      </p>
   </introduction>
 
   <!-- include sections -->
