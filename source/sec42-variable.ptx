@@ -203,7 +203,7 @@
       sequence and allows the student to explore general behavior.  For example, if we wish to explore the 
       convergence of the series <m>\sum\limits^{\infty}_{n=0}{\frac{x^n}{n!}}</m>, we can combine previously defined 
       objects to create another sequence describing the <m>k^{th}</m> partial sum.  In this case we might define 
-      <m>s\left(x,k\right)=\sum\limits^{\infty}_{n=0}{a\left(x,n\right)}</m>.  Here the students are encouraged to make 
+      <m>s\left(x,k\right)=\sum\limits^{k}_{n=0}{a\left(x,n\right)}</m>.  Here the students are encouraged to make 
       sense of the parts of the definition in order to understand the meaning.  It is important to note that the 
       design of the curricula utilizing this approach is crucial so that students will simply try to memorize 
       procedures.  Deliberate questions must be present to guide the students to make the connections among 
