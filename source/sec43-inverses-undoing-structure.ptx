@@ -1236,6 +1236,71 @@
   </p>
 
   <p>
+    We have observed these patterns in the activity <xref ref="act-form-function"/>, but will this hold for all groups?  
+    In order to be certain, we need to prove it for all groups based on the basic properties of groups.  Let's start by 
+    trying to argue these observations a little at a time.
+  </p>
+
+  <p>
+    <theorem xml:id="thm-union-cosets">
+      <title>Union of Cosets is the Group</title>
+      <statement>
+        <p>
+          Let <m>H</m> be a subgroup of a group <m>G</m>.  Then the union of all left cosets of <m>H</m> gives the 
+          entire group <m>G</m>.  In other words, <m>G=\bigcup\limits_{a \in G}aH</m>.
+        </p>
+        <proof>
+        <p>
+          Since every left coset consists of elements from <m>G</m>, then <m>ah \in G</m> for all <m>a \in G</m> and 
+          <m>h \in H</m>.  Therefore, we have <m>\bigcup\limits_{a \in G}aH \subseteq G</m>.  Now, if <m>b \in G</m> and 
+          since <m>e \in H</m>, we can see that every element of <m>G</m> can be found in its respective coset, <m>bH</m>, 
+          since <m>b=be \in bH</m>.  Since <m>b \in G</m>, then <m>bH \subseteq \bigcup\limits_{a \in G}aH</m> and thus, 
+          every element in <m>G</m> is also in <m>\bigcup\limits_{a \in G}aH</m>.  Therefore, 
+          <m>G \subseteq \bigcup\limits_{a \in G}aH</m>.  Since <m>\bigcup\limits_{a \in G}aH \subseteq G</m> and 
+          <m>G \subseteq \bigcup\limits_{a \in G}aH</m>, we have that <m>G=\bigcup\limits_{a \in G}aH</m>.  Note that 
+          this proof also works for right cosets.
+        </p>
+      </proof>
+      </statement>
+    </theorem>
+  </p>
+
+  <p>
+    The significance of this theorem is that a group can be formed by the union of all of its left (or right) cosets.  
+    But, could some of these cosets overlap in some way?  If so, how can the elements from one coset overlap with 
+    another?  Are there any restrictions on the overlap?  You will recall experiencing this partitioning in 
+    <xref ref="act-form-function"/> lab when you placed boundaries around the subsets from <m>T</m> that you found as a 
+    result of composing subgroups with elements from the set <m>T</m>.  You will also recall from the activity that the 
+    subsets (cosets) did not appear to overlap once you placed the boundaries around them.  Put another way, the subsets 
+    generated in the activity either had no elements in common or were identical.  While our experiences have suggested 
+    that there is no overlap, we do need to address this issue of possible overlap from a more formal and absolute sense.  
+    Consider the following theorem. 
+  </p>
+
+  <p>
+    <theorem xml:id="thm-overlap">
+      <title>Coset Overlap</title>
+      <statement>
+        <p>
+          Let <m>H</m> be a subgroup of a group <m>G</m> and let <m>a,b \in G</m>.  Then we have that any two left 
+          cosets <m>aH</m> and <m>bH</m> either have no elements in common or are identical.
+        </p>
+        <proof>
+          <p>
+            Suppose <m>c \in aH</m> and <m>c \in bH</m>.  This means that <m>c=ah_1=bh_2</m> for some 
+            <m>h_1, h_2 \in H</m>.  Then we must also have that <m>a=bh_2h^{-1}_1</m>.  This implies that for any 
+            <m>h_3 \in H</m>, we can express <m>ah_3=\left(bh_2h^{-1}_1\right)h_3=b\left(h_2h^{-1}_1b_3\right)=bh_4</m> 
+            for some <m>h_4 \in H</m> since <m>H</m> is closed.  From this we can say that <m>ah_3=bh_4 \in bH</m> and 
+            thus every element in <m>aH</m> is also in <m>bH</m> implying <m>aH \subseteq bH</m>.  By a similar 
+            argument, we also get that <m>bH \subseteq aH</m>, thus <m>aH=bH</m>.
+          </p>
+        </proof>
+      </statement>
+    </theorem>
+    
+  </p>
+
+  <p>
     Now that we have spent some time exploring basic properties in algebra through 
     <xref ref="act-form-function"/>, we can start to examine how this relates to the secondary curriculum and 
     how we can engage students in doing more than mimicking symbol manipulation without an understanding of 
