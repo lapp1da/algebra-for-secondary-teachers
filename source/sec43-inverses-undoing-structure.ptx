@@ -1242,6 +1242,39 @@
   </p>
 
   <p>
+    One of the key parts of the argument deals with having all cosets being of the same "size" (actually the size of 
+    the subgroup that generated the coset).  To establish that this was not just a fluke in our activity, we need to 
+    consider what would happen if cosets were not the same size as the subgroup that gave birth to them.
+  </p>
+
+  <p>
+    <theorem xml:id="thm-same-size-cosets">
+      <title>Coset "Size"</title>
+      <statement>
+        <p>
+          A left (or right) coset in a finite group contains the same number of elements as the subgroup that generated 
+          the coset.
+        </p>
+        <proof>
+          <p>
+            Suppose <m>H \lt G</m> (i.e. <m>H</m> is a subgroup of <m>G</m>).  Further, let 
+            <m>H=\left\{h_1, h_2, h_3, \ldots, h_m\right\}</m>.  Now we can form a left coset, <m>aH</m>, such that 
+            <m>aH=\left\{ah_1, ah_2, ah_3, \ldots, ah_m\right\}</m>.  We can claim that all elements of this coset 
+            are unique since if not, we must have that <m>ah_i=ah_j</m>, for some <m>i</m> and <m>j</m> with 
+            <m>i \neq j</m>.  But this would mean that <m>a^{-1}ah_i=a^{-1}ah_j \Rightarrow</m> 
+            <m>eh_i=eh_j</m>, and thus <m>h_i=h_j</m> and so <m>ah_i \neq ah_j</m>.
+          </p>
+        </proof>
+      </statement>
+    </theorem>
+  </p>
+
+  <p>
+    The next observation that we made in <xref ref="act-form-function"/> was that if we put all of the cosets together, 
+    we ended up with the entire group (as evidenced in your diagrams of cosets).  
+  </p>
+
+  <p>
     <theorem xml:id="thm-union-cosets">
       <title>Union of Cosets is the Group</title>
       <statement>
@@ -1293,6 +1326,36 @@
             for some <m>h_4 \in H</m> since <m>H</m> is closed.  From this we can say that <m>ah_3=bh_4 \in bH</m> and 
             thus every element in <m>aH</m> is also in <m>bH</m> implying <m>aH \subseteq bH</m>.  By a similar 
             argument, we also get that <m>bH \subseteq aH</m>, thus <m>aH=bH</m>.
+          </p>
+        </proof>
+      </statement>
+    </theorem>
+  </p>
+
+  <p>
+    We now have everything we need to address the observation that you made from <xref ref="act-form-function"/>.  
+    Recall that when you examined the “powers” of the function composition in the activity, there was an interesting 
+    observation made, namely, the orders of the elements (functions in this case) seemed to be a divisor of the order of 
+    the group.  This brings us to a classic theorem known as <em>LaGrange's theorem</em>.
+  </p>
+
+  <p>
+    <theorem xml:id="thm-lagrange">
+      <title>LaGrange's Theorem</title>
+      <statement>
+        <p>
+          Let <m>G</m> be a finite group or order, <m>\left| G \right|=n</m>.  If <m>H \lt G</m> (i.e. <m>H</m> is a 
+          subgroup of <m>G</m>), and <m>\left| H \right|=m</m>, then <m>m \mid n</m>.
+        </p>
+        <proof>
+          <p>
+            Let <m>G</m> be a finite group and <m>H \lt G</m> with <m>\left| G \right|=n</m> and <m>\left| H \right|=m</m>.  
+            Since <m>G</m> is finite and each left coset of <m>H</m> has <m>m</m> elements by 
+            <xref ref="thm-same-size-cosets"/> with either left cosets being identical or disjoint as shown by 
+            <xref ref="thm-overlap"/>, there must be a finite number, call it <m>t</m>, of distinct left cosets of 
+            <m>H</m>.  Since every <m>a \in G</m> is guaranteed to be in the left coset <m>aH</m> and together the union 
+            of all left cosets gives <m>G</m> as seen from <xref ref="thm-union-cosets"/>, this implies that 
+            <m>n=mt</m> and thus <m>m \mid n</m>.
           </p>
         </proof>
       </statement>
