@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec44-dopplegangers-and-the-multiverse" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Dopplegangers and the Multiverse</title>
+
+  <introduction>
+    <p>
+        In the last section, we noticed that there were common behaviors among elements of groups.  For example, 
+        we noticed that the order of an element or subgroup must divide the order of the group.  We explored a few 
+        groups in <xref ref="act-form-function"/> that demonstrated these properties (one group was of order 6 and the 
+        other was or order 8).  But what if we had another group of order 6?  Would it also have the exact same behavior 
+        with one element of order 1, three elements of order 2, and two elements of order 3?  Or could be have a 
+        different configuration of these elements?
+    </p>
+
+  </introduction>
+
+</section>

@@ -27,6 +27,7 @@
   <xi:include href="sec41-what-is-algebra.ptx" />
   <xi:include href="sec42-variable.ptx" />
   <xi:include href="sec43-inverses-undoing-structure.ptx" />
-  <xi:include href="sec44-algebra-dynamic-processes.ptx" />
+  <xi:include href="sec44-dopplegangers-and-the-multiverse.ptx" />
+  <xi:include href="sec45-algebra-dynamic-processes.ptx" />
 
 </chapter>
