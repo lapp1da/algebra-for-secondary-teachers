@@ -1550,11 +1550,60 @@
         </p>
 
         <p>
-          
+            <image source="images/operation-definition.png" width="60%">
+              <shortdescription>binary operation definition</shortdescription>
+            </image>
         </p>
       </introduction>
-      
-      
+      <task>
+        <statement>
+          <p>
+            Using your defined operation, <m>*</m>, on your CAS, explain whether or not it meets the first property 
+            of a group, <em>closure</em>.  You may want to try to compute several cases like the one shown above for 
+            <m>2*5=-3</m> to convince yourself one way or the other.  Can you think of a case where it would not be 
+            closed for the integers?  For the real numbers?  Explain your reasoning.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Assuming we are using the real numbers, <m>\mathbb{R}</m>, as our set, compute several cases like 
+            <m>2*\left(3*5\right)</m> and <m>\left(2*3\right)*5</m> to give some evidence of whether or not the 
+            operation, <m>*</m>, is associative.  If it is, provide an argument to show it will be for any 
+            <m>a,b,c \in \mathbb{R}</m>.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Determine if <m>\mathbb{R}</m> has an identity element for <m>*</m>.  If it does, what is it?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Determine if all elements of <m>\mathbb{R}</m> have an inverse under the operation <m>*</m>.  If so, does 
+            <m>\left(\mathbb{R}, * \right)</m> form a group?  If not, can you slightly adjust the set <m>\mathbb{R}</m> 
+            so that it does form a group?  Explain your reasoning.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Think back to basic operations like multiplication or addition with real numbers.  Have you seen any type 
+            of operation that needs a slight adjustment in order to form a group?  How does is the behavior from part 
+            (d) similar?  How is it different?
+          </p>
+        </statement>
+      </task>
     </activity>
   </p>
 
