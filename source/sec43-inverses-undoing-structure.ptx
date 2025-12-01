@@ -1534,7 +1534,28 @@
   </p>
 
   <p>
-    
+    <activity xml:id="binary-operation">
+      <title>Using Binary Operations</title>
+      <introduction>
+        <p>
+          In this activity, we will explore a binary operation for which we have little intuition.  This will allow us 
+          to focus on the meaning of algebraic properties more deeply since we cannot use our "common knowledge" to 
+          skip over how objects in a set (like the real numbers or integers) behave because we are too familiar with 
+          their behavior.
+        </p>
+        <p>
+          To begin, we are going to define the binary operation, <m>*</m>, that was describe above on our CAS so that 
+          we can manipulate expressions more easily.  To do this, let's define the operation by using a function of 
+          two variables calling it <m>op\left(a,b\right)=a+b-a \cdot b</m> as shown below.
+        </p>
+
+        <p>
+          
+        </p>
+      </introduction>
+      
+      
+    </activity>
   </p>
 
   
