@@ -754,7 +754,7 @@
         </p>
         <p>
           <me>
-            e\left(x\right)=x, f\left(x\right)=\frac{1}{x}, g\left(x\right)=\frac{x}{1-x}, h\left(x\right)=1-x, 
+            e\left(x\right)=x, f\left(x\right)=\frac{1}{x}, g\left(x\right)=\frac{x}{x-1}, h\left(x\right)=1-x, 
             j\left(x\right)=\frac{1}{1-x}, k\left(x\right)=\frac{x-1}{x}
           </me>
         </p>
