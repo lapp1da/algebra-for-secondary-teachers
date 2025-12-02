@@ -1769,6 +1769,16 @@
       </p>
     </statement>
   </exercise>
+
+  <exercise>
+    <statement>
+      <p>
+        Suppose that <m>G</m> is a <em>cyclic</em> group.  Explain why it must therefore be <em>abelian</em>.  Note 
+        that if a group is cyclic, there must be at least one <em>generator</em> (i.e. an element for which all 
+        elements in <m>G</m> can be expressed as a power of it).
+      </p>
+    </statement>
+  </exercise>
   
 </exercises>
 
