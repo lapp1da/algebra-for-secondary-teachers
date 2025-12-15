@@ -849,13 +849,23 @@
       <introduction>
         <p>
           Consider the following set of blocks (often referred to as Dienes Blocks after the Math Educator, 
-          Zoltan Dienes).
+          Zoltan Dienes).  If you do not have physical blocks, you can use the interactive applet in 
+          <xref ref="fig-base-ten-blocks-interactive"/>.
         </p>
         <p>
          <figure xml:id="fig-base-ten-blocks">
          <caption>Base Ten Blocks (aka Dienes Blocks)</caption>
          <image source="images/base-ten-blocks.png" width="70%"/>
          </figure>
+        </p>
+
+        <p>
+            <figure xml:id="fig-base-ten-blocks-interactive">
+              <caption>Virtual Base Ten Blocks</caption>
+              <interactive xml:id="base-ten-blocks-interactive" platform="geogebra" width="100%" reset-icon="yes">
+                <slate xml:id="ggb-base-ten-blocks-interactive" surface="geogebra" material="dxxqnmyq" />
+              </interactive>
+            </figure>
         </p>
         
       </introduction>
