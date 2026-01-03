@@ -1429,7 +1429,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.1",
   "title": "Scaling Up, Scaling Down",
-  "body": " Scaling Up, Scaling Down      "
+  "body": " Scaling Up, Scaling Down   When we think of proportional reasoning, one of the areas of mathematics where we can truly \"see\" it is geometry. The ancient Greeks used a very special proportion in their artwork as well as architecture, The Golden Ratio . This ratio seemed to be found in nature and was deemed pleasing to the eye. In fact, the Fibonacci sequence, , has the interesting characteristic that the successive ratios of adjacent terms, , approach The Golden Ratio as . Just like the Fibonacci sequence that is seen throughout nature, The Golden Ratio also seems to be present all around us.   "
 },
 {
   "id": "sec32-ratio-rates",
