@@ -5,7 +5,13 @@
 
   <introduction>
     <p>
-        
+        When we think of proportional reasoning, one of the areas of mathematics where we can truly "see" it is 
+        geometry.  The ancient Greeks used a very special proportion in their artwork as well as architecture, 
+        <em>The Golden Ratio</em>.  This ratio seemed to be found in nature and was deemed pleasing to the eye.  
+        In fact, the Fibonacci sequence, <m>\left\{1,1,2,3,5,8,13, \ldots \right\}</m>, has the interesting 
+        characteristic that the successive ratios of adjacent terms, <m>\frac{F_n}{F_{n-1}}</m>, approach 
+        <em>The Golden Ratio</em> as <m>n \rightarrow \infty</m>.  Just like the Fibonacci sequence that is seen 
+        throughout nature, <em>The Golden Ratio</em> also seems to be present all around us.
     </p>
 
   </introduction>
