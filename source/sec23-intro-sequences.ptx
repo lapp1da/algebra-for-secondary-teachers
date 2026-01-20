@@ -2057,9 +2057,9 @@
     <exercise>
       <statement>
         <p>
-          The Fibonacci sequence it an iterative sequence that begins with the first two terms 1 and 1.  The 
-          next term is found by adding the two previous terms (e.g. <m>1+1=2</m>) and so the first three terms 
-          are <m>\left\{1,1,2,\ldots\right\}</m>.
+          The Fibonacci sequence is an iterative sequence that begins with the first two terms 1 and 1.  The 
+          next term is found by adding the two previous terms, <m>F_{n}=F_{n-1}+F_{n-2}</m>, (e.g. <m>1+1=2</m>) 
+          and so the first three terms are <m>\left\{1,1,2,\ldots\right\}</m>.
         </p>
         <task>
           <statement>
