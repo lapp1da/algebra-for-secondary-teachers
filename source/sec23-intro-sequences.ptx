@@ -2057,14 +2057,14 @@
     <exercise>
       <statement>
         <p>
-          The Fibonacci sequence is an iterative sequence that begins with the first two terms 1 and 1.  The 
+          The <em>Fibonacci</em> sequence is an iterative sequence that begins with the first two terms 1 and 1.  The 
           next term is found by adding the two previous terms, <m>F_{n}=F_{n-1}+F_{n-2}</m>, (e.g. <m>1+1=2</m>) 
-          and so the first three terms are <m>\left\{1,1,2,\ldots\right\}</m>.
+          and so the first five terms are <m>\left\{1,1,2,3,5,\ldots\right\}</m>.
         </p>
         <task>
           <statement>
             <p>
-              Give the first seven terms in the Fibbonacci sequence.
+              Give the first nine terms in the Fibbonacci sequence.
             </p>
           </statement>
         </task>
@@ -2072,6 +2072,31 @@
           <statement>
             <p>
               Is the sequence arithmetic, geometric, or neither?  Explain your reasoning.
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Consider the matrices of the form 
+              <m>\begin{bmatrix}
+                1 \amp 1 \\
+                1 \amp 0
+                \end{bmatrix} ^n
+              </m> with <m>n=1,2,3,4, \ldots</m>.  Compute 
+              <m>\begin{bmatrix}
+                1 \amp 1 \\
+                1 \amp 0
+                \end{bmatrix} ^n
+              </m> for <m>n=\left\{1,2,3, \ldots, 8 \right\}</m> and describe any connections you see to the 
+              <em>Fibonacci</em> sequence.
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Use <em>proof by induction</em> to show that your observations from part (c) are always true.
             </p>
           </statement>
         </task>
