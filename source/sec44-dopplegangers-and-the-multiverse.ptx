@@ -41,7 +41,112 @@
 
     <p>
       In order to explore our question of different groups and whether or not they can behave similarly, let us 
-      first look at some examples of groups that can be generated and computed easily.  
+      first look at some examples of groups that can be generated and computed easily.  In number theory, we 
+      explore the behavior of the integers and, in particular, <em>modular arithmetic</em>.  <em>Modular 
+      arithmetic</em> is built on the <em>division algorithm</em> as described below.
+    </p>
+
+    <p>
+      <theorem xml:id="thm-division-algorithm">
+        <title>The Division Algorithm</title>
+        <statement>
+          <p>
+            Let <m>n</m> be any integer and <m>d</m> be a positive integer (d for divisor), then there exists 
+            unique integers <m>q</m> (quotient) and <m>r</m> (remainder) such that
+          </p>
+          <me>n=dq+r \text{,  where } 0\leq r \lt d</me>.
+
+        </statement>
+      </theorem>
+    </p>
+
+    <p>
+      While this theorem might look unfamiliar, if you think back to your days of doing long division, your will 
+      likely recall continuing to perform the division process until your remainder was less than your divisor.  
+      This is what the <em>Division Algorithm</em> is saying (i.e. <m>0\leq r \lt d</m>).
+    </p>
+
+    <p>
+      Modular arithmetic is just a way of reducing all integers to a representative remainder that we get when we 
+      divide the integer by a given divisor.  Consider the case of telling time.  We have two main ways we 
+      represent time of day (military time and twelve-hour time).  Suppose we are given a time in military time, 
+      say 14:00 hours.  What would that be in regular twelve-hour time?  <xref ref="fig-modular-12-hour-clock"/> 
+      gives a twelve-hour clock where we can explore converting from military time to regular time.
+    </p>
+
+    <p>
+      <figure xml:id="fig-modular-12-hour-clock">
+        <caption>Twelve-Hour Clock</caption>
+        <image source="images/modular-12-hour-clock.png" width="60%">
+          <shortdescription>Twelve-hour clock</shortdescription>
+        </image>
+      </figure>
+    </p>
+
+    <p>
+      <activity>
+        <introduction>
+          <p>
+            <p>
+            In the military, a 24-hour clock is used to avoid the need for a.m and p.m. distinctions.  What we call 
+            2:00 p.m. is referred to as 14:00 hours in the military.  In otherwords, 
+            <m>14 \equiv 2 \pmod {12}</m>, read "14 is congruent to 2 modulo 12".  Think of it this way, 
+            if you divide 14 by 12, the remainder is 2.  Another way to say this with respect to the <em>Division 
+            Algorithm</em> is <m>14=12 \cdot 1 +2</m> where <m>n=14</m>, <m>d=12</m>, <m>q=1</m>, and <m>r=2</m>.  
+            Anytime you make one lap around the clock, you are getting rid of a multiple of 12 so the place you 
+            stop is the same as the remainder.  For this reason, <em>modular arithmetic</em> is often referred to 
+            as <em>clock arithmetic</em>.
+          </p>
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              Start on 12 and count around the clock 53 times.  What number do you land on?
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Now take 53 and divide it by 12.  What is the remainder?
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              What would be the reduced modular equivalent for <m>53\pmod {12}</m>?  This would be a number from 0 
+              to 11 so that 53 has the same remainder when divided by 12.
+              <me>53 \equiv \text{_______} \pmod {12}</me>
+              
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Since <m>14+7=21</m> and <m>2+7=9</m>, is it true that <m>21 \equiv 9 \pmod{12}</m>?  Explain.
+            </p>
+            <p>
+              Sometimes it is more convenient to express sums for a certain size clock with just the numerals using 
+              a modified operation symbol.  For example, <m>7 \oplus 8=3</m> for a 12-hour clock.
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Since <m>14 \equiv 2 \pmod {12}</m>, is it true that <m>14 \cdot 5 \equiv 2 \cdot 5 \pmod {12}</m>?  
+              Discuss with others in your group whether or not you think this will always work.  Justify your 
+              position here.
+            </p>
+            <p>
+              This product could also be expressed as <m>14 \otimes 5 =10</m>.
+            </p>
+          </statement>
+        </task>
+      </activity>
     </p>
     
   </subsection>
