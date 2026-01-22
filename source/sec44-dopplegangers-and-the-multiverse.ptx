@@ -147,8 +147,33 @@
             <p>
               Now let us consider a smaller divisor or clock.  If we divide by 5, the possible remainders will be 
               0, 1, 2, 3, or 4.  In the previous clock, this would be similar to replacing the 12 with a 0 since if 
-              a number is a multiple of 12 then when it is divided by 12 the remainder will be 0.
+              a number is a multiple of 12 then when it is divided by 12 the remainder will be 0.  We can see the 
+              "mod 5" clock in <xref ref="fig-mod-5-clock"/>.  In this clock, it can be seen that 
+              <m>5 \equiv 0 \pmod 5</m>.
             </p>
+            <p>
+              <figure xml:id="fig-mod-5-clock">
+                <caption>Mod 5 Clock</caption>
+                <image source="images/mod-5-clock.png" width="40%">
+                  <shortdescription>mod 5 clock</shortdescription>
+                </image>
+              </figure>
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Reduce <m>47 \pmod 5</m> to a congruent number of 0, 1, 2, 3, or 4.
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Construct an addition table for <m>\pmod 5</m> below.
+            </p>
+            
           </statement>
         </task>
       </activity>
