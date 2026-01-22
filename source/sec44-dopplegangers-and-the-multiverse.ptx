@@ -5,12 +5,14 @@
 
   <introduction>
     <p>
-        In the last section, we noticed that there were common behaviors among elements of groups.  For example, 
-        we noticed that the order of an element or subgroup must divide the order of the group.  We explored a few 
-        groups in <xref ref="act-form-function"/> that demonstrated these properties (one group was of order 6 and the 
-        other was or order 8).  But what if we had another group of order 6?  Would it also have the exact same behavior 
-        with one element of order 1, three elements of order 2, and two elements of order 3?  Or could we have a 
-        different configuration of these elements?  Also, recall that as we have stated earlier, Poincaré said, 
+        In <xref ref="sec43-inverses-undoing-structure"/>, we noticed that there were common behaviors among 
+        elements of groups.  For example, we noticed that the order of an element or subgroup must divide the order 
+        of the group.  We explored a few groups in <xref ref="act-form-function"/> that demonstrated these 
+        properties (one group was of order 6 and the other was or order 8).  But what if we had another group of 
+        order 6?  Would it also have the exact same behavior with one element of order 1, three elements of order 2, 
+        and two elements of order 3?  Could another group of order 6 be commutative where our previous on was not?  
+        Or could we have a different configuration of these elements along with different behavior?  Also, recall 
+        that as we have stated earlier, Poincaré said, 
     </p>
     <p>
     <blockquote>
@@ -23,11 +25,13 @@
     </p>
 
     <p>
-        So a natural question is, can we have two different sets and operations act in the same way?  Poincaré suggested 
-        that we do not care so much about what the sets of objects are, just how that they interact with each other.  
-        In this section, we will explore this idea of behavior among different sets to see if we can infer behavior of 
-        one set of objects with an operation by looking at a different set of objects with a possibly different 
-        operation.
+        Since in a finite group there are only a finite number of combinations of element orders, a natural question 
+        is, can we have two different sets and operations act in the same way and will there only be so many groups 
+        of a certain order before we start getting groups that repeat the behavior in terms of how the elements 
+        interact with each other?  After all, Poincaré suggested that we do not care so much about what the sets of 
+        objects are, just how that they interact with each other.  In this section, we will explore this idea of 
+        behavior among different sets to see if we can infer behavior of one set of objects with an operation by 
+        looking at a different set of objects with a possibly different operation.
     </p>
 
   </introduction>
