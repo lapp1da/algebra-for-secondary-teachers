@@ -36,4 +36,15 @@
 
   </introduction>
 
+  <subsection xml:id="subsec-modular-arithmetic">
+    <title>Modular Arithmetic and Groups</title>
+
+    <p>
+      In order to explore our question of different groups and whether or not they can behave similarly, let us 
+      first look at some examples of groups that can be generated and computed easily.  
+    </p>
+    
+  </subsection>
+
+
 </section>
