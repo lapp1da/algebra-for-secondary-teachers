@@ -144,6 +144,11 @@
             <p>
               This product could also be expressed as <m>14 \otimes 5 =10</m>.
             </p>
+            <p>
+              Now let us consider a smaller divisor or clock.  If we divide by 5, the possible remainders will be 
+              0, 1, 2, 3, or 4.  In the previous clock, this would be similar to replacing the 12 with a 0 since if 
+              a number is a multiple of 12 then when it is divided by 12 the remainder will be 0.
+            </p>
           </statement>
         </task>
       </activity>
