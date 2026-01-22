@@ -173,7 +173,11 @@
             <p>
               Construct an addition table for <m>\pmod 5</m> below.
             </p>
-            
+            <p>
+              <image source="images/mod-5-addition-table.png" width="70%">
+                <shortdescription>mod 5 addition table</shortdescription>
+              </image>
+            </p>
           </statement>
         </task>
       </activity>
