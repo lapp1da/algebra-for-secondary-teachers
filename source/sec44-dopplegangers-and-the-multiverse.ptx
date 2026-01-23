@@ -206,6 +206,30 @@
             </p>
           </statement>
         </task>
+        <task>
+          <statement>
+            <p>
+              We often denote the set of integers (mod n) by <m>\mathbb{Z}_n</m>.  What is the identity of 
+              <m>\left(\mathbb{Z}_5 , \oplus\right)</m>?  What is the identity of 
+              <m>\left(\mathbb{Z}_5 , \otimes\right)</m>?  Explain.
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Does <m>\left(\mathbb{Z}_5 , \oplus\right)</m> form a group?  Explain.
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Does <m>\left(\mathbb{Z}_5 , \otimes\right)</m> form a group?  Explain.
+            </p>
+          </statement>
+        </task>
+
       </activity>
     </p>
     
