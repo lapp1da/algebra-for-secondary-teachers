@@ -19,5 +19,12 @@
   <colophon>
     <p> This book was authored in <pretext />. </p>
   </colophon>
+  <references xml:id="refs-references">
+    <p>
+      Fendel, D., Resek, D., Alper, L., &amp; Fraser, S. (2000). <em>Interactive Mathematics Program: Integrated 
+      high school mathematics, Year 4 </em>. Key Curriculum Press. 
+    </p>
+    
+  </references>
 </backmatter>
 
