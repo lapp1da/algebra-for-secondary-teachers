@@ -171,12 +171,38 @@
         <task>
           <statement>
             <p>
-              Construct an addition table for <m>\pmod 5</m> below.
+              Construct an addition table for (mod 5) below.
             </p>
             <p>
               <image source="images/mod-5-addition-table.png" width="70%">
                 <shortdescription>mod 5 addition table</shortdescription>
               </image>
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Construct a multiplication table for (mod 5) below.
+            </p>
+            <p>
+              <image source="images/mod-5-multiplication-table.png" width="70%">
+                <shortdescription>mod 5 multiplication table</shortdescription>
+              </image>
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Use your multiplication table from part (h) to determine what <m>3^4</m> would be (mod 5).
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              What would be the remainder if <m>3^{100}</m> were divided by 5? [Hint: Consider your answer to part (i)]
             </p>
           </statement>
         </task>
