@@ -1816,6 +1816,65 @@
       </p>
     </statement>
   </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Consider the following activity from the High School curricula, Interactive Mathematics Program (IMP), 
+        4th year text, <em>Its Own Inverse</em> (IMP, 2000, p. 155).
+      </p>
+      <p>
+        In <em>Linear Functions In Verse</em>, <m>f</m> was an arbitrary linear function defined by the equation 
+        <m>f\left(x\right)=ax+b</m> (with <m>a \neq 0</m>).  You needed to find an expression for 
+        <m>f^{-1}\left(x\right)</m>.  Which linear functions are their own inverses?  That is, for what choices of 
+        <m>a</m> and <m>b</m> is <m>f</m> equal to <m>f^{-1}</m>? (Note: There are infinitely many possibilities.)
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Consider the invertible function, <m>f\left(x\right)=x^3+2</m>.
+      </p>
+      <task>
+        <statement>
+          <p>
+            In words, describe what you would do with an input for <m>f</m> to evaluate it at that value.
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Using your words from part (a) and the process of "undoing", give an expression for <m>f^{-1}</m>.
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Graph both <m>f</m> and <m>f^{-1}</m> on the same axes.  Describe any symmetry you see with these 
+            graphs.
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            How can the graphical relationship you see in part (c) help with answering exercise 11?  Does it 
+            support your responses to exercise 11?  Explain.
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Examining your experiences in <xref ref="act-form-function"/>, does this graphical observation support 
+            what you found for elements of order 2?  Explain.
+          </p>
+        </statement>
+      </task>
+    </statement>
+  </exercise>
   
 </exercises>
 
