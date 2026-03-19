@@ -158,9 +158,29 @@
               names for the triangle moves as follows (see TI-Nspire document page 1.2).
             </p>
             <p>
-              <sidebyside widths="30% 30%" valign="middle">
-              <image source="images/triangle-initial-orientation.png"/>
-              <image source="images/triangle-ccw-rotation.png"/>
+              <me>
+              M=\left\{
+                \begin{array}
+              "r_0=\begin{bmatrix} 1 \amp 0\\ 0 \amp 1 \end{bmatrix} 
+              \amp
+              r_1=\begin{bmatrix} -\frac{1}{2} \amp \frac{\sqrt{3}}{2}\\ -\frac{\sqrt{3}}{2} \amp -\frac{1}{2} \end{bmatrix}
+              \amp
+              r_2=\begin{bmatrix} -\frac{1}{2} \amp -\frac{\sqrt{3}}{2}\\ \frac{\sqrt{3}}{2} \amp -\frac{1}{2} \end{bmatrix}
+              \\
+              v=\begin{bmatrix} -1 \amp 0\\ 0 \amp 1 \end{bmatrix}
+              \amp
+              d_1=\begin{bmatrix} \frac{1}{2} \amp \frac{\sqrt{3}}{2}\\ \frac{\sqrt{3}}{2} \amp -\frac{1}{2} \end{bmatrix}
+              \amp
+              d_2=\begin{bmatrix} \frac{1}{2} \amp -\frac{\sqrt{3}}{2}\\ -\frac{\sqrt{3}}{2} \amp -\frac{1}{2} \end{bmatrix}
+              \end{array}
+              \right\}
+            </me>
+            </p>
+            <p>
+              <sidebyside widths="30% 30% 30%" valign="middle">
+              <image source="images/isomorphism-nspire01.png"/>
+              <image source="images/isomorphism-nspire02.png"/>
+              <image source="images/isomorphism-nspire03.png"/>
               </sidebyside>
             </p>
           </statement>
