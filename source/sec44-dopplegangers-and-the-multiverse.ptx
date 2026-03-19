@@ -144,6 +144,25 @@
                 <shortdescription>triangle flips</shortdescription>
               </image>
             </p>
+            <p>
+              We will claim that these are the “basic” moves for the triangles so that it comes to rest back in 
+              the same “space” as it started.  We will denote this set of moves as 
+              <m>M=\left\{r_0, v, d_1, d_2, r_1, r_2\right\}</m>.  Explain how you know that these are the only 
+              “basic” moves.  (think about how many ways you could re-label the triangle).
+            </p>
+            <p>
+              While we can use physical triangles to do these manipulations, we can also do it virtually by using 
+              matrix transformations.  To help with performing the moves, we will use a set of matrices on the 
+              TI-Nspire CX CAS. These six matrices will take the original vertices and map them to their new 
+              locations. For your convenience, the matrices have been given names corresponding to our original 
+              names for the triangle moves as follows (see TI-Nspire document page 1.2).
+            </p>
+            <p>
+              <sidebyside widths="30% 30%" valign="middle">
+              <image source="images/triangle-initial-orientation.png"/>
+              <image source="images/triangle-ccw-rotation.png"/>
+              </sidebyside>
+            </p>
           </statement>
         </task>
         
