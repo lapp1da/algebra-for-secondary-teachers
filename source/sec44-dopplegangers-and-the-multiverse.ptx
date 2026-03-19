@@ -63,8 +63,9 @@
             difficult computations.
           </p>
           <p>
-            Recall that in your earlier lab we used the set of functions <m>T=\left\{e, f, g, h, j, k\right\}</m> 
-            under the operation of function composition where the functions are defined as follows:
+            Recall that in <xref ref="act-form-function"/> we used the set of functions 
+            <m>T=\left\{e, f, g, h, j, k\right\}</m> under the operation of function composition where the 
+            functions are defined as follows:
           </p>
           <me>
             e\left(x\right)=x, f\left(x\right)=\frac{1}{x}, g\left(x\right)=\frac{x}{x-1}, h\left(x\right)=1-x, 
@@ -74,6 +75,19 @@
           <p>
             Further, recall that you found this set and operation to form a group and you constructed the Cayley 
             (operation) table given below.
+          </p>
+          <p>
+            <figure xml:id="fig-function-cayley-table">
+              <caption>Cayley Table for the Set of Functions</caption>
+              <image source="images/function-cayley-table.png" width="60%">
+                <shortdescription>Cayley Table of Functions</shortdescription>
+              </image>
+            </figure>
+          </p>
+          <p>
+            We will now consider a different set and operation.  Take your equilateral triangle and mark the 
+            vertices 1, 2, and 3 on both faces (you will be flipping them over and will need to identify the same 
+            vertex from both faces of the triangle).  Orient the triangle as shown in .
           </p>
           <p>
             
