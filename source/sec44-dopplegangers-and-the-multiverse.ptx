@@ -90,7 +90,12 @@
             vertex from both faces of the triangle).  Orient the triangle as shown in .
           </p>
           <p>
-            
+            <figure xml:id="fig-triangle-initial-orientation">
+              <caption>Initial Triangle Orientation</caption>
+              <image source="images/triangle-initial-orientation.png" width="30%">
+                <shortdescription>initial triangle orientation</shortdescription>
+              </image>
+            </figure>
           </p>
 
         </introduction>
