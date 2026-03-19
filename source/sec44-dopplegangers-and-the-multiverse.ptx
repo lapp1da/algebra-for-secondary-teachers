@@ -36,6 +36,58 @@
 
   </introduction>
 
+  <subsection xml:id="subsec-group-dopplegangers">
+    <title>Group Dopplegangers</title>
+
+    <p>
+      We have to this point exploited some of the mathematical properties such as inverses and identity in order to 
+      solve equations involving various operations.  However, the simple use of properties to solve equations is 
+      but a limited example of the power that algebra provides.  A far more powerful use is that this structure 
+      allows mathematicians to use the behavior of one system to gain insight into the behavior of another system. 
+      To see how this works, let's consider another activity investigating the group properties we discovered in 
+      <xref ref="act-form-function"/>.  
+    </p>
+
+    <p>
+      <activity xml:id="act-whats-in-a-name">
+        <title>What's in a Name</title>
+        <introduction>
+          <p>
+            Mathematics can be described as the study of patterns.  For this reason, we often look for similar 
+            structure in both nature and mathematical systems.  Mathematics can certainly be used to study patterns 
+            in the physical world, but we can also look for patterns within mathematics itself.  Are there times 
+            when one mathematical system is, for all practical purposes, “identical” to another mathematical system 
+            and therefore governed by the same properties and relationships?  If this is so, then one system can 
+            give us quite a bit of information about another system.  In fact, if one system is easier to operate 
+            on, we can use it instead and then deduce information about the other system without having to do more 
+            difficult computations.
+          </p>
+          <p>
+            Recall that in your earlier lab we used the set of functions <m>T=\left\{e, f, g, h, j, k\right\}</m> 
+            under the operation of function composition where the functions are defined as follows:
+          </p>
+          <me>
+            e\left(x\right)=x, f\left(x\right)=\frac{1}{x}, g\left(x\right)=\frac{x}{x-1}, h\left(x\right)=1-x, 
+            j\left(x\right)=\frac{1}{1-x}, k\left(x\right)=\frac{x-1}{x}
+          </me>
+
+          <p>
+            Further, recall that you found this set and operation to form a group and you constructed the Cayley 
+            (operation) table given below.
+          </p>
+          <p>
+            
+          </p>
+
+        </introduction>
+        
+        
+        
+      </activity>
+    </p>
+    
+  </subsection>
+
   <subsection xml:id="subsec-modular-arithmetic">
     <title>Modular Arithmetic and Groups</title>
 
@@ -96,14 +148,15 @@
             Anytime you make one lap around the clock, you are getting rid of a multiple of 12 so the place you 
             stop is the same as the remainder.  For this reason, <em>modular arithmetic</em> is often referred to 
             as <em>clock arithmetic</em>.  Since when dividing by 12, we would never state a remainder of 12, for 
-            modular arithmetic, .
+            modular arithmetic, <em>we replace the top of the clock with a 0 rather than the divisor we are using</em>.
           </p>
           </p>
         </introduction>
         <task>
           <statement>
             <p>
-              Start on 12 and count around the clock 53 times.  What number do you land on?
+              Start on 12 and count around the clock 53 times.  What number do you land on?  Remember to use 0 at the 
+              top rather than 12.
             </p>
           </statement>
         </task>
@@ -147,10 +200,10 @@
             </p>
             <p>
               Now let us consider a smaller divisor or clock.  If we divide by 5, the possible remainders will be 
-              0, 1, 2, 3, or 4.  In the previous clock, this would be similar to replacing the 12 with a 0 since if 
-              a number is a multiple of 12 then when it is divided by 12 the remainder will be 0.  We can see the 
-              "mod 5" clock in <xref ref="fig-mod-5-clock"/>.  In this clock, it can be seen that 
-              <m>5 \equiv 0 \pmod 5</m>.
+              0, 1, 2, 3, or 4.  In the previous clock, as discussed earlier, this would be similar to replacing the 
+              12 with a 0 since if a number is a multiple of 12 then when it is divided by 12 the remainder will be 
+              0.  We can see the "mod 5" clock in <xref ref="fig-mod-5-clock"/>.  In this clock, it can be seen 
+              that <m>5 \equiv 0 \pmod 5</m>.
             </p>
             <p>
               <figure xml:id="fig-mod-5-clock">
@@ -232,6 +285,10 @@
         </task>
 
       </activity>
+    </p>
+
+    <p>
+      
     </p>
     
   </subsection>
