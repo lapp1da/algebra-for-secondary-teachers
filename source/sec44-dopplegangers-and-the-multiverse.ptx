@@ -107,8 +107,41 @@
               lies along the horizontal with the opposite vertex pointing upward?  For example, 
             </p>
             <p>
-              <image source="path (no extension)">
-                <shortdescription>(for accessibility)</shortdescription>
+              <sidebyside widths="30% 30%" valign="middle">
+              <image source="images/triangle-initial-orientation.png"/>
+              <image source="images/triangle-ccw-rotation.png"/>
+              </sidebyside>
+            </p>
+            <p>
+              are different orientations.
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              Using the orientations you found in part (a) as the “basic” moves for the triangle, describe each 
+              orientation as a movement such as a flip or rotation from the original position given in 
+              <xref ref="fig-triangle-initial-orientation"/>.  For example, the movement described in part (a) 
+              could be considered a <m>\frac{1}{3}</m> or 120˚ counter-clockwise rotation or a <m>\frac{2}{3}</m> 
+              or 240˚ clockwise rotation.
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              In order to communicate with each other, we will decide on a common notation for moves of the 
+              triangle.  Rotations will be clockwise.  We will let <m>r_0</m> stand for no rotation, <m>r_1</m> 
+              denote a 120˚ rotation, and <m>r_2</m> represent a 240˚ rotation.  For the flips, we have three axes 
+              about which we can flip the triangle (vertical and two diagonals).  We will use <m>v</m>, <m>d_1</m>, 
+              and <m>d_2</m> to denote them as shown below.
+            </p>
+            <p>
+              <image source="images/triangle-flips-diagram.png" width="60%">
+                <shortdescription>triangle flips</shortdescription>
               </image>
             </p>
           </statement>
