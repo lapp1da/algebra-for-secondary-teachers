@@ -177,6 +177,15 @@
             </me>
             </p>
             <p>
+              Here the triangle vertices are stored in a <m>2 \times 3</m> matrix, named <m>t</m> for “triangle”, 
+              where each column represents the <m>x-</m> and <m>y-</m>coordinates of vertices 1, 2, and 3 
+              respectively as labeled on the triangle.  The effect of matrix multiplication is that the vertices 
+              trade locations.  For example, applying <m>r_1</m> to the triangle vertices matrix gives
+            </p>
+            <p>
+              
+            </p>
+            <p>
               <sidebyside widths="30% 30% 30%" valign="middle">
               <image source="images/isomorphism-nspire01.png"/>
               <image source="images/isomorphism-nspire02.png"/>
