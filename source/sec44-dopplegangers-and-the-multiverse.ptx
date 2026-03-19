@@ -87,7 +87,8 @@
           <p>
             We will now consider a different set and operation.  Take your equilateral triangle and mark the 
             vertices 1, 2, and 3 on both faces (you will be flipping them over and will need to identify the same 
-            vertex from both faces of the triangle).  Orient the triangle as shown in .
+            vertex from both faces of the triangle).  Orient the triangle as shown in 
+            <xref ref="fig-triangle-initial-orientation"/>.
           </p>
           <p>
             <figure xml:id="fig-triangle-initial-orientation">
@@ -97,8 +98,21 @@
               </image>
             </figure>
           </p>
-
         </introduction>
+
+        <task>
+          <statement>
+            <p>
+              Keeping the vertices labeled, how many different ways can you orient the triangle so that one side 
+              lies along the horizontal with the opposite vertex pointing upward?  For example, 
+            </p>
+            <p>
+              <image source="path (no extension)">
+                <shortdescription>(for accessibility)</shortdescription>
+              </image>
+            </p>
+          </statement>
+        </task>
         
         
         
