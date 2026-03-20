@@ -220,6 +220,91 @@
               move <m>B</m> is performed first followed by move <m>A</m>.  In the space below, record the result 
               as shown.
             </p>
+            <p>
+              <image source="images/triangle-cayley-table.png">
+                <shortdescription>Cayley Table for Triangle Moves</shortdescription>
+              </image>
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              In general, is the set of moves on the triangle closed under the operation of composition of moves?  
+              If not, what elements yield an element not in the original set of moves?
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              In general, do the elements of the set commute with each other?  If not, do some of the elements 
+              commute with some of the other elements?  Explain.
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              How might you check associativity?  How many different permutations of these moves would you need to 
+              check to be certain of associativity?  Devise a plan to check associativity.  Your plan might include 
+              other groups from the class (divide and conquer is often very effective).  Is there any pattern that 
+              you have noticed that might allow you to claim associativity without checking all possible 
+              combinations (consider your table of functions under composition from 
+              <xref ref="fig-function-cayley-table"/>)?
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              Is there a move from the set that acts like an identity element?  If so, what is the move and explain 
+              how you know?
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              Does every element have an inverse?  If so, list all elements and their inverses.  If not, list any 
+              elements that do have an inverse along with their inverse element.
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              Again, recall that if a set along with an operation meets the four criteria of <em>closure</em>, 
+              <em>associativity</em>, an <em>identity element</em>, and all elements have <em>inverses</em>, then 
+              we call the set a group.  Does this set of six moves on a triangle under the operation of composition 
+              of moves form a group?
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              Now consider the Cayley table you have just created.  What similarities do you notice in relation to 
+              the earlier Cayley table of the group of six functions (see <xref ref="fig-function-cayley-table"/>)? 
+              What differences do you notice?
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              Given your observations about each set and operation, explain how you could use the table for 
+              function composition on <m>T</m> to answer questions about set <m>M</m> and its composition of 
+              movements on the triangle.  (Think about ideas such as element orders and inverses).
+            </p>
           </statement>
         </task>
         
