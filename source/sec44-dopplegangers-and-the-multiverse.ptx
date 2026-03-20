@@ -316,7 +316,14 @@
               relationships among the “people” of the two universes are the same within each world.  We can 
               therefore give a mapping between the worlds that tells who in one world corresponds to their similar 
               person in the other world.  Let's call this mapping <m>\varphi</m> where if the person, <m>a</m>, in 
-              the first world behaves like person,  , in the other world, then   (see the diagram below).  Here a behaves in the first world in a similar way that   behaves in the second world.
+              the first world behaves like person, <m>a'</m>, in the other world, then 
+              <m>\varphi\left(a\right)=a'</m>(see the diagram below).  Here <m>a</m> behaves in the first world 
+              in a similar way that <m>a'</m> behaves in the second world.
+            </p>
+            <p>
+              <image source="images/isomorphism-mapping-diagram.png" width="60%">
+                <shortdescription>Mapping Between Worlds</shortdescription>
+              </image>
             </p>
           </statement>
         </task>
