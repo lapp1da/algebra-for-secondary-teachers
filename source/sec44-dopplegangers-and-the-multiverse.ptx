@@ -307,6 +307,19 @@
             </p>
           </statement>
         </task>
+
+        <task>
+          <statement>
+            <p>
+              When looking at these two groups, you might have noticed similarities for the behavior among the 
+              elements of each group.  We can think of these two groups as parallel universes where the 
+              relationships among the “people” of the two universes are the same within each world.  We can 
+              therefore give a mapping between the worlds that tells who in one world corresponds to their similar 
+              person in the other world.  Let's call this mapping <m>\varphi</m> where if the person, <m>a</m>, in 
+              the first world behaves like person,  , in the other world, then   (see the diagram below).  Here a behaves in the first world in a similar way that   behaves in the second world.
+            </p>
+          </statement>
+        </task>
         
         
         
