@@ -1054,7 +1054,8 @@
             <m>\langle k \rangle</m> is denoted <m>f \circ \langle k \rangle</m> and called a <em>coset</em>.  
             This can be done in either the <em>Calculator</em> page or the dynamic <em>Notes</em> page as shown 
             below.  Note that for your convenience, the <em>Notes</em> page (3.3) allows you to edit the 
-            subgroup at the top of the page and all cosets below it are automatically updated.
+            subgroup at the top of the page and all cosets below it are automatically updated.  If you prefer, you 
+            can use the imbedded GeoGebra applet provided in <xref ref="fig-FormFunction"/>.
           </p>
           <p>
             <definition xml:id="def-coset">
@@ -1074,6 +1075,14 @@
             <image source="images/coset-calculator.png" />
             <image source="images/coset-notes.png"/>
           </sidebyside>
+          </p>
+          <p>
+            <figure xml:id="fig-FormFunction">
+              <caption>Coset Compositions</caption>
+              <interactive xml:id="form-function" platform="geogebra" width="100%" reset-icon="yes">
+                <slate xml:id="ggb-form-function" surface="geogebra" material="hj3mzmga" />
+              </interactive>
+            </figure>
           </p>
         </statement>
       </task>
