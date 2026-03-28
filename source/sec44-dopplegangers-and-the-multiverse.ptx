@@ -315,8 +315,8 @@
               elements of each group.  We can think of these two groups as parallel universes where the 
               relationships among the “people” of the two universes are the same within each world.  We can 
               therefore give a mapping between the worlds that tells who in one world corresponds to their similar 
-              person in the other world.  Let's call this mapping <m>\varphi</m> where if the person, <m>a</m>, in 
-              the first world behaves like person, <m>a'</m>, in the other world, then 
+              person (doppleganger) in the other world.  Let's call this mapping <m>\varphi</m> where if the person, 
+              <m>a</m>, in the first world behaves like person, <m>a'</m>, in the other world, then 
               <m>\varphi\left(a\right)=a'</m>(see the diagram below).
             </p>
             <p>
