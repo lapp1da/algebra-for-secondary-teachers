@@ -305,11 +305,9 @@
               function composition on <m>T</m> to answer questions about set <m>M</m> and its composition of 
               movements on the triangle.  (Think about ideas such as element orders and inverses).
             </p>
-          </statement>
-        </task>
-
-        <task>
-          <statement>
+            <p>
+              
+            </p>
             <p>
               When looking at these two groups, you might have noticed similarities for the behavior among the 
               elements of each group.  We can think of these two groups as parallel universes where the 
@@ -327,17 +325,27 @@
             <p>
               We can notice the similarity in behavior among the elements if we look at the Cayley tables 
               side-by-side.  Consider the Cayley table you just constructed shown next to the one that you created in 
-              the actitivy <xref ref="act-form-function"/> shown below in 
+               <xref ref="act-form-function"/> shown below in <xref ref="fig-formfunction-trianglemoves"/>.
             </p>
             <p>
           <figure xml:id="fig-formfunction-trianglemoves">
             <caption>Cayley Tables for Functions and Triangle Moves</caption>
-          <sidebyside widths="40% 40%" valign="middle">
+          <sidebyside widths="50% 50%" valign="middle">
             <image source="images/function-cayley-table.png" />
             <image source="images/triangle-cayley-table-complete.png"/>
           </sidebyside>
           </figure>
           </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            Give a mapping between sets <m>T</m> and <m>M</m> that describes how elements of <m>T</m> have similar 
+            behavior as elements in <m>M</m> only with a different operation.  For example, if you thought that 
+            the function <m>f</m> in the group of functions behaved like the vertical flip in the group of triangle 
+            moves, you would write <m>\varphi\left(f\right)=v</m>.  Describe what properties of the elements helped 
+            to decide what elements from <m>T</m> mapped to elements from <m>M</m>?
           </statement>
         </task>
         
