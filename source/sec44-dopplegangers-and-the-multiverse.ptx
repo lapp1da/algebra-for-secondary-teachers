@@ -324,6 +324,20 @@
                 <shortdescription>Mapping Between Worlds</shortdescription>
               </image>
             </p>
+            <p>
+              We can notice the similarity in behavior among the elements if we look at the Cayley tables 
+              side-by-side.  Consider the Cayley table you just constructed shown next to the one that you created in 
+              the actitivy <xref ref="act-form-function"/> shown below in 
+            </p>
+            <p>
+          <figure xml:id="fig-formfunction-trianglemoves">
+            <caption>Cayley Tables for Functions and Triangle Moves</caption>
+          <sidebyside widths="40% 40%" valign="middle">
+            <image source="images/function-cayley-table.png" />
+            <image source="images/triangle-cayley-table-complete.png"/>
+          </sidebyside>
+          </figure>
+          </p>
           </statement>
         </task>
         
