@@ -789,6 +789,7 @@
           table as shown.  This can be done more efficiently by first entering the functions in a spreadsheet 
           (see page 1.2 of the <em>FormFunction.tns</em> file) and naming the entire set of functions “funset” 
           and then performing compositions on the entire set all at once either on the <em>Calculator</em> page 
+          (or using the GeoGebra applet below in <xref ref="fig-FormFunction-comptable"/>)
           or in the <em>Lists &amp; Spreadsheets</em> page (see <xref ref="fig-compose-functions-cas"/>).  If you 
           use the spreadsheet, note that the columns in the spreadsheet correspond to rows in the table you are 
           filling in due to the way the same operation is performed for an entire column in the spreadsheet.  
@@ -804,6 +805,14 @@
           </sidebyside>
           </figure>
         </p>
+        <p>
+            <figure xml:id="fig-FormFunction-comptable">
+              <caption>Composition of Table Rows</caption>
+              <interactive xml:id="form-function-comptable" platform="geogebra" width="100%" reset-icon="yes">
+                <slate xml:id="ggb-form-function-comptable" surface="geogebra" material="xkqjcwsf" />
+              </interactive>
+            </figure>
+          </p>
 
         <p>
           <image source="images/function-composition-table.png" width="90%">
@@ -1055,21 +1064,9 @@
             This can be done in either the <em>Calculator</em> page or the dynamic <em>Notes</em> page as shown 
             below.  Note that for your convenience, the <em>Notes</em> page (3.3) allows you to edit the 
             subgroup at the top of the page and all cosets below it are automatically updated.  If you prefer, you 
-            can use the imbedded GeoGebra applet provided in <xref ref="fig-FormFunction"/>.
+            can use the imbedded GeoGebra applet provided in <xref ref="fig-FormFunction-cosets"/>.
           </p>
-          <p>
-            <definition xml:id="def-coset">
-              <title>Coset</title>
-              <statement>
-                <p>
-                  Let <m>H</m> be a subgroup of a group <m>G</m>.  Let <m>a</m> be any fixed element of <m>G</m>.  Then 
-                  the set of all products of the form <m>ah</m> where <m>h \in H</m> is called a <em>left coset</em> for 
-                  <m>a</m> of <m>H</m> in <m>G</m> and is denoted by <m>aH</m>.  Similarly, <m>Ha</m> is called a 
-                  <em>right coset</em> of <m>H</m> in <m>G</m>.
-                </p>
-              </statement>
-            </definition>
-          </p>
+          
           <p>
           <sidebyside widths="40% 40%" valign="middle">
             <image source="images/coset-calculator.png" />
@@ -1077,10 +1074,10 @@
           </sidebyside>
           </p>
           <p>
-            <figure xml:id="fig-FormFunction">
+            <figure xml:id="fig-FormFunction-cosets">
               <caption>Coset Compositions</caption>
-              <interactive xml:id="form-function" platform="geogebra" width="100%" reset-icon="yes">
-                <slate xml:id="ggb-form-function" surface="geogebra" material="hj3mzmga" />
+              <interactive xml:id="form-function-cosets" platform="geogebra" width="100%" reset-icon="yes">
+                <slate xml:id="ggb-form-function-cosets" surface="geogebra" material="hj3mzmga" />
               </interactive>
             </figure>
           </p>
@@ -1096,6 +1093,19 @@
             <m>\langle k \rangle</m>.  What do you notice?  Describe what you observe if the other element is 
             already in <m>\langle k \rangle</m> (e.g. compose <m>\langle k \rangle</m> with all elements from 
             <m>\left\{e,j,k\right\}</m>.  Explain why your observations would be true.
+          </p>
+          <p>
+            <definition xml:id="def-coset">
+              <title>Coset</title>
+              <statement>
+                <p>
+                  Let <m>H</m> be a subgroup of a group <m>G</m>.  Let <m>a</m> be any fixed element of <m>G</m>.  Then 
+                  the set of all products of the form <m>ah</m> where <m>h \in H</m> is called a <em>left coset</em> for 
+                  <m>a</m> of <m>H</m> in <m>G</m> and is denoted by <m>aH</m>.  Similarly, <m>Ha</m> is called a 
+                  <em>right coset</em> of <m>H</m> in <m>G</m>.
+                </p>
+              </statement>
+            </definition>
           </p>
         </statement>
       </task>
