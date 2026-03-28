@@ -317,7 +317,7 @@
               therefore give a mapping between the worlds that tells who in one world corresponds to their similar 
               person (doppleganger) in the other world.  Let's call this mapping <m>\varphi</m> where if the person, 
               <m>a</m>, in the first world behaves like person, <m>a'</m>, in the other world, then 
-              <m>\varphi\left(a\right)=a'</m>(see the diagram below).
+              <m>\varphi\left(a\right)=a'</m> (see the diagram below).
             </p>
             <p>
               <image source="images/isomorphism-mapping-diagram.png" width="60%">
