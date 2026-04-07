@@ -447,6 +447,35 @@
               mapping for <m>\lambda</m> has been done for you as an example.
             </p>
             <p>
+              <image source="images\permutation-response-input.png">
+                <shortdescription>Input Space for Permutation Responses</shortdescription>
+              </image>
+            </p>
+            <p>
+              Since writing these permutation using two rows is time consuming, we have decided to write them 
+              using what is called <em>cycle notation</em> that only records what changes.  For example since 
+              <m>\lambda</m> takes <m>1\mapsto 3</m>, <m>3\mapsto 2</m>, and <m>2\mapsto 1</m>, we use one row of 
+              labels to communicate this.  Think of it as 
+              <m>\lambda=\left(\underleftarrow{1\rightarrow 3 \rightarrow 2}\right)</m> or 
+              more simply <m>\lambda=\left(132\right)</m>.  If we consider a permutation that leaves a label unchanged, 
+              we simply do not write it.  For example, suppose we have 
+              <m>\left(\begin{matrix} 1 \amp 2 \amp 3 \\
+                3 \amp 2 \amp 1
+                \end{matrix}\right)
+              </m> where 2 stays fixed and 1 and 3 swap positions. Here we would write this as 
+              <m>\left(\begin{matrix} 1 \amp 2 \amp 3 \\
+                3 \amp 2 \amp 1
+                \end{matrix}\right)=\left(13\right)\left(2\right)
+              </m> or more simply <m>\left(13\right)</m> leaving out any fixed labels.
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Now take the array notation you found in the last question and write it in cycle notation.
+            </p>
+            <p>
               
             </p>
           </statement>
