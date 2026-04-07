@@ -486,8 +486,8 @@
           <statement>
             <p>
               Now using the elements of the permutation group, <m>S_3</m>, expressed in cycle notation, fill in 
-              the Cayley table below.  You can use the CAS to help with these.  For example, to perform 
-              <m>\alpha \circ \beta</m> as shown in the table, you can simple enter 
+              the Cayley table in <xref ref="fig-permutation-cayley-responses"/>.  You can use the CAS to help with 
+              these.  For example, to perform <m>\alpha \circ \beta</m> as shown in the table, you can simple enter 
               <m>\alpha \left(\beta \left(\left\{1,2,3\right\}\right)\right)</m> on the CAS to get 
               <m>\left\{3,1,2\right\}</m> (see image below) meaning 
               <m>\left(\begin{matrix} 1 \amp 2 \amp 3 \\
@@ -496,9 +496,25 @@
               </m>.
             </p>
             <p>
-              <image source="images/perm-composition.png" width="60%">
+              <image source="images/perm-composition.png" width="40%">
                 <shortdescription>Composing Permutations</shortdescription>
               </image>
+            </p>
+            <p>
+              <figure xml:id="fig-permutation-cayley-responses">
+                <caption>Cayley Table for Responses</caption>
+                <image source="images/permutation-cayley-responses.png">
+                  <shortdescription>Cayley Table for Responses</shortdescription>
+                </image>
+              </figure>
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              In looking at the Cayley table for permutations you have just constructed, describe what you notice 
+              about the <em>structure</em> of the table.  Have you seen this group before?  Explain.
             </p>
           </statement>
         </task>
