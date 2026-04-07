@@ -560,12 +560,39 @@
           <statement>
             <p>
               Now suppose <m>\varphi : \left(T,\circ\right) \rightarrow \left(S, \cdot\right)</m> defined by the 
-              table below.  Without actually finding the composition, <m>g \circ j</m>, what will you get if you 
-              perform <m>\varphi\left(g \circ j\right)</m>?  Now perform <m>g \circ j</m> first and see if it maps 
-              to what you expected. Describe what you notice.
+              table in <xref ref="fig-isomap-table-t-to-s"/>.  Without actually finding the composition, 
+              <m>g \circ j</m>, what will you get if you perform <m>\varphi\left(g \circ j\right)</m>?  Now 
+              perform <m>g \circ j</m> first and see if it maps to what you expected. Describe what you notice.
             </p>
             <p>
-              
+              <figure xml:id="fig-isomap-table-t-to-s">
+                <caption>Mapping Between <m>\left(T,\circ\right)</m> and <m>\left(S, \cdot\right)</m></caption>
+                <image source="images/isomap-table-t-to-s.png" width="70%">
+                  <shortdescription>Mapping Between T and S</shortdescription>
+                </image>
+              </figure>
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Consider the mapping, call it <m>\psi</m>, between <m>S_3</m> and <m>T</m>, 
+              <m>\psi : \left(S_3,\circ\right) \rightarrow \left(T, \circ \right)</m> given in 
+              <xref ref="fig-isomap-table-s3-to-t"/>, and without actually 
+              finding the composition <m>\left(23\right) \circ \left(12\right)</m> first, find 
+              <m>\psi\left(\left(23\right) \circ \left(12\right)\right)</m> and record what you would expect to 
+              get [Feel free to use the Cayley table given for <m>T</m> from <xref ref="fig-function-cayley-table"/>].  
+              Now perform <m>\left(23\right) \circ \left(12\right)</m> and see if it maps to what you expected.  
+              Describe what you notice.
+            </p>
+            <p>
+              <figure xml:id="fig-isomap-table-s3-to-t">
+                <caption>Mapping Between <m>\left(S_3,\circ\right)</m> and <m>\left(T, \circ \right)</m></caption>
+                <image source="images/isomap-table-s3-to-t.png" width="70%">
+                  <shortdescription>Mapping Between S3 and T</shortdescription>
+                </image>
+              </figure>
             </p>
           </statement>
         </task>
