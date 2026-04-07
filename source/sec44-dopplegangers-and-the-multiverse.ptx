@@ -391,9 +391,16 @@
               of labels.  Consider the following permutation of the labels:
             </p>
             <p>
-              <image source="path (no extension)">
+              <image source="images/triangle-arrow-map.png" width="60%">
                 <shortdescription>Arrow Mapping Between Triangle Positions</shortdescription>
               </image>
+            </p>
+            <p>
+              Here the labels for the vertices have undergone the following mappings where <m>1\mapsto 3</m>, 
+              <m>2 \mapsto 1</m>, and <m>3\mapsto 2</m>, meaning that 1 moved to what was 3's location, 2 moved 
+              to what was 1's location, and 3 moved to what was 2's location.  We can think of this as a function, 
+              <m>\lambda</m>, such that <m>\lambda \left(1\right)=3</m>, <m>\lambda \left(2\right)=1</m>, and 
+              <m>\lambda \left(3\right)=2</m>
             </p>
           </statement>
         </task>
