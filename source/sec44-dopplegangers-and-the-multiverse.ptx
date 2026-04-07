@@ -400,7 +400,54 @@
               <m>2 \mapsto 1</m>, and <m>3\mapsto 2</m>, meaning that 1 moved to what was 3's location, 2 moved 
               to what was 1's location, and 3 moved to what was 2's location.  We can think of this as a function, 
               <m>\lambda</m>, such that <m>\lambda \left(1\right)=3</m>, <m>\lambda \left(2\right)=1</m>, and 
-              <m>\lambda \left(3\right)=2</m>
+              <m>\lambda \left(3\right)=2</m> (see the first image in <xref ref="fig-permutation-nspire-images"/>). 
+              We could also think of performing the mapping in one fell swoop to the entire original set of labels, 
+              <m>\left\{1,2,3\right\}</m> yielding the output <m>\left\{3,1,2\right\}</m> by using braces “{}” 
+              (see the second image in <xref ref="fig-permutation-nspire-images"/>).  In the early study of these 
+              permutations an array was used to convey the meaning of the mapping of labels to labels.  In this 
+              case we can think of <m>\lambda</m> as 
+              <m>\lambda =\left(\begin{matrix} 1 \amp 2 \amp 3 \\
+                \downarrow \amp \downarrow \amp \downarrow\\
+                3 \amp 1 \amp 2
+                \end{matrix}\right)
+              </m>
+              where the mapping is viewed as a vertical assignment of labels.  More simply we denote this as 
+              <m>\lambda =\left(\begin{matrix} 1 \amp 2 \amp 3 \\
+                3 \amp 1 \amp 2
+                \end{matrix}\right)
+              </m>.
+            </p>
+            <p>
+              We will now consider the set of permutations (or functions), <m>S_3</m>, on the labels 
+              <m>S=\left\{1,2,3\right\}</m> as 
+              <m>S_3=\left\{\alpha, \beta, \gamma, \delta, \epsilon, \lambda \right\}</m>.  To use these functions on 
+              your CAS, on page 2.1 of the Nspire document, press the <c>var</c> key and select the given function 
+              name from the pop-up list (see the third image in <xref ref="fig-permutation-nspire-images"/>).
+            </p>
+            
+            <p>
+              <figure xml:id="fig-permutation-nspire-images">
+            <caption>Using CAS for Permutations</caption>
+          <sidebyside widths="30% 30% 30%" valign="middle">
+            <image source="images/permutation-function.png" />
+            <image source="images/permutation-function-set.png"/>
+            <image source="images/permutation-function-popup.png">
+              <shortdescription>Using CAS for Permutations</shortdescription>
+            </image>
+          </sidebyside>
+          </figure>
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Using your CAS, fill in the following values using both regular function notation for individual 
+              elements of <m>S</m> as well as array notation for each function in <m>S_3</m>.  Notice that the 
+              mapping for <m>\lambda</m> has been done for you as an example.
+            </p>
+            <p>
+              
             </p>
           </statement>
         </task>
