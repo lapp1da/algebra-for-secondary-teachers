@@ -516,6 +516,57 @@
               In looking at the Cayley table for permutations you have just constructed, describe what you notice 
               about the <em>structure</em> of the table.  Have you seen this group before?  Explain.
             </p>
+            <p>
+              At this point we have seen how different sets of elements and different operations display behavior 
+              that is “the same” in some sense.  As Poincaré stated, <em>“Mathematicians do not study objects, but 
+              relations among objects; they are indifferent to the replacement of objects by others as long as 
+              relations do not change.  Matter is not important, only form interests them.”</em>  Basically what 
+              he meant is that mathematicians are really more concerned with an overall structure (or behavior), 
+              not necessarily the particular set or operation used.  So how do we define what you observed in the 
+              earlier questions—namely that the sets and operations used, <m>\left(T, \circ\right)</m>, 
+              <m>\left(M, \circ\right)</m>, <m>\left(S, \cdot\right)</m>, and <m>\left(S, \circ\right)</m> are 
+              basically the same from a behavioral standpoint?  There are really three main properties that have 
+              to be met to define what we mean by “same behavior”.  Consider the mapping we defined earlier 
+              between different “worlds” where, for example, <m>\varphi\left(f\right)=v</m>.
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              What two properties of functions must be true about the function <m>\varphi</m> to say, “every 
+              element in one world is mapped to exactly one element on the other world and no element in any 
+              world goes unmapped”?  Explain your thinking.
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Suppose you take two functions in the group <m>\left(T, \circ\right)</m> and combine them before 
+              mapping them to the group <m>\left(M, \circ\right)</m>.  Here you might have 
+              <m>\varphi\left(f\circ g\right)=\varphi\left(k\right)=r_2</m>.  Explain what you get if you do the 
+              mapping of each element into the group <m>\left(M, \circ\right)</m> first before you compose the 
+              resulting elements under the operation in <m>\left(M, \circ\right)</m>.  In other words, what are 
+              <m>\varphi\left(f\right)</m> and <m>\varphi\left(g\right)</m> and then what do you get when you 
+              perform <m>\varphi\left(f\right) \circ \varphi\left(g\right)</m>?  In general, what can you say will 
+              always be true for the mapping of any two elements <m>\varphi\left(ab\right)</m> if 
+              <m>\varphi\left(a\right)</m> and <m>\varphi\left(b\right)</m> are to “behave” like <m>a</m> and <m>b</m> do 
+              in their respective group.  We call this <em>operation preserving</em> under the mapping.
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Now suppose <m>\varphi : \left(T,\circ\right) \rightarrow \left(S, \cdot\right)</m> defined by the 
+              table below.  Without actually finding the composition, <m>g \circ j</m>, what will you get if you 
+              perform <m>\varphi\left(g \circ j\right)</m>?  Now perform <m>g \circ j</m> first and see if it maps 
+              to what you expected. Describe what you notice.
+            </p>
+            <p>
+              
+            </p>
           </statement>
         </task>
         
