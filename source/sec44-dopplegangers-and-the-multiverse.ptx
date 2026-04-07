@@ -476,7 +476,24 @@
               Now take the array notation you found in the last question and write it in cycle notation.
             </p>
             <p>
-              
+              <image source="images\permutation-array-to-cycle-response.png">
+                <shortdescription>Responses from array to cycle notation</shortdescription>
+              </image>
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Now using the elements of the permutation group, <m>S_3</m>, expressed in cycle notation, fill in 
+              the Cayley table below.  You can use the CAS to help with these.  For example, to perform 
+              <m>\alpha \circ \beta</m> as shown in the table, you can simple enter 
+              <m>\alpha \left(\beta \left(\left\{1,2,3\right\}\right)\right)</m> on the CAS to get 
+              <m>\left\{3,1,2\right\}</m> meaning 
+              <m>\left(\begin{matrix} 1 \amp 2 \amp 3 \\
+                3 \amp 1 \amp 2
+                \end{matrix}\right)=\left(132\right)
+              </m>
             </p>
           </statement>
         </task>
