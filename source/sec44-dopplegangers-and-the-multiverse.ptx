@@ -348,6 +348,55 @@
             to decide what elements from <m>T</m> mapped to elements from <m>M</m>?
           </statement>
         </task>
+        <task>
+          <statement>
+            <p>
+              In the earlier example, we thought of the set we were operating on as the set of “moves” on the 
+              triangle with the operation being composition of “moves”.  What if we instead considered the set of 
+              elements to be the set of matrices given by
+            </p>
+            <p>
+              <me>
+              S=\left\{
+                \begin{array}
+              "\begin{bmatrix} 1 \amp 0\\ 0 \amp 1 \end{bmatrix} 
+              \amp
+              \begin{bmatrix} -\frac{1}{2} \amp \frac{\sqrt{3}}{2}\\ -\frac{\sqrt{3}}{2} \amp -\frac{1}{2} \end{bmatrix}
+              \amp
+              \begin{bmatrix} -\frac{1}{2} \amp -\frac{\sqrt{3}}{2}\\ \frac{\sqrt{3}}{2} \amp -\frac{1}{2} \end{bmatrix}
+              \\
+              \begin{bmatrix} -1 \amp 0\\ 0 \amp 1 \end{bmatrix}
+              \amp
+              \begin{bmatrix} \frac{1}{2} \amp \frac{\sqrt{3}}{2}\\ \frac{\sqrt{3}}{2} \amp -\frac{1}{2} \end{bmatrix}
+              \amp
+              \begin{bmatrix} \frac{1}{2} \amp -\frac{\sqrt{3}}{2}\\ -\frac{\sqrt{3}}{2} \amp -\frac{1}{2} \end{bmatrix}
+              \end{array}
+              \right\}
+            </me>
+            </p>
+            <p>
+              where the operation on the set is regular matrix multiplication.  Explain why 
+              <m>\left(S, \cdot \right)</m> forms a group.  How is this different than when we considered the 
+              group <m>\left(M, \circ \right)</m> where <m>\circ</m> refers to composition of “moves” on a 
+              triangle?  How is it the same?  How is it different than when we used <m>\left(T, \circ \right)</m> 
+              where <m>\circ</m> refers to composition of functions?  How is it the same?
+            </p>
+            <p>
+              While we have looked at the movements on the triangle through the view of a physical triangle 
+              operated on by “moves” and as a set of matrices operated on by regular matrix multiplication used to 
+              actually perform the transformation of the physical triangle, we can also view it in another way.  
+              We could simply look at how the numbered vertices of the triangle are reassigned (or permuted).  The 
+              ways in which the labels can be reassigned are called <em>permutations</em> and we can think about 
+              them as a mapping or function that assigns the old label of a vertex a new label from the same set 
+              of labels.  Consider the following permutation of the labels:
+            </p>
+            <p>
+              <image source="path (no extension)">
+                <shortdescription>Arrow Mapping Between Triangle Positions</shortdescription>
+              </image>
+            </p>
+          </statement>
+        </task>
         
         
         
