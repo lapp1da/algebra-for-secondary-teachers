@@ -599,6 +599,17 @@
       </activity>
     </p>
 
+    <p>
+      From both activities <xref ref="act-form-function"/> and <xref ref="act-whats-in-a-name"/>, you might have 
+      noticed that we explored several different sets of 6 elements under various operations 
+      <m>\left(T, \circ \right)</m>, <m>\left(S, \cdot \right)</m>, <m>\left(M, \circ \right)</m>, and 
+      <m>\left(S_3, \circ \right)</m>, where upon inspection, their Cayley tables and thus behavior appear to be 
+      essentially the same.  These groups of order 6 are like parallel universes with elements acting like 
+      dopplegangers.  So the next natural questions is, "Do all groups of order 6 have this same behavior?"  In the 
+      next subsection, we will explore this question and examine properties that might give us insight into whether 
+      or not this could be true.
+    </p> 
+
 
     
     
@@ -809,5 +820,52 @@
     
   </subsection>
 
+  <exercises xml:id="exercises-dopplegangers-multiverse">
+    <exercise>
+      <statement>
+        <p>
+          Show that the mapping <m>a \mapsto \ln\left(a\right)</m> from the positive real numbers, 
+          <m>\mathbb{R}^+</m>, under multiplication to the real numbers, <m>\mathbb{R}</m>, under addition is an 
+          isomorphism.  Explain how you know all three of these properties of isomorphism are met.
+        </p>
+      </statement>
+    </exercise>
+    
+    <exercise>
+      <statement>
+        <p>
+          Suppose we have the group of integers under addition 
+          <m>\mathbb{Z}=\left\{\ldots,-2,-1,0,1,2,\ldots\right\}</m> and the group of even integers 
+          <m>2\mathbb{Z}=\left\{\ldots,-4,-2,0,2,4,\ldots\right\}</m> also under addition.  Show these two groups 
+          are isomorphic by finding a mapping <m>\varphi : \mathbb{Z} \rightarrow 2\mathbb{Z}</m> that is 
+          one-to-one, onto, and preserves the operation.  Explain how you know all three of these properties are met.
+        </p>
+      </statement>
+    </exercise>
+    
+    <exercise>
+      <statement>
+        <p>
+          Suppose <m>\mathbb{P}_3</m> is the set of all polynomials of degree 3 or less with real coefficients.  
+          Is <m>\mathbb{P}_3</m> a vector space under addition of polynomials?
+        </p>
+      </statement>
+    </exercise>
+    
+    <exercise>
+      <statement>
+        <p>
+          Suppose <m>\mathbb{P}_3</m> is the set of all polynomials of degree 3 or less with real coefficients.  
+          Consider <m>p,q,r,s \in \mathbb{P}_3</m> with <m>p\left(t\right)=3t^3-4t^2+t-1</m>, 
+          <m>q\left(t\right)=2t^3-3t+5</m>, <m>r\left(t\right)=t^2-4t+3</m>, and 
+          <m>s\left(t\right)=-2t^3+t^2-7t+1</m>.  Do there exist <m>a,b,c,d \in \mathbb{R}</m> such that 
+          <m>a\cdot p\left(t\right)+b\cdot q\left(t\right)+c\cdot r\left(t\right)+d\cdot s\left(t\right)=
+          -3t^3+2t^2+t+5</m>?  If so, are <m>a,b,c,d</m> unique?
+        </p>  
+      </statement>    
+    </exercise>
+     
+
+  </exercises>  
 
 </section>
