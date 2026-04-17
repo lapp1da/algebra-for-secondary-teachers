@@ -864,6 +864,60 @@
         </p>  
       </statement>    
     </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Quinn has been teaching about operations on quadratic functions. She asked her students to explore the 
+          effects of adding two quadratics together and gave them a GeoGebra file where they could edit the 
+          functions <m>f_1\left(x\right)</m> and <m>f_2\left(x\right)</m> and 
+          <m>f_3\left(x\right)=f_1\left(x\right)+f_2\left(x\right)</m> was automatically computed 
+          (see <xref ref="fig-adding-quadratics"/>).  While exploring the situation, Liam makes the observation 
+          that no matter how he edits the first two quadratics, the third function always seems to be a parabola. 
+          He asks his teacher, "Can we always add two parabolas, and get another parabola?"
+        </p>
+        <p>
+            <figure xml:id="fig-adding-quadratics">
+              <caption>Students Use GeoGebra to Add Quadratics</caption>
+              <interactive xml:id="adding-quadratics" platform="geogebra" width="100%" reset-icon="yes">
+                <slate xml:id="ggb-adding-quadratics" surface="geogebra" material="shzbpasg" />
+              </interactive>
+            </figure>
+          </p>
+          <task>
+            <statement>
+              <p>
+                How would you respond to Liam's question?
+              </p>
+            </statement>
+          </task>
+          <task>
+            <statement>
+              <p>
+                After being convinced that he will always get a parabola when adding two quadratics, Liam asks 
+                another question, "What if I put numbers in front of each like, 
+                <m>f_3\left(x\right)=a\cdot f_1\left(x\right)+b\cdot f_2\left(x\right)</m>?  Could I make any 
+                other parabola I want?"
+              </p>
+              <p>
+                As Quinn thinks about Liam's question, she uses what she knows about isomorphisms.  Show that 
+                the set of all polynomials of degree two or less, denoted <m>\mathbb{P}_2</m> , under addition are 
+                isomorphic to <m>\mathbb{R}^3</m> under vector addition.
+              </p>
+            </statement>
+          </task>
+          <task>
+            <statement>
+              <p>
+                Now that you know <m>\mathbb{P}_2</m> and <m>\mathbb{R}^3</m> are isomorphic, how would you respond 
+                to Liam's question?
+              </p>
+            </statement>
+          </task>  
+        </statement>
+      </exercise>              
+
+
      
 
   </exercises>  
