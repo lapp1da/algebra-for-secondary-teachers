@@ -904,6 +904,35 @@
       </activity>
     </p>
     <p>
+      We are now ready to pull some things we discovered in <xref ref="act-whats-in-a-name"/> and 
+      <xref ref="act-generators-cyclic-groups"/> together.  In order to have groups "behave" in similar ways, it 
+      wasn't enough to just have groups of the same size.  In <xref ref="act-whats-in-a-name"/>, we showed that 
+      we needed a mapping so that 
+      <m>\varphi \left(a\circ b\right)=\varphi\left(a\right)* \varphi\left(b\right)</m> where <m>\circ</m> is 
+      the operation in <em>World 1</em> and <m>*</m> is the operation in <em>World 2</em> for all elements 
+      <m>a</m> and <m>b</m>.  We also need to make sure that the sets are of the same "size" or cardinality so 
+      that the mapping insures that every element maps to only one element in the second set and that no two 
+      elements from the first set map to the same element in the second set (aka the mapping is one-to-one and 
+      onto).  We can now give a definition for this type of "sameness" for groups called an <em>isomorphism</em>.
+    </p>
+    <p>
+      <definition xml:id="def-isomorphism">
+        <title>Group Isomorphism</title>
+        <statement>
+          <p>
+            An <em>isomorphism</em> from a group, <m>G</m>, to another group, <m>G'</m> is a one-to-one 
+            mapping, <m>\varphi</m>, from <m>G</m> onto <m>G'</m> that preserves the respective operations so 
+            that the elements "behave" similarly in their respective groups.  In other words,
+            <me>
+              \varphi\left(ab\right)=\varphi\left(a\right) \varphi\left(b\right) \text{  for all  } a,b \in G
+            </me>
+            If there is an isomorphism between groups, we say that they are <em>isomorphic</em>.  If both 
+            groups happen to be the same group, we call it an <em>automorphism</em>.
+          </p>
+        </statement>
+      </definition>
+    </p>
+    <p>
       
     </p>
     
