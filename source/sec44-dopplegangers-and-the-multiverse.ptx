@@ -926,13 +926,47 @@
             <me>
               \varphi\left(ab\right)=\varphi\left(a\right) \varphi\left(b\right) \text{  for all  } a,b \in G
             </me>
-            If there is an isomorphism between groups, we say that they are <em>isomorphic</em>.  If both 
-            groups happen to be the same group, we call it an <em>automorphism</em>.
+            If there is an isomorphism between groups, we say that they are <em>isomorphic</em>, denoted 
+            <m>G \cong G'</m>.  If both groups happen to be the same group, we call it an <em>automorphism</em>.
           </p>
         </statement>
       </definition>
     </p>
     <p>
+      The last loose end we need to tie up before we close this section is the observation you will have made 
+      from <xref ref="act-generators-cyclic-groups"/>.  In that activity, you found that both 
+      <m>U_7</m> and <m>\left(\mathbb{Z}_6 , \oplus\right)</m> had order 6 and that a mapping between them 
+      preserving the operations could be found.  In particular, a key strategy for defining the mapping so 
+      that the operations were preserved involved their generators.  In fact, if you simply map one generator 
+      from one group to a generator from the other group, everything else fell into place.  For example, since 
+      <m>1</m> is a generator in <m>\left(\mathbb{Z}_6 , \oplus\right)</m> and <m>3</m> is generator in 
+      <m>U_7</m>, we can map <m>1_{\mathbb{Z}_6} \mapsto 3_{U_7}</m> and the remaining powers will also align.  
+      This powerful observation hold for any two cyclic groups of the same order.
+    </p>
+    <p>
+      <theorem xml:id="thm-isomorphic-cyclic-groups">
+        <title>Cyclic Groups of the Same Order are Isomorphic</title>
+        <statement>
+          <p>
+            If two cyclic groups are of the same finite order, they are isomorphic.
+          </p>
+          <proof>
+            <p>
+              Suppose <m>G=\langle a \rangle</m> and <m>G'=\langle b \rangle</m> are cyclic groups of the same 
+              finite order.  This means that all elements of <m>G</m> can be expressed as a power of <m>a</m> and 
+              all elements of <m>G'</m> can be expressed as a power of <m>b</m>.  Consider the mapping 
+              <m>a^n \mapsto b^n</m> which is clearly one-to-one and onto.  Now let <m>x,y \in G</m>.  Therefore, 
+              <m>x=a^m</m> and <m>y=a^n</m> for some <m>m,n \in \mathbb{Z}</m>.  We now get 
+              <m>\varphi \left(xy\right)=\varphi \left(a^m a^n\right)=\varphi \left(a^{m+n}\right)</m>.  But 
+              <m>\varphi \left(a^{m+n}\right)=b^{m+n}=b^m b^n=
+                \varphi \left(a^m\right) \varphi \left(a^n\right)=\varphi\left(x\right) \varphi\left(y\right)
+              </m>.
+              Therefore <m>\varphi \left(xy\right)=\varphi\left(x\right) \varphi\left(y\right)</m> and thus the 
+              operation is preserved and we have produced an isomorphic mapping so that <m>G \cong G'</m>.
+            </p>
+          </proof>
+        </statement>
+      </theorem>
       
     </p>
     
