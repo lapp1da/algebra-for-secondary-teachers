@@ -71,17 +71,45 @@
       <xref ref="sec44-dopplegangers-and-the-multiverse"/> where Liam asks Quinn about quadratics.  For example, 
       if one function was stored as <m>f_1\left(x\right)=250+50x</m> and another as <m>f_2\left(x\right)=50+100x</m>, 
       then the student can simply graph <m>f_3\left(x\right)=f_1\left(x\right)+f_2\left(x\right)</m> 
-      (see XXX) and examine the resulting graph and its properties.  When comparing the slopes of <m>f_1</m>, 
-      <m>f_2</m>, and <m>f_3</m> the students deal with the “rule” for the distributive property from a graphical 
-      perspective.  In an instance cited, a student is able to manipulate the symbolic representation through the 
-      use of graphical visualization in his head viewing the various algebraic properties as transformations of 
-      points on the graphs.
+      (see <xref ref="fig-add-linear-graphs"/>) and examine the resulting graph and its properties.  When 
+      comparing the slopes of <m>f_1</m>, <m>f_2</m>, and <m>f_3</m> the students deal with the “rule” for the 
+      distributive property from a graphical perspective.  In an instance cited, a student is able to manipulate 
+      the symbolic representation through the use of graphical visualization in his head viewing the various 
+      algebraic properties as transformations of points on the graphs.
     </p>
     <p>
-      <figure xml:id="fig-algebraic-graph-manipulation">
+      <figure xml:id="fig-add-linear-graphs">
         <caption>Graphs <m>f_1</m>, <m>f_2</m>, and <m>f_3</m> and Connections to Symbolic Forms</caption>
-        
+        <image source="images/add-linear-graphs.png" width="70%">
+          <shortdescription>(for accessibility)</shortdescription>
+        </image>
       </figure>
+    </p>
+    <p>
+      The example of Kieren and Sfard's teaching experiment serves to illustrate the depth of understanding that 
+      can happen through the use of multiple representations.  While they do not claim that this is a quick fix 
+      for all students, they make the argument that for some students it does serve as a tool for making sense of 
+      the abstract properties that make up algebra.  The challenge is for teachers and curriculum developers to 
+      create engaging materials that encourage students to take an active role in sense-making where the movement 
+      between various representational forms is required.  Some students may have certain representational 
+      preferences, but it is still the ability to move flexibly among these representations that defines a depth of 
+      understanding.
+    </p>
+  </subsection>
+
+  <subsection xml:id="subsec-linked-representations">
+    <title>Linked Representations in Algebra: Developing Symbolic Meaning</title>
+    <p>
+      What is a root and how is it related to various representations?  What does it mean to be a solution to an 
+      equation?  These are standard questions we expect our students to be able to explain and apply.  The problem 
+      is that while many students may be able to solve equations, far too many have only procedural knowledge of 
+      the equation-solving process.  Consider the following explanation posed by Aaron.  In question 8 from an 
+      interview, when asked to solve the equation <m>\left(x-2\right)\left(x+3\right)=6</m> (with no graph given), 
+      he began by setting each factor equal to 6.
+    </p>
+
+    <p>
+      
     </p>
     
   </subsection>
