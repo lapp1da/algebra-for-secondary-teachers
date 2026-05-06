@@ -5,10 +5,86 @@
 
   <introduction>
     <p>
-        
+      No matter what we try to think about, we cannot begin to think until we represent it in some form or 
+      fashion.  A <em>representation</em> can be thought of as a description or portrayal of something using 
+      verbal, written, pictorial, or concrete models that take the place of the original object or idea.  The 
+      National Council of Teachers of Mathematics (2000) <em>Principles and Standards for School Mathematics</em> 
+      (PSSM) describes representation in the following way.
     </p>
-
+    <p>
+    <blockquote>
+      <p>
+        The term <em>representation</em> refers both to process and to product—in other words, to the act of 
+        capturing a mathematical concept or relationship in some form and to the form itself (NCTM, 2000, p. 67).
+      </p>
+    </blockquote>
+    </p>
+    <p>
+      In mathematics, we typically refer to four basic types of representations that we use routinely to describe 
+      mathematical concepts or ideas: (1) natural language (written or spoken), (2) numerical, (3) graphical, 
+      and (4) symbolic.  This is not to say that there are not other representations, but rather these are the 
+      most common.  Often you will see the last of these expressed as <em>algebraic</em> rather than 
+      <em>symbolic</em>.  Here we are purposefully calling this form of representation "symbolic" because we wish 
+      move away from the societal impression that "algebra" (and in particular, algebraic reasoning) involves only 
+      symbolic representations such as <m>x^2-3x+2</m>.  Despite the fact that many individuals describe algebra 
+      as the advanced study of the last three letters of the alphabet, algebra involves all of the four 
+      representations listed above.  In this section, we will illustrate how multiple representations are used to 
+      deepen mathematical understanding. In particular, we will chronicle algebraic reasoning as reported in 
+      various research studies using different representational forms and the connections student make among these 
+      representations.
+    </p>
   </introduction>
+
+  <subsection xml:id="subsec-algebraic-operations-graphical">
+    <title>Algebraic Operations from a Graphical Approach</title>
+
+    <p>
+      For years, the typical approach for dealing with algebraic expressions consisted of memorizing the rules 
+      (e.g. distributive property, associative property, etc.) and then practicing these rules to manipulate one 
+      expression until it took the form of another expression that gave some new insight into a possible solution 
+      or property not easily seen from the old form.  For example, consider the solution to a simple equation 
+      like <m>5x-3=2x+9</m>.  Here students learn that they can manipulate this equation into an equivalent 
+      equation by adding <m>-2x</m> and <m>3</m> to both sides yielding 
+      <m>5x+\left(-2x\right)-3+3=2x+\left(-2x\right)+9+3</m>.  By simplifying this expression, we obtain 
+      <m>3x=12</m> and thus <m>\frac{1}{3}\cdot 3x=\frac{1}{3}\cdot 12 \Rightarrow x=4</m>.  Now this solution is 
+      not new or special.  In fact, most of us can relate to this approach and the experiences that lead to it.  
+      We may have experienced the use of a balance as a physical interpretation of an equation applying the 
+      physical analogues of arithmetic operations to each side of the balance yielding new expressions.  While 
+      this use of both symbolic and concrete representations helps students make connections among different views 
+      of the same mathematical concept, there are still other representations that can help deepen this 
+      understanding and also aid students in approaching other concepts that do not lend themselves as easily to 
+      symbolic approaches.
+    </p>
+    <p>
+      Consider an approach to equivalent expressions that has its origin in the graphical representation.  Kieran 
+      and Sfard (1999) investigated how students dealt with equivalent expressions first introduced through the 
+      perspective of functions and their graphs.  The argument used was that without having another 
+      representational meaning for a linear expression, it is difficult for the student to tie “rules” to an 
+      understanding of the concept.  In fact, Kieren and Sfard (1999) define <em>understanding</em> as the ability 
+      to inspect, talk about, and move between representations of a concept.  By this definition, it is not 
+      possible to have an understanding without multiple representations.
+    </p>
+    <p>
+      In order to examine students' understanding of basic algebraic properties (e.g. distributive), the students 
+      were asked to graph linear functions and “add” them in a graphical representation aided by a technological 
+      tool in a similar way we have explored in the exercise from 
+      <xref ref="sec44-dopplegangers-and-the-multiverse"/> where Liam asks Quinn about quadratics.  For example, 
+      if one function was stored as <m>f_1\left(x\right)=250+50x</m> and another as <m>f_2\left(x\right)=50+100x</m>, 
+      then the student can simply graph <m>f_3\left(x\right)=f_1\left(x\right)+f_2\left(x\right)</m> 
+      (see XXX) and examine the resulting graph and its properties.  When comparing the slopes of <m>f_1</m>, 
+      <m>f_2</m>, and <m>f_3</m> the students deal with the “rule” for the distributive property from a graphical 
+      perspective.  In an instance cited, a student is able to manipulate the symbolic representation through the 
+      use of graphical visualization in his head viewing the various algebraic properties as transformations of 
+      points on the graphs.
+    </p>
+    <p>
+      <figure xml:id="fig-algebraic-graph-manipulation">
+        <caption>Graphs <m>f_1</m>, <m>f_2</m>, and <m>f_3</m> and Connections to Symbolic Forms</caption>
+        
+      </figure>
+    </p>
+    
+  </subsection>
 
 
 
