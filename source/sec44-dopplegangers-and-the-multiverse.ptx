@@ -663,7 +663,8 @@
     </p>
 
     <p>
-      <activity>
+      <activity xml:id="act-modular-arithmetic">
+        <title>Modular Arithmetic</title>
         <introduction>
           <p>
             <p>
@@ -815,6 +816,94 @@
     </p>
 
     <p>
+      Now that we have explored these modular sets with two different operations, we can start to ask some questions 
+      about their behavior.  Just like in <xref ref="act-binary-operation"/>, there can be elements in a set that, 
+      under the operation, are not invertible.  In the case of <xref ref="act-binary-operation"/>, recall that 
+      <m>1</m> had no inverse since, in general, <m>a^{-1}=\frac{a}{a-1}</m>.  This meant that unless we throw out 
+      these elements, there is no hope of the set forming a group under the operation.  So what does this say about 
+      <m>\left(\mathbb{Z}_5 , \otimes\right)</m>?  Here, <m>0</m>, basically <em>sucks</em> all elements to itself 
+      just like <m>1</m> did in <xref ref="act-binary-operation"/>.  So is there a way to salvage our set 
+      <m>\left(\mathbb{Z}_5 , \otimes\right)</m>?  What if we just threw out 0?  In the table you created for 
+      <m>\left(\mathbb{Z}_5 , \otimes\right)</m> in <xref ref="act-modular-arithmetic"/>, eliminate the row and 
+      column that included 0.  Does the body of the remaining portion of the table suggest the elements 
+      <m>\left\{1,2,3,4\right\}</m> form a group?  
+    </p>
+    <p>
+      In the case of <m>\left(\mathbb{Z}_5 , \otimes\right)</m>, we needed to throw out an element meaning that 
+      our new group, <m>\left\{1,2,3,4\right\}</m>, was of order 4 instead of 5 like we saw with 
+      <m>\left(\mathbb{Z}_5 , \oplus\right)</m>.  When we exclude the non-invertible elements, we call this the 
+      group of <em>units</em> mod <m>m</m> and denote them as, <m>U_5</m>.
+    </p>
+
+    <p>
+      <activity xml:id="act-generators-cyclic-groups">
+        <title>Generators and Cyclic Groups</title>
+        <introduction>
+          <p>
+            Now that we have explored some other groups using modular arithmetic, we can use these ideas to 
+            address a question that I hope has been plaguing since <xref ref="act-whats-in-a-name"/>.  Recall that 
+            in that activity, we had several different groups (all of order 6) that ended up being "essentially the 
+            same" with the elements behaving the same relative to each other under their respective operations.  
+            We had a group of six functions under function composition, a group of six moves on a triangle, a 
+            group of six matrices under matrix multiplication <mdash></mdash> all essentially the same. A natural 
+            question one might wonder is, "do all groups of order 6 match each other in this way?"  For 
+            that matter, do all groups of the same order always behave the same?
+          </p>
+          <p>
+            To explore this question, let's consider two groups of order 6: 
+            <m>\left(\mathbb{Z}_6 , \oplus\right)</m> and the group of six function under composition from 
+            <xref ref="act-whats-in-a-name"/>, <m>\left(T, \circ \right)</m>.
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              Construct a Cayley table for <m>\left(\mathbb{Z}_6 , \oplus\right)</m> and compare it to the table 
+              for <m>\left(T, \circ \right)</m> found in <xref ref="act-whats-in-a-name"/>.  Do these groups 
+              appear to behave in the "same" manner?  If so, explain what tells you this.  If not, explain how 
+              you decided.
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Now consider the set of units mod 7, <m>\left\{1,2,3,4,5,6\right\}</m>, under mod 7 multiplication, 
+              <m>U_7</m>.  Construct a Cayley table for this group (also of order 6).  Does it appear to behave 
+              the same as <m>\left(T, \circ \right)</m>?  Explain.
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Now consider the set of units mod 7, <m>\left\{1,2,3,4,5,6\right\}</m>, under mod 7 multiplication, 
+              <m>U_7</m>.  Does it appear to behave the same as <m>\left(\mathbb{Z}_6 , \oplus\right)</m>?  Explain.
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Recall that in <xref ref="act-form-function"/>, we came across the idea of a cyclic group (in 
+              particular, cyclic subgroups).  For both <m>U_7</m> and <m>\left(\mathbb{Z}_6 , \oplus\right)</m>, 
+              find an element in each that generates each group.
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Now since both <m>U_7</m> and <m>\left(\mathbb{Z}_6 , \oplus\right)</m> are of order 6, if we want 
+              their Cayley tables to be able to be superimposed on each other aligning the dopplegangers, how 
+              might you map from one "world" to the other?  Explain how generators could play a role in assigning 
+              the mapping.
+            </p>
+          </statement>
+        </task>
+      </activity>
+    </p>
+    <p>
       
     </p>
     
@@ -896,8 +985,9 @@
               <p>
                 After being convinced that he will always get a parabola when adding two quadratics, Liam asks 
                 another question, "What if I put numbers in front of each like, 
-                <m>f_3\left(x\right)=a\cdot f_1\left(x\right)+b\cdot f_2\left(x\right)</m>?  Could I make any 
-                other parabola I want?"
+                <m>f_3\left(x\right)=2\cdot f_1\left(x\right)+5\cdot f_2\left(x\right)</m>?  Could I make any 
+                other parabola I want?".  Quinn replies, "Do you mean like in general, 
+                <m>f_3\left(x\right)=a\cdot f_1\left(x\right)+b\cdot f_2\left(x\right)</m>?".  Liam replies, "yeah".
               </p>
               <p>
                 As Quinn thinks about Liam's question, she uses what she knows about isomorphisms.  Show that 
