@@ -104,12 +104,18 @@
       equation?  These are standard questions we expect our students to be able to explain and apply.  The problem 
       is that while many students may be able to solve equations, far too many have only procedural knowledge of 
       the equation-solving process.  Consider the following explanation posed by Aaron.  In question 8 from an 
-      interview, when asked to solve the equation <m>\left(x-2\right)\left(x+3\right)=6</m> (with no graph given), 
-      he began by setting each factor equal to 6.
+      interview (Lapp, Ermete, Brackett, &amp; Powell, 2013), when asked to solve the equation 
+      <m>\left(x-2\right)\left(x+3\right)=6</m> (with no graph given), he began by setting each factor equal to 
+      6 (see <xref ref="fig-aaron-algebraic-work"/>).
     </p>
 
     <p>
-      
+      <figure xml:id="fig-aaron-algebraic-work">
+        <caption>Aaron's Algebraic Work for Question 8</caption>
+        <image source="images/aaron-algebraic-work.png" width="60%">
+          <shortdescription>Aaron's Algebraic Work Question 8</shortdescription>
+        </image>
+      </figure>
     </p>
     
   </subsection>
