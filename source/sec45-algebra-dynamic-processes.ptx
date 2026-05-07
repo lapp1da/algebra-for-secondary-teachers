@@ -121,7 +121,7 @@
     <p>
       <em>Aaron</em>: What I would do is have <m>x-2=6</m> and then <m>x+3=6</m> (writes <m>-3</m> under the 
       <m>x+3</m> and the 6), <m>x=3</m>, (writes <m>+2</m> under the <m>x-2</m>, see 
-      <xref ref="fig-aaron-algebraic-work"/>), <m>x=8</m>, so then I have the two solutions…like that…I mean, 
+      <xref ref="fig-aaron-algebraic-work"/>), <m>x=8</m>, so then I have the two solutions…like that...I mean, 
       I don't know if those approaches are right...I'd have to know exactly where we are at.
     </p>
     <p>
@@ -129,8 +129,8 @@
     </p>
     <p>
       <em>Aaron</em>:	Um, what we're trying to get out of it…out of the equation.  What we're trying to do with 
-      it.  What we're trying to do with the numbers we're trying to find…if we're trying to find where it's going 
-      to cross on the x-axis…you know.
+      it.  What we're trying to do with the numbers we're trying to find...if we're trying to find where it's going 
+      to cross on the x-axis...you know.
     </p>
     <p>
       <em>Interviewer</em>: As opposed to just the solutions?
@@ -144,9 +144,38 @@
     </p>
     <p>
       <em>Aaron</em>:	Yeah.  So basically like when I looked at that, it's like this is just an algebraic 
-      expression…you know, just find the answer.  As opposed to like over here (referring to question 7, see 
-      ), I would have tried to figure out what the solution is as opposed to where it is on the graph.
+      expression...you know, just find the answer.  As opposed to like over here (<em>referring to question 7</em>, 
+      see <xref ref="fig-interview-question-7"/>), I would have tried to figure out what the solution is as opposed 
+      to where it is on the graph.
     </p>
+    <p>
+      <figure xml:id="fig-interview-question-7">
+        <caption>Question 7 from the Interview</caption>
+        <image source="images/interview-question-7.png" width="60%">
+          <shortdescription>Question 7 from the Interview</shortdescription>
+        </image>
+      </figure>
+    </p>
+    <p>
+      <em>Interviewer</em>:	So in question 7, the graph being there might have affected your interpretation of 
+      what in the problem you were supposed to do?
+    </p>
+    <p>
+      <em>Aaron</em>:	It wouldn't have been, solve this algebraically.  It would have been solve this algebraically 
+      for the graph instead of just solving it.  Um, so you know if I had finished this out, I would have got 
+      something...I would have done something more as break it down as what I just did as opposed to actually 
+      solving it out like on 8 (<em>referring to his work from question 8</em>, see 
+      <xref ref="fig-aaron-algebraic-work"/>).
+    </p>
+    <p>
+      <em>Interviewer</em>:	So what would you have done different on like 7?
+    </p>
+    <p>
+      <em>Aaron</em>: On 7, I would have put them both equal to 4.  So like on 7, it would be  <m>x-1=4</m>...
+      (<em>continues to write <m>x+2=4</m> in silence, then writes <m>+1</m> under one equation and two 2s under 
+        the other</em>, see Figure 4).  And then I would’ve been looking at this and like uh oh, something’s not right.
+    </p>
+
     
   </subsection>
 
