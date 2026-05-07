@@ -344,6 +344,16 @@
       and 7 (See Figure 7).
     </p>
 
+    <p>
+      <figure xml:id="fig-graphs-jon-problems">
+            <caption>Graphs from Jon's Earlier Problems</caption>
+          <sidebyside widths="50% 50%" valign="middle">
+            <image source="images/function-cayley-table.png" />
+            <image source="images/triangle-cayley-table-complete.png"/>
+          </sidebyside>
+          </figure>
+    </p>
+
 
     
   </subsection>
