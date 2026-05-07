@@ -256,9 +256,94 @@
             </p>
           </statement>
         </task>
-        
       </activity>
     </p>
+    <p>
+      Having given some initial thought to Aaron's approach and understanding, it is time to take a deeper dive 
+      into his misconceptions and what the research says about multiple representations.  Aaron continued to try 
+      and find resolution between his algebraic solutions and his expectations that these solutions should 
+      correspond to the <em>x</em>-intercepts from the graph, but he was unsuccessful in resolving the issue and 
+      gave up.  Why was Aaron unable to see the error in his solution process even though he did attempt to use 
+      multiple representations when a graph was provided?  Since the instructor regularly made it a point to use 
+      multiple representations in solving equations during class, it is not surprising that Aaron would seek 
+      confirmation when the graph is present; however, it is not just the use of multiple representations that 
+      helps students make connections.  It really has more to do with <em>how</em> these representations are 
+      interfaced.
+    </p>
+    <p>
+      It is important to note that during this particular semester, the students used a basic graphing calculator 
+      (TI-84) that did not have dynamically connected representations and thus Aaron did not have the ability to 
+      see a “real-time” linkage between the key features of the graph and their corresponding algebraic 
+      counterparts from the symbolic world.  Through research on the use of microcomputer-based laboratory (MBL) 
+      technology (also calculator-based data collection devices), we have seen that real-time changes in linked 
+      representations simultaneously visible in the same field of view, allows students to make connections among 
+      corresponding features of the various representations (Lapp &amp; Cyrus, 2000; Beichner, 1990; 
+      Brasell, 1987).  While Aaron had access to the use of multiple representations, these representations were 
+      not dynamically linked and thus he did not make a connection between the meaning of the graphical 
+      representation of <em>x</em>-intercepts and the zero property of multiplication as a technique for equation 
+      solving.  To discuss the specifics of the experiences we can give students to foster this transfer, we first 
+      must consider the dynamics of how symbolic meaning comes to be.
+    </p>
+    <p>
+      One of the powerful aspects of mathematics is its use of symbolization.  On the other hand, from the aspect 
+      of the learner, one of its worst obstacles is its symbolization.  Since the early development of 
+      mathematics, power has come from the development of symbol systems used to describe the concepts that are 
+      fundamental to furthering mathematical knowledge.  The encapsulation of big ideas, that before took pages 
+      and pages to communicate, into smaller collections of symbols allows the reader to see various stages of 
+      arguments within one field of view. However, from a learner's perspective, it is the unpacking of the 
+      symbolization that poses a significant hurdle in the development of conceptual understanding.
+    </p>
+    <p>
+      If we think of this in terms of concept image and concept definition (Tall &amp; Vinner, 1981), a small 
+      collection of symbols typically elicits much more information than could be contained in paragraphs of 
+      written prose.  For example, suppose we say the word “dog”.  What comes to mind?  It might likely be a 
+      mental image of a beloved pet from your childhood or an image of a traumatic event you had with a strange 
+      animal while walking last week.  These images are far more complex than the simple three letters “dog” or a 
+      formal definition from Webster's dictionary.  It is our experiences that are connected to the compact 
+      system of symbols “dog” that form our concept image of a dog.  Similarly, it is the experiences that a 
+      student has between mathematical ideas and the symbols that represent them that determine her/his concept 
+      image.
+    </p>
+    <p>
+      So how does the use of symbol systems influence our learning, and even more, our development of new ideas?  
+      Recall that Kaput, Blanton, and Moreno (2008) propose a model <xref ref="fig-kaput-blanton-moreno"/> that 
+      describes how we develop both our understanding of existing ideas as well as the creation new concepts.  
+      The key to this model is the communication and analysis between two worlds.  One is the "real world" (i.e. 
+      the world of either broader mathematical or physical experiences) and the other is the world of the symbols 
+      that we use to represent these "real world" experiences.  In this model, the learner creates raw 
+      representations of ideas and in turn these representations provide the learner with a tool to reason about 
+      these ideas.  As the learner uses these raw representations for reasoning, they begin to view the "real 
+      world" experiences differently as the representations serve as a lens through which reality is filtered.  
+      As this process progresses, new, more refined representations and symbols are created influencing both the 
+      tools used for reasoning as well as the learner's view of the real world itself.
+    </p>
+    <p>
+      It is important to note that this process, while focusing on representations, is consistent with Sfard's 
+      (1991) process of <em>interiorization</em>, <em>condensation</em>, and <em>reification</em> where concepts 
+      become internalized through <em>interaction</em> with the various natures of the mathematical ideas.  In 
+      some ways, the use of technology here reduces the length of time for Sfard's <em>interiorization</em> and 
+      facilitates the <em>condensation</em> process.  Alleviating the computational load can also keep the lack 
+      of procedural fluency from becoming a cognitive obstacle to reaching condensation or reification as observed 
+      by Lapp, Nyman, and Berry (2010).
+    </p>
+    <p>
+      Given this theoretical model for the development of symbolic meaning, the next question is how do we create 
+      experiences that allow our students to move fluidly among various representations while maintaining an 
+      <em>isomorphic mapping</em> (see what I did there <mdash></mdash> wink) of meaning between various worlds 
+      used to represent the ideas involved?  One way is to utilize technology that allows for linked 
+      representations.  In other words, representations that dynamically update in real time as each is 
+      manipulated.
+    </p>
+    <p>
+      In the same study as Aaron, in contrast to the Fall semester's class using only basic graphing technology, 
+      the students interviewed in the Spring semester showed an ability to move among representations as a means 
+      for justifying their reasoning. To illustrate this process, we examine Jon's response to the same question 
+      posed to Aaron, namely, solving the equation <m>\left(x-2\right)\left(x+3\right)=6</m>.  Unlike students 
+      from the previous semester, Jon realized that he must get the equation set equal to zero by subtracting 6 
+      from both sides.  In this exchange, Jon refers to his solutions to other problems referring to problems 6 
+      and 7 (See Figure 7).
+    </p>
+
 
     
   </subsection>
