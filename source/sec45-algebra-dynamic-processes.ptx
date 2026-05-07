@@ -173,7 +173,91 @@
     <p>
       <em>Aaron</em>: On 7, I would have put them both equal to 4.  So like on 7, it would be  <m>x-1=4</m>...
       (<em>continues to write <m>x+2=4</m> in silence, then writes <m>+1</m> under one equation and two 2s under 
-        the other</em>, see Figure 4).  And then I would’ve been looking at this and like uh oh, something’s not right.
+        the other</em>, see <xref ref="fig-aaron-algebraic-work-7"/>).  And then I would've been looking at this 
+        and like uh oh, something's not right.
+    </p>
+    <p>
+      <figure xml:id="fig-aaron-algebraic-work-7">
+        <caption>Aaron's Algebraic Work for Question 7</caption>
+        <image source="images/aaron-algebraic-work-7.png" width="60%">
+          <shortdescription>Aaron's Algebraic Work for Question 7</shortdescription>
+        </image>
+      </figure>
+    </p>
+    <p>
+      <em>Interviewer</em>:	What would clue you in that something's not right?
+    </p>
+    <p>
+      <em>Aaron</em>:	The solutions weren't...the solutions didn't match.
+    </p>
+    <p>
+      <em>Interviewer</em>:	So what would you expect the solutions to match?  For example, the numbers you got were 
+      what, 5 and...
+    </p>
+    <p>
+      <em>Aaron</em>:	5 and 2, and I would expect them to match -2 and 1 (<em>pointing to the x-intercepts on the 
+        graph</em>).  Um, just because that's where they cross.
+    </p>
+    <p>
+      <em>Interviewer</em>:	Where they cross the x-axis?
+    </p>
+    <p>
+      <em>Aaron</em>:	Yeah.  So looking at this, I would have been like something's not right.  That's when I 
+      would go back and be like try to look through and try to find where that equation looks like that and then 
+      apply it to whatever the example is in the book and try to figure out a new answer.
+    </p>
+    <p>
+      <em>Interviewer</em>:	So you are looking for some sort of consistency between the answer you get from 
+      algebraic manipulation and the interpretation you would have from looking at the graph?
+    </p>
+    <p>
+      <em>Aaron</em>:	Yep.
+    </p>
+    <p>
+      <activity xml:id="act-reflection-aaron">
+        <title>Reflecting on Aaron</title>
+        <introduction>
+          <p>
+            Now that we have listened to Aaron's explanation of his methods and understanding for solving 
+            quadratic equations, let's take a few minutes to reflect on his thinking and how we, as teachers, 
+            might react.
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              In your groups, share your <em>initial</em> thoughts related to Aaron's understanding.  Summarize 
+              your group's discussion on your whiteboards and be prepared to share.
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              In looking at Aaron's methods in <xref ref="fig-aaron-algebraic-work"/> and 
+              <xref ref="fig-aaron-algebraic-work-7"/>, what algebraic concept is he missing and how is it 
+              related to solving quadratic equations by factoring?
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Describe why you think his use of both graphical and symbolic perspectives allowed him to identify 
+              a problem with his solutions, but still did not prompt him to correct his symbolic approach.
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              As a teacher, how would you react to Aaron's misconceptions?  What type of experience might you 
+              design as a classroom activity to address this common mistake?
+            </p>
+          </statement>
+        </task>
+        
+      </activity>
     </p>
 
     
