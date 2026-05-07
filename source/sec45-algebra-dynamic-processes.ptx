@@ -80,7 +80,7 @@
     <p>
       <figure xml:id="fig-add-linear-graphs">
         <caption>Graphs <m>f_1</m>, <m>f_2</m>, and <m>f_3</m> and Connections to Symbolic Forms</caption>
-        <image source="images/add-linear-graphs.png" width="70%">
+        <image source="images/add-linear-graphs.png" width="60%">
           <shortdescription>(for accessibility)</shortdescription>
         </image>
       </figure>
@@ -341,18 +341,62 @@
       posed to Aaron, namely, solving the equation <m>\left(x-2\right)\left(x+3\right)=6</m>.  Unlike students 
       from the previous semester, Jon realized that he must get the equation set equal to zero by subtracting 6 
       from both sides.  In this exchange, Jon refers to his solutions to other problems referring to problems 6 
-      and 7 (See Figure 7).
+      and 7 (<xref ref="fig-graphs-jon-problems"/>).
     </p>
-
+    <p>
+      <em>Interviewer</em>:	So what do you think is different about this? Why is it important that you get the six 
+      to the other side?
+    </p>
+    <p>
+      <em>Jon</em>:	Because I think if you were to graph it, you're trying to find a completely different line, 
+      if it's a six or zero and if it's zero...  You're trying to find <m>y</m>.  And then if <m>y</m> was zero... 
+      I don't know.
+    </p>
+    <p>
+      <em>Interviewer</em>:	So you're thinking of it from a graphical standpoint?
+    </p>
+    <p>
+      <em>Jon</em>: Yeah, I'm thinking about it from a graph.  If it's equal to six it's going to be up higher and 
+      it's gonna be...  You're not looking for the zeros [<em>points to problems 6 and 7 from the earlier 
+      questions</em>].
+    </p>
+    <p>
+      <em>Interviewer</em>:	So kind of like the difference in those earlier problems?
+    </p>
+    <p>
+      <em>Jon</em>:	Basically I took number seven and tried to turn it more into like number six. Like I tried...
+      I just moved it down so that way I would be able to solve for it.  I visualized it as more like bringing it 
+      down and I just solved for the vertex [<em>here he said vertex, but was referring to the zeros</em>], 
+      which I know how to do.  When it comes to that, it's more complicated to get to that point.
+    </p>
+    <p>
+      <em>Interviewer</em>:	Oh, the <em>x</em>-intercepts you mean, as opposed to the vertex?
+    </p>
+    <p>
+      <em>Jon</em>:	Yeah cause when it's at equals six, it's like the whole thing got raised six.  So I just made 
+      it...I brought it down to the vertex...and then I just solved for it there because that's easier for me to 
+      do algebraically.
+    </p>
+    
     <p>
       <figure xml:id="fig-graphs-jon-problems">
-            <caption>Graphs from Jon's Earlier Problems</caption>
+          <caption>Graphs from Jon's Problem 6 &amp; 7 Respectively</caption>
           <sidebyside widths="50% 50%" valign="middle">
-            <image source="images/function-cayley-table.png" />
-            <image source="images/triangle-cayley-table-complete.png"/>
+            <image source="images/problem6-graph.png" />
+            <image source="images/problem7-graph.png"/>
           </sidebyside>
           </figure>
     </p>
+    <p>
+      In this case, Jon had first been exposed to dynamically linked representations through technologically rich 
+      investigations in class.  In one investigation the manipulation of a graph gave real time change in the 
+      algebraic representation of the quadratic function as well as the factored form of the function.  Jon was 
+      asked to label the <em>x</em>-intercepts on the graph and as the graph was manipulated, he noticed a 
+      connection between the numerical values of the <em>x</em>-coordinates of the <em>x</em>-intercepts and the 
+      numerical values, <m>r_1</m> and <m>r_2</m> found in the factored form of the function 
+      <m>a\left(x-r_1\right)\left(x-r_2\right)</m> (see ).
+    </p>
+    
 
 
     
