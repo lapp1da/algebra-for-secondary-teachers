@@ -394,9 +394,45 @@
       asked to label the <em>x</em>-intercepts on the graph and as the graph was manipulated, he noticed a 
       connection between the numerical values of the <em>x</em>-coordinates of the <em>x</em>-intercepts and the 
       numerical values, <m>r_1</m> and <m>r_2</m> found in the factored form of the function 
-      <m>a\left(x-r_1\right)\left(x-r_2\right)</m> (see ).
+      <m>a\left(x-r_1\right)\left(x-r_2\right)</m> (see <xref ref="fig-dynamic-link-roots"/>).
     </p>
-    
+
+    <p>
+      <figure xml:id="fig-dynamic-link-roots">
+          <caption>Dynamically Linked Algebraic and Graphical Zeros</caption>
+          <sidebyside widths="25% 25% 25% 25%" valign="middle">
+            <image source="images/pararoots1.png" />
+            <image source="images/pararoots2.png" />
+            <image source="images/pararoots3.png" />
+            <image source="images/pararoots4.png" />
+          </sidebyside>
+          </figure>
+    </p>
+    <p>
+      The mind of the student naturally seeks out aspects of a situation that are invariant across 
+      representations.  In this case, the student noticed that no matter how the graph was manipulated the 
+      numerical values in both the labeled <em>x</em>-intercepts and the factored form of the function remained 
+      related.  The classroom investigation also asked questions designed to focus the student's attention on the 
+      effects on the function's output for entering each <em>x</em>-coordinate of the zeros into the factored form 
+      of the function as well as the values of each factor.  It was this combination (communication and analysis 
+      between symbolic worlds) that enabled the student to articulate the reason for use of factoring as a 
+      technique for equation solving and the reason that it is imperative the equation be set equal to zero before 
+      factoring.
+    </p>
+    <p>
+      In another investigation, the students developed a connection between algebraic and graphical 
+      representations for the process of completing the square and observed relationships among various parameters 
+      found in the algebraic expressions (see ).  Here the students further experienced the connection between 
+      both algebraic and graphical transformations.  This lead to Jon's strategy of transforming the graph of a 
+      parabola and its intersection with a horizontal line above the <em>x</em>-axis into one where the parabola 
+      was shifted down until the horizontal line was superimposed with the <em>x</em>-axis. In his desire to 
+      transform an equation by subtracting 6 from both sides, he expressed a graphical understanding linked to the 
+      algebraic transformation of subtracting 6.  He stated that he was essentially moving the dotted line 
+      (see XXX) down to coincide with the x-axis so that he could use his technique of factoring that 
+      required the equation to be set equal to zero.  In this instance, he was able to justify his process and not 
+      just procedurally execute it.
+    </p>
+
 
 
     
