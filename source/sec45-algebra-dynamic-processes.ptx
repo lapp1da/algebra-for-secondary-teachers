@@ -433,11 +433,83 @@
       able to justify his process and not just procedurally execute it.
     </p>
     <p>
-      The influence of the <em>Completing the Square</em> (see ) investigation can also be seen in Jon’s reference to the movement of the parabola’s vertex during his verbal description of his graphical understanding.  In the Completing the Square activity, the students were specifically asked to follow the movement of the vertex.
+      The influence of the <em>Completing the Square</em> (see <xref ref="fig-complete-square"/>) investigation 
+      can also be seen in Jon's reference to the movement of the parabola's vertex during his verbal description 
+      of his graphical understanding.  In the <em>Completing the Square</em> activity, the students were 
+      specifically asked to follow the movement of the vertex.
+    </p>
+    <p>
+      Jon clearly demonstrated an understanding of the concept of root and its connection to factoring as an 
+      equation solving technique.  In explaining why he could not simply set each factor equal to zero in the 
+      equation <m>\left(x-2\right)\left(x+3\right)=6</m> he states,
+    </p>
+    <p>
+      <blockquote>
+        <p>
+          If I plug 2 into the first one, two minus two that would give me zero and zero times anything would 
+          equal zero, not 6 so that's wrong.  Then if I plug negative three in, negative three minus 2 would be 
+          negative one and then the second one [<em>referring to the second factor</em>] would still be zero so 
+          negative one doesn't equal six either [<em>meaning entering -1 into the equation</em>] so that would be 
+          wrong too.
+        </p>
+      </blockquote>
+    </p>
+    <p>
+      The fact that Jon could articulate an understanding of the root solving process along with his verbal 
+      reference to the vertex movement indicates an influence of both of these investigations on his mathematical 
+      understanding and its relationship to the symbolic world that describes these ideas.
     </p>
 
+    <p>
+      <figure xml:id="fig-complete-square">
+          <caption>Dynamic Manipulation of Parabolas for Completing the Square</caption>
+          <sidebyside widths="30% 30% 30%" valign="middle">
+            <image source="images/compsquare1.png" />
+            <image source="images/compsquare2.png" />
+            <image source="images/compsquare3.png" />
+          </sidebyside>
+          </figure>
+    </p>
+  </subsection>
 
+  <subsection xml:id="subsec-summary-4-5">
+    <title>Summary</title>
 
+    <p>
+      The bottom line of these contrasting examples is that we should not have to only expect procedural fluency, 
+      but rather that conceptual understanding can go hand-in-hand with procedural ability.  This example 
+      challenges the conventional wisdom that students must first become procedurally fluent before they come to 
+      understand the concepts that we teach.  Heid (1988) more than two decades ago challenged this position and 
+      argued that we should rethink the sequencing of skills and concepts in Calculus by using computer algebra 
+      systems to develop concepts prior to teaching procedures.  Here we see this same principle applied to high 
+      school algebra concepts.  The difference between this study and Heid's is that we suggest it is not just 
+      the computer algebra system that influences student connection of concepts, but rather the dynamic linking 
+      of various representations.  The students in the first semester of this study used the TI-84 and did have 
+      the development of concepts prior to skills; however, they did not have the ability to manipulate various 
+      representations and see real time effects among representations.
+    </p>
+    <p>
+      A second aspect of concept development that we noticed involves student control of the environment.  As 
+      Lapp &amp; Cyrus (2000) from research on the use of data collection devices as well as Lapp, Ermete, 
+      Brackett, &amp; Powell (2013) experience within a CAS microworld suggest, the student's ability 
+      to manipulate the environment plays a significant role in making connections.  During the first semester 
+      of this study, the instructor merely demonstrated some of the dynamically linked representations using a 
+      computer during class since the students did not have use of this technology individually.  Results of our 
+      interviews showed that none of these students could articulate connections among various representations.  
+      However, during the second semester, each student had a TI-Nspire CAS device and used it during 
+      student-centered investigations.  We argue that it was this ability to communicate and analyze via 
+      dynamically connected representations between the symbolic world and the world of mathematical ideas that 
+      allowed the students make connections between concepts and procedures
+    </p>
+    <p>
+      As technology that links representations has become readily available, there is no reason we should not 
+      take advantage of it to better develop students' mathematical understanding; however, technology alone 
+      cannot make these connections for students.  Kaput Blanton, and Moreno (2008) as well as Sfard (2008) 
+      suggest that it is the students' negotiation or discourse between the symbolic world and the world of 
+      mathematical ideas that plays a key role in the development of symbolic meaning.  Therefore, as teachers, 
+      we need to use appropriate technology to engage students in investigations that allow them to make 
+      mathematically meaningful observations and justify them.
+    </p>
     
   </subsection>
 
