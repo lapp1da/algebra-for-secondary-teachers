@@ -530,13 +530,74 @@
         the function <m>f\left(x\right)=x^2-1</m> pictured below.  Here we can see both the graph and the factored 
         form of the function's algebraic expression on the same page.
       </p>
-      <image source="path (no extension)">
-        <shortdescription>(for accessibility)</shortdescription>
+      <p>
+      <image source="images/graph-factor-example.png" width="60%">
+        <shortdescription>Sample Graph and Factored Form</shortdescription>
       </image>
+      </p>
       <task>
         <statement>
           <p>
-            
+            Consider the function, <m>f\left(x\right)=x^2+x-2</m>. Open the <em>ParaRoots.tns</em> document. On 
+            page 1.3 of the file has a split screen with a <em>Notes</em> page on the bottom with the factored 
+            form of the equation and a <em>Graphs</em> page on the top. First, label the <m>x</m>-intercepts of 
+            the equation so that you can see them as you explore the activity. To do this, press <c>menu</c> and 
+            <em>8:Geometry</em> select the <em>1:Points &amp; Lines</em> submenu and choose 
+            <em>4:Intersection Point(s)</em>.  Click on the parabola and then the <m>x</m>-axis. This will 
+            place a point at the intersection of the parabola and the axis.  To see the coordinates of the 
+            <m>x</m>-intercepts, choose <em>7:Coordinates and Equations</em> from the <em>Actions</em> submenu 
+            and click on each of the intersection points.
+          </p>
+          <p>
+            You are free to change any of the representations on the <em>Graphs</em> pane of the page found at the 
+            top, whether it is the graph itself or the symbolic representation of the function.  As you change 
+            one representation of the function, everything else will change to match the alterations you have 
+            made.  You can change the graph by either editing the expression for the function or by pulling and 
+            manipulating the graph itself.  Take some time to explore the situation by manipulating the function, 
+            jotting down anything you discover or find interesting as you explore. Don't forget to include some 
+            rough sketches of the graphs and the factored form of the function.
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Describe patterns you noticed while manipulating the graph.  Be explicit in stating your observations 
+            and include as much detail as possible.  In particular, describe parts of the graph and factored 
+            form of the function that appeared to be related no matter how you manipulated the graph.
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            When you pull the graph above the <m>x</m>-axis, describe what happens to the factorization.  Provide 
+            some examples of the graphs and expressions for the functions.
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Make a hypothesis about any connections you see between the factored form of the function and the 
+            features found on the graph.  
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            For each of the <m>x</m>-intercepts shown on the graph, describe what you notice when the 
+            <m>x</m>-coordinate is plugged into the factored form of the function.  Be specific here and explain 
+            what happens to each factor as well as the resulting product.  Explain how your observations are 
+            related to the features on the graph.
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Describe how this activity addresses Aaron's misconceptions from <xref ref="act-reflection-aaron"/>.
           </p>
         </statement>
       </task>
