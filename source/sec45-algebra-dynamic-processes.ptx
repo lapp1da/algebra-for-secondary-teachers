@@ -607,9 +607,235 @@
   <exercise>
     <statement>
       <p>
-        In this activity we will be exploring different forms of quadratic equations.  Using the slider tool in 
-        GeoGebra, we will be able to manipulate graphs to find relationships between these different forms.
+        Suppose we have the equation <m>2\left(x+3\right)^2-4=0</m>.
       </p>
+      <task>
+        <statement>
+          <p>
+            Describe what could you do to both sides to get the squared quantity alone on the left side and 
+            perform the needed algebraic manipulations?
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Describe what could you do to both sides so that you do not have a square in the equation and perform 
+            the needed algebraic manipulations?
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Describe what could you do to get <m>x</m> alone on one side of the equation and perform the needed 
+            algebraic manipulations?
+          </p>
+        </statement>
+      </task>
+    </statement>
+  </exercise>
+
+  <exercise>
+    <statement>
+      <p>
+        In this exercise we will be exploring different forms of quadratic equations.  Using the slider tool in 
+        GeoGebra, we will be able to manipulate graphs to find relationships between these different forms.  In 
+        the first part of this investigation, we will use a GeoGebra file has two quadratic functions written in 
+        different forms.  There are three sliders placed on the screen that are the parameters of the function of 
+        the form <m>f\left(x\right)=a\left(x-h\right)^2+k</m> (see <xref ref="fig-complete-square-visually"/>).
+      </p>
+      <p>
+            <figure xml:id="fig-complete-square-visually">
+              <caption>Visually Completing the Square</caption>
+              <interactive xml:id="completing-square" platform="geogebra" width="100%" reset-icon="yes">
+                <slate xml:id="ggb-completing-square" surface="geogebra" material="arszzfum" />
+              </interactive>
+            </figure>
+      </p>
+      <task>
+        <statement>
+          <p>
+            The original function is given as <m>f\left(x\right)</m>.  Start by moving the slider for parameter 
+            <m>a</m> sketching what happens to <m>g\left(x\right)</m>. Repeat this process for both <m>h</m> and 
+            <m>k</m> sketching records of the graph's behavior with each manipulation. Describe the effect on the 
+            graph that each of the parameters (<m>a</m>, <m>h</m> and <m>k</m>) has on the graph?
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Now use the sliders to place <m>g\left(x\right)</m> on top of <m>f\left(x\right)</m>.  What values did 
+            you get for <m>a</m>, <m>h</m> and <m>k</m>?  What are the coordinates of the vertex?
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Use your CAS to expand <m>g\left(x\right)</m>. Describe what you notice about the resulting expression.
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Now go back to the graph and change <m>f\left(x\right)</m> to <m>2x^2-4x+5</m>.  Repeat your process 
+            for parts (b) and (c) to see if you find a similar result.  Record your findings, explaining your 
+            observations including the location of the vertex.
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Based on your observations, explain how you can find the location of the vertex if you have a 
+            quadratic function given in the form <m>f\left(x\right)=a\left(x-h\right)^2+k</m>.
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            We now need to justify our observations about the location of the vertex when the function is of the 
+            form <m>f\left(x\right)=a\left(x-h\right)^2+k</m>.  As you noticed earlier, if <m>a\gt 0</m> 
+            (<m>a</m> is positive), the parabola opens up.  If the parabola opens up, then the vertex is the 
+            <em>lowest</em> point on the graph.  Now consider the smallest output you can expect from the function. 
+            Since <m>a\gt 0</m> and <m>\left(x-h\right)^2 \geq 0</m>, then <m>a\left(x-h\right)^2 \geq 0</m>.  
+            Therefore we are adding <m>a\left(x-h\right)^2</m> (a positive or zero number) to <m>k</m> in the 
+            function <m>f\left(x\right)=a\left(x-h\right)^2+k</m>.  So what is the smallest number we can add to 
+            <m>k</m> here and what would be the corresponding value of <m>x</m> that will make 
+            <m>a\left(x-h\right)^2</m> equal to this smallest number?  Compare this value of <m>x</m> to the 
+            <m>x</m>-coordinate of the vertex you conjectured from your observations.  Explain what you notice.
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            We can now use a similar argument for the case where <m>a\lt 0</m> and the parabola opens down.  In 
+            this case the vertex is the <em>highest</em> point on the graph and the value you are adding to 
+            <m>k</m> is either negative or zero.  Use this information to explain how you can find the 
+            <m>x</m>-coordinate of the vertex for a parabola of the form 
+            <m>f\left(x\right)=a\left(x-h\right)^2+k</m> with <m>a\lt 0</m>.
+          </p>
+        </statement>
+      </task>
+    </statement>
+  </exercise>
+
+  <exercise>
+    <statement>
+      <p>
+        In Exercise 3, we explored how to identify the vertex of a parabola when it is given in the form 
+        <m>f\left(x\right)=a\left(x-h\right)^2+k</m>.  At this point, we would like to use what we have discovered 
+        in Exercises 2 and 3 to try develop a process for solving a quadratic equation that cannot be easily 
+        factored. 
+      </p>
+      <p>
+        Based on our work from Exercise 2, if we can get a quadratic function of the form 
+        <m>f\left(x\right)=ax^2+bx+c</m> into the form <m>f\left(x\right)=a\left(x-h\right)^2+k</m>, we can then 
+        solve <m>f\left(x\right)=0</m> fairly easily using the process we discovered in Exercise 2.  So the 
+        question now becomes, how can we express the general quadratic <m>f\left(x\right)=ax^2+bx+c</m> in the 
+        form <m>f\left(x\right)=a\left(x-h\right)^2+k</m> without having to use a graph and slider every time?  
+        To answer this question, consider the graph found in <xref ref="fig-complete-square-vertical-shift"/>.  
+      </p>
+      <p>
+            <figure xml:id="fig-complete-square-vertical-shift">
+              <caption>Shifting Parabolas</caption>
+              <interactive xml:id="completing-square-vertical-shift" platform="geogebra" width="100%" reset-icon="yes">
+                <slate xml:id="ggb-completing-square-vertical-shift" surface="geogebra" material="sjh8znse"/>
+              </interactive>
+            </figure>
+      </p>
+      <task>
+        <statement>
+          <p>
+            Adjust the value of <m>c</m> several times and record the coordinates of the vertex in each case 
+            sketching several cases.  Describe what you notice about the coordinates of the different vertices?
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Now suppose you have two different functions <m>f\left(x\right)=3x^2+6x+2</m> and 
+            <m>g\left(x\right)=3x^2+6x</m>.  Based solely on the algebraic expressions for the functions, which 
+            one do you think would be easier to use to find the <m>x</m>-intercepts of the graph?  Why?  [Hint: 
+            Which is easier to factor?]
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Once you know both of the <m>x</m>-intercepts, explain how you might use them to find the 
+            <m>x</m>-coordinate of the vertex.  [Hint: Your approach might be <em>average</em>, but it will do the 
+            trick]
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Suppose you have the general quadratic function <m>f\left(x\right)=ax^2+bx+c</m>.  What value of 
+            <m>c</m> will make it easiest to find the <m>x</m>-coordinate of the vertex?  Use your method from 
+            parts (b) and (c) to find an expression for the <m>x</m>-coordinate of the vertex for 
+            <m>f\left(x\right)=ax^2+bx+c</m>.
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            The expression you found in part (d) is the <m>h</m> in <m>f\left(x\right)=a\left(x-h\right)^2+k</m>.  
+            To find an expression for <m>k</m>, recall that <m>h</m> makes the expression <m>a\left(x-h\right)^2=0</m> and so 
+            <m>f\left(h\right)=k</m>.  To find an expression for <m>k</m>, simply enter the expression for <m>h</m> that 
+            you found in part (d) into the function <m>f\left(x\right)=ax^2+bx+c</m>.  You can do this 
+            on CAS where <m>f</m> has been already defined as <m>f\left(x\right)=ax^2+bx+c</m> by simply 
+            entering <em>f</em> (<c>  </c>) where <c>  </c> is just your expression for <m>h</m> in terms of <m>a</m> and 
+            <m>b</m> (recall that <m>h</m> should not depend on <m>c</m>).  Enter your expressions for <m>h</m> 
+            and <m>k</m> in terms of <m>a</m>,  <m>b</m>, and <m>c</m> into the expression below to show how you 
+            can take any quadratic function of the form <m>f\left(x\right)=ax^2+bx+c</m> and rewrite it in the 
+            form <m>f\left(x\right)=a\left(x-h\right)^2+k</m>.
+          </p>
+          <p>
+            <me>
+              f\left(x\right)=a\left(x-\text{____________}\right)^2+\text{____________}
+            </me>
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Use the expand command on your CAS to expand the expression <m>a\cdot \left(x-h\right)^2+k</m>. 
+            Given the result of your expansion and the fact that <m>\left(h,k\right)</m> is the vertex of the 
+            parabola, find an expression for the <m>x</m>-coordinate of the vertex in terms of <m>a</m>, <m>b</m>, 
+            and <m>c</m>.  Does it match what you found from part (e)?  Explain.
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Given the result of your expansion and the fact that <m>\left(h,k\right)</m> is the vertex of the 
+            parabola, find an expression for the <m>y</m>-coordinate of the vertex in terms of <m>a</m>, <m>b</m>, 
+            and <m>c</m>.  Does it match what you found from part (e)?  Explain.
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Use what you have found in part (e) to write the equation <m>ax^2+bx+c=0</m> in vertex form and then 
+            solve it for <m>x</m> in terms of <m>a</m>, <m>b</m>, and <m>c</m> using the process you developed 
+            in Exercise 2.  The result of your work here is called the <em>Quadratic Formula</em>.
+          </p>
+        </statement>
+      </task>
+
     </statement>
   </exercise>
   
