@@ -514,6 +514,34 @@
   </subsection>
 
 <exercises xml:id="exercises-algebra-dynamic-processes">
+  <exercise>
+    <statement>
+      <p>
+        In this exercise, we will consider ways we could address Aaron's misconceptions from 
+        <xref ref="act-reflection-aaron"/>.  In this activity, you will use both algebraic and graphical 
+        representations simultaneously to solve quadratic equations and make observations about the graphs and 
+        symbolic form of the equations.  In addition, you will make use of the Computer Algebra System (CAS) built 
+        into the TI-Nspire™ CAS handheld to look for patterns across the representations. One way the CAS is 
+        useful is that it enables you to see more than one representation of mathematical ideas on the same page 
+        allowing you to see how changes in one representation influence the changes in another representation.
+      </p>
+      <p>
+        For example, we could have a graphical and symbolic representation of a parabola on the same page.  Take 
+        the function <m>f\left(x\right)=x^2-1</m> pictured below.  Here we can see both the graph and the factored 
+        form of the function's algebraic expression on the same page.
+      </p>
+      <image source="path (no extension)">
+        <shortdescription>(for accessibility)</shortdescription>
+      </image>
+      <task>
+        <statement>
+          <p>
+            
+          </p>
+        </statement>
+      </task>
+    </statement>
+  </exercise>
   
 </exercises>
 
