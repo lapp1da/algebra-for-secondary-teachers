@@ -1626,6 +1626,82 @@
     </activity>
   </p>
 
+  <p>
+    Since algebra gives us a way to look for regularity and structure, it is particularly useful for reasoning 
+    about mathematical ideas.  Unfortunately, much of the traditional curricula has focused on primarily 
+    procedural knowledge and less on conceptual connections that are present in the procedural processes we spend 
+    so much of our time trying to perfect in our students.  Gray &amp; Tall (1994) coined the term 
+    <em>procept</em> to describe the duality of both the processes in mathematics and the concepts that those 
+    processes represent.  For this reason, we cannot simple focus on one without the other.  Our traditional 
+    curricula have often favored the processes and neglected the concepts that those processes use.  Since 
+    technology has enabled much of the procedural skills to be off-loaded to machines that can perform these 
+    procedures more quickly and with far fewer errors, we can de-emphize (not eliminate) the need for procedural 
+    fluency so that time can be focused more toward the understanding of the concepts <em>and</em> 
+    procedures as part of the same <em>procept</em>. For this reason, let's consider a situation where a teacher 
+    has chosen a task for classroom exploration and try to gain insight into her decision to include this task.
+  </p>
+
+  <p>
+    <activity xml:id="act-whats-it-all-about">
+      <title>What's It All About?</title>
+      <introduction>
+        <p>
+          Sarah is teaching an algebra class and is trying to get her students to understand some of the 
+          underlying structure of algebra.  She poses the following question for her students.
+        </p>
+        <p>
+          "In your groups I want you to consider the following equation, 
+          <m>\left(x^2-5x+5\right)^{x^2-9x+20}=1</m>.  Without using any technology (at least yet), discuss how 
+          you might approach solving this equation."
+        </p>
+      </introduction>
+      <task>
+        <statement>
+          <p>
+            In your groups, discuss the task and identify the major and minor mathematical concepts involved in 
+            solving the equation.  List these concepts in order of your perceived importance on your whiteboards 
+            under headings of "Major" and "Minor" with "1" being the highest priority concept you think Sarah is 
+            trying to address.
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Discuss in your groups why you think Sarah chose this this particular task.  What are some features 
+            of the equation that are particularly helpful for Sarah's purpose?
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Now in your groups, carry out a solution of the task without the use of technology.  Summarize your 
+            solution on your whiteboards and be prepared to share your approach.
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Making use of techology, find a solution of the task.  How was your approach different?  How was it 
+            similar?  Did you find the same solutions as when you did not use technology?  Explain.
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Reflecting on your original responses to part (a), does your act of solving the problem change your 
+            views of what the major and minor concepts of the task are?  Explain.
+          </p>
+        </statement>
+      </task>
+      
+      
+    </activity>
+  </p>
+
   
   
 </subsection>
