@@ -422,15 +422,15 @@
     <p>
       In another investigation, the students developed a connection between algebraic and graphical 
       representations for the process of completing the square and observed relationships among various parameters 
-      found in the algebraic expressions (see ).  Here the students further experienced the connection between 
-      both algebraic and graphical transformations.  This led to Jon's strategy of transforming the graph of a 
-      parabola and its intersection with a horizontal line above the <em>x</em>-axis into one where the parabola 
-      was shifted down until the horizontal line was superimposed with the <em>x</em>-axis. In his desire to 
-      transform an equation by subtracting 6 from both sides, he expressed a graphical understanding linked to the 
-      algebraic transformation of subtracting 6.  He stated that he was essentially moving the dotted line 
-      (see <xref ref="fig-graphs-jon-problems"/>) down to coincide with the <em>x</em>-axis so that he could use 
-      his technique of factoring that required the equation to be set equal to zero.  In this instance, he was 
-      able to justify his process and not just procedurally execute it.
+      found in the algebraic expressions (see <xref ref="fig-complete-square"/>).  Here the students further 
+      experienced the connection between both algebraic and graphical transformations.  This led to Jon's strategy 
+      of transforming the graph of a parabola and its intersection with a horizontal line above the <em>x</em>-axis 
+      into one where the parabola was shifted down until the horizontal line was superimposed with the 
+      <em>x</em>-axis. In his desire to transform an equation by subtracting 6 from both sides, he expressed a 
+      graphical understanding linked to the algebraic transformation of subtracting 6.  He stated that he was 
+      essentially moving the dotted line (see <xref ref="fig-graphs-jon-problems"/>) down to coincide with the 
+      <em>x</em>-axis so that he could use his technique of factoring that required the equation to be set equal 
+      to zero.  In this instance, he was able to justify his process and not just procedurally execute it.
     </p>
     <p>
       The influence of the <em>Completing the Square</em> (see <xref ref="fig-complete-square"/>) investigation 
@@ -457,7 +457,8 @@
     <p>
       The fact that Jon could articulate an understanding of the root solving process along with his verbal 
       reference to the vertex movement indicates an influence of both of these investigations on his mathematical 
-      understanding and its relationship to the symbolic world that describes these ideas.
+      understanding and its relationship to both the symbolic and graphical worlds that describe these ideas and 
+      the connections between them.
     </p>
 
     <p>
@@ -468,8 +469,54 @@
             <image source="images/compsquare2.png" />
             <image source="images/compsquare3.png" />
           </sidebyside>
-          </figure>
+        </figure>
     </p>
+    <p>
+      As the student experiences described above suggest, it is important for teachers to provide opportunities 
+      that allow the learner to interact with mathematical ideas using multiple representations that are linked 
+      so that the manipulation of one affects the other.  In addition, the student needs to be given some autonomy 
+      in the manipulation process so the they can do some "what-ifing" as they navigate the discovery process.  
+      The description above took place with students in an algebra class, but how might this play out with 
+      younger students?
+    </p>
+  </subsection>
+
+  <subsection xml:id="subsec-linked-representations-elementary">
+    <title>Linked Representations: How Low Can We Go?</title>
+    <p>
+      As we consider the role linked representations might play in the development of mathematical concepts with 
+      younger students, it is important to note the Kaput, Blanton, &amp; Moreno's (2008) model we described in 
+      <xref ref="fig-kaput-blanton-moreno"/> comes from the book, <em>Algebra in the Early Grades</em>.  While this 
+      model for the development of symbolic meaning is useful in secondary and university education, it began as a 
+      way to describe the acquisition of symbolic meaning with elementary students.  Therefore, it only makes 
+      sense that young learners can also take advantage of linked representations to understand mathematics.
+    </p>
+    <p>  
+      In the elementary classroom, mathematical representation has traditionally been dominated by numerical, 
+      physical, and iconic forms.  However, in more recent years technology has brought graphical representations 
+      into a more prominent role.  The NCTM <em>Principles and Standards</em> (NCTM, 2000) placed strong emphasis 
+      on graphical representations (even at the elementary level) and the <em>Common Core State Standards</em> 
+      continued this emphasis.  In fact, even the almost three-decade old electronic version of the 
+      <em>Principles and Standards</em> included interactive graphical representations that teachers and 
+      students could use to explore problem solving from a graphical perspective.  So how does the advent of 
+      technology impact the teaching of graphical representations for younger children?  Consider the following 
+      case where 21 <m>1^{st}</m> Grade students used the MBL technology described by Lapp &amp; Cyrus (2000) to 
+      explore temperature change and the connection to its graphical representation.
+    </p>
+    <p>
+      To begin, the students were given a demonstration of the TI-73 and CBL™ devices in two basic modes.  The 
+      first mode was the gauge where the temperature is represented either as a bar meter or as a needle meter.  The graphical representation followed with the teacher showing how to operate the graphing calculator and CBL™ using the CBL/CBR application built into the TI-73.  The students were already familiar with the TI-73 at this time since they had been using it for other mathematical explorations for about a month prior (once per week).  However, they had never used the CBL prior to this investigation.  Following the brief demonstration by the teacher, the students worked in groups of three and were given 15 minutes to “play” with the devices.  This allowed them a safe environment to experiment and become familiar with the operations of the CBL.
+    </p>
+    <p>
+      <figure xml:id="fig-cbl-meters">
+        <caption>CBL Meter Display on the TI-73</caption>
+        <sidebyside widths="40% 40%" valign="middle">
+            <image source="images/cbl-bar-meter.png" />
+            <image source="images/cbl-needle-meter.png" />
+        </sidebyside>
+      </figure>
+    </p>
+    
   </subsection>
 
   <subsection xml:id="subsec-summary-4-5">
@@ -510,6 +557,7 @@
       we need to use appropriate technology to engage students in investigations that allow them to make 
       mathematically meaningful observations and justify them.
     </p>
+    
   
     
   </subsection>
