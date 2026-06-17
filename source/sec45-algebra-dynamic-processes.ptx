@@ -526,7 +526,49 @@
     </p>
     <p>
       After the “warm-up”, each group of students was given a cup of ice water and a transparency overlay of a 
-      temperature-time graph cut to fit their TI-73 view screen.  The graph given to them is shown in .  The challenge was to reproduce the graph by collecting temperature data and graphing it in real time using the cup of ice water as well as any other means they saw fit for changing the temperature.  Students can be seen creating their graphs in figures 4 and 5.
+      temperature-time graph cut to fit their TI-73 view screen.  The graph given to them is shown in 
+      <xref ref="fig-elementary-cooling-target"/>.  The challenge was to reproduce the graph by collecting 
+      temperature data and graphing it in real time using the cup of ice water as well as any other means they saw 
+      fit for changing the temperature.
+    </p>
+    <p>
+      <figure xml:id="fig-elementary-cooling-target">
+        <caption>Target Graph for Students to Reproduce</caption>
+        <image source="images/elementary-cooling-target.png" width="60%">
+          <shortdescription>Target Graph for Students to Reproduce</shortdescription>
+        </image>
+      </figure>
+    </p>
+    <p>
+      In <xref ref="fig-elementary-cooling-pictures"/>, students can be seen using various methods for changing 
+      the temperature to create their graphs.
+    </p>
+    <p>
+      <figure xml:id="fig-elementary-cooling-pictures">
+        <caption>Students Creating Their Graphs</caption>
+        <sidebyside widths="45% 45%" valign="middle">
+            <image source="images/elementary-cooling-1.png" />
+            <image source="images/elementary-cooling-2.png" />
+        </sidebyside>
+      </figure>
+    </p>
+    <p>
+      Typically the students used three methods for changing the temperature.  They either placed the probe in the 
+      cup of ice water, left it exposed to the air, or placed it in their hands or under their armpit (the armpit 
+      will be explained shortly).  The students were allowed to repeat the 60 second data collection experiment as 
+      many times as they liked until they were content with their graph.  However, they were aware that once they 
+      began to collect data again their previous graph was lost.  Within 10 minutes, all 7 groups of students had 
+      obtained graphs that pleased them.  In addition, 5 of the seven groups (Groups 1, 2, 3, 4, and 6) of students 
+      obtained graphs very close to the given graph (see <xref ref="fig-elementary-cooling-group-results"/>).  To 
+      illustrate how close the graphs came to the original,  shows the graph produced by Group 1 superimposed on the original graph.
+    </p>
+    <p>
+      <figure xml:id="fig-elementary-cooling-group-results">
+        <caption>Results of the Groups' Data Collection</caption>
+        <image source="images/elementary-cooling-group-results.png">
+          <shortdescription>Results of the Groups' Data Collection</shortdescription>
+        </image>
+      </figure>
     </p>
     
   </subsection>
