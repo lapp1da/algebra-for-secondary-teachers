@@ -554,12 +554,12 @@
     </p>
     <p>
       Typically the students used three methods for changing the temperature.  They either placed the probe in the 
-      cup of ice water, left it exposed to the air, or placed it in their hands or under their armpit (the armpit 
-      will be explained shortly).  The students were allowed to repeat the 60 second data collection experiment as 
-      many times as they liked until they were content with their graph.  However, they were aware that once they 
-      began to collect data again their previous graph was lost.  Within 10 minutes, all 7 groups of students had 
-      obtained graphs that pleased them.  In addition, 5 of the seven groups (Groups 1, 2, 3, 4, and 6) of students 
-      obtained graphs very close to the given graph (see <xref ref="fig-elementary-cooling-group-results"/>).
+      cup of ice water, left it exposed to the air, or placed it in their hands or under their armpit.  The 
+      students were allowed to repeat the 60 second data collection experiment as many times as they liked until 
+      they were content with their graph.  However, they were aware that once they began to collect data again 
+      their previous graph was lost.  Within 10 minutes, all 7 groups of students had obtained graphs that 
+      pleased them.  In addition, 5 of the seven groups (Groups 1, 2, 3, 4, and 6) of students obtained graphs 
+      very close to the given graph (see <xref ref="fig-elementary-cooling-group-results"/>).
     </p>
     <p>
       <figure xml:id="fig-elementary-cooling-group-results">
@@ -643,16 +643,84 @@
       the year while the students had been manually plotting temperature from the beginning of the school year.  Starting from early in the school 
       year, a student would be selected from the class to go outside and read the thermometer at the school.  
       Then they would come in and plot the temperature on a grid sheet corresponding to the day along the 
-      horizontal axis and temperature along the vertical axis (see ).  It seems that this experience helped the 
-      students make sense of the temperature-time graph produced in real time via the CBL.
+      horizontal axis and temperature along the vertical axis (see <xref ref="fig-elementary-cooling-hand-graph"/>).  
+      This experience of daily plotting a data point helped the students make sense of the temperature-time 
+      graph produced in real time via the CBL.
     </p>
     <p>
       <figure xml:id="fig-elementary-cooling-hand-graph">
         <caption>Hand Graph of Temperature Data</caption>
-        <image source="path (no extension)">
-          <shortdescription>(for accessibility)</shortdescription>
+        <image source="images/elementary-cooling-hand-graph.png" width="60%">
+          <shortdescription>Hand Graph of Temperature Data</shortdescription>
         </image>
       </figure>
+    </p>
+    <p>
+      The fact that the students could understand the meaning of the graphical representation as it relates to 
+      temperature as a function of time was not too surprising considering the slow development of this concept 
+      over the school year.  However, what was particularly surprising was the ability to relate the CBL 
+      experience to the graphical representation of <em>rate of change</em>.  The relationship to rate of change 
+      became apparent during the discussion of the second graph following the graph reproduction exercise.  
+      Recall that the students were asked to describe a process that would result in the graph given in 
+      <xref ref="fig-elementary-cooling-graph-without-cbl"/>.  The steps in the process described by the students 
+      were as follows.
+    </p>
+    <p>
+      <ol>
+        <li>
+          <p>
+            Start with it in the water for a little bit.
+          </p>
+        </li>
+        <li>
+          <p>
+            Hold it in the air.
+          </p>
+        </li>
+        <li>
+          <p>
+            Put it back in the water.
+          </p>
+        </li>
+        <li>
+          <p>
+            Put it in your hand.
+          </p>
+        </li>
+      </ol>
+    </p>
+    <p>
+      When given these responses, students were asked several questions.  First they were asked why they chose to 
+      start in the water.  One student replied, “It starts down low and doesn't go up or down at the beginning.”  
+      Here she seemed to show an understanding that a horizontal graph came about due to a lack of variation in 
+      the temperature as well as a connection to the relative height of the graph on the vertical axis.
+    </p>
+    <p>
+      Students were then asked why at one part of the process they wanted to hold the probe in the air while at 
+      another part they wanted to hold it in their hand?  One student responded, “We want it to go up faster in 
+      the second part.”  Another student stated, “Yeah, the second going up needs to be steep.”   Here the 
+      students appear to be making a connection between the relative visual steepness of the graph and rate of 
+      change of the temperature.  What was the most surprising was that the students were making these connections 
+      after only a short encounter with the data collection devices.
+    </p>
+    <p>
+      Before begining this experience we were curious how children as young as first grade would respond to the 
+      use of data collection devices.  We figured that some of them might be able to reproduce the given graph, 
+      but we did not anticipate that they would be able to verbalize an informal understanding of rate of change.  
+      As new technology evolves, we as teachers must not underestimate young children's ability to accept and 
+      use these technologies.  Devices that allow representations that were previously thought of as middle or 
+      high school topics (note the TI-73 used here is designed as a middle grades calculator) to become 
+      accessible to younger learners as well.  Even technology like data collection devices are not too 
+      sophisticated for young learners provided the interface is user-friendly.
+    </p>
+    <p>
+      It is important to remember that in the elementary grades we are preparing children for more advanced 
+      study.  By giving them experiences that require a process of gradual abstraction, we are preparing them to 
+      use multiple representations in working with mathematical concepts.  Students will be expected to use 
+      multiple approaches to problem solving as they progress through mathematics and experiences like these 
+      allow them to feel comfortable to explore and not simply wait for the teacher to tell them the answer or 
+      show “the” way to solve a problem.  Building autonomy for students in learning mathematics is essential if 
+      we want to educate problem solvers.  Exploration experiences are key to building this autonomy.
     </p>
     
   </subsection>
