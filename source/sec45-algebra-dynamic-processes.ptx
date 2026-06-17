@@ -559,14 +559,26 @@
       many times as they liked until they were content with their graph.  However, they were aware that once they 
       began to collect data again their previous graph was lost.  Within 10 minutes, all 7 groups of students had 
       obtained graphs that pleased them.  In addition, 5 of the seven groups (Groups 1, 2, 3, 4, and 6) of students 
-      obtained graphs very close to the given graph (see <xref ref="fig-elementary-cooling-group-results"/>).  To 
-      illustrate how close the graphs came to the original,  shows the graph produced by Group 1 superimposed on the original graph.
+      obtained graphs very close to the given graph (see <xref ref="fig-elementary-cooling-group-results"/>).
     </p>
     <p>
       <figure xml:id="fig-elementary-cooling-group-results">
         <caption>Results of the Groups' Data Collection</caption>
         <image source="images/elementary-cooling-group-results.png">
           <shortdescription>Results of the Groups' Data Collection</shortdescription>
+        </image>
+      </figure>
+    </p>
+    <p>
+      To illustrate how close the graphs came to the original, 
+      <xref ref="fig-elementary-cooling-group1-superimposed"/> shows the graph produced by Group 1 superimposed on 
+      the original graph.
+    </p>
+    <p>
+      <figure xml:id="fig-elementary-cooling-group1-superimposed">
+        <caption>Group 1 Graph Superimposed over Target Graph</caption>
+        <image source="images/elementary-cooling-group1-superimposed.png" width="60%">
+          <shortdescription>Group 1 Graph Superimposed over Target Graph</shortdescription>
         </image>
       </figure>
     </p>
