@@ -505,7 +505,15 @@
     </p>
     <p>
       To begin, the students were given a demonstration of the TI-73 and CBL™ devices in two basic modes.  The 
-      first mode was the gauge where the temperature is represented either as a bar meter or as a needle meter.  The graphical representation followed with the teacher showing how to operate the graphing calculator and CBL™ using the CBL/CBR application built into the TI-73.  The students were already familiar with the TI-73 at this time since they had been using it for other mathematical explorations for about a month prior (once per week).  However, they had never used the CBL prior to this investigation.  Following the brief demonstration by the teacher, the students worked in groups of three and were given 15 minutes to “play” with the devices.  This allowed them a safe environment to experiment and become familiar with the operations of the CBL.
+      first mode was the gauge where the temperature is represented either as a bar meter or as a needle meter 
+      (see <xref ref="fig-cbl-meters"/>).  The graphical representation followed with the teacher showing how to 
+      operate the graphing calculator and CBL™ using the CBL/CBR application built into the TI-73.  The students 
+      were already familiar with the TI-73 at this time since they had been using it for other mathematical 
+      explorations for about a month prior (once per week); however, they had never used the CBL prior to this 
+      investigation.  Following the brief demonstration by the teacher, the students worked in groups of three 
+      and were given 15 minutes to “play” with the devices where they simply explored the cause and affect 
+      relationships by doing different things to the temperature probes and watching what happened.  This allowed 
+      them a safe environment to experiment and become familiar with the operations of the CBL.
     </p>
     <p>
       <figure xml:id="fig-cbl-meters">
@@ -515,6 +523,10 @@
             <image source="images/cbl-needle-meter.png" />
         </sidebyside>
       </figure>
+    </p>
+    <p>
+      After the “warm-up”, each group of students was given a cup of ice water and a transparency overlay of a 
+      temperature-time graph cut to fit their TI-73 view screen.  The graph given to them is shown in .  The challenge was to reproduce the graph by collecting temperature data and graphing it in real time using the cup of ice water as well as any other means they saw fit for changing the temperature.  Students can be seen creating their graphs in figures 4 and 5.
     </p>
     
   </subsection>
