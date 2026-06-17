@@ -620,7 +620,39 @@
     </p>
     <p>
       Once the students described their processes using natural language, they were given them another graph and 
-      asked to describe a process for producing it (See figure 8).  In this case they were not allowed to use the CBL device.  Instead they were expected to take the previous experience and transfer it to a new situation.  The responses were very interesting.  In fact, the responses suggest an ability to connect the geometric properties of the graphical representation to the understanding of the physical event.  We do not suggest that this group of first graders necessarily possess a deep understanding of the formal definition of the slope of a graph; however, the responses do suggest an understanding of the meaning of the graphical representation for the relationship between temperature and time.  It should also be noted that student understanding of information portrayed by a scatter plot had been developing slowly during the course of the school year.  The CBL™ activity took place during the spring of the year while the students had been manually plotting temperature from the beginning of the school year.  Starting from early in the school year, a student would be selected from the class to go outside and read the thermometer at the school.  Then s/he would come in and plot the temperature on a grid sheet corresponding to the day along the horizontal axis and temperature along the vertical axis (See figure 9).  It seems that this experience helped the students make sense of the temperature-time graph produced in real time via the CBL.
+      asked to describe a process for producing it (see <xref ref="fig-elementary-cooling-graph-without-cbl"/>).  
+      In this case they were not allowed to use the CBL device.  Instead they were expected to take the previous 
+      experience and transfer it to a new situation.The responses were very interesting.  In fact, the 
+      responses suggest an ability to connect the graphical properties of the representation to the understanding 
+      of the physical event.  It is not to suggest that this group of first graders necessarily possess a deep 
+      understanding of the formal definition of the slope of a graph; however, the responses do suggest an 
+      understanding of the meaning of the graphical representation for the relationship between temperature and 
+      time and connections between the graph and the physical event.
+    </p>
+    <p>
+      <figure xml:id="fig-elementary-cooling-graph-without-cbl">
+        <caption>Describing Graph Production without CBL</caption>
+        <image source="images/elementary-cooling-graph-without-cbl.png" width="60%">
+          <shortdescription>Describing Graph Production without CBL</shortdescription>
+        </image>
+      </figure>
+    </p>
+    <p>
+      It should also be noted that student understanding of information portrayed by a scatter plot had been 
+      developing slowly during the course of the school year.  The CBL™ activity took place during the spring of 
+      the year while the students had been manually plotting temperature from the beginning of the school year.  Starting from early in the school 
+      year, a student would be selected from the class to go outside and read the thermometer at the school.  
+      Then they would come in and plot the temperature on a grid sheet corresponding to the day along the 
+      horizontal axis and temperature along the vertical axis (see ).  It seems that this experience helped the 
+      students make sense of the temperature-time graph produced in real time via the CBL.
+    </p>
+    <p>
+      <figure xml:id="fig-elementary-cooling-hand-graph">
+        <caption>Hand Graph of Temperature Data</caption>
+        <image source="path (no extension)">
+          <shortdescription>(for accessibility)</shortdescription>
+        </image>
+      </figure>
     </p>
     
   </subsection>
