@@ -53,7 +53,7 @@
 
     <p>
       <figure xml:id="fig-shadow-app">
-        <caption>Proportional Lengths</caption>
+        <caption>Triangle in a Triangle</caption>
           <interactive xml:id="shadow-model" platform="geogebra" width="100%" reset-icon="yes">
                 <slate xml:id="ggb-shadow-model" surface="geogebra" material="nfrn7ax5"/>
           </interactive>
