@@ -13,12 +13,12 @@
         <em>The Golden Ratio</em> as <m>n \rightarrow \infty</m>.  You may recall that the <em>Golden Ratio</em> 
         occurs when the ratio of the larger of two values to the smaller, <m>a</m> and <m>b</m>, is equal to the 
         ratio of the <em>sum</em> of the two values to the larger of the two values.  In other words, when 
-        <m>a \gt b \gt 0</m>, we have <m>\frac{a+b}{a}=\frac{a}{b}=\varphi =\frac{1+\sqrt{5}}{2}</m> where 
+        <m>0 \lt a \lt b</m>, we have <m>\frac{a+b}{b}=\frac{b}{a}=\varphi =\frac{1+\sqrt{5}}{2}</m> where 
         <m>\varphi</m> is typically used to represent this ratio. Just like the Fibonacci sequence that is seen 
         throughout nature, <em>The Golden Ratio</em> also seems to be present all around us.
     </p>
     <p>
-      Since ratios seem to describe many patterns we see around us, we should consider how the concept of ratio 
+      Since ratios seem to describe many patterns we see in the world, we should consider how the concept of ratio 
       develops in students and try to identify an appropriate place in the curriculum to begin engaging our 
       students with ideas related to ratio and proportion.  When we examine the 
       <em>Common Core State Standards</em>, the first place we see ratio finding its way into the curriculum is in 
@@ -37,6 +37,31 @@
     </p>
 
   </introduction>
+  <subsection xml:id="subsec-measuring-shadows">
+    <title>Measuring Shadows: The Case of Cisco</title>
+    <p>
+      Cisco is in his third year of teaching <m>6^{th}</m> grade mathematics.  He is wanting to help his students 
+      develop a conceptual understanding of ratio and proportion beyond the procedural way he learned it.  In his 
+      pre-service preparation, he remembered having fun indirectly measuring the height of a building on campus 
+      by using shadows on a sunny day and wants to try it with his students.  He is concerned that if he simply 
+      tells them how to do it, the process will be perceived as a memorized algorithm and he will be back in the 
+      situation he grew up in where the understanding is lost on his students.  He decided to first preface the 
+      activity with a dynamic geometry experience hoping the students might use what they discover to then 
+      suggest a method for measuring shadows as a way to indirectly measure the height of a pine tree in the 
+      school yard.
+    </p>
+
+    <p>
+      <figure xml:id="fig-shadow-app">
+        <caption>Proportional Lengths</caption>
+          <interactive xml:id="shadow-model" platform="geogebra" width="100%" reset-icon="yes">
+                <slate xml:id="ggb-shadow-model" surface="geogebra" material="qsczv3yt"/>
+          </interactive>
+      </figure>
+    </p>
+
+    
+  </subsection>
 
 
 
