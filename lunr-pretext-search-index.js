@@ -1429,7 +1429,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.1",
   "title": "Scaling Up, Scaling Down",
-  "body": " Scaling Up, Scaling Down   When we think of proportional reasoning, one of the areas of mathematics where we can truly \"see\" it is geometry. The ancient Greeks used a very special proportion in their artwork as well as architecture, The Golden Ratio . This ratio seemed to be found in nature and was deemed pleasing to the eye. In fact, the Fibonacci sequence, , has the interesting characteristic that the successive ratios of adjacent terms, , approach The Golden Ratio as . You may recall that the Golden Ratio occurs when the ratio of the larger of two values to the smaller, and , is equal to the ratio of the sum of the two values to the larger of the two values. In other words, when , we have where is typically used to represent this ratio. Just like the Fibonacci sequence that is seen throughout nature, The Golden Ratio also seems to be present all around us.  Since ratios seem to describe many patterns we see around us, we should consider how the concept of ratio develops in students and try to identify an appropriate place in the curriculum to begin engaging our students with ideas related to ratio and proportion. When we examine the Common Core State Standards , the first place we see ratio finding its way into the curriculum is in Grade 6 (see ). While fractions are seen in Grade 3, the treatment of the concept of rational numbers as ratios has not yet reached the stage where ratio and proportion would be viewed as relational as we would see them within the context of scaled up or scaled down representations of relative amounts or unit rates.    Overview of the Common Core State Standards for Grade 6   Overview of the Common Core State Standards for Grade 6      "
+  "body": " Scaling Up, Scaling Down   When we think of proportional reasoning, one of the areas of mathematics where we can truly \"see\" it is geometry. The ancient Greeks used a very special proportion in their artwork as well as architecture, The Golden Ratio . This ratio seemed to be found in nature and was deemed pleasing to the eye. In fact, the Fibonacci sequence, , has the interesting characteristic that the successive ratios of adjacent terms, , approach The Golden Ratio as . You may recall that the Golden Ratio occurs when the ratio of the larger of two values to the smaller, and , is equal to the ratio of the sum of the two values to the larger of the two values. In other words, when , we have where is typically used to represent this ratio. Just like the Fibonacci sequence that is seen throughout nature, The Golden Ratio also seems to be present all around us.  Since ratios seem to describe many patterns we see in the world, we should consider how the concept of ratio develops in students and try to identify an appropriate place in the curriculum to begin engaging our students with ideas related to ratio and proportion. When we examine the Common Core State Standards , the first place we see ratio finding its way into the curriculum is in Grade 6 (see ). While fractions are seen in Grade 3, the treatment of the concept of rational numbers as ratios has not yet reached the stage where ratio and proportion would be viewed as relational as we would see them within the context of scaled up or scaled down representations of relative amounts or unit rates.    Overview of the Common Core State Standards for Grade 6   Overview of the Common Core State Standards for Grade 6       Measuring Shadows: The Case of Cisco  Cisco is in his third year of teaching grade mathematics. He is wanting to help his students develop a conceptual understanding of ratio and proportion beyond the procedural way he learned it. In his pre-service preparation, he remembered having fun indirectly measuring the height of a building on campus by using shadows on a sunny day and wants to try it with his students. He is concerned that if he simply tells them how to do it, the process will be perceived as a memorized algorithm and he will be back in the situation he grew up in where the understanding is lost on his students. He decided to first preface the activity with a dynamic geometry experience hoping the students might use what they discover to then suggest a method for measuring shadows as a way to indirectly measure the height of a pine tree in the school yard.    Triangle in a Triangle      "
 },
 {
   "id": "fig-ccss-grade6-overview",
@@ -1439,6 +1439,15 @@ var ptx_lunr_docs = [
   "number": "3.1.1",
   "title": "",
   "body": " Overview of the Common Core State Standards for Grade 6   Overview of the Common Core State Standards for Grade 6   "
+},
+{
+  "id": "fig-shadow-app",
+  "level": "2",
+  "url": "sec31-scaling.html#fig-shadow-app",
+  "type": "Figure",
+  "number": "3.1.2",
+  "title": "",
+  "body": " Triangle in a Triangle   "
 },
 {
   "id": "sec32-ratio-rates",
