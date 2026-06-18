@@ -729,30 +729,39 @@
     <title>Summary</title>
 
     <p>
-      The bottom line of these contrasting examples is that we should not have to only expect procedural fluency, 
-      but rather that conceptual understanding can go hand-in-hand with procedural ability.  This example 
-      challenges the conventional wisdom that students must first become procedurally fluent before they come to 
+      The bottom line of these examples is that we should not have to only expect procedural fluency, 
+      but rather that conceptual understanding can go hand-in-hand with procedural ability.  These examples 
+      challenge the conventional wisdom that students must first become procedurally fluent before they come to 
       understand the concepts that we teach.  Heid (1988) more than three decades ago challenged this position and 
       argued that we should rethink the sequencing of skills and concepts in Calculus by using computer algebra 
       systems to develop concepts prior to teaching procedures.  Here we see this same principle applied to high 
-      school algebra concepts.  The difference between this study and Heid's is that we suggest it is not just 
-      the computer algebra system that influences student connection of concepts, but rather the dynamic linking 
-      of various representations.  The students in the first semester of the Lapp, Ermete, Brackett, and 
-      Powell (2013) study used the TI-84 and did have the development of concepts prior to skills; however, they 
-      did not have the ability to manipulate various representations and see real time effects among representations.
+      school algebra concepts and even elementary school graphical understanding.  The difference between the 
+      algebra study described above and highlighted by the example with first graders in comparison with Heid's 
+      research is that we suggest it is not just the computer algebra system or data collection technology that 
+      influences student connection of concepts, but rather the dynamic linking of various representations.  The 
+      students in the first semester of the Lapp, Ermete, Brackett, and Powell (2013) study used the TI-84 and 
+      did have the development of concepts prior to skills; however, they did not have the ability to see various 
+      <em>paired</em> representations and see real time effects among representations.  The first graders also 
+      had the ability to see the effects on the graphical representation when the physical event changed.
     </p>
     <p>
       A second aspect of concept development that we noticed involves student control of the environment.  As 
       Lapp &amp; Cyrus (2000) from research on the use of data collection devices as well as Lapp, Ermete, 
       Brackett, &amp; Powell (2013) experience within a CAS microworld suggest, the student's ability 
       to manipulate the environment plays a significant role in making connections.  During the first semester 
-      of this study, the instructor merely demonstrated some of the dynamically linked representations using a 
-      computer during class since the students did not have use of this technology individually.  Results of our 
-      interviews showed that none of these students could articulate connections among various representations.  
-      However, during the second semester, each student had a TI-Nspire CAS device and used it during 
-      student-centered investigations.  We argue that it was this ability to communicate and analyze via 
+      of the algebra study, the instructor merely demonstrated some of the dynamically linked representations 
+      using a computer during class since the students did not have use of this technology individually.  Results 
+      of the interviews showed that none of these students could articulate connections among various 
+      representations.  However, during the second semester, each student had a TI-Nspire CAS device and used it 
+      during student-centered investigations.  We argue that it was this ability to communicate and analyze via 
       dynamically connected representations between the symbolic world and the world of mathematical ideas that 
-      allowed the students make connections between concepts and procedures
+      allowed the students make connections between concepts and procedures.  Similarly, the first graders also 
+      had control of the events and were even given "play" time before the investigation in order to develop an 
+      intuition of the cause-effect relationship between the physical events and the graphical representation.  
+      It is this ability to control the environment paired with the real-time expression of the representations 
+      within the same field of view that performs the <em>double-arrowed</em> role in Kaput, Blanton, &amp; 
+      Moreno's model (<xref ref="fig-kaput-blanton-moreno"/>) labeled as, "Analyzed &amp; Communicated" between 
+      the different worlds of representations.
     </p>
     <p>
       As technology that links representations has become readily available, there is no reason we should not 
