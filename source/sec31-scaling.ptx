@@ -50,15 +50,173 @@
       suggest a method for measuring shadows as a way to indirectly measure the height of a pine tree in the 
       school yard.
     </p>
+    <p>
+      <activity xml:id="act-triangle-in-triangle">
+        <title>Triangle within a Triangle</title>
+        <introduction>
+          <p>
+            <em>Cisco</em> : Today, I want us to explore what happens when we place a right triangle inside 
+            another right triangle.  In this particular case we start with <m>\triangle ABC</m> and then create 
+            another triangle, <m>\triangle ADE</m>, by creating the segment 
+            <m>\overline{DE} \parallel \overline{BC}</m> as in <xref ref="fig-shadow-app"/>.  What I want you to do 
+            is to play around with changing the triangles by moving points <m>B</m>, <m>C</m>, and <m>D</m> to 
+            see what you notice.  After you have explored a bit, then answer the following questions to summarize 
+            your observations.
+          </p>
+          <p>
+          <figure xml:id="fig-shadow-app">
+            <caption>Triangle in a Triangle</caption>
+            <interactive xml:id="shadow-model" platform="geogebra" width="100%" reset-icon="yes">
+                <slate xml:id="ggb-shadow-model" surface="geogebra" material="nfrn7ax5"/>
+            </interactive>
+          </figure>
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              Since both triangles share a common angle, <m>\angle CAB</m>, and <m>\overline{DE}</m> and 
+              <m>\overline{BC}</m> are both perpendicular to <m>\overline{AB}</m>, what can you say 
+              about the angles in both triangles no matter how you change points <m>B</m>, <m>C</m>, and <m>D</m>?
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              How would you describe the "shapes" of the two triangles <m>\triangle ABC</m> and 
+              <m>\triangle ADE</m>?
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              To try and explain the nature of the "shape" of the triangles, imagine if you were to place a 
+              triangle on a copy machine and tell it to copy at 200%.  If say side, <m>\overline{BC}</m>, 
+              of <m>\triangle ABC</m> measured to be 7 <em>cm</em> originally, how long would you expect its 
+              copied side, <m>\overline{BC}</m>, to be?  Does this match with what you observed for the lengths 
+              when you manipulated points <m>B</m>, <m>C</m>, and <m>D</m>?  Explain your thinking.
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Now that you have used a thought experiment to consider how an enlarged copy of a triangle would 
+              behave, let's consider the <em>relative</em> lengths inside both a small and large triangle with 
+              <em>similar</em> shapes.  To the left in <xref ref="fig-shadow-app"/>, there are ratios of sides from 
+              both the small and large triangles.  When you move around points <m>B</m>, <m>C</m>, and <m>D</m>, 
+              what do you notice about these ratios?  Explain your thinking.
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              In <xref ref="fig-shadow-app"/>, move points <m>B</m>, <m>C</m>, and <m>D</m> until 
+              <m>\overline{AB}=6</m>, <m>\overline{AD}=3</m>, and <m>\overline{BC}=3</m>.  Now think about our 
+              copy machine thought experiment.  What percent copy would you need if you were wanting to copy 
+              <m>\triangle ADE</m> and make it to be the same size as <m>\triangle ABC</m>?  What factor would you 
+              need to multiply side <m>\overline{AD}</m> by to get the length of <m>\overline{AB}=6</m>?
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Will the same factor you used in part (e) work for converting the length of 
+              <m>\overline{DE}</m> to the length of <m>\overline{BC}=3</m>?  Explain your thinking from your 
+              understanding of how a copy machine works.
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              If you use the same factor to multiply the length of <m>\overline{DE}</m> to get the length of 
+              <m>\overline{BC}</m> and to get the length of <m>\overline{AB}</m> from the length of 
+              <m>\overline{AD}</m>, what will happen to those factors when you divide 
+              <m>\frac{\overline{BC}}{\overline{AB}}</m>?  How will their fractions compare?  Does this match 
+              what you observed in <xref ref="fig-shadow-app"/>?  Explain your thinking.
+            </p>
+          </statement>
+        </task>
+        
+      </activity>
+    </p>
+    <p>
+      Now that Cisco has laid the groundwork for the real task he was wanting to pose, he approaches his students 
+      the next day in the following exchange.
+    </p>
 
     <p>
-      <figure xml:id="fig-shadow-app">
-        <caption>Triangle in a Triangle</caption>
-          <interactive xml:id="shadow-model" platform="geogebra" width="100%" reset-icon="yes">
-                <slate xml:id="ggb-shadow-model" surface="geogebra" material="nfrn7ax5"/>
-          </interactive>
-      </figure>
+      <em>Cisco</em> : What I am wanting to do today is to try and find the height of the flagpole in front of 
+      the school.  In your groups, try to think of some ways we could find this height.  Summarize your ideas on 
+      your whiteboards and be read to share.
     </p>
+    <p>
+      <em>[Cisco gives the students 15 minutes to come up with some strategies and then brings the class back 
+        together.]
+      </em>
+    </p>
+    <p>
+      <em>Cisco</em> : OK, what have you come up with?  Yeah, Group 4?
+    </p>
+    <p>
+      <em>Nate</em> : Well, we thought it might be easiest to just tie a piece of string onto the clips of the 
+      rope that's already on the pole and then pull it up and then mark the string at the bottom.  Then we lower 
+      the end of the string back down and measure the piece of string to the mark we made.
+    </p>
+    <p>
+      <em>Cisco</em> : What do you think of their idea?
+    </p>
+    <p>
+      <em>Siera</em> : That would be very easy to do.  I think it will work.
+    </p>
+    <p>
+      <em>Cisco</em> : To get an idea of how this method might work, I took a picture of the flagpole this morning.  
+      Here it is. <em>[Cisco displays the picture]</em>  If our goal is to find the height of the flagpole, can 
+      anyone see a problem with this approach?  Take a couple of minutes to discuss it in your groups.
+    </p>
+    <p>
+      <em>Cisco gives them 3 minutes to discuss and then brings the class back together]</em>
+    </p>
+    <p>
+      <em>Cisco</em> : OK, does anyone see the problem I am concerned about?  Yeah, Leah.
+    </p>
+    <p>
+      <em>Leah</em> : I think we see it.  The rope attached to the pulley doesn't go all the way to the top of 
+      the pole.
+    </p>
+    <p>
+      <em>Cisco</em> : Bingo!  That was what I was thinking.  Are their any work-arounds you can think of?  Yeah, 
+      Cassie.
+    </p>
+    <p>
+      <em>Cassie</em> : What if we attached the string to a drone and flew it to the top of the pole?  Then we 
+      could pull it tight and mark the bottom.
+    </p>
+    <p>
+      <em>Cisco</em> : That's a great idea, Cassie.  Does anyone have a drone?  And more importantly, could you 
+      pilot it to land on top of the flagpole?  Yeah, Ben.
+    </p>
+    <p>
+      <em>Ben</em> : I have a drone, but there is no way I could fly it to the top of the flagpole.  I'm usually 
+      lucky to not lose it in the trees.
+    </p>
+    <p>
+      <em>Cisco</em> : OK, so the drone is out.  Let's think of another way.  There is a reason I am posing this 
+      task today right after our exploration from yesterday.  Let's take a few minutes to review what we did 
+      yesterday and put it in the perspective of today's task.  In your groups, discuss what we did yesterday and 
+      try to think of how we might use it for measuring the height of the flagpole.
+    </p>
+    <p>
+      <em>[Cisco gives the groups 15 minutes to discuss the exploration from the previous day and the current task 
+        at hand and then brings the class back together]</em>
+    </p>
+
+    
 
     
   </subsection>
