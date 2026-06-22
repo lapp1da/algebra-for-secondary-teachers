@@ -206,7 +206,7 @@
       lucky to not lose it in the trees.
     </p>
     <p>
-      <em>Cisco</em> : OK, so the drone is out.  Let's think of another way.  There is a reason I am posing this 
+      <em>Cisco [laughs]</em> : OK, so the drone is out.  Let's think of another way.  There is a reason I am posing this 
       task today right after our exploration from yesterday.  Let's take a few minutes to review what we did 
       yesterday and put it in the perspective of today's task.  In your groups, discuss what we did yesterday and 
       try to think of how we might use it for measuring the height of the flagpole.
@@ -215,9 +215,143 @@
       <em>[Cisco gives the groups 15 minutes to discuss the exploration from the previous day and the current task 
         at hand and then brings the class back together]</em>
     </p>
+    <p>
+      <em>Cisco</em> : Any ideas?  Yeah, Group 2?
+    </p>
+    <p>
+      <em>Jules</em> : We thought we could make a scale model keeping the angles the same like in the GeoGebra 
+      sketch.  Yesterday, we had two triangles that were the same shape since all of the angle were the same and so 
+      we just need to find the factor we need to scale it up to the size of the flagpole.  We just weren't sure how 
+      to figure the angles to keep them the same.
+    </p>
+    <p>
+      <em>Cisco</em> : A scale model?  That's a great idea.  We can assume the flagpole is perpendicular to the 
+      parking lot, so that will give us one angle.  I like your idea of finding the scale factor to take the model 
+      and scale it up to the flagpole size.  In the GeoGebra sketch, remember that the ratios on the left were 
+      always the same.  Maybe we could use the small model to figure the ratio and then we would need just one side 
+      of the the other two sides of the big "flagpole" triangle to find the flagpole length.  Yeah, Nori?
+    </p>
+    <p>
+      <em>Nori</em> : But if we can't stretch a string from the top of the flagpole, how can we get the 
+      hypotenuse to have one other side of the big triangle?
+    </p>
+    <p>
+      <em>Cisco</em> : Good point.  Maybe that means we need to rely on the other side?  You know, like the one 
+      that would be along the ground?  That would mean we need to get the angle at the top or the angle with 
+      the ground to be the same in both the model and the actual flagpole triangle.  Any ideas?  Yeah, Leah.
+    </p>
+    <p>
+      <em>Leah</em> : In history, we talked about how early the Greeks did things in math thousands of years ago.  
+      We read that some of the things they did used shadows to make models.  Could we do something like that?
+    </p>
+    <p>
+      <em>[Cisco had been waiting for this opportunity, so he decided to prompt a little to get them going in 
+        the direction he wanted them to go.]
+      </em>
+    </p>
+    <p>
+      <em>Cisco</em> : Can I make a suggestion? <em>[class indicates a positive response]</em>  What if we use a 
+      sunny day and take something like a meter stick out to the parking lot.  As long as we make sure to hold the 
+      meter stick perpendicular to the parking lot, say with a protractor, we could use the shadows of the meter 
+      stick and flagpole measured at the same time as the horizontal lengths in our two triangles.  Since the 
+      meter stick is acting like the flagpole and the shadows are acting as the horizontal sides, we can find the 
+      scale factor using the meter stick and its shadow and then use the same factor with the flagpole's shadow to 
+      find the length of the flagpole.  Does this make sense? <em>[class nods in approval]</em>
+    </p>
+    <p>
+      <em>Diyonn</em> : But how do we know the two triangles have all the same angles?  We only made use on of 
+      them was.  You know, the right angle at the bottom.
+    </p>
+    <p>
+      <em>Cisco</em> : Good point, Diyonn.  Anyone have a thought about this?  Nate?
+    </p>
+    <p>
+      <em>Nate</em> : I think we can because the sun is shining at the same angle on both the stick and the 
+      flagpole as long as we measure at the same time.  So the angle you would look at if you were trying to 
+      stare at the sun from the ground on both would be the same.  Because the other angle is a right angle on 
+      both, that means the third angles would also have to be the same since it would just be 
+      <m>90^{\circ}</m> minus the angle at the bottom that are the same in both.
+    </p>
+    <p>
+      <em>Cisco</em> : Is everyone convinced? <em>[class nods in agreement]</em>  Ok, let's do this.  Fortunately, 
+      it's a sunny day out today.  Well, partly sunny, so we will need to plan the make sure to be ready to 
+      measure in between any cloud that may come up.  Each group have your <em>materials manager</em> get a meter 
+      stick from the cabinet along with a protractor and measuring tape.  Then line up to go outside.
+    </p>
+    <p>
+      <activity xml:id="act-shadow-worlds">
+        <title>Shadow Worlds</title>
+        <introduction>
+          <p>
+            Now that we have seen the discussion play out in Cisco's class, let's do the indirect measurement 
+            activity that his students would have completed.  Your instructor will choose an object that would 
+            be difficult to directly measure and a sunny day to do this investigation.  Like Cisco's class, you 
+            will need a meter stick, protractor or angle ruler, and a measuring tape or string that can be measured 
+            later.
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              Place the meter stick perpendicular to the ground and have someone in your group hold it in place.  
+              Make sure you can clearly see its shadow when the sun is shining.  Your instructor will pick a 
+              person to mark on the ground the end of the shadow for object you are trying to measure when given 
+              the signal.
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              When given the signal, measure and record the length of the shadow of your group's meter stick.
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Compute the ratio of the length of the meter stick (1 meter) to the length of your shadow and record 
+              your result.
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              To find the height of the object of interest, we can use the same ratio, call it <m>r</m>, that you 
+              found in part (c).  If the shadow of the object had length, <m>s</m>, and the object has height, 
+              <m>h</m>, then <m>r=\frac{h}{s}</m> and so <m>h=r\cdot s</m>.  Compute your group's estimate for the 
+              height of the object.
+            </p>
+          </statement>
+        </task>
+      </activity>
+    </p>
 
-    
+  </subsection>
 
+  <subsection xml:id="subsec-angles-and-ciscos-extension">
+    <title>Angles and Cisco's Extension</title>
+    <p>
+      Cisco was so pleased with how his students reasoned about the angles and shadows to solve a real-world 
+      problem, he wanted to see how far he could extend their understanding to functional relationships between 
+      angles and ratios for right triangles.  He knew that trigonometry was still a ways off in the curricular 
+      trajectory, but he felt that since they had solid reasoning about the angle relationships in figuring out 
+      the height of the flagpole, he would reach back to his GeoGebra sketch (<xref ref="fig-shadow-app"/>) and 
+      see if they could understand the functional relationship between an angle and the ratio of sides in a right 
+      triangle.  We pick up his class discussion the next day after they had approximated the height of the 
+      flagpole.
+    </p>
+    <p>
+      <em>Cisco</em> : OK.  Yesterday we were very lucky that the sun was shining so we could measure both shadows.  
+      But what if the sun was not shining?  Would there be a way to still indirectly measure the height of the 
+      flagpole?  I got to thinking last night.  Yesterday, Jules had an interesting idea she shared about wanting 
+      to make a scale model, but her group was having trouble figuring how to deal with the angles.  Yesterday, we 
+      avoided her problem by not measuring angles at all, but instead arguing that the angle for the shadow 
+      triangles would need to be the same and so we could just use the meter stick triangle to get the ratio we 
+      needed to scale up to the flagpole triangle.  But what if we had the angle that the sun made with the 
+      shadow on the ground?  Would that be enough?  Today I am going to have you explore this a bit.
+    </p>
     
   </subsection>
 
