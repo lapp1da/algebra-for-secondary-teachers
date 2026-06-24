@@ -360,12 +360,85 @@
         <introduction>
           <p>
             One way we can measure angles is using an <em>angle ruler</em> along with a straw attached to it 
-            (see )
+            (see <xref ref="fig-angle-ruler"/>).  Using this simple device, we can look through the straw at the top 
+            of the object whose height we want to measure and read the angle on the angle ruler.
           </p>
           <p>
-            
+            <figure xml:id="fig-angle-ruler">
+              <caption>Angle Ruler with Straw</caption>
+              <image source="images/angle-ruler.png" width="50%">
+                <shortdescription>Angle Ruler with Straw</shortdescription>
+              </image>
+            </figure>
+          </p>
+          <p>
+            Now if we can somehow find a relationship between the angle and the ratio of sides, we can side-step 
+            the need to measure the shadow of the smaller triangle we used in the shadow experiment to find the 
+            ratio.  Let's explore this relationship.
           </p>
         </introduction>
+        <task>
+          <statement>
+            <p>
+              Using the GeoGebra sketch (<xref ref="fig-shadow-app"/>), drag point <m>D</m> to make varying sized 
+              triagles.  Describe what you notice about the ratio <m>\frac{DE}{AD}</m> for a fixed angle 
+              <m>\angle{EAD}</m> no matter how large or small the triangle is?
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Now drag point <m>C</m> to change the angle and repeat what you did in part (a).  Describe what you 
+              notice about the ratio when the angle measure is fixed to its new value.
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Adjust the location of point <m>C</m> to create <m>\angle{EAD}</m> with the measures in the following 
+              table and record the corresponding ratios that go with each angle.
+            </p>
+            <p>
+              <tabular halign="center" margins="auto">
+                <col halign="left" right="minor" />
+                <col halign="center" />
+                <col halign="center" />
+                <col halign="center" />
+                <row bottom="minor">
+                  <cell>Angle</cell>
+                  <cell><m>10^\circ</m></cell>
+                  <cell><m>20^\circ</m></cell>
+                  <cell><m>30^\circ</m></cell>
+                  <cell><m>40^\circ</m></cell>
+                  <cell><m>50^\circ</m></cell>
+                  <cell><m>60^\circ</m></cell>
+                  <cell><m>70^\circ</m></cell>
+                </row>
+                <row>
+                  <cell>Ratio</cell>
+                  <cell><m></m></cell>
+                  <cell><m></m></cell>
+                  <cell><m></m></cell>
+                  <cell><m></m></cell>
+                  <cell><m></m></cell>
+                  <cell><m></m></cell>
+                  <cell><m></m></cell>
+                </row>
+              </tabular>
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Create a scatterplot of the ratios as a function of the angle and sketch your results.  Do you see 
+              a pattern in the data?  Explain.  What happens to the ratio value as the angle gets closer to 
+              <m>90^{\circ}</m>?  What happens to the ratio value as the angle gets closer to <m>0^{\circ}</m>?
+            </p>
+          </statement>
+        </task>
         
         
         
