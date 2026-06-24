@@ -345,12 +345,31 @@
     <p>
       <em>Cisco</em> : OK.  Yesterday we were very lucky that the sun was shining so we could measure both shadows.  
       But what if the sun was not shining?  Would there be a way to still indirectly measure the height of the 
-      flagpole?  I got to thinking last night.  Yesterday, Jules had an interesting idea she shared about wanting 
-      to make a scale model, but her group was having trouble figuring how to deal with the angles.  Yesterday, we 
-      avoided her problem by not measuring angles at all, but instead arguing that the angle for the shadow 
+      flagpole?  I got to thinking about something last night.  Yesterday, Jules had an interesting idea she shared 
+      about wanting to make a scale model, but her group was having trouble figuring how to deal with the angles.  
+      We avoided her problem by not measuring angles at all, but instead arguing that the angle for the shadow 
       triangles would need to be the same and so we could just use the meter stick triangle to get the ratio we 
       needed to scale up to the flagpole triangle.  But what if we had the angle that the sun made with the 
-      shadow on the ground?  Would that be enough?  Today I am going to have you explore this a bit.
+      shadow on the ground?  Would that be enough?  Today I am going to have you explore this a bit.  In your groups,
+      I want you to answer the following questions using the GeoGebra sketch (<xref ref="fig-shadow-app"/>) we 
+      used before.
+    </p>
+    <p>
+      <activity xml:id="act-angle-ratio">
+        <title>Angles and Ratios</title>
+        <introduction>
+          <p>
+            One way we can measure angles is using an <em>angle ruler</em> along with a straw attached to it 
+            (see )
+          </p>
+          <p>
+            
+          </p>
+        </introduction>
+        
+        
+        
+      </activity>
     </p>
     
   </subsection>
