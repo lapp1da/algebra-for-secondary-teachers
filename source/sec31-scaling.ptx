@@ -407,7 +407,7 @@
                 <col halign="center" />
                 <col halign="center" />
                 <row bottom="minor">
-                  <cell>Angle</cell>
+                  <cell>Angle, <m>\theta</m></cell>
                   <cell><m>10^\circ</m></cell>
                   <cell><m>20^\circ</m></cell>
                   <cell><m>30^\circ</m></cell>
@@ -441,6 +441,152 @@
         </task>
       </activity>
     </p>
+    <p>
+      <em>[Cisco brings the class back together for a discussion of their observations]</em>
+    </p>
+    <p>
+      <em>Cisco</em> : OK, now that you have looked at what happens when you fix and angle and adjust the size of 
+      the triangle, can anyone tell me what you see in terms of the ratio?  Yeah, Nate.
+    </p>
+    <p>
+      <em>Nate</em> : Well, we saw that if you keep the angle at the bottom the same, it doesn't matter how big 
+      or small the triangle is, the ratio of the two sides is always the same.  It's kind of the same as we saw in 
+      the activity we did yesterday.
+    </p>
+    <p>
+      <em>Cisco</em> : So what I'm hearing is that if we know the angle, we should be able to know the ratio?  Is 
+      that a fair summary of what you are saying?
+    </p>
+    <p>
+      <em>Nate</em> : Yeah, I guess.  We hadn't really thought about it that way, but yeah.  That would work.  
+      That's kind of the same thing.  But if we didn't measure the things in the sketch, how would we know the 
+      ratio for an angle?
+    </p>
+    <p>
+      <em>Cisco</em> : That's a great question, Nate.  Now when you get to high school, you will study this in 
+      greater depth, but for now, just know that when it comes to right triangles like these, we give names 
+      to the ratios of different combinations of sides for a given angle.  In this case, we call the ratio of 
+      the "opposite" to "adjacent" sides the "tangent" of the angle.  
+      <em>[Cisco draws a right triangle on the board and labels the sides and angle]</em>.  Can you see why we call 
+      this side <em>[pointing to the opposite side]</em> the "opposite" and this side 
+      <em>[pointing to the adjacent side]</em> the "adjacent" side?  <em>[class responds postively</em>.  
+      Yeah, Leah?
+    </p>
+    <p>
+      <em>Leah</em> : But, like Nate said, how do we know the ratio if we have the angle?
+    </p>
+    <p>
+      <em>Cisco</em> : Well, every scientific calculator has these ratios built in.  Take out your calculators.  
+      <em>[students take out their calculators]</em>.  See that <c>trig</c> button?  Press it.  Now you will 
+      see other options you can select.  Select the <c>tan</c> button and put in 
+      <m>\tan \left(23^{\circ}\right)</m> and press <c>enter</c>.  What do you get?
+    </p>
+    <p>
+      <em>Ben</em> : I got like 0.42447.
+    </p>
+    <p>
+      <em>Cisco</em> : Do you notice anything about that number?
+    </p>
+    <p>
+      <em>Siera</em> : It's like between what we had for <m>20^{\circ}</m> and <m>30^{\circ}</m> we had in our 
+      tables.
+    </p>
+    <p>
+      <em>Cisco</em> : Good observation.  Now take your table from before and use the tangent command to fill it 
+      in with what you get from the calculator.
+    </p>
+    <p>
+              <tabular halign="center" margins="auto">
+                <col halign="left" right="minor" />
+                <col halign="center" />
+                <col halign="center" />
+                <col halign="center" />
+                <row bottom="minor">
+                  <cell>Angle, <m>\theta</m></cell>
+                  <cell><m>10^\circ</m></cell>
+                  <cell><m>20^\circ</m></cell>
+                  <cell><m>30^\circ</m></cell>
+                  <cell><m>40^\circ</m></cell>
+                  <cell><m>50^\circ</m></cell>
+                  <cell><m>60^\circ</m></cell>
+                  <cell><m>70^\circ</m></cell>
+                </row>
+                <row>
+                  <cell><m>\tan \left(\theta\right)</m></cell>
+                  <cell><m></m></cell>
+                  <cell><m></m></cell>
+                  <cell><m></m></cell>
+                  <cell><m></m></cell>
+                  <cell><m></m></cell>
+                  <cell><m></m></cell>
+                  <cell><m></m></cell>
+                </row>
+              </tabular>
+      </p>
+
+      <p>
+        <em>[groups take a few minutes and fill in the table]</em>
+      </p>
+      <p>
+        <em>Cisco</em> : What do you see?
+      </p>
+      <p>
+        <em>Patrick</em> : They are the same as what we had before.
+      </p>
+      <p>
+        <em>Cisco</em> : So the table you made before by using the measurements was really just the tangent 
+        function.  Now let's use the tangent feature of your calculator to find the height of the flagpole.  
+        Grab the tape measure, angle ruler, and a straw and let's go outside.
+      </p>
+      <p>
+        <em>[Class grabs materials and heads out to the flagpole.]</em>
+      </p>
+      <p>
+        <activity xml:id="act-flagpole-revisit">
+          <title>The Flagpole Revisited</title>
+          <introduction>
+            <p>
+              Using what we know about the tangent function, we only need to measure a distance from the base of 
+              the flagpole and the angle of elevation to find the height of the flagpole.
+            </p>
+          </introduction>
+          <task>
+            <statement>
+              <p>
+                Pick a point a fair distance away from the flagpole and measure the distance.  Record your 
+                distance.
+              </p>
+            </statement>
+          </task>
+          <task>
+            <statement>
+              <p>
+                Have one of your group members tape the straw along the line on the upper side of the angle ruler 
+                as shown in <xref ref="fig-angle-ruler"/>.  Then have your group member lay on the ground and look 
+                through the straw until you see the top of the flagpole through the straw.  Be certain to keep the 
+                other side of the angle ruler horizontal to the ground.  Record the angle you get between the 
+                ground and the line of sight to the top of the flagpole.
+              </p>
+            </statement>
+          </task>
+          <task>
+            <statement>
+              <p>
+                Since we know that <m>\tan \left(\theta\right)=\frac{o}{a}</m> where <m>o</m> is the opposite 
+                side of the triangle and <m>a</m> is the adjacent side, we can find the opposite side 
+                (in this case the height of the flagpole), by rearranging this to 
+                <m>o=a \cdot \tan \left(\theta\right)</m>.  Use your measurements for the distance from the base 
+                of the flagpole and the angle of elevation to approximate the height of the flagpole.  How does 
+                your result compare with what you got when you computed it using shadows?  Explain.
+              </p>
+            </statement>
+          </task>
+          
+          
+          
+        </activity>
+      </p>
+
     
   </subsection>
 
