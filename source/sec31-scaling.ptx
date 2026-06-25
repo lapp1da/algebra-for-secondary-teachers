@@ -581,14 +581,30 @@
               </p>
             </statement>
           </task>
-          
-          
-          
         </activity>
+      </p>
+
+      <p>
+        One of the aspects of ratio and proportional reasoning is the idea that regardless of the way a fraction 
+        is expressed, going from one form to another involves a scaling up or down by multiplying both the 
+        numerator and denominator by the same value.  In a sense, it is the same as multiplying the fraction 
+        by a nonzero number divided by itself (i.e. multiplying the fraction by 1).  As you will recall from 
+        <xref ref="sec21-elementary-concepts-number"/>, we saw the elusive <m>\frac{2}{3}</m>, escape time 
+        and time again by simply changing forms in the cartoon, <em>The Weird Number</em>, found in 
+        <xref ref="weird-number"/>.  The scaling process found in Cisco's class discussion reinforces the 
+        fraction concepts from earlier grades and applies them to a real-world problem where the idea of 
+        a scale model allows visualization of the scale-up and scale-down process for fractions to take on a 
+        physical embodiment.  In the next section, we will continue this development with the concept of 
+        <em>unit rates</em> as a lens through which to view ratio and proportion.
       </p>
 
     
   </subsection>
+
+  <exercises xml:id="exercises-scaling-up-scaling-down">
+
+    
+  </exercises>
 
 
 
