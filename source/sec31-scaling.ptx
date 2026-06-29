@@ -595,16 +595,59 @@
       </p>
       <p>
         The scaling process found in Cisco's class discussion reinforces the fraction concepts from earlier grades 
-        and applies them to a real-world problem where the idea of a scale model allows visualization of the 
-        scale-up and scale-down process for fractions to take on a physical embodiment.  In the next section, we 
-        will continue this development with the concept of <em>unit rates</em> as a lens through which to view 
-        ratio and proportion.
+        and applies them to a real-world problem where the idea of a scale model allows a visualization of the 
+        scale-up and scale-down process for fractions to take on a physical embodiment.  In 
+        <xref ref="sec32-ratio-rates"/>, we will continue this development with the concept of <em>unit rates</em> 
+        as a lens through which to view ratio and proportion.
       </p>
 
     
   </subsection>
 
   <exercises xml:id="exercises-scaling-up-scaling-down">
+    <exercise>
+      <introduction>
+        <p>
+          A <em>glide ratio</em> is the ratio of units of forward distance traveled for every drop in units of 
+          vertical distance.  For example, a glide ratio of 15:2 meters means that for every drop of 2 meters, the 
+          aircraft would glide forward 15 meters.  We typically see this ratio given so that the drop value is 1, 
+          so a 15:2 ratio would be expressed at 7.5:1.
+        </p>
+      </introduction>
+      <task>
+        <statement>
+          <p>
+            Suppose a model glider has a glide ratio of 8:1.  If a person releases the glider horizontally from the 
+            top of a 12 meter building, what is the scale factor you must use to express this ratio in the form 
+            <m>\text{________}:12</m>?  What is the resulting horizontal distance the glider will travel before 
+            landing on the ground?
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Suppose Chad and Erin each design a glider at the Maker Space.  Chad's glider has a glide ratio of 
+            11.2:1 and Erin's has a glide ratio of 9.1:1.  To help even the contest, Chad is going to release his 
+            glider horizontally from the third floor window of the school (10.8 meters high) and Erin will release 
+            hers horizontally from the second floor window (7.2 meters high) directly below Chad.  Assuming they 
+            each provide the same initial force for their respective glide ratios, whose glider will land farther 
+            from the school building?
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Using the glide ratios as "slopes" and the initial heights of the windows as the "<m>y</m>-intercepts", 
+            create two linear functions that show the path of the gliders using <m>y=0</m> as the ground level.  
+            Do the <m>x</m>-intercepts match your predicted distances traveled from part (b)?  Sketch your 
+            graphs on the same axes and explain.
+          </p>
+        </statement>
+      </task>
+      
+    </exercise>
 
     
   </exercises>
