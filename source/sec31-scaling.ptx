@@ -27,6 +27,7 @@
       proportion would be viewed as relational as we would see them within the context of <em>scaled up</em> or 
       <em>scaled down</em> representations of relative amounts or unit rates.
     </p>
+    
     <p>
       <figure xml:id="fig-ccss-grade6-overview">
         <caption>Overview of the Common Core State Standards for Grade 6</caption>
@@ -34,6 +35,64 @@
           <shortdescription>Overview of the Common Core State Standards for Grade 6</shortdescription>
         </image>
       </figure>
+    </p>
+    <p>
+      It is also important to note that while some ratios can be represented as <em>rational</em> numbers (hence the 
+      imbedded word <em>ratio</em> in the word <em>rational</em>), not all ratios are viewed in the same sense.  
+      For example, when I make my hummingbird liquid for my feeder, the ratio I use is 1:4 of sugar to 
+      water.  It would <em>not</em> be the case that the concentration of sugar is <m>\frac{1}{4}</m> since I 
+      would use 1 cup of sugar and 4 cups of water.  The ratio is referring to a <em>part-part</em> comparison, but 
+      the concept of <em>concentration</em> (or fraction) refers to a <em>part-whole</em> comparison.  In this case, 
+      the <em>whole</em> portion of the comparison would refer to the total <m>1+4=5</m> and so the concentration 
+      would be <m>\frac{1}{5}</m> or <m>0.2</m>.  Note that the decimal form expressing this fraction is often 
+      referred to as a <em>decimal fraction</em>.  The word "fraction" typically refers to the <em>part-whole</em> 
+      comparison and sometimes is used interchangeably with the term "rational number".  However, a rational 
+      number is, more simply, a number that can be expressed as one integer divided by another non-zero integer.  
+      So we can have ratios like 1:4 that would not fit the criteria of a fraction if we are referring to a 
+      part-part comparison.
+    </p>
+    <p>
+      Similarly, we could have a fraction like <m>\frac{1}{5}</m> that would not fit the criteria of a ratio since 
+      in this interpretation, the "5" refers to the whole.  However, we could also consider an interpretation 
+      where <m>\frac{1}{4}</m> could be viewed as both a 1:4 ratio and as a fraction.  If we interpret this 
+      relationship as that there is <m>\frac{1}{4}</m> as much sugar as water, the number, <m>\frac{1}{4}</m>, 
+      could be viewed as a "fraction" of the amount of water used.  Therefore, we can see <em>Ratios</em> and 
+      <em>Fractions</em> as having a Venn diagram as seen in <xref ref="fig-ratios-fractions-venn"/> where the 
+      <m>\frac{1}{4}</m> just described could appear in the intersection of the two sets.
+    </p>
+    <p>
+      Our earlier example of <em>The Golden Ratio</em>, is in fact, an <em>irrational</em> number, meaning it 
+      cannot be expressed as one integer divided by another integer.  This is also an example of a ratio that 
+      would not be considered a fraction.
+    </p>
+    <p>
+      <figure xml:id="fig-ratios-fractions-venn">
+        <caption>Venn diagram comparing ratios and fractions</caption>
+        <image>
+          <latex-image>
+          \begin{tikzpicture}[scale=1.2]
+            % Left circle (Fractions) with partial transparency
+            \draw[thick, fill=blue!10, fill opacity=0.6, draw=blue!60] (-1,0) circle (1.5);
+            
+            % Right circle (Ratios) with partial transparency
+            \draw[thick, fill=red!10, fill opacity=0.6, draw=red!60] (1,0) circle (1.5);
+            
+            % Redraw full borders explicitly to ensure both full outlines are visible through the fill layers
+            \draw[thick, draw=blue!60] (-1,0) circle (1.5);
+            \draw[thick, draw=red!60] (1,0) circle (1.5);
+            
+            % Labels
+            \node at (-1.3,0) [font=\large\bfseries, color=blue!80!black] {Fractions};
+            \node at (1.3,0) [font=\large\bfseries, color=red!80!black] {Ratios};
+            \end{tikzpicture}
+          </latex-image>
+        </image>
+      </figure>
+    </p>
+    <p>
+      Throughout this chapter, we will explore multiple ways that concepts of ratio and proportion can be viewed.  
+      The fact that there are so many lenses through which to see these ideas highlights how complex it is to 
+      teach the nuances among ratio, fraction, rational number, and proportion.
     </p>
 
   </introduction>
@@ -326,6 +385,15 @@
           </statement>
         </task>
       </activity>
+    </p>
+    <p>
+      In <xref ref="act-shadow-worlds"/>, the idea was to keep the ratio of sides the same in both the large and 
+      small triangles.  When we want to solve for a side in one of the two triangles, we force this equality by 
+      creating a <em>proportion</em>.  A <em>proportion</em> is just a relationship of equality between ratios.  
+      In the case of the height-shadow relationship, we force an equality by requiring that 
+      <m>\frac{h_1}{s_1}=\frac{h_2}{s_2}</m>.  Now if we know any three of these values (for example, height and 
+      shadow of the meter stick triangle along with the shadow of the flagpole), we can find the remaining value 
+      in the proportion (in this case, the height of the flagpole).
     </p>
 
   </subsection>
