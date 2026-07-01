@@ -717,9 +717,44 @@
       
     </exercise>
 
+    <exercise>
+      <introduction>
+        <p>
+          One application of ratio and proportion is in the estimation of animal populations.  Suppose you want to 
+          estimate the deer population in a national park.  Park Rangers can spot deer and tranquilize them and 
+          then place a visible tag on the deer.  The deer are then released once they are revived.  The rangers 
+          then recapture deer and record the ratio of tagged deer they see to the number of non-tagged deer.  The 
+          assumption is that as the tagged deer mix among the rest of the population, their ratio of tagged to 
+          non-tagged with be the same.  Since the rangers know how many they initially tagged, they can use 
+          proportional reasoning to esitmate the total number of deer in the population.  This process is called 
+          <em>capture-tag-recapture</em>.
+        </p>
+      </introduction>
+      <task>
+        <statement>
+          <p>
+            Suppose rangers in a park capture and tag 30 deer and then release them back into the forest.  After 
+            the deer have had sufficient time to mix, the ranger capture a sample of deer and note that of the 
+            40 they capture, 8 of them are tagged.  Use this information to estimate the total number of deer in 
+            the park.
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Park rangers know that the food supply in the park can only support roughly 500 deer before the 
+            scarcity of food poses a health risk to the population.  Once the population reaches 500, they have a 
+            policy of bringing in hunters to "thin the herd".  If the rangers have tagged 25 deer and released
+            them, how many tagged deer do they need to find in a recapture process of 40 deer to justify bringing 
+            in hunters to thin the herd?
+          </p>
+        </statement>
+      </task>
+      
+    </exercise>
+
     
   </exercises>
-
-
 
 </section>
