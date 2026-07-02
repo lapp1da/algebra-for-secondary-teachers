@@ -32,7 +32,13 @@
       many seconds the Rover must run to reach the desired distance where the deer is placed.  While some students 
       will stick to more conventional rate units like <em>cm/sec</em>, others interpret the rate from an inverse 
       point of view, <em>sec/cm</em> since they wish to have a model where they input a desired distance to 
-      obtain the time (in seconds) that they can use to tell the Rover how long it should move forward.
+      obtain the time (in seconds) that they can use to tell the Rover how long it should move forward.  The use of 
+      <em>sec/cm</em> as a rate of change is also an important deviation from the rate of change that is 
+      typically used, <em>cm/sec</em>, where the unit in the denominator is time.  Lapp &amp; Cyrus (2000) suggest 
+      it is also important for students to experience rates of change that are not time based in order to 
+      abstract beyond physical motion involving velocity or acceleration.  For example, in our daily lives we 
+      experience rates like that of fuel efficiency <em>miles/gallon</em>.  When we measure energy density for 
+      the food we eat, we often use <em>Calories/gram</em>.  
     </p>
     
   </subsection>
