@@ -5,10 +5,45 @@
 
   <introduction>
     <p>
-        
+        In this section, we will explore another way to view the concepts of ratio and proportion through the lens 
+        of <em>rates</em>.  We can still see this application via a scaling-up and scaling-down process, but we 
+        will use the idea of <em>units</em> as a way to help students develop a gut feeling for the meaning of 
+        the scaling process.  Bassok &amp; Holyoak (1989) found that interdomain transfer of isomorphic topics 
+        between mathematics and physics seems to be better served when the concepts are developed broadly within 
+        the mathematics classroom.  When these same concepts were addressed in narrow contexts, the physics 
+        students could not transfer the same concepts to the mathematics classroom.  The implication here is that 
+        as teachers of mathematics, it is our responsibility to introduce mathematical concepts in a variety of 
+        contexts so that the transfer of the broader structure of the patterns can be recognized in other applied 
+        domains.  For this reason, we will make a special effort to use applied situations to develop the 
+        mathematical principles we want to teach.  Units and ties to real-world experiences are part of this 
+        development.
     </p>
-
   </introduction>
+
+  <subsection xml:id="subsec-rates-roadkill-revisited">
+    <title>Ratio and Proportional Reasoning: Roadkill Revisited</title>
+    <p>
+      As we examine the concepts of ratio and proportion from a <em>rates</em> perspective, let's recall our 
+      earlier, <xref ref="act-roadkill"/>, from <xref ref="sec12-ccss-overview"/>.  You can refresh 
+      your memory of this activity by watching the video in <xref ref="fig-roadkill-video"/>.
+    </p>
+    <p>
+      In this activity, students frequently use rates as a means for solving the problem and determining how 
+      many seconds the Rover must run to reach the desired distance where the deer is placed.  While some students 
+      will stick to more conventional rate units like <em>cm/sec</em>, others interpret the rate from an inverse 
+      point of view, <em>sec/cm</em> since they wish to have a model where they input a desired distance to 
+      obtain the time (in seconds) that they can use to tell the Rover how long it should move forward.
+    </p>
+    
+  </subsection>
+
+  <subsection xml:id="subsec-proportional-reasoning-gas-laws">
+    <title>Proportional Reasoning and Ideal Gas Laws</title>
+    <p>
+      
+    </p>
+    
+  </subsection>
 
 
 
