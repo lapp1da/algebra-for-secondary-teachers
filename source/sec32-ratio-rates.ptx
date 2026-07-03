@@ -89,9 +89,22 @@
           <statement>
             <p>
               Using either the data you collected first-hand or the data provided by your instructor, describe 
-              how the graphs of the pressure and temperature verses time compare?  You should see a graph simliar 
-              to the one in 
+              how the graphs of the pressure and temperature verses time compare?  You should see graphs simliar 
+              to the ones in <xref ref="fig-pressure-temperature-graphs-data"/>.
             </p>
+            <p>
+              <figure xml:id="fig-pressure-temperature-graphs-data">
+                <caption>Graphs and Data from Pressure and Temperature Experiment</caption>
+                <sidebyside widths="45% 45%" valign="middle">
+                  <image source="images/pressure-temp-data-graphs.png" />
+                  <image source="images/pressure-temp-data-raw.png" />
+                </sidebyside>
+              </figure>
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
             <p>
               
             </p>
