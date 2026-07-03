@@ -46,7 +46,61 @@
   <subsection xml:id="subsec-proportional-reasoning-gas-laws">
     <title>Proportional Reasoning and Ideal Gas Laws</title>
     <p>
-      
+      As winter approaches, you may have experienced the need to stop by your neighborhood gas station to add air 
+      to your tires.  Or maybe you have noticed that on a beautiful Fall day while driving to observe the 
+      wonderful colors on the trees that your readings on the dashboard for tire pressure tick up ever so 
+      slightly.  Maybe when you have been camping, you have noticed that when using your camping stove connected 
+      to a propane cylinder, there is significant condensation on the outside of the propane tank.  You touch 
+      the tank only to realize that it is very cold.  What is the cause of these observations?  
+    </p>
+    <p>
+      <figure xml:id="fig-propane-camping">
+        <caption>Propane Camping Cylinder</caption>
+        <image source="images/camping-propane.png" width="40%">
+        <shortdescription>Propane Camping Cylinder</shortdescription>
+        </image>
+      </figure>
+    </p>
+    <p>
+      In the next activity, we will explore the nature of these observations and see the connections to the 
+      concepts of ratio and proportional reasoning.  Bassok &amp; Holyoak (1989) suggest, as teachers of 
+      mathematics, the culture of the mathematics classroom gives us an advantage since students seem to be 
+      more open to investigating, applying, and transferring isomorphic concepts across a variety of 
+      subject-matter domains.  Therefore, we need to be versed in a myriad contexts where a mathematical 
+      abstraction can be see within a real-world experience.  The next activity will give use such an 
+      experience so that when we teach, we can make the mathematical relevent to students' lives.
+    </p>
+    <p>
+      <activity xml:id="act-proportional-reasoning-gas-laws">
+        <title>Proportional Reasoning &amp; Gas Laws</title>
+        <introduction>
+          <p>
+            Consider the way that pressure and temperature interact when the volume of the container holding the 
+            gas remains fixed.  Earlier we discussed examples of tire pressure and propane tank temperature, but 
+            how can we quantify this relationship?  Consider the experiment shown in 
+            <xref ref="fig-pressure-temperature-experiment"/>.
+          </p>
+          <figure xml:id="fig-pressure-temperature-experiment">
+            <video youtube="_M1GXFxR8us"/>
+            <caption>Relationship Between Pressure &amp; Temperature</caption>
+          </figure>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              Using either the data you collected first-hand or the data provided by your instructor, describe 
+              how the graphs of the pressure and temperature verses time compare?  You should see a graph simliar 
+              to the one in 
+            </p>
+            <p>
+              
+            </p>
+          </statement>
+        </task>
+        
+        
+        
+      </activity>
     </p>
     
   </subsection>
