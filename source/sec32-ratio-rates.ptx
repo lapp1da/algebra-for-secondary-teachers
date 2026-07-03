@@ -106,14 +106,78 @@
         <task>
           <statement>
             <p>
-              
+              In the 17th century, Guillaume Amontons, explored this relationship and noticed a rough ratio 
+              between pressure and temperature of gas in a fixed volume.  He lacked the ability to accurately 
+              measure the temperatures, but none the less, he found that looking at ratios showed a pattern.  
+              Since here we will examine the same relationship and want to consider the ratio of 
+              <em>pressure to temperature</em>, we need to make sure we will not be dividing by zero.  Therefore, 
+              we will use temperature data measured in degrees <em>Kelvin</em>, where <m>0^{\circ} K</m> 
+              represents the temperature where all molecular motion stops (<m>-273.15^{\circ} C</m>).  To convert 
+              our data to <m>^{\circ}K</m>, we need to add 273.15 to our <m>^{\circ}C</m> data.
+            </p>
+            <p>
+              Begin by opening a spreadsheet and placing the pressure and temperature data in the first two 
+              columns (see <xref ref="fig-pressure-temperature-graphs-data"/>).  You can do this by using the 
+              <c>var</c> key and selecting, <m>\text{Link To}</m>.  Then, in the third column, give it a title 
+              like, <em>tempk</em>, for temperature in <em>Kelvin</em>.  In the grey cell directly below the 
+              name press <c>=</c> and then, using the <c>var</c> key, select <em>run1.temperature</em> and 
+              add 273.15 to it (see <xref ref="fig-pressure-temperature-kelvin-ratio"/>).
+            </p>
+            <p>
+              <figure xml:id="fig-pressure-temperature-kelvin-ratio">
+                <caption>Computing Kelvin Temperature &amp; Ratio</caption>
+                <sidebyside widths="45% 45%" valign="middle">
+                  <image source="images/pressure-temp-data-kelvin.png" />
+                  <image source="images/pressure-temp-data-ratio.png" />
+                </sidebyside>
+              </figure>
+            </p>
+            <p>
+              To examine the ratio of pressure to temperature (in degrees Kelvin), repeat what you did in column 
+              3, but give it a name like, <em>ptratio</em>, for the pressure-temperature ratio and compute the 
+              ratio in the grey cell below the name (see <xref ref="fig-pressure-temperature-kelvin-ratio"/>).
+            </p>
+            <p>
+              Describe what you notice about the values of the ratios?  Are they relatively consistent or do they 
+              fluctuate a great deal?
+            </p>
+
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Using what you found in part (b), quantify (to two decimal places) the ratio of pressure (in kPa) 
+              to temperature (in <m>^{\circ}K</m>).
             </p>
           </statement>
         </task>
-        
-        
-        
+        <task>
+          <statement>
+            <p>
+              Based on the relationship you found, what pressure would you expect if the temperature of the gas in 
+              the flask were to reach <m> 40^{\circ}C</m>?
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              If you have a gas in a fixed volume container with pressure and temperature of <m>P_1</m> and 
+              <m>T_1</m>, give an equation that would relate those pressure and temperature readings to another 
+              set of measurements, <m>P_2</m> and <m>T_2</m>.
+            </p>
+          </statement>
+        </task>
       </activity>
+    </p>
+    <p>
+      While Guillaume Amontons lacked the ability to accurately measure temperature, his research did lead him to 
+      achieve and estimate of <em>absolute zero</em> at the time of <m>-240^{\circ}C</m>, which was too shabby for 
+      the time.  Later, Joseph-Louis Gay-Lussac was able to improve on Amontons' work to state what is often 
+      referred to as the <em>Gay-Lussac Law</em>, <m>\frac{P_1}{T_1}=\frac{P_2}{T_2}</m>.  This is a special case 
+      of the more general <em>ideal gas</em> relationship, <m>\frac{P_1V_1}{T_1}=\frac{P_2V_2}{T_2}</m> where the 
+      volumes cancel out if they are indeed the same.
     </p>
     
   </subsection>
