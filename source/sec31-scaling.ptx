@@ -889,6 +889,35 @@
         </statement>
       </task>
     </exercise>
+    <exercise>
+      <introduction>
+        <p>
+          In baseball, a player's batting average is the ratio of the number of hits to the number of "at-bats".  
+          For example, if a player has, thus far this season, had 56 hits after 164 at-bats, the ratio would be 
+          <m>56:164</m>.  In terms of batting average, this would be <m>\frac{56}{164}\approx 0.341</m>.  We 
+          would then say that the player is "batting 341".
+        </p>
+      </introduction>
+      <task>
+        <statement>
+          <p>
+            Suppose the player above bats "3 for 4" in the next game (i.e. 3 hits in 4 at-bats).  Why does his 
+            new batting average become <m>56+3:164+4=59:168</m> or <m>\frac{59}{168}\approx 0.351</m>, but 
+            <m>\frac{56}{164}+\frac{3}{4} \neq 0.351</m>?  Explain how you might address this confusion with a 
+            student in your class.
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Recall back in <xref ref="sec21-elementary-concepts-number"/>, we watched the 
+            <em>The Weird Number</em> (see <xref ref="weird-number"/>).  Explain how could you explain the batting 
+            average arithmetic issue using cakes as was done in the video?
+          </p>
+        </statement>
+      </task>
+    </exercise>
 
     
   </exercises>
