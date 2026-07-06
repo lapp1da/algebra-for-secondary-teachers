@@ -90,6 +90,106 @@
       </figure>
     </p>
     <p>
+      To explain the difference between ratio and fraction, let's consider some examples to illustrate why, for 
+      example, "addition" behaves differently in the <em>part-part</em> comparison verses the <em>part-whole</em> 
+      comparison.
+    </p>
+    
+    <p>
+    When working with fractional notation, it is easy to confuse the algebraic operations of fractions with the 
+    compounding properties of ratios. While they can look identical on paper, they describe fundamentally 
+    different relationships.
+    </p>
+
+    <assemblage xml:id="asm-fraction-ratio-difference">
+    <title>The Core Conceptual Difference</title>
+    <p>
+        <idx><h>fraction</h><h>vs. ratio</h></idx>
+        <idx><h>ratio</h><h>vs. fraction</h></idx>
+        <ul>
+            <li>
+                <p>
+                    A <term>fraction</term> represents a <term>part-to-whole</term> relationship. The denominator 
+                    represents the entire pool or total unit quantity.
+                </p>
+            </li>
+            <li>
+                <p>
+                    A <term>ratio</term> represents a <term>part-to-part</term> relationship. The two terms 
+                    compare independent quantities or distinct subgroups to each other.
+                </p>
+            </li>
+        </ul>
+    </p>
+    </assemblage>
+
+    <p>
+    This conceptual distinction directly dictates the rules for combining quantities. When we mix or <em>pool</em> 
+    two sets of data together, we can add the individual components of a ratio straight across to find a new, 
+    accurate ratio. However, we cannot do this with fraction addition because fractions operate on a fixed 
+    mathematical scale.  Consider the following example and its representation in 
+    </p>
+    <p>
+      <figure xml:id="fig-ratio-v-fraction-addition">
+        <caption>Part-Part vs. Part-Whole Addition</caption>
+        
+      </figure>
+    </p>
+
+    <example xml:id="ex-pooling-containers">
+    <title>Pooling Two Containers</title>
+    <statement>
+        <p>
+            Suppose you have two separate buckets containing red and blue marbles:
+            <ul>
+                <li><p><term>Bucket A:</term> Contains <m>3</m> red marbles and <m>7</m> blue marbles.</p></li>
+                <li><p><term>Bucket B:</term> Contains <m>2</m> red marbles and <m>3</m> blue marbles.</p></li>
+            </ul>
+            Analyze what happens to the ratios and the fractions when Bucket A and Bucket B are dumped into a 
+            single large container.
+        </p>
+    </statement>
+    <solution>
+        <p>
+            First, let us examine the physical counts of the final pooled container:
+            <me>\text{Total Red} = 3 + 2 = 5 \text{ marbles}</me>
+            <me>\text{Total Blue} = 7 + 3 = 10 \text{ marbles}</me>
+            <me>\text{Grand Total} = 10 + 5 = 15 \text{ marbles}</me>
+        </p>
+        <p>
+            <dfn>The Ratio Approach (Part-to-Part):</dfn> 
+            In isolation, the red-to-blue ratio of Bucket A is <m>3:7</m> and Bucket B is <m>2:3</m>. Because 
+            ratios compare independent parts, combining the buckets means we simply add the respective components:
+            <me>\text{New Ratio} = (3 + 2) : (7 + 3) = 5 : 10</me>
+            This simplifies perfectly to <m>1:2</m>. Component-wise addition yields an accurate new ratio for the combined set.
+        </p>
+        <p>
+            <dfn>The Fraction Approach (Part-to-Whole):</dfn> 
+            Now let us look at the fraction of red marbles in each bucket. In Bucket A, the fraction is <m>\frac{3}{10}</m>. In Bucket B, the fraction is <m>\frac{2}{5}</m>. 
+        </p>
+        <p>
+            If we erroneously add the numerators and denominators straight across like we did with the ratio components, we get:
+            <me>\frac{3}{10} \oplus \frac{2}{5} = \frac{3+2}{10+5} = \frac{5}{15}</me>
+            While <m>\frac{5}{15}</m> accurately describes the <term>final physical state</term> of the pooled container (5 red out of 15 total), it is a <term>mathematical falsehood</term> to call this addition. 
+        </p>
+    </solution>
+    </example>
+
+    <remark xml:id="rem-addition-vs-pooling">
+    <title>Algebraic Addition vs. Physical Pooling</title>
+    <p>
+        The algebraic addition symbol (<m>+</m>) demands a shared, fixed scale relative to a unit whole (a common denominator). Writing <m>\frac{3}{10} + \frac{2}{5} = \frac{5}{15}</m> claims that <m>0.30 + 0.40 = 0.33</m>, which is numerically impossible. 
+    </p>
+    <p>
+        To truly add fractions as numerical values, you must convert them to share a common whole:
+        <me>\frac{3}{10} + \frac{4}{10} = \frac{7}{10} \quad \text{(or } 0.30 + 0.40 = 0.70\text{)}</me>
+    </p>
+    <p>
+        In summary: component-wise addition of ratios simulates the <term>physical pooling</term> of independent subsets. Algebraic addition of fractions calculates the <term>net accumulated value</term> of parts belonging to a shared unit scale.
+    </p>
+    </remark>
+
+    <p>
       Throughout this chapter, we will explore multiple ways that concepts of ratio and proportion can be viewed.  
       The fact that there are so many lenses through which to see these ideas highlights how complex it is to 
       teach the nuances among ratio, fraction, rational number, and proportion.
