@@ -128,11 +128,14 @@
     two sets of data together, we can add the individual components of a ratio straight across to find a new, 
     accurate ratio. However, we cannot do this with fraction addition because fractions operate on a fixed 
     mathematical scale.  Consider the following example and its representation in 
+    <xref ref="fig-ratio-v-fraction-addition"/>.
     </p>
     <p>
       <figure xml:id="fig-ratio-v-fraction-addition">
         <caption>Part-Part vs. Part-Whole Addition</caption>
-        
+        <image source="images/ratio-v-fraction-addition.png">
+          <shortdescription>Part-Part vs. Part-Whole Addition</shortdescription>
+        </image>
       </figure>
     </p>
 
@@ -161,16 +164,20 @@
             In isolation, the red-to-blue ratio of Bucket A is <m>3:7</m> and Bucket B is <m>2:3</m>. Because 
             ratios compare independent parts, combining the buckets means we simply add the respective components:
             <me>\text{New Ratio} = (3 + 2) : (7 + 3) = 5 : 10</me>
-            This simplifies perfectly to <m>1:2</m>. Component-wise addition yields an accurate new ratio for the combined set.
+            This simplifies perfectly to <m>1:2</m>. Component-wise addition yields an accurate new ratio for the 
+            combined set.
         </p>
         <p>
             <dfn>The Fraction Approach (Part-to-Whole):</dfn> 
-            Now let us look at the fraction of red marbles in each bucket. In Bucket A, the fraction is <m>\frac{3}{10}</m>. In Bucket B, the fraction is <m>\frac{2}{5}</m>. 
+            Now let us look at the fraction of red marbles in each bucket. In Bucket A, the fraction is 
+            <m>\frac{3}{10}</m>. In Bucket B, the fraction is <m>\frac{2}{5}</m>. 
         </p>
         <p>
-            If we erroneously add the numerators and denominators straight across like we did with the ratio components, we get:
+            If we erroneously add the numerators and denominators straight across like we did with the ratio 
+            components, we get:
             <me>\frac{3}{10} \oplus \frac{2}{5} = \frac{3+2}{10+5} = \frac{5}{15}</me>
-            While <m>\frac{5}{15}</m> accurately describes the <term>final physical state</term> of the pooled container (5 red out of 15 total), it is a <term>mathematical falsehood</term> to call this addition. 
+            While <m>\frac{5}{15}</m> accurately describes the <term>final physical state</term> of the pooled 
+            container (5 red out of 15 total), it is a <term>mathematical falsehood</term> to call this addition. 
         </p>
     </solution>
     </example>
@@ -178,14 +185,18 @@
     <remark xml:id="rem-addition-vs-pooling">
     <title>Algebraic Addition vs. Physical Pooling</title>
     <p>
-        The algebraic addition symbol (<m>+</m>) demands a shared, fixed scale relative to a unit whole (a common denominator). Writing <m>\frac{3}{10} + \frac{2}{5} = \frac{5}{15}</m> claims that <m>0.30 + 0.40 = 0.33</m>, which is numerically impossible. 
+        The algebraic addition symbol (<m>+</m>) demands a shared, fixed scale relative to a unit whole (a common 
+        denominator). Writing <m>\frac{3}{10} + \frac{2}{5} = \frac{5}{15}</m> claims that 
+        <m>0.30 + 0.40 = 0.33</m>, which is numerically impossible. 
     </p>
     <p>
-        To truly add fractions as numerical values, you must convert them to share a common whole:
+        To truly add fractions as numerical values, you must convert them to <em>share a common whole</em>:
         <me>\frac{3}{10} + \frac{4}{10} = \frac{7}{10} \quad \text{(or } 0.30 + 0.40 = 0.70\text{)}</me>
     </p>
     <p>
-        In summary: component-wise addition of ratios simulates the <term>physical pooling</term> of independent subsets. Algebraic addition of fractions calculates the <term>net accumulated value</term> of parts belonging to a shared unit scale.
+        In summary: component-wise addition of ratios simulates the <term>physical pooling</term> of independent 
+        subsets. Algebraic addition of fractions calculates the <term>net accumulated value</term> of parts 
+        belonging to a shared unit scale.
     </p>
     </remark>
 
