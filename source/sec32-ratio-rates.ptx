@@ -40,7 +40,13 @@
       experience rates like that of fuel efficiency <em>miles/gallon</em>.  When we measure energy density for 
       the food we eat, we often use <em>Calories/gram</em>.  In the next subsection, we will explore other 
       non-time-based rates as a means to illustrate the concept of ratio as a relationship between quantities, but 
-      for now, let's explore the units from 
+      for now, let's explore the units from <xref ref="act-roadkill"/> and their connection to our discussion in 
+      <xref ref="sec31-scaling"/>.
+    </p>
+    <p>
+      The use of either <em>cm/sec</em> or <em>sec/cm</em> in the <em>Roadkill</em> activity can be visualized 
+      from the scale-up or scale-down perspective.  For example, consider a scenario where the deer is placed at 
+      the location <m>78cm</m> along the measuring tape.
     </p>
     
   </subsection>
