@@ -45,8 +45,26 @@
     </p>
     <p>
       The use of either <em>cm/sec</em> or <em>sec/cm</em> in the <em>Roadkill</em> activity can be visualized 
-      from the scale-up or scale-down perspective.  For example, consider a scenario where the deer is placed at 
-      the location <m>78cm</m> along the measuring tape.
+      from the scale-up or scale-down perspective (see <xref ref="fig-cm-sec-diagram"/>).  In this representation, 
+      the units <em>cm/sec</em> or <em>sec/cm</em> depend on which part of the image you focus on first.  If 
+      our eyes are drawn to the 19 cm labeled in the boxes first, we might interpret this as saying every 19 cm 
+      takes 1 second to attain.  If our eyes are first drawn to the 1 second brackets below, we might interpret 
+      this diagram as saying that for each second of movement, we obtain 19 cm of diatance.  
+    </p>
+
+    <p>
+      <figure xml:id="fig-cm-sec-diagram">
+        <caption>Visual Distance and Time Representation</caption>
+        <image source="images/cm-sec-diagram.png" width="90%">
+          <shortdescription>Visual Distance and Time Representation</shortdescription>
+        </image>
+      </figure>
+    </p>
+
+    <p>
+      Suppose we consider a scenario where the deer is placed at the location <em>78 cm</em> along the measuring 
+      tape.  If we want the Rover to stop just short of the deer, we could view the units of 19 <em>cm/sec</em> as 
+      saying we can scale up the a single rectangle/bracket image to 4 such images since <m>19 \cdot 4=76</m>.  
     </p>
     
   </subsection>
