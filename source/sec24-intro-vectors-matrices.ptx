@@ -1647,76 +1647,74 @@ we get the total revenue for each company organized as an ordered triple (since 
     maintain the same solutions as the original system.
   </p>
 
-  <p>
-    <description>
-      <item>
-        <term>Scaling</term>
-        <details>
-          <p>In this situation, we can multiply an entire equation by a constant and not change the solutions.  
-            For example, <m>\frac{1}{2} \left(2x+4y=8\right) \Rightarrow x+2y=4</m> will have the same solutions 
-            as the original, <m>2x+4y=8</m>.
-          </p>
-          <p>
+  <assemblage xml:id="asm-equivalent-equation-moves">
+    <title>Three Types of Moves for Equivalnet Systems</title>
+    <p>
+        
+        <ul>
+            <li>
+                <term>Scaling</term>
+                <details>
+                <p>
+                  In this situation, we can multiply an entire equation by a constant and not change the 
+                  solutions.  For example, <m>\frac{1}{2} \left(2x+4y=8\right) \Rightarrow x+2y=4</m> will have 
+                  the same solutions as the original, <m>2x+4y=8</m>.
+                </p>
+          
+                </details>
+            </li>
+            <li>
+                <term>Swapping</term>
+                <details>
+                <p>
+                  Here we are allowing the position of the listed equations within the system to be simply swapped.  
+                  This principle is kind of obvious since the two systems of equations
+                  <me>
+                    \begin{aligned}
+                    3x+2y=1 \\
+                    -x+5y=11
+                    \end{aligned}
+                    \quad \text{and} \quad
+                    \begin{aligned}
+                    -x+5y=11\\
+                    3x+2y=1
+                    \end{aligned}
+                  </me>
+                  clearly have the same solution!
             
-          </p>
-        </details>
-      </item>
-      <item>
-        <term>Swapping</term>
-        <details>
-          <p>
-            Here we are allowing the position of the listed equations within the system to be simply swapped.  
-            This principle is kind of obvious since the two systems of equations
-            <me>
-              \begin{aligned}
-              3x+2y=1 \\
-              -x+5y=11
-              \end{aligned}
-              \quad \text{and} \quad
-              \begin{aligned}
-              -x+5y=11\\
-              3x+2y=1
-              \end{aligned}
-            </me>
-            clearly have the same solution!
+                </p>
+                </details>
+            </li>
+            <li>
+              <term>Replacing</term>
+              <details>
+              <p>
+                In this situation, we found that if we multiply one equation by a scalar (even if it is just 1)  
+                and add it to another equation and use this result in place of the equation we added the 
+                scalar multiple to, the solutions to the system remain the same.  For example, we can take a system 
+                like
+                <me>
+                 \begin{aligned}
+                  3x+2y=1 \\
+                  -x+5y=11
+                 \end{aligned}
+                </me>
+                and take, say 3, times the bottom equation and add it to the top equation replacing the top equation 
+                with this result to get 
+                <me>
+                 \begin{aligned}
+                 0x+17y=34 \\
+                 -x+5y=11
+                 \end{aligned}
+               </me>
+                and we will still have the same solution, <m>x=-1</m> and <m>y=2</m>, be the solution to both systems.
             
-          </p>
-          <p>
-            
-          </p>
-        </details>
-      </item>
-      <item>
-        <term>Replacing</term>
-        <details>
-          <p>In this situation, we found that if we multiply one equation by a scalar (even if it is just 1)  
-            and add it to another equation and use this result in place of the equation we added the 
-            scalar multiple to, the solutions to the system remain the same.  For example, we can take a system 
-            like
-            <me>
-              \begin{aligned}
-              3x+2y=1 \\
-              -x+5y=11
-              \end{aligned}
-            </me>
-            and take, say 3, times the bottom equation and add it to the top equation replacing the top equation 
-            with this result to get 
-            <me>
-              \begin{aligned}
-              0x+17y=34 \\
-              -x+5y=11
-              \end{aligned}
-            </me>
-            and we will still have the same solution, <m>x=-1</m> and <m>y=2</m>, be the solution to both systems.
-            
-          </p>
-          <p>
-            
-          </p>
-        </details>
-      </item>
-      </description>
-  </p>
+              </p>
+              </details>
+            </li>
+        </ul>
+    </p>
+    </assemblage>
 
   <p>
     As you may have noticed in both of these examples for solving a system with Gaussian elimination, to make 
