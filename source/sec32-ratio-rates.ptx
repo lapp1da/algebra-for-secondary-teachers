@@ -54,9 +54,9 @@
 
     <p>
       <figure xml:id="fig-cm-sec-diagram">
-        <caption>Visual Distance and Time Representation</caption>
+        <caption>Visual Distance and Time Representation (cm/sec focus)</caption>
         <image source="images/cm-sec-diagram.png" width="90%">
-          <shortdescription>Visual Distance and Time Representation</shortdescription>
+          <shortdescription>Visual Distance and Time Representation (cm/sec focus)</shortdescription>
         </image>
       </figure>
     </p>
@@ -65,6 +65,21 @@
       Suppose we consider a scenario where the deer is placed at the location <em>78 cm</em> along the measuring 
       tape.  If we want the Rover to stop just short of the deer, we could view the units of 19 <em>cm/sec</em> as 
       saying we can scale up the a single rectangle/bracket image to 4 such images since <m>19 \cdot 4=76</m>.  
+    </p>
+    <p>
+      If we want to draw attention to the rate given in <em>sec/cm</em>, we could consider a diagram such as 
+      <xref ref="fig-sec-cm-diagram"/>.  Here the total distance is chopped into distinct 1 <em>cm</em> blocks 
+      (much like that on a measuring tape) and the time is seen as <m>\frac{1}{19}sec</m> chunks corresponding to 
+      each <em>cm</em> labeled above.  Here it would take <m>\frac{1}{19} \cdot 76=4</m> seconds.  Again, a 
+      scaled-up process of the single rectangle/bracket image.
+    </p>
+    <p>
+      <figure xml:id="fig-sec-cm-diagram">
+        <caption>Visual Distance and Time Representation (sec/cm focus)</caption>
+        <image source="images/sec-cm-diagram.png" width="90%">
+          <shortdescription>Visual Distance and Time Representation (sec/cm focus)</shortdescription>
+        </image>
+      </figure>
     </p>
     
   </subsection>
