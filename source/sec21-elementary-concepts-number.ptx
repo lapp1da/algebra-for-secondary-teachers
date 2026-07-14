@@ -1274,7 +1274,7 @@
     additive inverses (i.e. "opposites"), the distributive property of multiplication over addition, and the 
     zero product property (see <xref ref="thm-product-two-negatives" />).
   </p>
-
+  
   <p>
     <theorem xml:id="thm-product-two-negatives">
       <title>Euler's Proof that the Product of Two Negatives Is Positive</title>
@@ -1306,6 +1306,7 @@
     </theorem>
     
   </p>
+
 
   
 
@@ -1480,7 +1481,7 @@
     <image source="images/pythagorean-theorem-sqrt2.png" width="70%"/>
     </figure>
   </p>
-
+  
   <p>
     <theorem xml:id="thm-sqrt2-irrational">
       <title>
@@ -1512,6 +1513,7 @@
       </proof>
       </theorem>
   </p>
+ 
 
   <p>
     Eventually, these irrational numbers such as <m>\sqrt{2}</m> became accepted by the mathematical community 
