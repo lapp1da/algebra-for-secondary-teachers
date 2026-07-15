@@ -271,11 +271,61 @@
       Having more than one representation to explain the consistent behavior of the quantities relative to 
       each other gives the learner a means of confirming and deepening the understanding.
     </p>
+    <p>
+      <activity xml:id="act-ratio-proportion-development">
+        <title>Developing an Activity for Ratio and Proportion</title>
+        <introduction>
+          <p>
+            One of the challenges for teachers is coming up with ways to make the mathematics meaningful for 
+            their students.  In this task, your job is to develop an activity for students that will ask 
+            probing questions that guide them to an understanding of proportional reasoning.
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              In your groups, search the internet for applied uses of ratio and proportion.  Make a list of at 
+              least 5 different contexts in which you could expose students to these concepts and list them 
+              on your whiteboards for class discussion.
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              After the class discussion, discuss the pros and cons of each context you have chosen and 
+              narrow your list to one context that you can use to develop an activity.
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Develop an ordered list of questions you might pose to students that would guide them to 
+              discovering the ratio or proportional relationship.  Discuss why you placed the questions in the 
+              order that you did and be prepared to share your thoughts with the class.
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Using your work from parts (a)-(c), create a written activity that could be used with students.  
+              Be sure to include space for student responses and provide any images you think the students 
+              would need to complete the activity.
+            </p>
+          </statement>
+        </task>
+        
+        
+        
+      </activity>
+    </p>
     
   </subsection>
 
   <exercises xml:id="exercises-ratio-rates">
-    
+
     
   </exercises>
 
