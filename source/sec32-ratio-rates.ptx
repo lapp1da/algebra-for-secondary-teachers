@@ -58,12 +58,35 @@
       chunk takes 1 second to attain.  If our eyes are first drawn to the 1 second brackets below, we might 
       interpret this diagram as saying that for each second of movement, we obtain 19 cm of diatance.  
     </p>
+    
 
     <p>
       <figure xml:id="fig-cm-sec-diagram">
         <caption>Visual Distance and Time Representation (cm/sec focus)</caption>
         <image source="images/cm-sec-diagram.png" width="90%">
           <shortdescription>Visual Distance and Time Representation (cm/sec focus)</shortdescription>
+        </image>
+      </figure>
+    </p>
+
+    <p>
+      Further extending the scale-up/scale-down interpretation to rates, suppose students, while exploring the 
+      <em>Roadkill</em> task, started by entering 2 seconds with the Rover going 38 cm.  The same visual 
+      representation might contain 2 chunks rather than 4 and be broken into 2 second intervals as seen in 
+      <xref ref="fig-cm-2sec-diagram"/>.  Now we have <m>38 \cdot 2=76</m> and thus we could interpret the 
+      rate as <m>38 cm/2sec</m> or, as a fraction, <m>\frac{38}{2}</m>.  There is nothing wrong with 
+      expressing the rate in this form; however, it is uncommon for a student in a mathematics class to be 
+      allowed to leave it <em>unsimplified</em>.  As teachers, it is important to realize that if the student 
+      experienced the rate by entering 2 seconds into the Rover, expressing the rate as <m>\frac{38}{2}</m> 
+      might actually carry more meaning <m>-</m> especially during the initial development of the concept.  So 
+      adhering to convention during the learning process could be counterproductive to concept development.
+    </p>
+
+    <p>
+      <figure xml:id="fig-cm-2sec-diagram">
+        <caption>Visual Distance and Time Representation (cm/2sec focus)</caption>
+        <image source="images/cm-2sec-diagram.png" width="90%">
+          <shortdescription>Visual Distance and Time Representation (cm/2sec focus)</shortdescription>
         </image>
       </figure>
     </p>
@@ -91,11 +114,11 @@
       daily life, they almost always involve units and rates of change.  It stands to reason that when teaching 
       these concepts to students, we should also include these types of contexts so that our students have 
       experiences to which they can relate the mathematical ideas.  If we view mathematics as an abstraction of 
-      context-specific scenarios, we must first begin with the specifics so that abstraction can occur.  Too often, 
-      mathematics classrooms start with definitions that assume the abstraction (i.e. no units are even considered).  
-      For example, in teaching rates of change, may texts start with the definition of slope as 
-      <m>m=\frac{\Delta y}{\Delta x}=\frac{y_2-y_1}{x_2-x_1}</m>.  This sterile presentation is missing the units 
-      that make the concept of <em>rate</em> meaningful.
+      context-specific scenarios, we must first begin with the specifics so that abstraction can occur.  Too 
+      often, mathematics classrooms start with definitions that assume the abstraction (i.e. no units are even 
+      considered).  For example, in teaching rates of change, many texts start with the abstract definition of 
+      slope as <m>m=\frac{\Delta y}{\Delta x}=\frac{y_2-y_1}{x_2-x_1}</m>.  This sterile presentation is 
+      missing the units that make the concept of <em>rate</em> meaningful.
     </p>
     
   </subsection>
