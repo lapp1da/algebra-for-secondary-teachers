@@ -35,7 +35,7 @@
       obtain the time (in seconds) that they can use to tell the Rover how long it should move forward.  The use of 
       <em>sec/cm</em> as a rate of change is also an important deviation from the rate of change that is 
       typically used, <em>cm/sec</em>, where the unit in the denominator is time.  Lapp &amp; Cyrus (2000) suggest 
-      it is also important for students to experience rates of change that are not time based in order to 
+      it is also important for students to experience rates of change that are not time-based in order to 
       abstract beyond physical motion involving velocity or acceleration.  For example, in our daily lives we 
       experience rates like that of fuel efficiency <em>miles/gallon</em>.  When we measure energy density for 
       the food we eat, we often use <em>Calories/gram</em>.  In the next subsection, we will explore other 
@@ -44,12 +44,19 @@
       <xref ref="sec31-scaling"/>.
     </p>
     <p>
+      Suppose we consider a scenario where the deer is placed at the location <em>78 cm</em> along the measuring 
+      tape.  A common strategy students use in <em>Roadkill</em> is to start with a time of 1 second and see how 
+      far the Rover goes.  A typical distance found is roughly 19 cm.  If we want the Rover to stop just short of 
+      the deer, we could view the units of 19 <em>cm/sec</em> as saying we can scale up the a single 
+      rectangle/bracket image (see <xref ref="fig-cm-sec-diagram"/>) to 4 such images since <m>19 \cdot 4=76</m>.  
+    </p>
+    <p>
       The use of either <em>cm/sec</em> or <em>sec/cm</em> in the <em>Roadkill</em> activity can be visualized 
-      from the scale-up or scale-down perspective (see <xref ref="fig-cm-sec-diagram"/>).  In this representation, 
+      from the scale-up or scale-down perspective in <xref ref="fig-cm-sec-diagram"/>.  In this representation, 
       the units <em>cm/sec</em> or <em>sec/cm</em> depend on which part of the image you focus on first.  If 
       our eyes are drawn to the 19 cm labeled in the boxes first, we might interpret this as saying every 19 cm 
-      takes 1 second to attain.  If our eyes are first drawn to the 1 second brackets below, we might interpret 
-      this diagram as saying that for each second of movement, we obtain 19 cm of diatance.  
+      chunk takes 1 second to attain.  If our eyes are first drawn to the 1 second brackets below, we might 
+      interpret this diagram as saying that for each second of movement, we obtain 19 cm of diatance.  
     </p>
 
     <p>
@@ -62,16 +69,13 @@
     </p>
 
     <p>
-      Suppose we consider a scenario where the deer is placed at the location <em>78 cm</em> along the measuring 
-      tape.  If we want the Rover to stop just short of the deer, we could view the units of 19 <em>cm/sec</em> as 
-      saying we can scale up the a single rectangle/bracket image to 4 such images since <m>19 \cdot 4=76</m>.  
-    </p>
-    <p>
       If we want to draw attention to the rate given in <em>sec/cm</em>, we could consider a diagram such as 
       <xref ref="fig-sec-cm-diagram"/>.  Here the total distance is chopped into distinct 1 <em>cm</em> blocks 
-      (much like that on a measuring tape) and the time is seen as <m>\frac{1}{19}sec</m> chunks corresponding to 
-      each <em>cm</em> labeled above.  Here it would take <m>\frac{1}{19} \cdot 76=4</m> seconds.  Again, a 
-      scaled-up process of the single rectangle/bracket image.
+      (much like that of each centimeter on a measuring tape) and the time is seen as <m>\frac{1}{19}sec</m> chunks 
+      corresponding to each <em>cm</em> labeled above.  Here it would take <m>\frac{1}{19} \cdot 76=4</m> seconds.  
+      Again, this can be viewed as a scaled-up process of the single rectangle/bracket image taking a total of 76 
+      such chunks so that a 4 second time setting on the Rover would correspond to a 76 cm distance stopping just 
+      2 cm short of the 78 cm location of the deer. 
     </p>
     <p>
       <figure xml:id="fig-sec-cm-diagram">
@@ -80,6 +84,18 @@
           <shortdescription>Visual Distance and Time Representation (sec/cm focus)</shortdescription>
         </image>
       </figure>
+    </p>
+    <p>
+      In either of these interpretations, the units attached to the numerical values help to provide insight into 
+      how the scaling process works.  When we think about most of our experience with ratios and proportions in 
+      daily life, they almost always involve units and rates of change.  It stands to reason that when teaching 
+      these concepts to students, we should also include these types of contexts so that our students have 
+      experiences to which they can relate the mathematical ideas.  If we view mathematics as an abstraction of 
+      context-specific scenarios, we must first begin with the specifics so that abstraction can occur.  Too often, 
+      mathematics classrooms start with definitions that assume the abstraction (i.e. no units are even considered).  
+      For example, in teaching rates of change, may texts start with the definition of slope as 
+      <m>m=\frac{\Delta y}{\Delta x}=\frac{y_2-y_1}{x_2-x_1}</m>.  This sterile presentation is missing the units 
+      that make the concept of <em>rate</em> meaningful.
     </p>
     
   </subsection>
