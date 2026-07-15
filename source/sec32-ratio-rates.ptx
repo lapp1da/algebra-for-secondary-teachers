@@ -129,9 +129,9 @@
       As winter approaches, you may have experienced the need to stop by your neighborhood gas station to add air 
       to your tires.  Or maybe you have noticed that on a beautiful Fall day while driving to observe the 
       wonderful colors on the trees that your readings on the dashboard for tire pressure tick up ever so 
-      slightly.  Maybe when you have been camping, you have noticed that when using your camping stove connected 
-      to a propane cylinder, there is significant condensation on the outside of the propane tank.  You touch 
-      the tank only to realize that it is very cold.  What is the cause of these observations?  
+      slightly.  Or maybe, when camping, you noticed that when using your camping stove connected to a propane 
+      cylinder, there is significant condensation on the outside of the propane tank.  You touch the tank only 
+      to realize that it is very cold.  What is the cause of these observations?  
     </p>
     <p>
       <figure xml:id="fig-propane-camping">
@@ -228,7 +228,8 @@
           <statement>
             <p>
               Using what you found in part (b), quantify (to two decimal places) the ratio of pressure (in kPa) 
-              to temperature (in <m>^{\circ}K</m>).
+              to temperature (in <m>^{\circ}K</m>).  What are the units for your ratio?  Describe a physical 
+              interpretation of your units related to the change between pressure and temperature.
             </p>
           </statement>
         </task>
@@ -253,14 +254,30 @@
     </p>
     <p>
       While Guillaume Amontons lacked the ability to accurately measure temperature, his research did lead him to 
-      achieve an estimate of <em>absolute zero</em> at the time of <m>-240^{\circ}C</m>, which wasn't too shabby for 
+      achieve an estimate of <em>absolute zero</em> of <m>-240^{\circ}C</m>, which wasn't too shabby for 
       the time.  Later, Joseph-Louis Gay-Lussac was able to improve on Amontons' work to state what is often 
       referred to as the <em>Gay-Lussac Law</em>, <m>\frac{P_1}{T_1}=\frac{P_2}{T_2}</m>.  This is a special case 
       of the more general <em>ideal gas</em> relationship, <m>\frac{P_1V_1}{T_1}=\frac{P_2V_2}{T_2}</m> where the 
       volumes cancel out if they are indeed the same.
     </p>
+    <p>
+      While we can numerically examine the ratio of pressure to temperature to see that we roughly maintain the 
+      same value, we can also help students to see this relationship in more than one way.  If we see the 
+      numerical value of the ratio stay the same, this implies that if one quantity changes, the other 
+      quantity must change in a similar manner.  In looking at the graphs of both pressure and temperature versus 
+      time in <xref ref="fig-pressure-temperature-graphs-data"/>, we can notice that the overall "shape" of 
+      both graphs are the same.  This visual representation conveys the relationship that as one changes, the 
+      other changes in a "similar" manner.  Therefore their relative ratio should remain fairly constant. 
+      Having more than one representation to explain the consistent behavior of the quantities relative to 
+      each other gives the learner a means of confirming and deepening the understanding.
+    </p>
     
   </subsection>
+
+  <exercises xml:id="exercises-ratio-rates">
+    
+    
+  </exercises>
 
 
 
