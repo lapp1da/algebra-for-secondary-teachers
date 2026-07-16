@@ -326,12 +326,11 @@
 
   <exercises xml:id="exercises-ratio-rates">
     <exercise>
-      <introduction>
+      <statement>
         <p>
           As we have seen in <xref ref="act-proportional-reasoning-gas-laws"/>, the ratio of pressure to 
           temperature (in <m>^\circ K</m>) is constant for an ideal gas if the volume is fixed.  
         </p>
-      </introduction>
       <task>
         <statement>
           <p>
@@ -364,6 +363,22 @@
           </p>
         </statement>
       </task>
+    </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Suppose you have a jar filled with white marbles.  You would like to have an estimate of how many 
+          white marbles are in the jar, but do not want to count them all.  Instead you take 40 red marbles 
+          and place them in the jar along with the white marbles.  You then shake the jar to mix the marbles 
+          and draw out 20 marbles, 2 of which are red and the others are white.  Using this sampling technique, 
+          how many white marbles were originally in the jar?
+        </p>
+        <p>
+          
+        </p>
+      </statement>
     </exercise>
 
     
