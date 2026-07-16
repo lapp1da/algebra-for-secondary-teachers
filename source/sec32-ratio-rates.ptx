@@ -329,16 +329,16 @@
       <statement>
         <p>
           As we have seen in <xref ref="act-proportional-reasoning-gas-laws"/>, the ratio of pressure to 
-          temperature (in <m>^\circ K</m>) is constant for an ideal gas if the volume is fixed.  
+          temperature (in <m>^\circ \text{K}</m>) is constant for an ideal gas if the volume is fixed.  
         </p>
       <task>
         <statement>
           <p>
             Suppose the tires on your car have a pressure of 38 psi (pounds per square inch) when it is 
-            23.5<m>^\circ C</m>.  In order to maintain even wear on your tires, you do not want to let the 
-            pressure drop below 35 psi.  Assuming the volume of the tires remain constant, how cold does it 
-            need to get before you need to add air to your tires?  For this calculation, first convert to 
-            <em>kPa</em> for pressure.
+            23.5<m>^\circ \text{C}</m>.  In order to maintain even wear on your tires, you do not want to let 
+            the pressure drop below 35 psi.  Assuming the volume of the tires remain constant, how cold does it 
+            need to get, in <m>^\circ \text{C}</m>, before you need to add air to your tires?  For this 
+            calculation, first convert to <em>kPa</em> for pressure.
           </p>
         </statement>
       </task>
@@ -346,10 +346,10 @@
         <statement>
           <p>
             In <xref ref="act-proportional-reasoning-gas-laws"/>, we made certain that our measurements for 
-            temperature were in <m>^\circ K</m> and just happened to use <em>kPa</em> for pressure.  In part 
-            (a), the pressure was given in <em>psi</em> instead of <em>kPa</em> and you were asked to first 
-            convert to <em>kPa</em> in solving the problem.  Now compute the temperature from part (a), but 
-            this time leave the pressure in psi.  Do you get the same temperature?  Explain.
+            temperature were in <m>^\circ \text{K}</m> and just happened to use kPa for pressure.  In part 
+            (a), the pressure was given in psi instead of kPa and you were asked to first convert to kPa in 
+            solving the problem.  Now compute the temperature from part (a), but this time leave the pressure 
+            in psi.  Do you get the same temperature?  Explain.
           </p>
         </statement>
       </task>
@@ -376,7 +376,20 @@
           how many white marbles were originally in the jar?
         </p>
         <p>
-          
+          <sidebyside widths="40% 40%" valign="middle">
+            <image source="images/jar-white-marbles.png" />
+            <image source="images/jar-white-red-marbles.png" />
+          </sidebyside>
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          At <m>21^\circ \text{ C}</m>, a camping propane cylinder has a pressure of <m>965\text{ kPa}</m>.  
+          The cylinder can be safely stored as long as the pressure does not exceed <m>1379 \text{ kPa}</m>.  
+          In <m>^\circ \text{C}</m>, how high can the temperature be to store the cylinder?
         </p>
       </statement>
     </exercise>
