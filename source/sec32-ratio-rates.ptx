@@ -325,6 +325,46 @@
   </subsection>
 
   <exercises xml:id="exercises-ratio-rates">
+    <exercise>
+      <introduction>
+        <p>
+          As we have seen in <xref ref="act-proportional-reasoning-gas-laws"/>, the ratio of pressure to 
+          temperature (in <m>^\circ K</m>) is constant for an ideal gas if the volume is fixed.  
+        </p>
+      </introduction>
+      <task>
+        <statement>
+          <p>
+            Suppose the tires on your car have a pressure of 38 psi (pounds per square inch) when it is 
+            23.5<m>^\circ C</m>.  In order to maintain even wear on your tires, you do not want to let the 
+            pressure drop below 35 psi.  Assuming the volume of the tires remain constant, how cold does it 
+            need to get before you need to add air to your tires?  For this calculation, first convert to 
+            <em>kPa</em> for pressure.
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            In <xref ref="act-proportional-reasoning-gas-laws"/>, we made certain that our measurements for 
+            temperature were in <m>^\circ K</m> and just happened to use <em>kPa</em> for pressure.  In part 
+            (a), the pressure was given in <em>psi</em> instead of <em>kPa</em> and you were asked to first 
+            convert to <em>kPa</em> in solving the problem.  Now compute the temperature from part (a), but 
+            this time leave the pressure in psi.  Do you get the same temperature?  Explain.
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Suppose the conversion factor for going from psi to kPa is called, <m>f</m>.  Show the proportion 
+            you used to find the temperature with <m>f</m> used for your conversion factor.  What happens to 
+            <m>f</m> in your equation and what does this say about whether or not you need to have the 
+            pressure given in kPa?
+          </p>
+        </statement>
+      </task>
+    </exercise>
 
     
   </exercises>
