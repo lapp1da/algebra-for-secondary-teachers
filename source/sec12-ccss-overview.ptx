@@ -773,7 +773,105 @@
           <em>Sean: </em> Can we see what you did?  <em>(Sean uses the wireless capabilities of the classroom 
             calculator network to show a live image of Jen's calculator screen.)</em>
         </p>
-        
+        <p>
+          <image source="images/jen-calculator-work.png" width="50%">
+            <shortdescription>Jen's Work</shortdescription>
+          </image>
+        </p>
+        <p>
+          <em>Sean: </em> Tell us what you are doing here.
+        </p>
+        <p>
+          <em>Jen: </em> Well, we just calculated the change in y over the change in x to get the slope which 
+          is speed here.
+        </p>
+        <p>
+          <em>Sean: </em> It looks like more than that.  What's the 60 about in your calculation?
+        </p>
+        <p>
+          <em>Jen: </em> We had to adjust it.
+        </p>
+        <p>
+          <em>Sean: </em> What do you mean, "adjust"?
+        </p>
+        <p>
+          <em>Jen: </em> You know, we got miles per minute, but we needed miles per hour since we don't know 
+          the speed limit in miles per minute.  Since there are 60 minutes in an hour, we just multiplied by 
+          60.
+        </p>
+        <p>
+          <em>Sean: </em> Oh, I see.  What does everyone think of this conclusion?  Yeah, Dave.
+        </p>
+        <p>
+          <em>Dave: </em> I can see how you might say they were speeding in the second case, but I don't think 
+          they would be pulled over in the first part.
+        </p>
+        <p>
+          <em>Sean: </em> Can you elaborate a bit more.
+        </p>
+        <p>
+          <em>Dave: </em> The speed limit for the road is 70 and they were only going about 67.  I don't 
+          think a cop would pull someone over in that case.
+        </p>
+        <p>
+          <em>Sean: </em> How do you know the speed limit is 70?
+        </p>
+        <p>
+          <em>Dave: </em> I looked it up on my phone.
+        </p>
+        <p>
+          <em>Sean: (laughing)</em>  Wow, that's very thorough!  Good idea.  So in the second part, it could 
+          be believable since there they were going 72ish?
+        </p>
+        <p>
+          <em>Dave: </em> Yeah, but I don't think they'd get pulled over for only 2 over there either.
+        </p>
+        <p>
+          <em>Sean: </em> Good point.  Any other thoughts on this graph?  Yeah, Kirk.
+        </p>
+        <p>
+          <em>Kirk: </em> We said he hit a tree.
+        </p>
+        <p>
+          <em>Sean: (laughing)</em> Hit a tree?  What makes you think that?
+        </p>
+        <p>
+          <em>Kirk: </em> Well, where it goes horizontal, it's a sharp corner and so the acceleration is 
+          like infinite or really high.
+        </p>
+        <p>
+          <em>Sean: </em> Walk us through what you are saying.
+        </p>
+        <p>
+          <em>Kirk: </em> It's like...it goes from like 67 to zero in like no time.  So it's like it hit 
+          something.
+        </p>
+        <p>
+          <em>Sean: </em> Hmm.  What does everyone think of that interpretation?  Yeah, Amita?
+        </p>
+        <p>
+          <em>Amita: </em> I'm not so sure it is a sudden stop.  I mean, like the grid lines are 10 minute 
+          intervals.
+        </p>
+        <p>
+          <em>Sean: </em> Can you elaborate a bit more?
+        </p>
+        <p>
+          <em>Amita: </em> Well, the grid lines show 10 minutes and so if you zoom in on the sharp corners, 
+          maybe they aren't so sharp.  I mean, from the graph, it's hard to say how sharp they are since 
+          near the dots, it could actually be as much as a minute and a minute is plenty of time to slow down.
+        </p>
+        <p>
+          <em>Sean: </em> Should we try to zoom in and look?
+        </p>
+        <p>
+          <em>Amita: </em> If you can.
+        </p>
+        <p>
+          <em>Sean: </em> OK, let’s see.  <em>(Sean uses the zoom feature on the computer browser to zoom in 
+            more on the image from the text.)</em>
+        </p>
+
       </statement>
     </exercise>
     
