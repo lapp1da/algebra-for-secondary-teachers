@@ -599,6 +599,7 @@
   </subsection>
   <exercises xml:id="exercises-ccss-overview">
     <exercise>
+      <introduction>
       <statement>
         <p>
           Sean is teaching a Calculus course where he is introducing the concept of derivative.  As part of 
@@ -868,11 +869,52 @@
           <em>Amita: </em> If you can.
         </p>
         <p>
-          <em>Sean: </em> OK, let’s see.  <em>(Sean uses the zoom feature on the computer browser to zoom in 
+          <em>Sean: </em> OK, let's see.  <em>(Sean uses the zoom feature on the computer browser to zoom in 
             more on the image from the text.)</em>
         </p>
+        <p>
+          <image source="images/ac-zoomed-graph.png" width="90%">
+            <shortdescription>Zoomed Graphs</shortdescription>
+          </image>
+        </p>
+        <p>
+          <em>Amita: </em> See, the blue line looks kind of rounded near the dots.  It could be slowing down 
+          by hitting the brakes.
+        </p>
+        <p>
+          <em>Sean: </em> Does everyone see what Amita is saying here?  <em>(class indicates agreement)</em> 
+          Wow!  I see what you are saying. What great observations and detailed stories from a single simple 
+          graph.
+        </p>
+        <p>
+            For this reflection, read through the Common Core State Standards (which also happen to be the 
+            Michigan Standards).  The Standards have two components (Standards for Mathematical Content and 
+            the Standards for Mathematical Practice).  For this assignment, just read through the Grades 7-8 
+            and the High School Algebra Standards.
+          </p>
 
       </statement>
+      </introduction>
+      <task>
+        <statement>
+          <p>
+            Identify items found in the middle and high school portion (Grades 7-8 and Algebra in the High 
+            School portion) for the Standards for Mathematical Content of the Common Core State Standards for 
+            Mathematics that are directly related to this task.  As you list the standards, give a brief 
+            description of each and explain how the teacher in the vignette interacted or failed to interact 
+            in a way that would facilitate the teaching the given standard.
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Identify items found in the Standards for Mathematical Practice that are directly related to 
+            these experiences.  As you list the standards, give a brief description of each and explain how 
+            the teacher in the vignette helped the students address the given standards.
+          </p>
+        </statement>
+      </task>
     </exercise>
     
   </exercises>
