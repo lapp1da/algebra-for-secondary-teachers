@@ -605,11 +605,11 @@
           Sean is teaching a Calculus course where he is introducing the concept of derivative.  As part of 
           the class, he engages his students in an activity where they are expected to interpret the graph of 
           a car driving over a period of time.  <xref ref="fig-road-trip-graph"/> shows the Preview Activity 
-          from (Boelkins et al., 2108) and the ensuing dialogue in the class follows.
+          from (Boelkins et al., 2025) followed by ensuing dialogue in the class.
         </p>
         <p>
           <figure xml:id="fig-road-trip-graph">
-            <caption>Preview Activity 1.5.1 from Boelkins (2018)</caption>
+            <caption>Preview Activity 1.5.1 from Boelkins et. al (2025)</caption>
             <p>
               One of the longest stretches of straight (and flat) road in North America can be found on the 
               Great Plains in the state of North Dakota on state highway 46, which lies just south of the 
@@ -874,7 +874,7 @@
         </p>
         <p>
           <image source="images/ac-roadtrip-zoomed-graph.png" width="90%">
-            <shortdescription>Zoomed Graphs</shortdescription>
+            <shortdescription>Zoomed Graphs of Boelkins et. al (2025)</shortdescription>
           </image>
         </p>
         <p>
