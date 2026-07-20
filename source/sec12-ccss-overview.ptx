@@ -597,19 +597,18 @@
       always strive for thinking over mere procedural fluency.
     </p>
   </subsection>
-  <exercises xml:id="exercises-section-1.2-exercises">
+  <exercises xml:id="exercises-ccss-overview">
     <exercise>
-      <title>The Road Trip</title>
       <statement>
         <p>
           Sean is teaching a Calculus course where he is introducing the concept of derivative.  As part of 
           the class, he engages his students in an activity where they are expected to interpret the graph of 
-          a car driving over a period of time.  Below is the activity (Boelkins et al., 2108) and the ensuing 
-          dialogue in the class.
+          a car driving over a period of time.  <xref ref="fig-road-trip-graph"/> shows the Preview Activity 
+          from (Boelkins et al., 2108) and the ensuing dialogue in the class follows.
         </p>
         <p>
           <figure xml:id="fig-road-trip-graph">
-            <caption>Graph from Boelkins (2018), Preview Activity 1.5.1</caption>
+            <caption>Preview Activity 1.5.1 from Boelkins (2018)</caption>
             <p>
               One of the longest stretches of straight (and flat) road in North America can be found on the 
               Great Plains in the state of North Dakota on state highway 46, which lies just south of the 
@@ -618,9 +617,163 @@
               by the graph of the function in Figure 1.5.1. Three important points are labeled on the graph; 
               where the curve looks linear, assume that it is indeed a straight line.
             </p>
+            <image source="images/ac-roadtrip-graph.png" width="50%">
+              <shortdescription>Graph for Roadtrip</shortdescription>
+            </image>
+            <p>
+              Figure 1.5.1: The graph of <m>y=s\left(t\right)</m>, the position of the car along highway 46, 
+              which tells its distance in miles from Gackle, ND, at time <m>t</m> in minutes.
+            </p>
+            <p>
+              <ol>
+                <li>
+                  <p>
+                    In everyday language, describe the behavior of the car over the provided time interval. 
+                    In particular, discuss what is happening on the time intervals [57,68] and [68,104].
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Find the slope of the line between the points (57,63.8) and (104,106.8).  What are the 
+                    units on this slope? What does the slope represent?
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Find the average rate of change of the car's position on the interval [68,104].  Include 
+                    units on your answer.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Estimate the instantaneous rate of change of the car's position at the moment <m>t=80</m>.  
+                    Write a sentence to explain your reasoning and the meaning of this value.
+                  </p>
+                </li>
+              </ol>
+            </p>
             
           </figure>
         </p>
+        <p>
+          <m>\mathbf{Sean's}</m> <m>\mathbf{Classroom}</m> <m>\mathbf{Dialogue}</m>
+        </p>
+        <p>
+          Sean moves around the room listening to various groups' discussions.  After about 20 minutes, he 
+          begins the whole class discussion by randomly calling on students to present their group's results.
+        </p>
+        <p>
+          <em>Sean: </em> So, what do you think?  Let's see who my first victim is. <em>(Sean uses the random 
+          integer generator on his calculator to select a student)</em>  Ok, it looks like we have Liam.  
+          Liam, what did your group come up with for the first part of the question?
+        </p>
+        <p>
+          <em>Liam: </em> Well, they drove for a while, stopped, then drove some more and then stopped again.
+        </p>
+        <p>
+          <em>Sean: </em> Alright, can you give me more detail?  Walk us through your thinking.
+        </p>
+        <p>
+          <em>Liam: </em> We were thinking that where there is a straight line, the car was moving and 
+          otherwise it was stopped.
+        </p>
+        <p>
+          <em>Sean: </em> What do you mean, “where there is a straight line”?
+        </p>
+        <p>
+          <em>Megan: (member of Liam's group)</em> You know, where it's going up.
+        </p>
+        <p>
+          <em>Sean: </em> So what I hear you saying is that when the graph is linear, but not horizontal, the 
+          car is moving.  Are you only referring to where the slope isn't zero?  Would you say the lines that 
+          are horizontal are also straight?
+        </p>
+        <p>
+          <em>Megan: </em> Oh yeah.  That's what we meant.
+        </p>
+        <p>
+          <em>Sean: </em> Can anyone elaborate on why the parts that are horizontal mean the car is stopped?
+        </p>
+        <p>
+          <em>Jules: </em> Well, if it's horizontal, that means the position isn't changing and so it has to 
+          be at the same spot.
+        </p>
+        <p>
+          <em>Sean: </em> Why isn't the position changing?
+        </p>
+        <p>
+          <em>Jules: </em> You know, the y-coordinates are all the same on a horizontal line.
+        </p>
+        <p>
+          <em>Sean: </em> I see.  Does everyone follow that line of reasoning—pun intended? <em>(class 
+          indicates agreement and gives a sympathy laugh)</em>
+        </p>
+        <p>
+          <em>Sean: </em> OK, now while this is a great interpretation of the situation, when I was 
+          circulating around and listening to group discussions, I heard some other scenarios.  One was 
+          particularly creative.  Cassie, would you share your group's story?
+        </p>
+        <p>
+          <em>Cassie: </em> Yeah.  We said that the driver was speeding and got pulled over by a cop.  He 
+          clearly didn't learn his lesson, because he then started speeding again and got pulled over again.  
+          I bet the second ticket was pretty high if he got pulled over twice so close together.
+        </p>
+        <p>
+          <em>Sean: </em> That's an interesting interpretation.  Can you walk us through your thinking here 
+          and maybe relate it to what Liam's group said?
+        </p>
+        <p>
+          <em>Cassie: </em> Well, it's like Liam and Megan said.  Where the graph is horizontal, the car is 
+          stopped.
+        </p>
+        <p>
+          <em>Sean: </em> But why did you say he ended up getting pulled over a second time?  Couldn't he 
+          have just been driving home in the second part of the graph and stop when he got there?
+        </p>
+        <p>
+          <em>Cassie: </em> Yeah, I guess, but we were thinking that if he was pulled over at first then he 
+          probably was the second time too when he's going about the same speed.
+        </p>
+        <p>
+          <em>Sean: </em> Going the same speed?
+        </p>
+        <p>
+          <em>Brad:	(member of Cassie's group)</em>  Yeah.  The two straight lines—I mean the ones not 
+          horizontal, have about the same slope.  You know, so they're about the same speed.
+        </p>
+        <p>
+          <em>Sean: </em> Oh, that's an interesting observation.  Why do you think they have about the same 
+          slope?
+        </p>
+        <p>
+          <em>Brad: </em> 'Cause they're kinda parallel.
+        </p>
+        <p>
+          <em>Sean: </em> Oh, I see.  Does everyone see what Brad is saying? <em>(class indicates agreement)</em>
+        </p>
+        <p>
+          <em>Sean: </em> I want to followup on what Cassie's group is saying, though.  Why did you think the 
+          driver was speeding?  Do we have any evidence to support that claim?  In your group, try to come 
+          up with some evidence to support or refute that claim.
+        </p>
+        <p>
+          <em>(Groups begin to work while Sean wheels around on his chair listening in on various group 
+            discussions for about 10 minutes.)</em>
+        </p>
+        <p>
+          <em>Sean: </em> OK.  Let's see what you came up with.  <em>(Sean uses his random integer generator 
+            on his calculator to select a student.)</em>  Jen, could you walk us through your group's 
+            conclusions?
+        </p>
+        <p>
+          <em>Jen: </em> Well, we said it is possible since we found that in the first stretch the driver 
+          was going about 67 mph and the second about 72.
+        </p>
+        <p>
+          <em>Sean: </em> Can we see what you did?  <em>(Sean uses the wireless capabilities of the classroom 
+            calculator network to show a live image of Jen's calculator screen.)</em>
+        </p>
+        
       </statement>
     </exercise>
     
