@@ -350,8 +350,8 @@
     that is under development.  For example, the Primitive Knowing layer for a new concept being developed by the 
     learner may actually represent an outermost layer of understanding for a previously developed concept that is 
     utilized in the development of the new concept.  Pirie and Kieren use the example of fractions and decimals 
-    where a fairly sophisticated understanding of fractions is used as a starting point for the development of 
-    decimal concepts.  In a sense, this could be thought of as an onion within an onion 
+    where a fairly sophisticated understanding of fractions is used as a starting point (i.e. primitive knowing) 
+    for the development of decimal concepts.  In a sense, this could be thought of as an onion within an onion 
     (see <xref ref="fig-pirie-kieren-nest"/>) to use our “garden” variety analogy.
   </p>
 
@@ -471,9 +471,9 @@
   <p>
     The third and final feature of Pirie and Kieren's model we wish to highlight is the structure that takes 
     place within each layer or level.  Here, for each level beyond Primitive Knowing the levels are partitioned 
-    into two complementary modes: acting and expressing.  Both of these components of understanding are essential 
-    before moving on from the inner to the outer levels.  This elaboration of the model is given a graphic 
-    interpretation below with dotted lines representing the boundaries between modes.
+    into two complementary modes: <em>acting</em> and <em>expressing</em>.  Both of these components of 
+    understanding are essential before moving on from the inner to the outer levels.  This elaboration of the 
+    model is given a graphic interpretation below with dotted lines representing the boundaries between modes.
   </p>
 
   <p>
@@ -488,11 +488,13 @@
     Pirie and Kieren (1994, pp. 176-178).  Students were given the following tasks.
   </p>
 
+  <blockquote>
   <p>
     Consider the function <m>y=3x^2+1</m>.  Make a table of values for <m>x</m> and <m>y</m>, <m>x</m> taking 
     values from -3 to +3.  Now draw the graph of the function.  Repeat this for the following functions: 
     <m>y=x^2</m>, <m>y=x^2-2x</m>, <m>y=2x^2-2x</m>, <m>y=2x^2-2x-1</m>.  (Pirie and Kieren, 1994, p. 176)
   </p>
+  </blockquote>
 
   <p>
     If we examine the first function, we can see how the students' responses are related to their location 
