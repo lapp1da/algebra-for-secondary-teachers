@@ -557,22 +557,22 @@
   <introduction>
     <p>
       One of the powerful aspects of mathematics is its use of symbolization.  On the other hand, from the 
-      aspect of the learner, one of its worst obstacles is its symbolization.  Since the early development of 
-      mathematics, power has come from the development of symbol systems used to describe the concepts that are 
-      fundamental to furthering mathematical knowledge.  The encapsulation of big ideas, that before took pages 
-      and pages to communicate, into smaller collections of symbols allows the reader to see various stages of 
-      arguments within one field of view. However, from a learner's perspective, it is the unpacking of the 
-      symbolization that poses a significant hurdle in the development of conceptual understanding.
+      perspective of the learner, one of its worst obstacles is its symbolization.  Since the early development 
+      of mathematics, power has come from the development of symbol systems used to describe the concepts that 
+      are fundamental to furthering mathematical knowledge.  The encapsulation of big ideas, that before, took 
+      pages and pages to communicate, into smaller collections of symbols allows the reader to see various 
+      stages of arguments within one field of view. However, from a learner's perspective, it is the unpacking 
+      of the symbolization that poses a significant hurdle in the development of conceptual understanding.
     </p>
   </introduction>
 
     <p>
-      If we think of this in terms of concept image and concept definition (Tall and Vinner, 1981), a small 
-      collection of symbols typically elicits much more information than could be contained in paragraphs of 
-      written prose.  Tall and Vinner describe concept image as “the total cognitive structure that is associated 
-      with the concept, which includes all the mental pictures and associated properties and processes.” (p. 152).  
-      In contrast, the concept definition can be described as “a form of words used to specify that concept” 
-      (p. 152).
+      If we think of this in terms of <em>concept image</em> and <em>concept definition</em> (Tall and Vinner, 
+      1981), a small collection of symbols typically elicits much more information than could be contained in 
+      paragraphs of written prose.  Tall and Vinner describe concept image as “the total cognitive structure 
+      that is associated with the concept, which includes all the mental pictures and associated properties 
+      and processes.” (p. 152).  In contrast, the concept definition can be described as “a form of words used 
+      to specify that concept” (p. 152).
     </p>
 
     <p>
@@ -581,7 +581,7 @@
       walking last week.  These images are far more complex than the simple three letters “dog” or a formal 
       definition from Webster's dictionary.  It is our experiences that are connected to the compact system of 
       symbols “dog” that form our concept image of a dog.  Similarly, it is the experiences that a student has 
-      between mathematical ideas and the symbols that represent them that determine her/his concept image for a 
+      between mathematical ideas and the symbols that represent them that determine their concept image for a 
       given concept definition.
     </p>
 
@@ -602,7 +602,7 @@
       information collected by our senses through the lenses of our experience.  Here <m>A_B</m> represents 
       reality (<m>A</m>) as viewed through the representation system, <m>B</m>.  Similarly, <m>A_C</m> represents 
       reality (<m>A</m>) as viewed through the representation system, <m>C</m>, and so on.  Our view of reality is 
-      constantly evolving, influenced by our experiences.
+      constantly evolving, influenced by our experiences and the symbols we use to represent them.
     </p>
 
     <p>
@@ -655,19 +655,20 @@
         <image source="images/kaput-blanton-moreno-nested.png" width="90%"/>
       </figure>
     </p>
-
-    <p>
-      The goal of this section was to give an overview of the theoretical model used to guide our perspective on 
-      how mathematical understanding comes to be—in particular, how this model is helpful in understanding the 
-      teaching and learning of algebraic ideas.  We will not elaborate on each level of the Pirie and Kieren 
-      model, but if the reader wishes a more in-depth description of the levels and components of the model, you 
-      should read the article by Pirie and Kieren (1994).  Throughout this course, you will be expected to apply 
-      this model along with that of Kaput, Blanton, and Moreno (2008) to various vignettes and cases as a 
-      mechanism for analyzing student work and making decisions related to teaching in the secondary classroom.
-    </p>
-
-  
 </subsection>
-  
+
+<subsection xml:id="subsec-summary-1-1">
+      <title>Summary</title>
+    <p>
+      The goal of this section was to give an overview of the theoretical models used to guide our perspective on 
+      how mathematical understanding comes to be—in particular, how these models are helpful in understanding 
+      the teaching and learning of algebraic ideas.  We will not elaborate on each level of the Pirie and 
+      Kieren model, but if the reader wishes a more in-depth description of the levels and components of the 
+      model, you should read the article by Pirie and Kieren (1994).  Throughout this course, you will be 
+      expected to apply this model along with that of Kaput, Blanton, and Moreno (2008) to various vignettes 
+      and cases as a mechanism for analyzing student work and making decisions related to teaching in the 
+      secondary classroom.
+    </p>
+    </subsection>
 
 </section>
