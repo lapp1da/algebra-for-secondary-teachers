@@ -670,6 +670,76 @@
       secondary classroom.
     </p>
     </subsection>
+
+    <exercises xml:id="exercises-history-standards">
+      <exercise>
+        <introduction>
+          <p>
+            Consider the Kaput, Blanton, &amp; Moreno (2008) model for the development of symbolization,
+            <xref ref="fig-kaput-blanton-moreno-nested"/>.
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              For young children being introduced to prime factorization, we often see a number like 360 
+              written in factored form as <m>360=2\cdot 2\cdot 2\cdot 3\cdot 3\cdot 5\cdot</m>.  Later we 
+              develop notation like <m>360=2^3 \cdot 3^2 \cdot 5</m> instead.  Discuss how the Kaput model 
+              might explain this transition in notation.
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Later in an algebra class, students begin to learn about properties of variables using 
+              experiences they have from working with numbers.  In this process, they “fold back” as described 
+              in the Pirie &amp; Kieren model for the growth of mathematical understanding.  Describe how the 
+              Pirie &amp; Kieren and Kaput models might explain a student's development of symbolization so 
+              that they are able to grasp the algebraic property that <m>x^p \cdot x^q=x^{p+q}</m>.
+            </p>
+          </statement>
+        </task>
+      </exercise>
+
+      <exercise>
+        <introduction>
+          <p>
+            Consider the binary operation, <m>*</m>, defined by <m>a*b=\frac{a+b}{2}</m>.  As a student is 
+            exploring this operation, she begins a process of <em>Image Making</em> and <em>Image Having</em> 
+            as described by Pirie and Kieren's model. [see <xref ref="fig-pirie-kieren-partitioned"/>]
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              In checking for commutativity, Sarah begins plugging in various values.  Where would you place 
+              her in Pirie and Kieren's model of growth?  Explain your reasoning.
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              As the student continues to investigate this operation, she makes the statement, “Well it would 
+              have to be commutative.  The <m>a</m> and <m>b</m> can just be switched.” Where would you place 
+              her in Pirie and Kieren's model of growth?  Explain your reasoning.
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              The teacher now has the student consider the operation <m>a*b=\frac{2a+5b}{2}</m>.  Upon 
+              looking at this, Sarah comments, “It can't be commutative because switching the <m>a</m> and 
+              <m>b</m> make a difference.  They aren't treated the same.”   Where would you place her in 
+              Pirie and Kieren's model of growth?  Explain your reasoning.
+            </p>
+          </statement>
+        </task>
+      </exercise>
+      
+    </exercises>
     
 
 </section>
