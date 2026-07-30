@@ -48,12 +48,15 @@
         <p>
           <em>Abby</em> : So what we are going to talk about today is called scientific notation and it's used 
           when numbers are so big that we don't really need to worry about all the digits.  Suppose we are 
-          looking at the number 372400.  Instead of writing all of the digits, we can instead write it as a 
-          power of 10.  If move the decimal point to the left until it is between the 3 and the 7 and count 
-          how many places we move it [<em>Abby writes the number placing the decimal point at the far right 
-          and then draws curved half circles under the digits to indicate movement of the decimal point from 
-          place to place, counting as she goes</em>], we can use the number of places we move it as the power 
-          of 10.  This means that <m>372400=3.724 \times 10^5</m>.  So you just need to count the moves.
+          looking at the number 372400.  Sometimes we might even use words to indicate its size.  Like in this 
+          case, we could call this 372.4 <em>thousand</em>.  This certainly shortens it.  The problem is though, 
+          for each shortening, we need to create another word to indicate the size.  Instead of writing all of 
+          the digits or creating an infinite number of new words for larger and larger sizes, we can write it 
+          as a power of 10.  If we move the decimal point to the left until it is between the 3 and the 7 and 
+          count how many places we move it [<em>Abby writes the number placing the decimal point at the far 
+          right and then draws curved half circles under the digits to indicate movement of the decimal point 
+          from place to place, counting as she goes</em>], we can use the number of places we move it as the 
+          power of 10.  This means that <m>372400=3.724 \times 10^5</m>.  So you just need to count the moves.
         </p>
         <p>
           <em>Mia</em> : Why are the moves the same as the power of 10?
