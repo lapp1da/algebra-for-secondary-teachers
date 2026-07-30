@@ -391,8 +391,8 @@
 
   <p>
     Like the Babylonians, the position of the collection of symbols determined the power of the base.  However, 
-    unlike the Babylonians, the Mayan base is not exactly uniform.  Instead of a base twenty system, they used 
-    a <em>pseudo-base twenty system</em>.  The reason for this is that the base was tied to their calendar year.  
+    unlike the Babylonians, the Mayan base is not exactly uniform.  This <em>pseudo-base twenty system</em>,
+    as stated earlier, was due to the base being tied to their calendar year.  
     The Mayan calendar contained 18 months each containing 20 days.  The result was a 360-day year.  This can 
     be seen below by the replacement of the normal place value, <m>20^2</m>, with the place value of 
     <m>18\cdot 20</m>.  After this, the place values simply increase the power of 20 by one for each successive 
