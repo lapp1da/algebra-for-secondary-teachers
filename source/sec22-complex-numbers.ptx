@@ -410,7 +410,8 @@
             </p>
             <p>
               <figure xml:id="fig-taylor-poly-derivatives-sin-table">
-              <caption>Odd Degree Polynomials for <m>f\left(x\right)=\sin\left(x\right)</m></caption>
+              <caption><m>n^{th}</m> Derivatives for Polynomial and 
+              <m>f\left(x\right)=\sin\left(x\right)</m></caption>
               <image source="images/taylor-poly-derivatives-sin-table.png" width="90%"/>
               </figure>
             </p>
@@ -428,7 +429,8 @@
 
             <p>
               <figure xml:id="fig-taylor-poly-derivatives-cos-table">
-              <caption>Odd Degree Polynomials for <m>f\left(x\right)=\sin\left(x\right)</m></caption>
+              <caption><m>n^{th}</m> Derivatives for Polynomial and 
+              <m>f\left(x\right)=\cos\left(x\right)</m></caption>
               <image source="images/taylor-poly-derivatives-cos-table.png" width="90%"/>
               </figure>
             </p>
