@@ -1341,7 +1341,7 @@
           <p>
             Suppose <m>c \in aH</m> and <m>c \in bH</m>.  This means that <m>c=ah_1=bh_2</m> for some 
             <m>h_1, h_2 \in H</m>.  Then we must also have that <m>a=bh_2h^{-1}_1</m>.  This implies that for any 
-            <m>h_3 \in H</m>, we can express <m>ah_3=\left(bh_2h^{-1}_1\right)h_3=b\left(h_2h^{-1}_1b_3\right)=bh_4</m> 
+            <m>h_3 \in H</m>, we can express <m>ah_3=\left(bh_2h^{-1}_1\right)h_3=b\left(h_2h^{-1}_1h_3\right)=bh_4</m> 
             for some <m>h_4 \in H</m> since <m>H</m> is closed.  From this we can say that <m>ah_3=bh_4 \in bH</m> and 
             thus every element in <m>aH</m> is also in <m>bH</m> implying <m>aH \subseteq bH</m>.  By a similar 
             argument, we also get that <m>bH \subseteq aH</m>, thus <m>aH=bH</m>.
